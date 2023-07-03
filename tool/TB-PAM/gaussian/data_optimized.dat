@@ -1,0 +1,26 @@
+# the basetype is STO-3G
+# bases comparable or not for ELSES
+#  0  H 1S comparable
+#  1  H 1S comparable
+#  2  O 1S not comparable
+#  3  O 2S comparable
+#  4  O 2P comparable
+#  5  O 2P comparable
+#  6  O 2P comparable
+# eigen energies comparable or not for ELSES
+#  0 -18.855830 not comarable
+#  1 -0.880660 comarable
+#  2 -0.391890 comarable
+#  3 -0.240310 comarable
+#  4 -0.141870 comarable
+#  5 +0.240000 comarable
+#  6 +0.335000 comarable
+TOTAL -75.311961
+NUM   6
+EIGEN -0.880660 +0.157750 +0.157750 +0.858270 +0.148160 +0.000000 +0.000000
+EIGEN -0.391890 +0.450320 -0.450320 +0.000000 +0.000000 +0.609670 +0.000000
+EIGEN -0.240310 +0.333160 +0.333160 -0.554180 +0.725020 +0.000000 +0.000000
+EIGEN -0.141870 +0.000000 +0.000000 +0.000000 +0.000000 +0.000000 +1.000000
+EIGEN +0.240000 -0.705560 -0.705560 +0.647520 +0.750090 +0.000000 +0.000000
+EIGEN +0.335000 -0.733630 +0.733630 +0.000000 +0.000000 +0.918340 +0.000000
+HOMO  -0.141870

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="CNT">
+<system>
+  <cluster structure="CNT.xml" />
+  <boundary x="periodic" y="periodic" z="periodic" />
+  <temperature unit="kelvin"> 500 </temperature>
+  <element  name="C" model="Xu.1992"  filename="C.xml"> </element>
+</system>
+<calc mode="dynamics">
+  <dynamics scheme="velocity verlet">
+    <delta unit="fsec"> 1.00 </delta>
+    <total unit="fsec"> 100.00 </total>
+  </dynamics>
+  <solver scheme="eigen">  </solver>
+  <use_integer_elec_num mode="on" />
+</calc>
+<output>
+  <restart  filename="CNT-restart.xml" interval="10" />
+  <position filename="CNT-position.xyz" interval="4" />
+  <matrix_hamiltonian filename="output_hamiltonian_au.txt" mode="last" format="MatrixMarket_sym" unit="a.u." />
+  <matrix_overlap     filename="output_overlap.txt" mode="last" format="MatrixMarket_sym" />
+  <eigen_level        mode="last" filename="output_eigen_levels.txt" format="level_only" interval_off="1" unit="a.u." />
+</output>
+</config>

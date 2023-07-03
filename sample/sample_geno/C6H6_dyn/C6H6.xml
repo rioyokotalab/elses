@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="C6H6" mdstep="0">
+ 
+ 
+ <unitcell>
+   <vector unit="a.u.">  1.889726877774355e+01  0.000000000000000e+00  0.000000000000000e+00</vector>
+   <vector unit="a.u.">  0.000000000000000e+00  1.889726877774355e+01  0.000000000000000e+00</vector>
+   <vector unit="a.u.">  0.000000000000000e+00  0.000000000000000e+00  1.889726877774355e+01</vector>
+ </unitcell>
+ 
+ 
+ <atom element="C" class="" motion="free">
+ <position unit="angstrom">  1.40000      .00000      .00000 </position>
+ </atom>
+
+ <atom element="C" class="" motion="free">
+ <position unit="angstrom">   .70000     1.21244      .00000 </position>
+ </atom>
+
+ <atom element="C" class="" motion="free">
+ <position unit="angstrom">  -.70000     1.21243      .00000 </position>
+ </atom>
+ 
+ <atom element="C" class="" motion="free">
+ <position unit="angstrom"> -1.40000      .00000      .00000 </position>
+ </atom>
+
+ <atom element="C" class="" motion="free">
+ <position unit="angstrom">  -.70000    -1.21244      .00000 </position>
+ </atom>
+
+ <atom element="C" class="" motion="free">
+ <position unit="angstrom">   .70000    -1.21243      .00000 </position>
+ </atom>
+
+ <atom element="H" class="" motion="free">
+ <position unit="angstrom">  2.46000      .00000      .00000 </position>
+ </atom>
+
+ <atom element="H" class="" motion="free">
+ <position unit="angstrom">  1.23000     2.13042      .00000 </position>
+ </atom>
+
+ <atom element="H" class="" motion="free">
+ <position unit="angstrom"> -1.23000     2.13042      .00000 </position>
+ </atom>
+
+ <atom element="H" class="" motion="free">
+ <position unit="angstrom"> -2.46000      .00000      .00000 </position>
+ </atom>
+
+ <atom element="H" class="" motion="free">
+ <position unit="angstrom"> -1.23000    -2.13042      .00000 </position>
+ </atom>
+ 
+ <atom element="H" class="" motion="free">
+ <position unit="angstrom">  1.23000    -2.13042      .00000 </position>
+ </atom>
+
+ </structure>

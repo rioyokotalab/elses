@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="C_surf_111_Pandey_opt">
+
+<system>
+  <cluster structure="C_surf_111_Pandey_ini.xml" />
+  <boundary x="periodic" y="periodic" z="periodic" />
+  <element  name="C" model="Xu.1992"  filename="C.xml"> </element>
+</system>
+
+<calc mode="optimization">
+  <solver scheme="eigen"> </solver>
+  <genoOption>
+   <CSC_method> ELSTNER </CSC_method>
+   <CSC_max_loop_count> 0 </CSC_max_loop_count>
+   <CSC_charge_convergence>  1d-5 </CSC_charge_convergence>
+   <CSC_charge_mixing_ratio> 0.1 </CSC_charge_mixing_ratio>
+  </genoOption>
+  <optimization>
+   <sd_ratio> 0.2 </sd_ratio> 
+   <max_num_iter> 200 </max_num_iter>
+   <convergence_criteria mode="energy_per_atom" unit="eV"> 1.0d-5 </convergence_criteria>
+  </optimization>
+  <use_integer_elec_num mode="on" />
+</calc>
+
+<output>
+  <restart  filename="restart.xml" interval="5" append_mode="on"/>
+  <position filename="position.all" interval="5" append_mode="on"/>
+  <wavefunction filename="output_wavefunction.txt" />
+</output>
+
+</config>

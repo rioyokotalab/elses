@@ -1,0 +1,503 @@
+@@ ELSES version 0.03.16
+INFO-MPI: Dummy MPI wrapper
+Date: 2013 04 14; Time: 17 54 20
+INFO-MPI-OMP: P_MPI, P_OMP=         1        12
+ INFO-MPI:   mpi_is_active or not :  F
+ INFO-MPI:   myrank, nprocs       =           0           1
+TIME:mpi_check(bef ini_load_geno)=         0.0000000000
+ @@ elses_xml_load_config.. is done
+   Config file name =./config.xml
+   The verbose level =           1
+ ...call config_load
+INFO-XML:config name=Au_NW_143
+INFO-XML:XML parser= dom
+INFO-XML:structure name = Au_nano_wire
+INFO-XML:allocate structure%vatom(structure%natom) at structure_load
+INFO-XML:Optional tag detected : solver scheme = eigen           
+ .... skipped : file_load_matrices 
+ .... skipped : file_load_matrices 
+ .... skipped : file_load_eigen_level 
+ ...end config_load
+ ...ends: dst_structure_load_from_txt
+   nos   =           1
+   noa   =         143
+ c_system=NRL_leg                         
+ S_is_I  = F
+@@ check_xml_compat in non-DST workflow
+INFO:allocation:jsei
+INFO:allocation:tx
+INFO:allocation:ty
+INFO:allocation:tz
+INFO:allocation:txp
+INFO:allocation:typ
+INFO:allocation:tzp
+INFO:allocation:foi
+INFO:allocation:foiold
+INFO:allocation:iflag
+  i_pbc_x  =           1
+  i_pbc_y  =           1
+  i_pbc_z  =           1
+  thb, vhb =  0.000000000000000E+000  0.000000000000000E+000
+  r_hb_mass_per_atom  =   400.000000000000     
+@@ set_structure_data_from_vatom
+TIME:mpi_check(aft ini_load_geno)=         0.0000000000
+TIME:ini_load_geno =         0.0339000000
+TIME:mpi_check(aft ini_set_velocity)=         0.0000000000
+TIME: ini_set_velocity=         0.0004000000
+TIME:mpi_check(bef)=         0.0000000000
+elaps-time(befor  MDloop)=              0       0.034300       0.000000       0.000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@@ get_length_of_list (non-order-N): cutoff=    12.5000000000000     
+jsv,njsd=         1        29
+jsv,njsd=         2        20
+jsv,njsd=         3        31
+jsv,njsd=         4        20
+jsv,njsd=         5        37
+TIME for LAPACK (DSYGV) =             0.6057000000
+ @@LSES_EIG_CHEM_POT:N=        1287
+    rNelec =   1573.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.198613627673929       -5.40459459081189     
+  eig2(N)[au,eV]=  0.786084608622176        21.3906199359832     
+  homo and lumo levels =         786         787
+ homo-lumo-gap[eV]=         1        3.3558580967        3.3915882177        0.0357301209
+ homo-lumo-gap[au]=         1        0.1233245416        0.1246375890        0.0013130474
+ Bisec.           1 -0.198613627673929       0.998987066684370     
+ Bisec.           2  0.293735490474124      -0.186731846774793     
+ Bisec.           3  4.756093140009733E-002  0.161604066049682     
+Bisec. Conv:        40             3.379600778827904          1572.999999998442036
+chem_pot [au,eV]=         1        40             0.124197062239189             3.379600778827904
+ Elec. num=   1572.99999999844        1573.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =   0.964200000016717     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet:itemd=           1
+ ivelini,inose =           1           1
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+ pkin2=  0.815135852793246     
+ dpkin,vhb,dthb=  6.661338147750939E-016  0.000000000000000E+000
+  8.963247316547955E-017
+ position of heatbath=  8.963247316547955E-017  0.000000000000000E+000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              1       0.967500       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+TIME for LAPACK (DSYGV) =             0.5159000000
+ @@LSES_EIG_CHEM_POT:N=        1287
+    rNelec =   1573.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.198654598445300       -5.40570947105412     
+  eig2(N)[au,eV]=  0.786174796852392        21.3930741020286     
+  homo and lumo levels =         786         787
+ homo-lumo-gap[eV]=         2        3.3577008479        3.3925724610        0.0348716131
+ homo-lumo-gap[au]=         2        0.1233922609        0.1246737590        0.0012814981
+ Bisec.           1 -0.198654598445300       0.998985593733703     
+ Bisec.           2  0.293760099203546      -0.186601769129898     
+ Bisec.           3  4.755275037912325E-002  0.161934117254516     
+Bisec. Conv:        41             3.381251933562980          1573.000000000333785
+chem_pot [au,eV]=         2        41             0.124257740579862             3.381251933562980
+ Elec. num=   1573.00000000033        1573.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =   0.855999999999767     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet:itemd=           2
+ ivelini,inose =           0           1
+ @@ md_heatbath:itemd,ivelini,amq=           2           0
+  1.748251748251748E-005
+ guess of vhb,prev,dpkin=  9.632503031417508E-019  0.000000000000000E+000
+  4.440892098500626E-016
+ iii,x,diff=         1        0.00000000000000000096        0.00000076550069108326        1.10958665450072735403        1.00000000000000000000
+ iii,x,diff=         2       -0.00000068989716844300       -0.00000000000485374986        1.10960072583975910554        0.99995720240852892235
+ iii,x,diff=         3       -0.00000068989279412191       -0.00000000000000000007        1.10960072575053159127        0.99995720267988874586
+velocity of heatbath (new,old) =         3       -0.00000068989279412185        0.00000000000000000000        0.99995720267988874586
+ ekion per noa (a.u.)=   2.847901145068269E-003
+ ekion per noa (eV  )=   7.749594679913972E-002
+ ekion per noa (Kelv)=    899.297647414984     
+ tempk,tempk0,ratio  =   1.898600763378846E-003  1.900083572944628E-003
+  0.999219608238871     
+  comparison for vhb =  -8.559464022244458E-005 -8.559464022226449E-005
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+ pkin2=  0.815135852793246     
+ dpkin,vhb,dthb= -6.361253037207026E-004 -8.559464022244458E-005
+ -1.711892804448137E-004
+ position of heatbath= -1.711892804447240E-004  8.963247316547955E-017
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              2       0.859300       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+TIME for LAPACK (DSYGV) =             0.5086000000
+ @@LSES_EIG_CHEM_POT:N=        1287
+    rNelec =   1573.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.198716800069151       -5.40740207676171     
+  eig2(N)[au,eV]=  0.786390128191558        21.3989336122974     
+  homo and lumo levels =         786         787
+ homo-lumo-gap[eV]=         3        3.3597561955        3.3937192381        0.0339630426
+ homo-lumo-gap[au]=         3        0.1234677930        0.1247159020        0.0012481090
+ Bisec.           1 -0.198716800069151       0.998983920084629     
+ Bisec.           2  0.293836664061203      -0.186480779313376     
+ Bisec.           3  4.755993199602607E-002  0.162274159864028     
+Bisec. Conv:        41             3.383364367233284          1573.000000000755335
+chem_pot [au,eV]=         3        41             0.124335370475580             3.383364367233284
+ Elec. num=   1573.00000000076        1573.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =   0.830400000006193     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet:itemd=           3
+ ivelini,inose =           0           1
+ @@ md_heatbath:itemd,ivelini,amq=           3           0
+  1.748251748251748E-005
+ guess of vhb,prev,dpkin= -2.069678382364082E-006 -6.898927941218467E-007
+ -6.361253037205916E-004
+ iii,x,diff=         1       -0.00000206967838236408        0.00000186434850009137        1.10937876973890769960        0.99987160803966645961
+ iii,x,diff=         2       -0.00000375021216482518       -0.00000000002875212172        1.10941298996192805326        0.99976735656341020331
+ iii,x,diff=         3       -0.00000375018624830718        0.00000000000000000012        1.10941298943408739319        0.99976735817113471239
+velocity of heatbath (new,old) =         3       -0.00000375018624830729       -0.00000068989279412185        0.99976735817113471239
+ ekion per noa (a.u.)=   2.842483187756148E-003
+ ekion per noa (eV  )=   7.734851551194520E-002
+ ekion per noa (Kelv)=    897.586788780364     
+ tempk,tempk0,ratio  =   1.894988791837432E-003  1.900083572944628E-003
+  0.997318654200404     
+  comparison for vhb =  -4.652836577306364E-004 -4.652836577305481E-004
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+ pkin2=  0.815135852793246     
+ dpkin,vhb,dthb= -2.185661094987079E-003 -4.652836577306364E-004
+ -7.593780350163858E-004
+ position of heatbath= -9.305673154611099E-004 -1.711892804447240E-004
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              3       0.833400       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+TIME for LAPACK (DSYGV) =             0.5276000000
+ @@LSES_EIG_CHEM_POT:N=        1287
+    rNelec =   1573.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.198799925996063       -5.40966406623448     
+  eig2(N)[au,eV]=  0.786729384383808        21.4081653160984     
+  homo and lumo levels =         786         787
+ homo-lumo-gap[eV]=         4        3.3620693137        3.3950218955        0.0329525818
+ homo-lumo-gap[au]=         4        0.1235527978        0.1247637734        0.0012109755
+ Bisec.           1 -0.198799925996063       0.998982041090576     
+ Bisec.           2  0.293964729193872      -0.186369065747277     
+ Bisec.           3  4.758240159890445E-002  0.162621700274439     
+Bisec. Conv:        40             3.385929377475671          1573.000000001260105
+chem_pot [au,eV]=         4        40             0.124429632122906             3.385929377475671
+ Elec. num=   1573.00000000126        1573.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =   0.861999999993714     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet:itemd=           4
+ ivelini,inose =           0           1
+ @@ md_heatbath:itemd,ivelini,amq=           4           0
+  1.748251748251748E-005
+ guess of vhb,prev,dpkin= -8.490987568435241E-006 -3.750186248307290E-006
+ -2.185661094987412E-003
+ iii,x,diff=         1       -0.00000849098756843524        0.00000222962367946039        1.10916841009978495158        0.99947326379384893169
+ iii,x,diff=         2       -0.00001050116353374226       -0.00000000004107640569        1.10920928196723123094        0.99934856305048680447
+ iii,x,diff=         3       -0.00001050112650159121        0.00000000000000000005        1.10920928121408768341        0.99934856534776672632
+velocity of heatbath (new,old) =         3       -0.00001050112650159125       -0.00000375018624830729        0.99934856534776672632
+ ekion per noa (a.u.)=   2.836002499892683E-003
+ ekion per noa (eV  )=   7.717216562607974E-002
+ ekion per noa (Kelv)=    895.540345785200     
+ tempk,tempk0,ratio  =   1.890668333261789E-003  1.900083572944628E-003
+  0.995044828650222     
+  comparison for vhb =  -1.302869304466646E-003 -1.302869304466572E-003
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+ pkin2=  0.815135852793246     
+ dpkin,vhb,dthb= -4.039137823938277E-003 -1.302869304466646E-003
+ -1.846360573916847E-003
+ position of heatbath= -2.776927889377957E-003 -9.305673154611099E-004
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              4       0.865300       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+TIME for LAPACK (DSYGV) =             0.5217000000
+ @@LSES_EIG_CHEM_POT:N=        1287
+    rNelec =   1573.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.198903606025935       -5.41248536573532     
+  eig2(N)[au,eV]=  0.787190964294774        21.4207256440037     
+  homo and lumo levels =         786         787
+ homo-lumo-gap[eV]=         5        3.3646764756        3.3964803068        0.0318038312
+ homo-lumo-gap[au]=         5        0.1236486085        0.1248173686        0.0011687601
+ Bisec.           1 -0.198903606025935       0.998979956980447     
+ Bisec.           2  0.294143679134419      -0.186266683164416     
+ Bisec.           3  4.762003655424238E-002  0.162973680829312     
+Bisec. Conv:        40             3.388937705587863          1572.999999998558224
+chem_pot [au,eV]=         5        40             0.124540185273481             3.388937705587863
+ Elec. num=   1572.99999999856        1573.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =   0.856700000003912     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet:itemd=           5
+ ivelini,inose =           0           1
+ @@ md_heatbath:itemd,ivelini,amq=           5           0
+  1.748251748251748E-005
+ guess of vhb,prev,dpkin= -1.926220568803076E-005 -1.050112650159125E-005
+ -4.039137823938166E-003
+ iii,x,diff=         1       -0.00001926220568803076        0.00000171644033981896        1.10905549388008628497        0.99880507407831653488
+ iii,x,diff=         2       -0.00002080986524996477       -0.00000000002433882279        1.10908694832043552836        0.99870906541978343718
+ iii,x,diff=         3       -0.00002080984330504618       -0.00000000000000000023        1.10908694787434392026        0.99870906678113069432
+velocity of heatbath (new,old) =         3       -0.00002080984330504598       -0.00001050112650159125        0.99870906678113069432
+ ekion per noa (a.u.)=   2.831012916259332E-003
+ ekion per noa (eV  )=   7.703639107208243E-002
+ ekion per noa (Kelv)=    893.964757099187     
+ tempk,tempk0,ratio  =   1.887341944172888E-003  1.900083572944628E-003
+  0.993294174554652     
+  comparison for vhb =  -2.581866437738535E-003 -2.581866437738637E-003
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+ pkin2=  0.815135852793246     
+ dpkin,vhb,dthb= -5.466158743076766E-003 -2.581866437738535E-003
+ -3.317372301560356E-003
+ position of heatbath= -6.094300190938312E-003 -2.776927889377957E-003
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              5       0.859900       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+TIME for LAPACK (DSYGV) =             0.5170000000
+ @@LSES_EIG_CHEM_POT:N=        1287
+    rNelec =   1573.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.199027439233284       -5.41585506544042     
+  eig2(N)[au,eV]=  0.787773071417193        21.4365657101761     
+  homo and lumo levels =         786         787
+ homo-lumo-gap[eV]=         6        3.3676066088        3.3981073097        0.0305007009
+ homo-lumo-gap[au]=         6        0.1237562881        0.1248771594        0.0011208713
+ Bisec.           1 -0.199027439233284       0.998977672663674     
+ Bisec.           2  0.294372816091955      -0.186173555632078     
+ Bisec.           3  4.767268842933561E-002  0.163326648738651     
+Bisec. Conv:        41             3.392380323018755          1572.999999999347665
+chem_pot [au,eV]=         6        41             0.124666698136778             3.392380323018755
+ Elec. num=   1572.99999999935        1573.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =   0.839900000020862     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet:itemd=           6
+ ivelini,inose =           0           1
+ @@ md_heatbath:itemd,ivelini,amq=           6           0
+  1.748251748251748E-005
+ guess of vhb,prev,dpkin= -3.266619772551779E-005 -2.080984330504598E-005
+ -5.466158743076766E-003
+ iii,x,diff=         1       -0.00003266619772551779        0.00000052369756712358        1.10910223806397945090        0.99797356091730893279
+ iii,x,diff=         2       -0.00003313837923336304       -0.00000000000226817108        1.10911184545162178061        0.99794426926023693802
+ iii,x,diff=         3       -0.00003313837718832936       -0.00000000000000000011        1.10911184541000951143        0.99794426938710001362
+velocity of heatbath (new,old) =         3       -0.00003313837718832926       -0.00002080984330504598        0.99794426938710001362
+ ekion per noa (a.u.)=   2.829490609684629E-003
+ ekion per noa (eV  )=   7.699496667449426E-002
+ ekion per noa (Kelv)=    893.484049851449     
+ tempk,tempk0,ratio  =   1.886327073123086E-003  1.900083572944628E-003
+  0.992760055390499     
+  comparison for vhb =  -4.111461225799874E-003 -4.111461225799634E-003
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              6       0.843000       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+.....Total MD loops ended; # MD step =                             6
+.....Total Simulation time (sec )    =                       5.26270
+.....Total Simulation time (hour)    =                       0.00146
+.....Total Simulation time (day )    =                       0.00006
+..... ELSES ended successfully (without MPI)

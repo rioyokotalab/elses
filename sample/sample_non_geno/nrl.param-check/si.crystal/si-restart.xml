@@ -1,0 +1,3089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="Si.diamind.structure" mdstep="                   0">
+ 
+ <unitcell>
+   <vector unit="a.u.">  0.415739913110358E+02  0.000000000000000E+00  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.415739913110358E+02  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.415739913110358E+02</vector>
+ </unitcell>
+ 
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.250000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.157936012913821E-04 -0.104064536142096E-03 -0.517183316477284E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.625000000000000E-01  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.461440879333657E-04 -0.511495895230221E-04 -0.243892786809118E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.125000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u.">  0.156393537494190E-04  0.277672787041674E-04  0.125018482717098E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.187500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.287724726128534E-03 -0.213687531431365E-03  0.725946592695873E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.000000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.191840346649312E-03 -0.114794470895280E-04  0.236319198870680E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.125000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.135700679549438E-03 -0.209295690398443E-03  0.630653986458709E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.125000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.691281958143143E-04 -0.101771948366840E-03  0.135323175268057E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.187500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u.">  0.960358210121128E-04 -0.124015724236260E-03  0.203326880975997E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.670638538788692E-04 -0.956837283200479E-04 -0.897031110865739E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.625000000000000E-01  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.336922124200360E-04 -0.161914468642759E-03  0.330919919944861E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.125000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u.">  0.729276934430423E-04 -0.931922444720681E-04 -0.242854207531537E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.187500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.108118515429658E-03 -0.217267928049220E-03  0.162859068728259E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.000000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.156113682578577E-04 -0.114713137529710E-03 -0.166567051489062E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.125000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.537795073400031E-04 -0.102225346969865E-03  0.171465131917513E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.125000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.512099960580736E-04 -0.511698481576651E-04  0.108904462186800E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.187500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u.">  0.779548221961047E-04 -0.894390756551505E-04  0.281934265411642E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.868187098320618E-04  0.966041486264152E-04 -0.636944549473132E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.625000000000000E-01  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.206277652861288E-06  0.254457211484885E-03 -0.184560802511492E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.125000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.607002855210265E-04  0.910944826341372E-04  0.205551206507538E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.187500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.291632787226041E-04 -0.624104248001636E-04  0.110764425406728E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.000000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u.">  0.294591061164464E-03 -0.532858913062637E-05 -0.215345945176692E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.125000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.570782698863683E-06  0.644915282018656E-04  0.609476485508465E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.125000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.240526006601164E-03  0.455388822731839E-04  0.145977104285671E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.187500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.474198298286290E-04 -0.166436138604374E-03 -0.124460108049759E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.289444687998207E-03 -0.829741251009208E-04 -0.138855082759025E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.625000000000000E-01  0.625000000000000E-01</position>
+  <velocity unit="a.u.">  0.830387710653868E-04 -0.233176141963554E-05 -0.106775256963273E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.125000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.211510161633731E-03 -0.749217306393618E-04 -0.127367505343953E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.187500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.385375424551843E-04 -0.951163143069563E-04  0.790960376086815E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.000000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u.">  0.109158946136954E-03  0.109919382225931E-03  0.739388620355339E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.125000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.106012360511602E-03  0.119469084274526E-03 -0.112195541657050E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.125000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.127725075681470E-03 -0.252060865485566E-03  0.115785398501043E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.187500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.235128459483118E-04 -0.124142123798539E-03  0.297701409229909E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.250000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.344875097973924E-03 -0.292770120719870E-03 -0.308856761961493E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.312500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.169231825076770E-03 -0.249040950919237E-03 -0.128925332773644E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.375000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u.">  0.283345349835332E-03  0.320143939651973E-04  0.131221760786062E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.437500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.232858208267773E-04 -0.998290625752402E-04 -0.624445601641572E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.250000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u.">  0.171719671088357E-03  0.271274750432470E-03 -0.755978405123754E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.375000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.144676859178856E-03 -0.353989795875811E-04 -0.315718582439322E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.375000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.104293546461920E-03  0.125360154740932E-04 -0.148852523678747E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.437500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u.">  0.111255719070257E-03  0.133823634387149E-03 -0.168433480854417E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.269687480279686E-04 -0.159358781020121E-03 -0.584950565453510E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.312500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.189342027341363E-03 -0.247781167923182E-03 -0.109609759476018E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.375000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.129216738433631E-03 -0.226671560531817E-04 -0.777312516435103E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.437500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.804443353295177E-04 -0.683058636729916E-04 -0.229747901145303E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.250000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u.">  0.164990172863657E-03  0.257624492903694E-03 -0.633609755222196E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.375000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.702457391347812E-04 -0.381222603307178E-04 -0.338533255413253E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.375000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.113421780023108E-04 -0.112756616475303E-03 -0.103925746328364E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.437500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.865293330440168E-04  0.468023539276052E-04  0.530493387810670E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.250000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.918937781926652E-04  0.142563196138350E-03 -0.808468087273943E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.312500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.203566465182725E-03 -0.642959322858986E-04  0.163281344698843E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.375000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.112789065180319E-04  0.128960292176413E-03  0.747167650561924E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.437500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.141178199621420E-03 -0.128964820410216E-03 -0.153309767427429E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.250000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u.">  0.736235135695927E-04 -0.924289048656391E-05 -0.154915994523582E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.375000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.820964569356590E-04  0.313570064221688E-04  0.231072026093472E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.375000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.421310027448646E-04  0.222378177205640E-03  0.102373365681015E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.437500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u.">  0.248697082052777E-03  0.990055782481620E-05  0.577171547572304E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.250000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.220623037029881E-03 -0.827045083146487E-04  0.113837108517900E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.312500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.239414594811474E-03 -0.139011669848323E-03  0.149236300872866E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.375000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u.">  0.471650633085222E-04  0.728371371712067E-04 -0.280131331308881E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.437500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.140988227202979E-04  0.144035967252137E-03  0.152384709439106E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.250000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.208904253874195E-03  0.171472726291210E-03  0.872304081126117E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.375000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.490182070737128E-04  0.328811200947120E-04 -0.867365999709866E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.375000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.634045870983034E-04  0.956721689906762E-04  0.808194676414359E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.437500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.130836772778840E-03  0.267335990688909E-04  0.120822303427811E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.500000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.933819587793288E-04  0.127750532485110E-03 -0.435450355867276E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.562500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u.">  0.165169548251454E-04  0.371317182078519E-04  0.212932018358276E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.625000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.479506094903703E-04  0.158080947421760E-03 -0.216684601267000E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.687500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.207343946507616E-03 -0.397275096991001E-05  0.141663625540658E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.500000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.868820835926838E-04 -0.637940874882228E-04  0.524252849715402E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.625000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.196897943431912E-03  0.145757826875461E-03 -0.245682359006774E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.625000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.139443398525139E-03 -0.115264136160528E-03  0.376228723843813E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.687500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u.">  0.128066260763315E-04  0.175312501492147E-03 -0.916529730056820E-06</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.500000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.197911799676883E-03 -0.220659471820044E-03  0.142202292069102E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.562500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u.">  0.497344795247126E-04 -0.135628436103404E-03  0.167875912074313E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.625000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.255365798661433E-03  0.151249435163499E-03  0.122115277229707E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.687500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.552535627400819E-04  0.195151566816053E-03  0.962862261170730E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.500000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.116674296201690E-03 -0.151956442074199E-03 -0.329776491130673E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.625000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.215012788733559E-03  0.898443621928943E-05 -0.557954508805529E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.625000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.144325721784896E-03 -0.746672254766555E-04  0.968902572512235E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.687500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.230912614628207E-04  0.123320065446681E-03  0.645393323680014E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.500000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.744859388655135E-05  0.144514352828735E-03  0.234389238729093E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.562500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.156775085954758E-03 -0.113835611765814E-04  0.587742906820425E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.625000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.118940168589777E-03 -0.120169631261965E-05  0.724205611932062E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.687500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.373320323253930E-05 -0.383405166698415E-04 -0.808989146239507E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.500000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u.">  0.137095690119308E-03 -0.280877655569844E-03 -0.171145867207437E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.625000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.977096635542159E-04 -0.481798766667515E-04  0.945007868983591E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.625000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.654670556583622E-04  0.152621845992724E-03  0.517168367589388E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.687500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.998150644362297E-04 -0.634380741326244E-04  0.886277026533171E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.500000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.805374072008627E-04  0.907861955102544E-04  0.162752514632596E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.562500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.146771778001196E-03 -0.313022131464429E-07 -0.166177575950533E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.625000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u.">  0.232248516490292E-04  0.156837645079673E-03  0.226354588775333E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.687500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.117859984099163E-03  0.336186159274143E-03 -0.786537035089104E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.500000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.599007084690880E-04  0.167570691347161E-03  0.111695717027363E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.625000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.419437910232515E-04  0.193977135275336E-04  0.688840735197891E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.625000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.105151342121501E-05  0.228845332459399E-03  0.293800541954760E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.687500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u.">  0.770228078990342E-05  0.101636512396661E-03 -0.221540649380916E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.750000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.218306933517921E-04  0.467394272286343E-04 -0.110428704930883E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.812500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.447135790148221E-04 -0.103175708753835E-03  0.269631116733935E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.875000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u.">  0.106023801664331E-03  0.164767306441354E-03 -0.600838488426288E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.937500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.287564563803220E-04 -0.944183403939943E-04  0.242526993429750E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.750000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.564720641119834E-04 -0.824666990648962E-04 -0.106588641661014E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.875000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.234595397944501E-04  0.117758558174438E-03 -0.907120545447397E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.875000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.777213974885282E-04 -0.504027628882236E-04  0.762001280129334E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.937500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.249440382312434E-03  0.452787097804997E-04  0.100964755445640E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.750000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.117061845379022E-04 -0.353298766069377E-04  0.748324995467803E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.812500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u."> -0.356363199469778E-04  0.365150108908958E-03 -0.161255476545330E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.875000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.349468199848711E-03 -0.210062089795700E-04  0.166901800709362E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.937500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.122446700473054E-03  0.232703819038751E-03  0.342650381827883E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.750000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.192970596264030E-03  0.858934923447072E-04  0.628732049769779E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.875000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.463314068941917E-04 -0.368309153896224E-04  0.306944685744010E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.875000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.113602379539343E-03 -0.606345668797842E-04  0.187359556453539E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.937500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u.">  0.167514127832414E-04 -0.222269914636433E-03  0.113503506087671E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.750000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.123108369595302E-03  0.212660701178315E-03  0.200413509856053E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.812500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u.">  0.205389846069825E-03 -0.149342026368850E-04 -0.968300232877239E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.875000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.700792033752443E-04  0.363186775379169E-04  0.429211495051640E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.937500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.124373805749485E-04 -0.259644266494622E-03 -0.116449613468707E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.750000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.356862168962594E-04 -0.668869253138434E-04  0.355732637078268E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.875000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.102145649670325E-03  0.888402584015833E-04  0.289783771518054E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.875000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.131194642420455E-04  0.715570709514479E-04  0.698442154683733E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.937500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u.">  0.149405368944440E-03 -0.444837034398187E-04 -0.115689073137379E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.750000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u."> -0.125512996343895E-04 -0.939111876495343E-04 -0.781918847975642E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.812500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u.">  0.254651564586985E-03 -0.119091611614848E-04  0.472036705618785E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.875000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.596226859330704E-04 -0.193809926492718E-03  0.410226900453601E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.937500000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u.">  0.352618322178077E-04 -0.469286468949847E-04  0.244773596805751E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.750000000000000E+00  0.125000000000000E+00</position>
+  <velocity unit="a.u."> -0.819175558594917E-05  0.124932233685295E-03  0.381095005015763E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.875000000000000E+00  0.187500000000000E+00</position>
+  <velocity unit="a.u."> -0.538202308656541E-04 -0.217943141285830E-03 -0.250849511756164E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.875000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.313167710826125E-04 -0.464236034851780E-04 -0.106647754004249E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.937500000000000E+00  0.625000000000000E-01</position>
+  <velocity unit="a.u.">  0.733733433208317E-04 -0.208346283938401E-03 -0.143327048714725E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.000000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.100515408499995E-03 -0.245440406048409E-05 -0.230922014415117E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.625000000000000E-01  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.176656502884556E-03  0.120308354293829E-03  0.792424094118386E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.125000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u.">  0.205835680075086E-04 -0.205319645908995E-03 -0.206959291021085E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.187500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.860709311638420E-04  0.100406390748794E-03  0.376097744314556E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.000000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.569661407019582E-05 -0.111021171305741E-03 -0.247818349117654E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.125000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.113736508411464E-03 -0.165560003958057E-03  0.610832393368103E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.125000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.465644447292862E-04 -0.258924680531567E-03  0.185432844640652E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.187500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.182011224795765E-03  0.294551543946982E-03  0.170386002423275E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.000000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.155554090079400E-03 -0.687720571324646E-05 -0.769896531880439E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.625000000000000E-01  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.127461678400765E-03 -0.149933601269638E-03  0.145643133139174E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.125000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.113120227229621E-03  0.202503218672218E-03  0.169884202376495E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.187500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.449892315168874E-04 -0.124218893002433E-03  0.902013780023905E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.000000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.417320171184292E-03 -0.628636074262730E-04 -0.413432836294997E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.125000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u."> -0.553092187945736E-04  0.431246172320112E-04 -0.149664585692067E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.125000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.142405744122923E-04 -0.919982288397796E-04 -0.138718673534225E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.187500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.235158501731097E-03 -0.550229938851636E-04 -0.150487243693959E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.000000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.146359291169336E-03 -0.283032601365848E-04 -0.179776306652160E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.625000000000000E-01  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.324005261921333E-04  0.137578840147566E-03  0.239835920933506E-06</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.125000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.132559011648054E-03  0.107004281196707E-03  0.938637126123901E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.187500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u."> -0.186751124592965E-03  0.203902931855236E-03 -0.137852707631486E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.000000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u.">  0.169171118879007E-04 -0.127265192409544E-03  0.693699561277487E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.125000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u."> -0.189531131702785E-03  0.107504074822829E-04 -0.700924616917773E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.125000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.122085436246011E-03 -0.153297592847445E-03  0.102793874709158E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.187500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.248271550426038E-03  0.749152187084459E-04 -0.439689798401397E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.000000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.445225087848525E-04 -0.213805579686833E-03  0.261641137083903E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.625000000000000E-01  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.146580931884668E-03  0.270475698365969E-03 -0.936292546781316E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.125000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.464946441924709E-04 -0.138630111808126E-03 -0.915764252096761E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.187500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.117644469678307E-03  0.775231790862597E-04 -0.202211578662813E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.000000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u.">  0.657073608161130E-04 -0.583840784387216E-05 -0.115757022107298E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.125000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.596553158257189E-04  0.513231970745479E-04  0.732424353189716E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.125000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.106478018048090E-03  0.474149988911996E-04  0.247517383210866E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.187500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.152881412435596E-04 -0.151401693701238E-03 -0.863573918737192E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.250000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.806944858665525E-04  0.120584635972152E-03  0.353000383284448E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.312500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.153999849869316E-03 -0.106613109868043E-03 -0.855420828479010E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.375000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u.">  0.292355566856820E-03  0.859498604757846E-05  0.431921875511581E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.437500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u."> -0.129383243233890E-03  0.128403051872574E-03 -0.367404441586971E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.250000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.264398888856052E-04 -0.233524754310651E-03  0.444799368056666E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.375000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u."> -0.516652273253409E-04 -0.232124588772659E-03  0.665255606159130E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.375000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.250212973466211E-03  0.404081636328352E-04  0.287617076130677E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.437500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.138916850993869E-03 -0.135147206990297E-03  0.812514877007108E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.178241522923322E-04  0.249597439893055E-03 -0.253461387956984E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.312500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.858766420715686E-04  0.149065779682896E-03 -0.185189553549700E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.375000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.276045468535900E-04  0.200973700491467E-03  0.453686748117909E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.437500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.757520363658017E-04  0.142724387786841E-03 -0.123378799641601E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.250000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.189870658960123E-03  0.397330155292292E-03  0.247894978206711E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.375000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u."> -0.596125239499883E-04 -0.150502837027070E-03  0.135751828480551E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.375000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.151756844650353E-03  0.346852891186811E-04 -0.269205844285337E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.437500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.129029755341026E-03  0.987304762356515E-04 -0.109540833943444E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.250000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.122334105717190E-04  0.143459848711263E-03 -0.142539022419312E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.312500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.973216890851614E-04  0.466263376475873E-04  0.927323486525132E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.375000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u.">  0.101828516435714E-03 -0.225611831159896E-03  0.863001732831758E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.437500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u."> -0.752329254117082E-04 -0.481342818459998E-04  0.859657710204322E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.250000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.531485866326104E-04 -0.183442035566562E-03 -0.233135478718449E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.375000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.700996601269214E-04 -0.102753305051752E-03 -0.678414811213868E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.375000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.958460551704409E-04  0.189667181321441E-04 -0.719765135170350E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.437500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.520385333408954E-04  0.148055250379830E-03 -0.145355666291106E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.250000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.946928684483668E-04 -0.598146581439469E-04  0.777780319626618E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.312500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.151923298508983E-03 -0.672627471028974E-04  0.327597896873797E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.375000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.933843661455790E-04 -0.922851002072697E-04 -0.113363814114953E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.437500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.566497702454349E-04 -0.209192331015263E-04  0.119259654268617E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.250000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u.">  0.197036385091889E-04  0.206408886036878E-03  0.804522475966909E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.375000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.186000697932691E-03  0.210231883780114E-03  0.591912623377862E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.375000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.139032464094662E-03  0.258768597478302E-04  0.750609696795148E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.437500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.192186370704972E-04  0.332041501008747E-03  0.102298076487351E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.500000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.579772896161428E-04 -0.355008619410349E-04  0.440928066807128E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.562500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.191242155774838E-03  0.734155148545447E-04 -0.798316435785592E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.625000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.138519012302704E-03 -0.797463121731132E-04 -0.101087291198762E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.687500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.749003793823985E-04 -0.211204516092074E-03  0.801462857245491E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.500000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.851270542825904E-04  0.111280022492762E-03 -0.206225149530150E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.625000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u."> -0.538189187909376E-04 -0.140989610955829E-04  0.912417067951117E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.625000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.130527280406037E-05 -0.176425516585354E-03 -0.102395154604741E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.687500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.408765924959139E-05 -0.246397122579071E-03 -0.961984819593918E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.500000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.304799998145115E-04 -0.245948561548942E-04  0.222563431114722E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.562500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.101889609037389E-03  0.928406492328013E-04  0.941419502279119E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.625000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.269566053391440E-04  0.481215929154826E-04  0.246190552407497E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.687500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.789186758964323E-04 -0.110682020781543E-03 -0.282977726684548E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.500000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.902230568175255E-04  0.175011465568838E-03 -0.988916853145989E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.625000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.611484036665552E-04  0.192724992227436E-03 -0.101656031704973E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.625000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.644655918816124E-04 -0.362165538582578E-04 -0.155166294281137E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.687500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.769801432974508E-04  0.214779285805746E-03  0.722939941142060E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.500000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.555583749688991E-04  0.217363533843618E-04  0.734660142450651E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.562500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.103923046052303E-03  0.245375672185340E-03  0.146819486987430E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.625000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.100428936579460E-03 -0.115904658658542E-03  0.220897828170690E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.687500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.164556028393224E-03 -0.870137251351443E-04  0.138608331844137E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.500000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.137392575030855E-04 -0.103196047617022E-03  0.174167653612102E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.625000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u."> -0.127645871562211E-03  0.732614153255699E-04 -0.185060562563576E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.625000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.502178791759039E-04 -0.219475239632008E-04  0.144894333994987E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.687500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.569174896057057E-04 -0.203217713150684E-04 -0.186986927155758E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.500000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.786494804460292E-04  0.332094634381076E-03 -0.151049634521164E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.562500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.945961948763790E-04  0.366373172549793E-04  0.223827963825615E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.625000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.684084348561131E-04  0.204104273682953E-04  0.219710643318512E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.687500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u."> -0.741908417231200E-05  0.158133257041482E-04  0.158945245812042E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.500000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.237164772140590E-03 -0.132664515676206E-03 -0.172882118850355E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.625000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u."> -0.189241518385711E-03 -0.173720015289218E-03 -0.329975898847324E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.625000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.435545669871174E-04 -0.162595645893542E-05 -0.125772691197050E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.687500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.137225724555122E-03 -0.136776167224670E-03  0.393415653434054E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.750000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.642442289448994E-04  0.153800484786581E-03 -0.267746084990546E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.812500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.908608045419792E-05  0.215367529446189E-03  0.685075416991480E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.875000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u.">  0.607573199675058E-04  0.850006757850480E-04  0.204034071060669E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.937500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u."> -0.126327706416341E-03  0.183621397137969E-03 -0.957589260407720E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.750000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u.">  0.332829342879304E-03  0.112535293366111E-03 -0.409732916018155E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.875000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.966271316444064E-04  0.131836652211866E-03 -0.426209294719510E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.875000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.128252542348336E-04 -0.222117961594927E-03 -0.320025749735037E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.937500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.199155000822324E-03 -0.482413923364857E-04 -0.744147329108511E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.750000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.195205491249290E-03 -0.383180944022834E-03  0.157238241930493E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.812500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u."> -0.159482497082434E-04 -0.207152359053411E-04  0.887678381679192E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.875000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u.">  0.221679136054703E-03  0.138391816981665E-03 -0.103172313731504E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.937500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.290649288621810E-03  0.295710730519725E-03 -0.108524120940108E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.750000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u.">  0.578622242038843E-04  0.981779561342159E-04  0.130111378115997E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.875000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u."> -0.235875004330861E-04 -0.928976870186310E-04 -0.226854950552947E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.875000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.211919428794215E-03  0.516455627224476E-04  0.145772760928147E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.937500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.109949513062748E-03 -0.682191179509569E-04 -0.374633918832040E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.750000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.547379254817017E-04 -0.527282682375846E-04  0.970347880456178E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.812500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.100247826503435E-03  0.186381652351227E-03 -0.469069820204519E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.875000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.851947600541266E-04  0.243544044059789E-03  0.416134078479438E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.937500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.167592413780561E-04 -0.546706900078675E-04 -0.695488338565067E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.750000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.378214140372486E-04 -0.251606807334413E-04 -0.264078652649719E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.875000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.702705191653764E-04 -0.790154500014722E-04 -0.284542991980510E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.875000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.916163955705214E-04  0.264462292901958E-05 -0.521978367146408E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.937500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.104133314085965E-03  0.302452467048302E-04  0.148693828544006E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.750000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u.">  0.111890835809063E-05 -0.210782922213681E-03 -0.224038734703903E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.812500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.242122945176752E-03  0.219668057473508E-03 -0.719442271818307E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.875000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u.">  0.175171008098059E-03  0.102593502099349E-03 -0.141685325800177E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.937500000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u.">  0.799360096688744E-04 -0.949007604911601E-04 -0.168239716315001E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.750000000000000E+00  0.375000000000000E+00</position>
+  <velocity unit="a.u."> -0.760312144993725E-04  0.669216884858936E-04 -0.321254459054992E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.875000000000000E+00  0.437500000000000E+00</position>
+  <velocity unit="a.u."> -0.234055618387101E-04  0.180310186679626E-04 -0.233587765668548E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.875000000000000E+00  0.250000000000000E+00</position>
+  <velocity unit="a.u."> -0.727080107303560E-04  0.346882107897759E-04  0.399324480901318E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.937500000000000E+00  0.312500000000000E+00</position>
+  <velocity unit="a.u.">  0.222913643709114E-03  0.879000377807592E-04  0.670187024836182E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.000000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u."> -0.201429741545617E-03 -0.410871028178101E-04  0.860192554001195E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.625000000000000E-01  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.221560795341635E-04 -0.395838272751790E-03 -0.403262762753538E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.125000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.821445347416905E-04 -0.202903947104174E-03 -0.940085753530389E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.187500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.580331398105485E-04 -0.128801475214622E-03  0.110415406352847E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.000000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.100314340864876E-04  0.952571592373438E-04 -0.325501333989354E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.125000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.196642248721005E-03 -0.829087952549337E-04  0.241294024895039E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.125000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.188492154080585E-03 -0.490703210591207E-05  0.468393817007850E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.187500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.219597234935478E-04 -0.131708977984523E-03  0.445935336632409E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.000000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u."> -0.120035065475715E-03 -0.223052809285543E-04 -0.347269185401944E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.625000000000000E-01  0.562500000000000E+00</position>
+  <velocity unit="a.u."> -0.331112594662510E-04  0.272146657506065E-04 -0.152311182502883E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.125000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.131410908728006E-03 -0.428863615677250E-04 -0.413307706090670E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.187500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.263006418744326E-03 -0.522993054182937E-04  0.441050708191601E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.000000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.607152994749591E-04  0.146483029793823E-03  0.136475247644973E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.125000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.123623177494943E-03 -0.338787470382683E-06 -0.120250180620887E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.125000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u."> -0.197029532774615E-04 -0.133520099001370E-04 -0.108925974588282E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.187500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.496772384030768E-04  0.627163783387691E-04 -0.101971621361339E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.000000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.191294542441384E-03  0.586364928066084E-04 -0.117194780132456E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.625000000000000E-01  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.116510961803540E-03  0.578936124469628E-04 -0.566671160611014E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.125000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.636742842014583E-04 -0.473482066417665E-04 -0.911506758995389E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.187500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.113156739892039E-03  0.705636231489305E-04  0.771524432811797E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.000000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.123575168899165E-04  0.261923436940762E-03 -0.152171496633494E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.125000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.593842395813318E-04 -0.104311669671671E-03  0.112632093062087E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.125000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.150088953470213E-03 -0.231377875989403E-03  0.514140446796486E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.187500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.457087462853363E-04 -0.292482250702546E-04 -0.109239049297748E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.000000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.428548926597833E-04  0.291346575812851E-03  0.905952111294493E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.625000000000000E-01  0.562500000000000E+00</position>
+  <velocity unit="a.u."> -0.483628856699545E-04 -0.106331524251372E-03 -0.833132322534083E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.125000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.691013513196161E-04 -0.454595733538468E-04  0.701547680165968E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.187500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.106321145878075E-03 -0.209688433579056E-04 -0.838130735511020E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.000000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.219528224289780E-03 -0.585079476119714E-04 -0.254133340480621E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.125000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.155837434410843E-03 -0.130183290361865E-04 -0.129291663663566E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.125000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u."> -0.302459499106016E-04  0.113730648533893E-03  0.989755281099774E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.187500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.550350407359849E-04  0.257070966875216E-04  0.102759219089246E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.250000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u."> -0.306738999575677E-03 -0.139107887145356E-05  0.136089069416258E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.312500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.103938193878691E-04 -0.120137833776332E-03  0.238821687490330E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.375000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.243278134202260E-03 -0.114963028563994E-03 -0.112037630225263E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.437500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.508281844621091E-05 -0.172084467818760E-03 -0.872074278337106E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.250000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.174314758524098E-03 -0.232860328182762E-04 -0.961612194801655E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.375000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.151206031575619E-03 -0.351231847248146E-04  0.738371440279488E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.375000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.177665715984815E-03  0.284406362612494E-03 -0.202071768669096E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.437500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u."> -0.126874883691619E-03  0.182283727063046E-03  0.616842868186793E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.136526669420114E-04 -0.930712004791837E-04  0.179054835683366E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.312500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u."> -0.476940052234962E-04 -0.734809395934492E-05  0.793278197264706E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.375000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.292751985843775E-03 -0.866456383110234E-04 -0.139586091687279E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.437500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.122061728913459E-04 -0.177275560861354E-03  0.149502884469769E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.250000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.211248273073162E-04  0.466062170945842E-04  0.193804544758066E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.375000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.111294989297211E-03  0.361844983604289E-03  0.704474902047015E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.375000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.159650351057643E-03  0.426384320768882E-04 -0.160156145717778E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.437500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.151815408376328E-03  0.684484228378806E-04  0.120814797063374E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.250000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u."> -0.170814504688902E-03 -0.195269601927021E-03 -0.166877540261276E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.312500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u."> -0.233118610476408E-03 -0.130003783463043E-03 -0.946277986384360E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.375000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.108217655115599E-03  0.854553947189703E-04  0.377083489279454E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.437500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.105216994112099E-03  0.681394511090559E-04  0.838196852327565E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.250000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.921259913953851E-04 -0.376920901346610E-04 -0.805870969655199E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.375000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.966870550078810E-04 -0.198180892549118E-03  0.763593890312164E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.375000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u."> -0.207026621370776E-04  0.105587408677692E-03  0.755386920095523E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.437500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u."> -0.106277779061027E-03 -0.159653816064828E-04  0.193842867199344E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.250000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.624628678296128E-04 -0.598722044451518E-04 -0.135948076496720E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.312500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.176100462658540E-03  0.938918141437515E-04  0.209572785648901E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.375000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.951234057738635E-04 -0.125840678854614E-03 -0.793732816521038E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.437500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.146124716129017E-03 -0.478396359078376E-04  0.146319151114146E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.250000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.241752241946873E-05 -0.259316217591789E-04 -0.531338867075608E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.375000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.784108391453045E-04  0.658179570074045E-04  0.377494489759381E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.375000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.829917802919033E-04 -0.608055112321121E-04  0.107185836294292E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.437500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.281717654390763E-04  0.173645832705450E-03 -0.203444519557265E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.500000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.282592865242191E-04 -0.365007487762998E-05 -0.952996270800452E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.562500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u."> -0.184668070561176E-03 -0.127077599048944E-03 -0.117247717408095E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.625000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.241985903667474E-03  0.231497548601090E-03 -0.233800791614726E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.687500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.362269387637255E-04  0.251511285464537E-03 -0.427702206727617E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.500000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.815362378255579E-04 -0.169028277686000E-03  0.962054875446501E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.625000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.116214830920790E-03 -0.110903499843240E-03  0.144159807754040E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.625000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.102406033088482E-05 -0.749044389053282E-04 -0.321295937391636E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.687500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.106065861762616E-03  0.265779906917932E-03 -0.738418090334992E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.500000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u."> -0.675438644274869E-04 -0.333438979764678E-04  0.621272578647917E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.562500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.320372755958199E-03 -0.462742580807426E-04  0.214986107791782E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.625000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.809128825892688E-04 -0.691039859618637E-04 -0.191876512039846E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.687500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.125689154154275E-03 -0.878493252818839E-04 -0.233648256195778E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.500000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.750235857483289E-04 -0.733298283941603E-04 -0.141228673783123E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.625000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.521815508011984E-04 -0.199477122805375E-04 -0.724462128132068E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.625000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u."> -0.552545174059089E-04  0.109701811987434E-03  0.493559051704499E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.687500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.220523126257089E-03 -0.249073500424308E-04  0.196128135331480E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.500000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.264881804809956E-03 -0.941812708502193E-04 -0.671881754822276E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.562500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u."> -0.499352132486201E-05  0.458224506297295E-04  0.289870302519549E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.625000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.190827977713513E-03  0.201102409342438E-04 -0.106631125157811E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.687500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.134359989918548E-04 -0.468601396755937E-04  0.401132621686912E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.500000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.113505901574443E-03 -0.794832250091400E-04 -0.471303189024112E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.625000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.511294058889194E-04  0.280476317567373E-04  0.469470810723723E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.625000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u."> -0.335190933031456E-05  0.537520700524030E-04  0.158457191888243E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.687500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u."> -0.388747450590549E-04  0.116672700789897E-03  0.586204396760887E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.500000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.232244520019950E-04  0.953431685547750E-05 -0.133527393189568E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.562500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.102991424811204E-03  0.614838133997008E-04 -0.152336612540655E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.625000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.138565300970328E-03  0.182591336163001E-03  0.225668346135691E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.687500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.799769203033177E-04 -0.946671258179199E-04  0.931516373213442E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.500000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.158053863731623E-03  0.136638944449353E-03  0.998611545703657E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.625000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.246425537062655E-04 -0.264426606892375E-03 -0.203792384899558E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.625000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.571191404909050E-04  0.611209820047737E-05  0.881515729885037E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.687500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u."> -0.289359282948386E-03  0.155863844715077E-03 -0.338863930428956E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.750000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u."> -0.581044191923609E-04 -0.185259425298416E-04 -0.837959762561194E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.812500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.585251969724308E-05  0.238636119367741E-03 -0.295309437612157E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.875000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.693933607525850E-04  0.681422043061914E-04  0.172740249394199E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.937500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.103694767867136E-04  0.237170654196483E-05 -0.127362186329099E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.750000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.374458242588530E-04  0.689935231451279E-04  0.867881923276010E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.875000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.360429913447289E-04  0.148888730004192E-03 -0.966267104571711E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.875000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.959030213538564E-04  0.615979519943850E-04 -0.162798185637466E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.937500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.246582789443045E-03  0.651583572265942E-04 -0.685318550400308E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.750000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.725487357409729E-04  0.106554257576989E-03 -0.450424393719934E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.812500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.869047387620132E-04 -0.691936501243136E-04  0.806186143751378E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.875000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.125559631204174E-04 -0.152587854175346E-03  0.854734116775957E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.937500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.851910329552527E-04 -0.151378260265769E-03  0.162790530937067E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.750000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.226416619215210E-03 -0.867988561037721E-04  0.204140985377109E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.875000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.441508699168310E-04  0.781940377855371E-04  0.237122970319528E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.875000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u."> -0.111406801175785E-03  0.165975375111187E-03  0.705775483786720E-06</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.937500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.240006721996639E-03  0.253856674580918E-04  0.784141069938629E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.750000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u."> -0.218203361519027E-04 -0.678089771799054E-05 -0.728126197014542E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.812500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.135671623594714E-03  0.496357265400681E-04 -0.199716305287469E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.875000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.211784149768835E-03  0.108782585997932E-03 -0.907226245506920E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.937500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.469233323128510E-04 -0.297766815742139E-04  0.102396496090701E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.750000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.110876374502950E-04  0.103538576526863E-06 -0.189145770161787E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.875000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.144005367294885E-03 -0.422297825321845E-04  0.142372464408656E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.875000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.129051328862273E-03 -0.249100118662645E-03  0.180756173790449E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.937500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u."> -0.153530249080361E-03 -0.112885945605894E-03 -0.293818608794130E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.750000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.892990878598919E-04  0.109290562984486E-03 -0.342597322939732E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.812500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u."> -0.255397231879175E-04  0.812006704895123E-04 -0.472153776712389E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.875000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u."> -0.434793835996127E-04  0.167613083128554E-03 -0.803766402049217E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.937500000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u."> -0.167000802986955E-03  0.146286137819355E-03 -0.498133074469417E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.750000000000000E+00  0.625000000000000E+00</position>
+  <velocity unit="a.u.">  0.714696791763366E-04 -0.243915376407383E-04  0.295466294066029E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.875000000000000E+00  0.687500000000000E+00</position>
+  <velocity unit="a.u.">  0.243847891893932E-03 -0.765785518957923E-04 -0.304863382859293E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.875000000000000E+00  0.500000000000000E+00</position>
+  <velocity unit="a.u.">  0.877164094828687E-05  0.425337209153320E-05  0.192783018447571E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.937500000000000E+00  0.562500000000000E+00</position>
+  <velocity unit="a.u.">  0.292221220818480E-04  0.223187404607600E-04 -0.186487336654527E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.000000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u."> -0.441225369477286E-04  0.199736589986060E-05  0.290563826273465E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.625000000000000E-01  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.169920379612854E-03  0.475691850502500E-04 -0.129347146577561E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.125000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u.">  0.178976731076977E-04 -0.385087749513770E-04  0.216617096671174E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.187500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.258513190063479E-04 -0.785927937679317E-04 -0.873972068687264E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.000000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u.">  0.435061711671373E-04 -0.123561905525230E-03  0.416806101120789E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.125000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.141624491717840E-03  0.168342702864573E-03 -0.146521630812159E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.125000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.469566706530626E-04  0.914508631015312E-05 -0.248814723240276E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.187500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.133108120658944E-03  0.964841581342230E-04  0.241664447637706E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.000000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u."> -0.717526129151354E-04 -0.473666199600740E-04 -0.251156412679181E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.625000000000000E-01  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.155870708235850E-04 -0.541687035389077E-04 -0.155687358690995E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.125000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.146776046288684E-04  0.117829091568396E-03  0.267491451558828E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.187500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.180208294976739E-03  0.403645121963954E-05 -0.688886404682304E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.000000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u.">  0.160548924808035E-03 -0.523532598618653E-04 -0.186587023085551E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.125000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.206596308165966E-03 -0.148090077422771E-03  0.110382740233305E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.125000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.320642985355783E-04 -0.129108889337080E-03 -0.113774453040372E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.187500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.881449176950112E-04 -0.210955453906594E-03 -0.205301335813636E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.000000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.175462098493820E-03 -0.152766363093304E-04  0.684126364769475E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.625000000000000E-01  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.149087699089364E-03 -0.142617982260141E-03 -0.196389695143288E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.125000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u.">  0.783422022799370E-04  0.361567471406863E-04 -0.184607051801703E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.187500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.126342254673790E-03  0.140212666423291E-03 -0.442949071328356E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.000000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u.">  0.126920050416005E-03  0.179978747668020E-04 -0.180960865726244E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.125000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.912303640561198E-04 -0.591870438861720E-04  0.141765214363358E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.125000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u."> -0.605149889343252E-04 -0.443350265957149E-05  0.112525845898516E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.187500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.128871273634459E-03 -0.858393108736789E-04 -0.189025503942634E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.000000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.154508340174965E-03 -0.173986051405581E-03  0.442412791435501E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.625000000000000E-01  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.260112426049800E-03 -0.138176980693408E-03 -0.624831579909588E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.125000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.460721858679707E-04 -0.198545649499792E-03 -0.195215243788834E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.187500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.213735382260536E-03  0.114541750496920E-03 -0.169783405854367E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.000000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.125194500392075E-04 -0.120125200143861E-03  0.460341205671965E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.125000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.218518676965151E-03 -0.327172735630314E-04 -0.546266539333588E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.125000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u."> -0.895892933200631E-04 -0.296911141528286E-04 -0.105250911040762E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.187500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.125881311356965E-03  0.579658137091867E-04  0.862929470306276E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.250000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u."> -0.178528070159979E-04  0.698358638655799E-04 -0.140651972835827E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.312500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.157715218179196E-03  0.106947073398933E-03  0.129835994327298E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.375000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.154905793429506E-03 -0.600448891765551E-04  0.260793297106168E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.437500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.145550519751372E-03  0.755882074426571E-04  0.141592326475631E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.250000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.465606624723536E-04 -0.158041344751470E-03 -0.500207655984083E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.375000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.982196851494210E-05  0.385935085407564E-04 -0.208827136859970E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.375000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u."> -0.134176214003442E-03 -0.699443454979540E-04  0.387127069150134E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.437500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.157908120175997E-03  0.412713182460327E-04  0.109131557426048E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u."> -0.136550769983679E-03 -0.134120852621916E-03  0.184743269956249E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.312500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.314959387642352E-03  0.167172271911421E-03 -0.130237057453362E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.375000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.111202303125871E-04 -0.115010733796292E-03  0.563044742069738E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.437500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.168438285387280E-03  0.534395790964090E-04 -0.162530447431564E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.250000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u.">  0.197848360975020E-03 -0.185958148141642E-03  0.198699266482573E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.375000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.210486019531643E-03 -0.669273968749957E-04 -0.796328273155873E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.375000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u."> -0.927373785192037E-04  0.109404688357315E-03 -0.387984165276668E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.437500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.604833242656376E-04  0.420606931108760E-04 -0.153257380880538E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.250000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.110714977189123E-03 -0.160846285039163E-04 -0.122133127194751E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.312500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.502378760969865E-04  0.188368530677010E-04  0.115799436000991E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.375000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.677253056168566E-04 -0.138651653142232E-03  0.642475795807916E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.437500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.538632473647614E-04 -0.228907159787589E-03  0.137973024936929E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.250000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.401053957007952E-04 -0.176010869505839E-05 -0.684731065072164E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.375000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.501582012244254E-04  0.244988690562860E-04 -0.841360849161334E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.375000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.220990734743835E-04  0.164537264534026E-04  0.171206875875943E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.437500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.190204898073546E-03  0.179822585578552E-03  0.563671631693833E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.250000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u."> -0.197385609307948E-04 -0.167496318008868E-03  0.304937677261407E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.312500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.113235906978138E-03  0.171017263224082E-03  0.203498531291649E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.375000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.104337455796638E-03 -0.158652343504317E-03 -0.154252130407631E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.437500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.169079423178791E-03 -0.196533078057630E-04  0.138758850720730E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.250000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u.">  0.846920811500804E-05  0.198180590642529E-03  0.660095092037562E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.375000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.446119406660184E-04  0.434396180072762E-04  0.169619078568160E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.375000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.438593272857510E-04 -0.209746681666534E-03  0.555643012940300E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.437500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.237172724659217E-04 -0.183754778395912E-03  0.102353691708474E-06</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.500000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.386400779516122E-05  0.772790059959347E-04  0.151911564968765E-05</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.562500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.712756259835027E-04 -0.170240159694502E-03 -0.137819028095610E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.625000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.189880367930130E-03 -0.865425313505124E-04 -0.174223723294778E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.687500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.431862183297811E-04  0.315154907013134E-04  0.199040553819728E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.500000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.203191749422821E-03  0.184293594415501E-03  0.121104788549446E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.625000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.196657240960396E-03  0.145784761051432E-03  0.167935826403850E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.625000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.656025645092990E-04 -0.326070970379336E-04 -0.479385799015068E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.687500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.362993497209877E-04  0.467748089138766E-04 -0.597314390708341E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.500000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.477186354747925E-04 -0.223102806695897E-03  0.158993085057717E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.562500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.126039832999723E-03  0.149622053235773E-03  0.941380106534280E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.625000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u.">  0.412927205642799E-04  0.459501647196487E-04  0.894379778614994E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.687500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.207054364240962E-03 -0.394737814658815E-04 -0.275230262717256E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.500000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.210469755244871E-03  0.209598767087544E-04 -0.233234617387324E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.625000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.140986883891115E-03 -0.927739825610815E-04  0.133141675488343E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.625000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.371673035685844E-04 -0.159692881333975E-03  0.307117851146275E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.687500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.869989613535760E-04  0.846511419163869E-04 -0.966435142987550E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.500000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.924645842683845E-04  0.980506104614278E-04 -0.865945582780553E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.562500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.832776976231563E-04  0.147827253242522E-03  0.271531075481712E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.625000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.861216865094187E-05  0.955503872661183E-04 -0.417773721715261E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.687500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.833541040023784E-04 -0.142676795705685E-03 -0.100970921161700E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.500000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.167179700375090E-03  0.123571481421571E-03  0.173816485916966E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.625000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.129584819275011E-03 -0.898597337133475E-04  0.776572452275987E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.625000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u."> -0.553912851164919E-04 -0.132864252742696E-03  0.373923850511900E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.687500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.129405564059195E-03 -0.126159660485269E-03  0.618024227212887E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.500000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.402290461528749E-03 -0.215931630953307E-03 -0.243069729758466E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.562500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.974627161476830E-04  0.323446744790230E-04  0.483143549415237E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.625000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u.">  0.200110286728990E-03  0.702043358585041E-04  0.203983636562196E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.687500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.929176548976005E-04  0.649817415358525E-04 -0.360342434397438E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.500000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.226195335549803E-03 -0.663636780414578E-04 -0.479034535596091E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.625000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.233331460002566E-03 -0.817993149615474E-04 -0.414882646849088E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.625000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u."> -0.864983275536261E-04  0.225111449363940E-03 -0.100910520255916E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.687500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.227548299570892E-03 -0.250345720530691E-03  0.436925884145270E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.750000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.135123173192358E-03 -0.249935002425226E-04  0.108986103076074E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.812500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.638045285716194E-04  0.271380454571124E-04 -0.867326236449513E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.875000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u.">  0.240439667744012E-04 -0.735680079755209E-04 -0.177718074428019E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.937500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.329035667600593E-04 -0.360347525677656E-04 -0.304352197209604E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.750000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u.">  0.303440540513149E-05  0.175355891493714E-03  0.182826805500145E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.875000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.168822781280482E-03 -0.754713098052796E-04 -0.223715576061339E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.875000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.184784540717989E-03 -0.377870136042186E-04 -0.918581513609109E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.937500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.582532797242281E-04 -0.136276934241116E-04  0.240440322609828E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.750000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u."> -0.125237423000725E-03  0.124573651171347E-06  0.137165246505644E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.812500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.173236417614824E-03 -0.694703700981714E-04  0.488003320169484E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.875000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.833973328004179E-04  0.795560783126725E-04  0.193506617047687E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.937500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.147707002794784E-03 -0.419890370732788E-04 -0.154666002243810E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.750000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.334609782652626E-03 -0.201566474340017E-03 -0.487555669662493E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.875000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.101119087887592E-04 -0.362170859033289E-04 -0.933793011840420E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.875000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.179854064604569E-04 -0.687639799656687E-04 -0.656693693975041E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.937500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.241372063500587E-03  0.200670956914670E-03 -0.894157493138834E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.750000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u."> -0.134253738707746E-03  0.515371890960586E-04 -0.466201360197796E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.812500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.126207651729349E-03  0.262081631905466E-04  0.111499623569208E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.875000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.226119850421402E-03  0.165186639861081E-03 -0.110558835329847E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.937500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.209680097575907E-03  0.109161058978404E-03  0.160534568521524E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.750000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u."> -0.161331670104934E-05  0.663392713761404E-04 -0.878782630208196E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.875000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.135949976356715E-04  0.374792187824855E-04  0.338958615504786E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.875000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u."> -0.136550665584866E-03  0.136823628941922E-03  0.114469940861704E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.937500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.250576930742585E-04  0.109654278579430E-03  0.192069583711828E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.750000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.309251431337023E-04  0.149076209464289E-04  0.755961753723321E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.812500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u.">  0.157577888689324E-03  0.413068827638104E-04  0.684431841680710E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.875000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u.">  0.243386764428369E-03 -0.754817144374303E-05  0.150618490670157E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.937500000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u."> -0.251984234241905E-04  0.145556991377900E-03 -0.129222980072999E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.750000000000000E+00  0.875000000000000E+00</position>
+  <velocity unit="a.u.">  0.522058458496199E-05 -0.795550905091262E-05  0.106503782632038E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.875000000000000E+00  0.937500000000000E+00</position>
+  <velocity unit="a.u.">  0.223718195328296E-04  0.128790123486330E-03  0.154238705037806E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.875000000000000E+00  0.750000000000000E+00</position>
+  <velocity unit="a.u.">  0.951508418418961E-04 -0.167690015858260E-03 -0.159747305186485E-03</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.937500000000000E+00  0.812500000000000E+00</position>
+  <velocity unit="a.u."> -0.725911542367024E-04 -0.408414549820671E-04  0.226672363806979E-04</velocity>
+  <force    unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00   </force>
+ </atom>
+ 
+ </structure>

@@ -1,0 +1,2442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="structure" mdstep="0">
+ 
+<unitcell>
+ <vector unit="angstrom">   24.46920   0.00000   0.00000</vector>
+ <vector unit="angstrom">    0.00000  17.30234   0.00000</vector>
+ <vector unit="angstrom">    0.00000   0.00000 461.39566</vector>
+</unitcell>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.312500000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.312500000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.312500000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.312500000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.312500000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.312500000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.312500000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.937500000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.625000000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.937500000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.625000000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.937500000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.625000000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.937500000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.625000000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.937500000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.625000000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.937500000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.625000000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.937500000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.625000000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.625000000000000E-02</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.156250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.125000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.156250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.125000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.156250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.125000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.156250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.125000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.156250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.125000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.156250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.125000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.156250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.125000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.125000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.218750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.187500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.218750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.187500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.218750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.187500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.218750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.187500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.218750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.187500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.218750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.187500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.218750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.187500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.187500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.281250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.250000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.281250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.250000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.281250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.250000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.281250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.250000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.281250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.250000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.281250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.250000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.281250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.250000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.250000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.343750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.312500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.343750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.312500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.343750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.312500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.343750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.312500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.343750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.312500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.343750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.312500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.343750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.312500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.312500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.406250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.375000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.406250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.375000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.406250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.375000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.406250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.375000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.406250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.375000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.406250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.375000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.406250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.375000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.375000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.468750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.437500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.468750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.437500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.468750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.437500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.468750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.437500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.468750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.437500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.468750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.437500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.468750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.437500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.437500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.531250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.500000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.531250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.500000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.531250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.500000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.531250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.500000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.531250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.500000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.531250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.500000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.531250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.500000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.500000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.593750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.562500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.593750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.562500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.593750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.562500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.593750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.562500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.593750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.562500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.593750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.562500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.593750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.562500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.562500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.656250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.656250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.656250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.656250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.656250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.656250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.656250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.718750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.687500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.718750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.687500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.718750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.687500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.718750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.687500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.718750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.687500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.718750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.687500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.718750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.687500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.687500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.781250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.750000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.781250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.750000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.781250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.750000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.781250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.750000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.781250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.750000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.781250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.750000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.781250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.750000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.750000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.843750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.812500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.843750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.812500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.843750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.812500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.843750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.812500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.843750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.812500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.843750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.812500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.843750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.812500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.812500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.906250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.875000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.906250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.875000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.906250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.875000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.906250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.875000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.906250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.875000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.906250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.875000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.906250000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.875000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.875000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.968750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.937500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.968750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.937500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.968750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.937500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.968750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.937500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.968750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.937500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.968750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.937500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.968750000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.937500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.937500000000000E-01</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.103125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.100000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.103125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.100000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.103125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.100000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.103125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.100000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.103125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.100000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.103125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.100000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.103125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.100000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.100000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.109375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.106250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.109375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.106250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.109375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.106250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.109375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.106250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.109375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.106250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.109375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.106250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.109375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.106250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.106250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.115625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.112500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.115625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.112500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.115625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.112500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.115625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.112500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.115625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.112500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.115625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.112500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.115625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.112500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.112500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.121875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.118750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.121875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.118750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.121875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.118750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.121875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.118750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.121875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.118750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.121875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.118750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.121875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.118750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.118750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.128125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.128125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.128125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.128125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.128125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.128125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.128125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.134375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.131250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.134375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.131250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.134375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.131250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.134375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.131250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.134375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.131250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.134375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.131250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.134375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.131250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.131250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.140625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.137500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.140625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.137500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.140625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.137500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.140625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.137500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.140625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.137500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.140625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.137500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.140625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.137500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.137500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.146875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.143750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.146875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.143750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.146875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.143750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.146875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.143750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.146875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.143750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.146875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.143750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.146875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.143750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.143750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.153125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.150000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.153125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.150000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.153125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.150000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.153125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.150000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.153125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.150000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.153125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.150000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.153125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.150000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.150000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.159375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.156250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.159375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.156250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.159375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.156250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.159375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.156250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.159375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.156250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.159375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.156250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.159375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.156250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.156250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.165625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.162500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.165625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.162500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.165625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.162500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.165625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.162500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.165625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.162500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.165625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.162500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.165625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.162500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.162500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.171875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.168750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.171875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.168750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.171875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.168750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.171875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.168750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.171875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.168750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.171875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.168750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.171875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.168750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.168750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.178125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.175000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.178125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.175000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.178125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.175000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.178125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.175000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.178125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.175000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.178125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.175000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.178125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.175000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.175000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.184375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.181250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.184375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.181250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.184375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.181250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.184375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.181250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.184375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.181250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.184375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.181250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.184375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.181250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.181250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.190625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.190625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.190625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.190625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.190625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.190625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.190625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.196875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.193750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.196875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.193750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.196875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.193750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.196875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.193750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.196875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.193750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.196875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.193750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.196875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.193750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.193750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.203125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.203125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.203125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.203125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.203125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.203125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.203125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.209375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.206250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.209375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.206250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.209375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.206250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.209375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.206250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.209375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.206250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.209375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.206250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.209375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.206250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.206250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.215625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.212500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.215625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.212500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.215625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.212500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.215625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.212500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.215625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.212500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.215625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.212500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.215625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.212500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.212500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.221875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.218750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.221875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.218750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.221875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.218750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.221875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.218750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.221875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.218750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.221875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.218750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.221875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.218750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.218750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.228125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.225000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.228125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.225000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.228125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.225000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.228125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.225000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.228125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.225000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.228125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.225000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.228125000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.225000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.225000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.234375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.231250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.234375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.231250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.234375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.231250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.234375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.231250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.234375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.231250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.234375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.231250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.234375000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.231250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.231250000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.240625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.237500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.240625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.237500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.240625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.237500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.240625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.237500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.240625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.237500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.240625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.237500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.240625000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.237500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.237500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.833333333333333E-01  0.246875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.243750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.833333333333333E-01  0.246875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.243750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.250000000000000E+00  0.246875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.243750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.246875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.243750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.416666666666667E+00  0.250000000000000E+00  0.246875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.243750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.833333333333333E-01  0.416666666666667E+00  0.246875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.243750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.416666666666667E+00  0.246875000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.243750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.243750000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.000000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.166666666666667E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.166666666666667E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.166666666666667E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.333333333333333E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.333333333333333E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.333333333333333E+00  0.333333333333333E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Au" class="" motion="free">
+  <position unit="internal">  0.166666666666667E+00  0.500000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+</structure>

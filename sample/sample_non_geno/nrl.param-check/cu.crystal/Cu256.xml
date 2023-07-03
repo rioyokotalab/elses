@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="fcc.crystal" mdstep="0">
+ 
+ <unitcell>
+   <vector unit="angstrom"> 14.10  0.00  0.00 </vector>
+   <vector unit="angstrom">  0.00 14.10  0.00 </vector>
+   <vector unit="angstrom">  0.00  0.00 14.10 </vector>
+ </unitcell>
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.250000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.125000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.000000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.125000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.125000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.000000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.125000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.125000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.000000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.125000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.125000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.000000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.125000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.250000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.375000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.250000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.375000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.375000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.250000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.375000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.250000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.375000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.250000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.375000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.250000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.375000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.250000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.375000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.500000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.625000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.500000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.625000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.500000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.625000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.500000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.625000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.500000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.625000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.500000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.625000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.500000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.625000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.500000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.625000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.750000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.875000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.750000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.875000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.750000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.875000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.750000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.875000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.750000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.875000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.750000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.875000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.750000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.875000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.750000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.875000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.000000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.125000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.000000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.125000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.000000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.125000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.000000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.125000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.000000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.125000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.000000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.125000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.000000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.125000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.000000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.125000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.250000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.375000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.250000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.375000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.375000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.250000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.375000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.250000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.375000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.250000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.375000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.250000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.375000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.250000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.375000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.500000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.625000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.500000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.625000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.500000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.625000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.500000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.625000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.500000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.625000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.500000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.625000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.500000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.625000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.500000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.625000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.750000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.875000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.750000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.875000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.750000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.875000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.750000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.875000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.750000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.875000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.750000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.875000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.750000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.875000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.750000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.875000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.000000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.125000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.000000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.125000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.000000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.125000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.000000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.125000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.000000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.125000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.000000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.125000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.000000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.125000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.000000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.125000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.250000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.375000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.250000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.375000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.375000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.250000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.375000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.250000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.375000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.250000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.375000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.250000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.375000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.250000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.375000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.500000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.625000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.500000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.625000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.500000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.625000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.500000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.625000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.500000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.625000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.500000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.625000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.500000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.625000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.500000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.625000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.750000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.875000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.750000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.875000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.750000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.875000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.750000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.875000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.750000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.875000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.750000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.875000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.750000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.875000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.750000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.875000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.000000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.125000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.000000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.125000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.000000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.125000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.000000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.125000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.000000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.125000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.000000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.125000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.000000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.125000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.000000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.125000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.250000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.375000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.250000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.375000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.375000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.250000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.375000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.250000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.375000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.250000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.375000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.250000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.375000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.250000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.375000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.500000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.625000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.500000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.625000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.500000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.625000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.500000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.625000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.500000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.625000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.500000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.625000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.500000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.625000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.500000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.625000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.750000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.875000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.750000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.875000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.750000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.875000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.750000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.875000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.750000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.875000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.750000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.875000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.750000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.875000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.750000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Cu" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.875000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ </structure>

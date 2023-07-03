@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="benzene_monomer.xyz" mdstep="0">
+ 
+ 
+ <unitcell>
+   <vector unit="a.u.">  0.188972687777436E+02  0.000000000000000E+00  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.188972687777436E+02  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.188972687777436E+02</vector>
+ </unitcell>
+ 
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.250000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+ <atom element="H" class="" motion="free">
+  <position unit="internal"> -0.100000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" class="" motion="free">
+  <position unit="internal">  0.700000000000000E-01  0.121243600000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" class="" motion="free">
+  <position unit="internal">  0.700000000000000E-01 -0.121243600000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" class="" motion="free">
+  <position unit="internal">  0.210000000000000E+00  0.121243600000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" class="" motion="free">
+  <position unit="internal">  0.210000000000000E+00 -0.121243600000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" class="" motion="free">
+  <position unit="internal">  0.280000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" class="" motion="free">
+  <position unit="internal">  0.200000000000000E-01  0.207846100000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" class="" motion="free">
+  <position unit="internal">  0.200000000000000E-01 -0.207846100000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" class="" motion="free">
+  <position unit="internal">  0.260000000000000E+00  0.207846100000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" class="" motion="free">
+  <position unit="internal">  0.260000000000000E+00 -0.207846100000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" class="" motion="free">
+  <position unit="internal">  0.380000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ </structure>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="FeO" mdstep="0">
+ 
+ 
+ <unitcell>
+   <vector unit="angstrom">  10.0   0.0   0.0 </vector>
+   <vector unit="angstrom">   0.0  10.0   0.0 </vector>
+   <vector unit="angstrom">   0.0   0.0  10.0 </vector>
+ </unitcell>
+ 
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.250000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+ <atom element="Fe" class="" motion="free">
+ <position unit="angstrom">  0.000    0.000  0.0</position>
+ </atom>
+
+ <atom element="O" class="" motion="free">
+ <position unit="angstrom">  0.0  0.0  1.643</position>
+ </atom>
+ 
+ 
+ </structure>

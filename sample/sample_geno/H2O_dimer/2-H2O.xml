@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="2-H2O" mdstep="                 0">
+ 
+ <unitcell>
+   <vector unit="a.u.">  0.188972687777436E+03  0.000000000000000E+00  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.188972687777436E+03  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.188972687777436E+03</vector>
+ </unitcell>
+ 
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.250000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+ <atom element="O" class="" motion="free">
+  <position unit="angstrom">  1.387366   -0.027185    0.120215 </position>
+ </atom>
+ 
+ <atom element="O" class="" motion="free">
+  <position unit="angstrom"> -1.488157    0.026982   -0.118029 </position>
+ </atom>
+ 
+ <atom element="H" class="" motion="free">
+  <position unit="angstrom">   1.619014    0.835893   -0.238997</position>
+ </atom>
+ 
+ <atom element="H" class="" motion="free">
+  <position unit="angstrom"> 1.621021   -0.651431   -0.574997 </position>
+ </atom>
+ 
+ <atom element="H" class="" motion="free">
+  <position unit="angstrom"> -0.537183   -0.015563    0.066352 </position>
+ </atom>
+ 
+ <atom element="H" class="" motion="free">
+  <position unit="angstrom"> -1.896521   -0.167281    0.730156  </position>
+ </atom>
+ 
+ </structure>

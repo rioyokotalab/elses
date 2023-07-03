@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="CNT" mdstep="0">
+ 
+ <total_number_of_atoms> 100 </total_number_of_atoms>
+ 
+ 
+ <unitcell>
+   <vector unit="a.u.">  0.188972687777436E+02  0.000000000000000E+00  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.188972687777436E+02  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.232247433278468E+02</vector>
+ </unitcell>
+ 
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.250000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.138000000000000E+00  0.310000000000000E+00 -0.399511798209927E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.700000000000000E-01  0.332000000000000E+00 -0.299430431244915E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.337000000000000E+00 -0.350000000000000E-01 -0.399511798209927E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.337000000000000E+00  0.350000000000000E-01 -0.299430431244915E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.294000000000000E+00  0.170000000000000E+00 -0.299430431244915E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.252000000000000E+00  0.227000000000000E+00 -0.399511798209927E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.700000000000000E-01 -0.332000000000000E+00 -0.399511798209927E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.138000000000000E+00 -0.310000000000000E+00 -0.299430431244915E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.252000000000000E+00 -0.227000000000000E+00 -0.299430431244915E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.294000000000000E+00 -0.169000000000000E+00 -0.399511798209927E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.294000000000000E+00 -0.169000000000000E+00 -0.399511798209927E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.252000000000000E+00 -0.227000000000000E+00 -0.299430431244915E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.138000000000000E+00 -0.310000000000000E+00 -0.299430431244915E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.700000000000000E-01 -0.332000000000000E+00 -0.399511798209927E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.252000000000000E+00  0.227000000000000E+00 -0.399511798209927E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.294000000000000E+00  0.170000000000000E+00 -0.299430431244915E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.337000000000000E+00  0.350000000000000E-01 -0.299430431244915E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.337000000000000E+00 -0.350000000000000E-01 -0.399511798209927E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.700000000000000E-01  0.332000000000000E+00 -0.299430431244915E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.138000000000000E+00  0.310000000000000E+00 -0.399511798209927E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.138000000000000E+00  0.310000000000000E+00 -0.199349064279902E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.700000000000000E-01  0.332000000000000E+00 -0.992676973148902E-01</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.337000000000000E+00 -0.350000000000000E-01 -0.199349064279902E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.337000000000000E+00  0.350000000000000E-01 -0.992676973148902E-01</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.294000000000000E+00  0.170000000000000E+00 -0.992676973148902E-01</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.252000000000000E+00  0.227000000000000E+00 -0.199349064279902E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.700000000000000E-01 -0.332000000000000E+00 -0.199349064279902E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.138000000000000E+00 -0.310000000000000E+00 -0.992676973148902E-01</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.252000000000000E+00 -0.227000000000000E+00 -0.992676973148902E-01</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.294000000000000E+00 -0.169000000000000E+00 -0.199349064279902E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.294000000000000E+00 -0.169000000000000E+00 -0.199349064279902E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.252000000000000E+00 -0.227000000000000E+00 -0.992676973148902E-01</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.138000000000000E+00 -0.310000000000000E+00 -0.992676973148902E-01</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.700000000000000E-01 -0.332000000000000E+00 -0.199349064279902E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.252000000000000E+00  0.227000000000000E+00 -0.199349064279902E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.294000000000000E+00  0.170000000000000E+00 -0.992676973148902E-01</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.337000000000000E+00  0.350000000000000E-01 -0.992676973148902E-01</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.337000000000000E+00 -0.350000000000000E-01 -0.199349064279902E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.700000000000000E-01  0.332000000000000E+00 -0.992676973148902E-01</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.138000000000000E+00  0.310000000000000E+00 -0.199349064279902E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.138000000000000E+00  0.310000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.700000000000000E-01  0.332000000000000E+00  0.100081366965012E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.337000000000000E+00 -0.350000000000000E-01  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.337000000000000E+00  0.350000000000000E-01  0.100081366965012E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.294000000000000E+00  0.170000000000000E+00  0.100081366965012E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.252000000000000E+00  0.227000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.700000000000000E-01 -0.332000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.138000000000000E+00 -0.310000000000000E+00  0.100081366965012E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.252000000000000E+00 -0.227000000000000E+00  0.100081366965012E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.294000000000000E+00 -0.169000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.294000000000000E+00 -0.169000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.252000000000000E+00 -0.227000000000000E+00  0.100081366965012E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.138000000000000E+00 -0.310000000000000E+00  0.100081366965012E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.700000000000000E-01 -0.332000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.252000000000000E+00  0.227000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.294000000000000E+00  0.170000000000000E+00  0.100081366965012E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.337000000000000E+00  0.350000000000000E-01  0.100081366965012E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.337000000000000E+00 -0.350000000000000E-01  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.700000000000000E-01  0.332000000000000E+00  0.100081366965012E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.138000000000000E+00  0.310000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.138000000000000E+00  0.310000000000000E+00  0.200162733930024E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.700000000000000E-01  0.332000000000000E+00  0.300244100895037E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.337000000000000E+00 -0.350000000000000E-01  0.200162733930024E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.337000000000000E+00  0.350000000000000E-01  0.300244100895037E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.294000000000000E+00  0.170000000000000E+00  0.300244100895037E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.252000000000000E+00  0.227000000000000E+00  0.200162733930024E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.700000000000000E-01 -0.332000000000000E+00  0.200162733930024E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.138000000000000E+00 -0.310000000000000E+00  0.300244100895037E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.252000000000000E+00 -0.227000000000000E+00  0.300244100895037E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.294000000000000E+00 -0.169000000000000E+00  0.200162733930024E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.294000000000000E+00 -0.169000000000000E+00  0.200162733930024E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.252000000000000E+00 -0.227000000000000E+00  0.300244100895037E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.138000000000000E+00 -0.310000000000000E+00  0.300244100895037E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.700000000000000E-01 -0.332000000000000E+00  0.200162733930024E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.252000000000000E+00  0.227000000000000E+00  0.200162733930024E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.294000000000000E+00  0.170000000000000E+00  0.300244100895037E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.337000000000000E+00  0.350000000000000E-01  0.300244100895037E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.337000000000000E+00 -0.350000000000000E-01  0.200162733930024E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.700000000000000E-01  0.332000000000000E+00  0.300244100895037E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.138000000000000E+00  0.310000000000000E+00  0.200162733930024E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.138000000000000E+00  0.310000000000000E+00  0.400325467860049E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.700000000000000E-01  0.332000000000000E+00  0.500406834825061E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.337000000000000E+00 -0.350000000000000E-01  0.400325467860049E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.337000000000000E+00  0.350000000000000E-01  0.500406834825061E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.294000000000000E+00  0.170000000000000E+00  0.500406834825061E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.252000000000000E+00  0.227000000000000E+00  0.400325467860049E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.700000000000000E-01 -0.332000000000000E+00  0.400325467860049E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.138000000000000E+00 -0.310000000000000E+00  0.500406834825061E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.252000000000000E+00 -0.227000000000000E+00  0.500406834825061E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal"> -0.294000000000000E+00 -0.169000000000000E+00  0.400325467860049E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.294000000000000E+00 -0.169000000000000E+00  0.400325467860049E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.252000000000000E+00 -0.227000000000000E+00  0.500406834825061E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.138000000000000E+00 -0.310000000000000E+00  0.500406834825061E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.700000000000000E-01 -0.332000000000000E+00  0.400325467860049E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.252000000000000E+00  0.227000000000000E+00  0.400325467860049E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.294000000000000E+00  0.170000000000000E+00  0.500406834825061E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.337000000000000E+00  0.350000000000000E-01  0.500406834825061E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.337000000000000E+00 -0.350000000000000E-01  0.400325467860049E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.700000000000000E-01  0.332000000000000E+00  0.500406834825061E+00</position>
+ </atom>
+ 
+ <atom element="C" motion="free">
+  <position unit="internal">  0.138000000000000E+00  0.310000000000000E+00  0.400325467860049E+00</position>
+ </atom>
+ 
+ </structure>

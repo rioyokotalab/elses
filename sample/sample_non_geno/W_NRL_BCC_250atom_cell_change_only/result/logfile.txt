@@ -1,0 +1,3729 @@
+ INFO-MPI:mpi_wrapper_initial(true routine)
+ INFO-MPI:myrank, nprocs=           0           1
+ -----------------------
+ |ELSES standard output|
+ -----------------------
+ INFO:The reset period of the system clock (sec) =   214748.364700000     
+ INFO:The largest INTEGER-type number: huge(0)   =  2147483647
+ @@ ini_load_geno
+ @@ elses_xml_load_config.. is done
+   Config file name =config.xml
+   The verbose level =           1
+ ...call config_load
+ ...end config_load
+   nos   =           1
+   noa   =         250
+ c_system=NRL_leg                         
+ S_is_I  = F
+ @@ ini_load_common_alloc
+ @@ elses_xml_load_element_geno
+       nos =           1
+  c_system =NRL_leg                         
+ @@ LSES_ALLOC_NVAL:nos,imode=           1           0
+ @@ ALLOC_elem_name:NOS_DEF=           1
+ @@ ALLOC_AWT:NOS_DEF=           1
+ @@ ALLOC_VAL_ELEC:NOS_DEF=           1
+ @@ load_structure_alloc
+       noa =         250
+ @@ ALLOC_AMM:NOA_DEF=         250
+ @@ set_unitcell_info
+ Info : The unit cell vectors in the input file are as follows
+  vector a=(       29.6687119811        0.0000000000        0.0000000000)
+  vector b=(        0.0000000000       29.6687119811        0.0000000000)
+  vector c=(        0.0000000000        0.0000000000       29.6687119811)
+ deviation from the orthogonality (i,j)           2           1
+  0.000000000000000E+000
+ deviation from the orthogonality (i,j)           3           1
+  0.000000000000000E+000
+ deviation from the orthogonality (i,j)           1           2
+  0.000000000000000E+000
+ deviation from the orthogonality (i,j)           3           2
+  0.000000000000000E+000
+ deviation from the orthogonality (i,j)           1           3
+  0.000000000000000E+000
+ deviation from the orthogonality (i,j)           2           3
+  0.000000000000000E+000
+  det=   26115.3636470492     
+ Info : The unit cell vectors are redefined as follows
+  vector a=(       29.6687119811        0.0000000000        0.0000000000)
+  vector b=(        0.0000000000       29.6687119811        0.0000000000)
+  vector c=(        0.0000000000        0.0000000000       29.6687119811)
+  ax*ay*ax =   26115.3636470492     
+ ax =   29.6687119810574     
+ ay =   29.6687119810574     
+ az =   29.6687119810574     
+@@ elses_md_motion_ini_set: mode = cell_change_only    
+ @@ set_structure_data
+ @@ GENETX:NOA,I_PBC_X=         250           1           1           1
+ @@ set_atm_position_from_tx
+   Set noav=         250
+ solver scheme=eigen           
+ noak_min_tmp =         200
+ nrecl_tmp    =          30
+ @@ load_xml_conditions
+ @@ LSES_LOAD_ELEC_TEMPERATURE
+  temperature for elec (au,eV)=  5.000000000000000E-003  0.136058000000000     
+ ntlimit     =         -10
+ r_mem_limit =  0.000000000000000E+000
+ .. ended : ini_load_common_alloc
+ @@ LSES_NRL_INI
+  InitRepulsiveBuilder
+   183.850000000000     
+ awt(1)=   183.850000000000     
+  i,the_elec_count(i)=   6.00000000000000     
+  i,val_elec_atm(i)=   6.00000000000000     
+ rcut_ham=   16.5000000000000     
+        nos,nvl   =           1           9
+    r_cut_book    =   16.5000000000000     
+            nss   =           1
+ elem_name(nss)   =W       
+       awt(nss)   =   183.850000000000     
+ val_elec_atm(nss)=   6.00000000000000     
+  @@ set_tot_elec_num:nos=           1
+ nss,val_elec_atm=           1   6.00000000000000     
+  total number of elec.: val_elec_tot=   1500.00000000000     
+  Note: tot_elec_eig_leg is also set
+            for compatibility to old code
+ @@ ini_set_compat
+ @@ LSES_SET_MASS2
+ js,amm=           1  2.983846764423820E-006
+ js,amm=           2  2.983846764423820E-006
+ js,amm=           3  2.983846764423820E-006
+ js,amm=           4  2.983846764423820E-006
+ js,amm=           5  2.983846764423820E-006
+ ....ended:LSES_SET_MASS
+ @@ elses_init_compat2:NOA,NOS,NVL=         250           1           9
+ @@ LSES_ALLOC_INTF
+ ..is succesfully done
+  total number of bases=        2250
+ @@ LSES_ALLOC_MAT2:n_tot,nvl=        2250           9
+ R_BASE is prepared.
+ @@ Allocation of r_base
+   nvl, n_tot_bae=           9        2250
+ ....ended:LSES_INIT_COMPAT
+ @@ for_conversion_mode
+  ... is ignored
+  @@ chk_input_data
+  ... ended successfully; chk_input_data
+ @@ elses_ini_set_velocity....is skipped
+elaps-time(befor  MDloop)=              0            0.1491000000
+ --------MD loop starts:itemdmx=          31
+ --------MD loop starts:itemdmx=          31
+ --------MD loop starts:itemdmx=          31
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           1
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@ qm_domain_ini_setting
+   solver scheme=eigen
+ @@ qm_domain_ini_compat
+ c_system=NRL_leg                         
+   nvl =           9
+   n_base_eig_leg =        2250
+ INFO:length of list =         137
+ INFO: NOAO=NOAV (Non-order-N memory for eigen solver)
+ @@ LSES_INIT_ALLOC2:NOA=         250
+    NOAV =         250
+    NOAO =         250
+    NOAS =         250
+    NOAB =         250
+    NOAB0=         250
+    NVL  =           9
+  Alloc: JSV4JSD, NJSD
+ @@ LSES_ALLOC_ATM:allocation of matrices
+ ..is succesfully done
+ @@ ALLOC_MAT1:matrix allocation :imode=           1
+   noav_def=         250
+   noas_def=         250
+    nvl_def=           9
+ ... DBIJ      : size (GB)=  4.050000000000000E-002
+ ... DBIJ2     : size (GB)=  4.050000000000000E-002
+ ... DHIJ      : size (GB)=  4.050000000000000E-002
+ ... total     : size (GB)=  0.121500000000000     
+ Allocation of dbij
+ Allocation of dbij2 and (only for SYM_DBIJ)
+ Allocation of dhij
+ @@ LSES_SET_JS4JSV
+  Set JSV4JS and JS4JSV for equivalent
+ @@ LSES_INIT_ALLOC_NRL_LEG:NOA=         250
+    NOAV =         250
+    NOAO =         250
+    NOAS =         250
+    NOAB =         250
+    NOAB0=         250
+    NVL  =           9
+ @@ ALLOC_MAT_DSIJ_DPIJ
+    :matrix allocation :imode=           0
+   noav_def=         250
+   noas_def=         250
+    nvl_def=           9
+ ... DSIJ      : size (GB)=  4.050000000000000E-002
+ ... DPIJ     : size (GB)=  4.050000000000000E-002
+ ... total     : size (GB)=  8.100000000000000E-002
+ Allocation of dsij
+ Allocation of dpij
+ @@ LSES_SET_JS4JSV
+  Set JSV4JS and JS4JSV for equivalent
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   13.2844979019660     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=           1
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+  n_tot_base=        2250
+ @@ Allocation for EIG_LEG
+ n_base_eig_leg is set to=        2250
+   total matrix size in GB =  0.162018000000000     
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0593000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   8903.30693030517        10705.5086033311     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   8455.50860333250     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :    45000
+* performance is degraded due to small WORK size
+* WORK size is enlarged   to    153000
+  TIME for LAPACK (DSYGV) =             6.4037000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        6.4895000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0040000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.6132000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -1.645249863805470E-008
+ FORCE           1 -1.645249888963026E-008
+ FORCE           1 -1.645249889759915E-008
+ FORCE           2 -1.645251682956108E-008
+ FORCE           2 -1.645251531108173E-008
+ FORCE           2  8.711872699406425E-009
+ FORCE           3 -1.645253520018443E-008
+ FORCE           3 -1.645253405182799E-008
+ FORCE           3 -1.645237166837156E-008
+ FORCE           4 -1.645259768744481E-008
+ FORCE           4 -1.645259809513532E-008
+ FORCE           4  2.464258397854656E-007
+ FORCE           5 -1.645243599220265E-008
+ FORCE           5 -1.645243618933771E-008
+ FORCE           5  2.464263047734076E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   18.9682806077505     
+ ETB0 as 2 Tr[rho H_{TB}] =   18.9682806077505     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   18.9682806077508     
+ ETB  as 2 Tr[pi S] =   18.9682806077508     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   18.9682806077505     
+ ETB  as 2 Tr[rho H] =   18.9682806077505     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          0
+@@ elses_md_output_main: step_count =          0
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       1          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   18.9682806077505     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       1       0         18.968281         18.968281          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=              1            9.4472000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           2
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   13.4321034342101     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=           2
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   8580.88203276161        10251.4305565594     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   8001.43055655939     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             6.3978000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        6.4653000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0047000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.4972000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -1.973556747615190E-008
+ FORCE           1 -1.973556762636811E-008
+ FORCE           1 -1.973556712145516E-008
+ FORCE           2 -1.973558450378419E-008
+ FORCE           2 -1.973558376424311E-008
+ FORCE           2  7.111634950841031E-009
+ FORCE           3 -1.973560155737973E-008
+ FORCE           3 -1.973560204311585E-008
+ FORCE           3 -1.973543450622627E-008
+ FORCE           4 -1.973565853005243E-008
+ FORCE           4 -1.973565952134525E-008
+ FORCE           4  2.275871463291942E-007
+ FORCE           5 -1.973550848506406E-008
+ FORCE           5 -1.973550815286451E-008
+ FORCE           5  2.275875887782484E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   14.8088734266166     
+ ETB0 as 2 Tr[rho H_{TB}] =   14.8088734266166     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   14.8088734266156     
+ ETB  as 2 Tr[pi S] =   14.8088734266156     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   14.8088734266166     
+ ETB  as 2 Tr[rho H] =   14.8088734266166     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          1
+@@ elses_md_output_main: step_count =          1
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       2          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   14.8088734266166     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       2       1         14.808873         14.808873          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000009537
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=              2            9.4202000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           3
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   13.5797089664541     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=           3
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   8270.85444895383        9821.43378621132     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   7571.43378621700     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.5913000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.6602000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0040000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.6124000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -2.301697339212976E-008
+ FORCE           1 -2.301697334350329E-008
+ FORCE           1 -2.301697234086022E-008
+ FORCE           2 -2.301698898882355E-008
+ FORCE           2 -2.301698930123301E-008
+ FORCE           2  4.952155752121354E-009
+ FORCE           3 -2.301700648362669E-008
+ FORCE           3 -2.301700642590478E-008
+ FORCE           3 -2.301683812305178E-008
+ FORCE           4 -2.301705838311753E-008
+ FORCE           4 -2.301705825489707E-008
+ FORCE           4  2.114395745036585E-007
+ FORCE           5 -2.301691926152026E-008
+ FORCE           5 -2.301691980123610E-008
+ FORCE           5  2.114399954777305E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   11.3188579457448     
+ ETB0 as 2 Tr[rho H_{TB}] =   11.3188579457448     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   11.3188579457445     
+ ETB  as 2 Tr[pi S] =   11.3188579457445     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   11.3188579457448     
+ ETB  as 2 Tr[rho H] =   11.3188579457448     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          2
+@@ elses_md_output_main: step_count =          2
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       3          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   11.3188579457448     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       3       2         11.318858         11.318858          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000009537
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=              3            8.4711000000
+TIME:mpi_check(fin)=         0.0000009537
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           4
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   13.7273144986982     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=           4
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0429000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   7972.75663967063        9414.32395410443     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   7164.32395411793     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.4124000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.4882000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0036000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.6178000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -2.603299628802349E-008
+ FORCE           1 -2.603299697979868E-008
+ FORCE           1 -2.603299683082930E-008
+ FORCE           2 -2.603301246761486E-008
+ FORCE           2 -2.603301228066113E-008
+ FORCE           2  2.694811012291204E-009
+ FORCE           3 -2.603302677789261E-008
+ FORCE           3 -2.603302737854569E-008
+ FORCE           3 -2.603286557698565E-008
+ FORCE           4 -2.603307543809736E-008
+ FORCE           4 -2.603307522609179E-008
+ FORCE           4  1.980930951800012E-007
+ FORCE           5 -2.603294844928314E-008
+ FORCE           5 -2.603294915981503E-008
+ FORCE           5  1.980934897631050E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   8.42572372294136     
+ ETB0 as 2 Tr[rho H_{TB}] =   8.42572372294136     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   8.42572372294143     
+ ETB  as 2 Tr[pi S] =   8.42572372294143     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   8.42572372294136     
+ ETB  as 2 Tr[rho H] =   8.42572372294136     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          3
+@@ elses_md_output_main: step_count =          3
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       4          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   8.42572372294136     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       4       3          8.425724          8.425724          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=              4            8.5207000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           5
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   13.8749200309423     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=           5
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0427000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   7686.20733131592        9028.96987622676     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   6778.96987622479     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.7495000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.8184000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0042000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.6763000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -2.858293758677220E-008
+ FORCE           1 -2.858293792127567E-008
+ FORCE           1 -2.858293722416078E-008
+ FORCE           2 -2.858295208248240E-008
+ FORCE           2 -2.858295200495517E-008
+ FORCE           2  6.352455847723768E-010
+ FORCE           3 -2.858296554854951E-008
+ FORCE           3 -2.858296563660028E-008
+ FORCE           3 -2.858281168710173E-008
+ FORCE           4 -2.858300846369910E-008
+ FORCE           4 -2.858300905891931E-008
+ FORCE           4  1.874033224423605E-007
+ FORCE           5 -2.858289508984174E-008
+ FORCE           5 -2.858289547413720E-008
+ FORCE           5  1.874036876509648E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   6.06491572830953     
+ ETB0 as 2 Tr[rho H_{TB}] =   6.06491572830953     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   6.06491572831062     
+ ETB  as 2 Tr[pi S] =   6.06491572831062     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   6.06491572830953     
+ ETB  as 2 Tr[rho H] =   6.06491572830953     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          4
+@@ elses_md_output_main: step_count =          4
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       5          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   6.06491572830953     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       5       4          6.064916          6.064916          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=              5            9.0573000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           6
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   14.0225255631863     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=           6
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0427000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   7410.89848667978        8664.30059478803     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   6414.30059477396     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.3457000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.4296000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0798000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.6303000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -3.057502053057867E-008
+ FORCE           1 -3.057502169783073E-008
+ FORCE           1 -3.057502121686510E-008
+ FORCE           2 -3.057503426215165E-008
+ FORCE           2 -3.057503484288591E-008
+ FORCE           2 -1.083169267622721E-009
+ FORCE           3 -3.057504676310096E-008
+ FORCE           3 -3.057504698733768E-008
+ FORCE           3 -3.057490275124536E-008
+ FORCE           4 -3.057508387405722E-008
+ FORCE           4 -3.057508386489910E-008
+ FORCE           4  1.790558820817289E-007
+ FORCE           5 -3.057498357581867E-008
+ FORCE           5 -3.057498327804255E-008
+ FORCE           5  1.790562160631896E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   4.17913911314499     
+ ETB0 as 2 Tr[rho H_{TB}] =   4.17913911314499     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   4.17913911314459     
+ ETB  as 2 Tr[pi S] =   4.17913911314459     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   4.17913911314499     
+ ETB  as 2 Tr[rho H] =   4.17913911314499     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          5
+@@ elses_md_output_main: step_count =          5
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       6          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   4.17913911314499     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       6       5          4.179139          4.179139          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000009537
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=              6            8.5551000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           7
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   14.1701310954304     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=           7
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0427000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   7146.56333030115        8319.29809643841     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   6069.29809644445     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.1245000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.1955000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0042000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.6561000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -3.201023849751152E-008
+ FORCE           1 -3.201023844254247E-008
+ FORCE           1 -3.201023841558649E-008
+ FORCE           2 -3.201024974137076E-008
+ FORCE           2 -3.201024911684659E-008
+ FORCE           2 -2.436366690576817E-009
+ FORCE           3 -3.201026078990081E-008
+ FORCE           3 -3.201026142171200E-008
+ FORCE           3 -3.201012729636991E-008
+ FORCE           4 -3.201029436755146E-008
+ FORCE           4 -3.201029386457737E-008
+ FORCE           4  1.726366556629383E-007
+ FORCE           5 -3.201020559842659E-008
+ FORCE           5 -3.201020558102514E-008
+ FORCE           5  1.726369604815968E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   2.71803353202498     
+ ETB0 as 2 Tr[rho H_{TB}] =   2.71803353202498     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   2.71803353202511     
+ ETB  as 2 Tr[pi S] =   2.71803353202511     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   2.71803353202498     
+ ETB  as 2 Tr[rho H] =   2.71803353202498     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          6
+@@ elses_md_output_main: step_count =          6
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       7          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   2.71803353202498     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       7       6          2.718034          2.718034          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=              7            8.2451000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           8
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   14.3177366276745     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=           8
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   6892.93817685239        8000.56076401699     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   5750.56076401586     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.3146000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.3823000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.4645000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -3.294018677052132E-008
+ FORCE           1 -3.294018746636228E-008
+ FORCE           1 -3.294018745909474E-008
+ FORCE           2 -3.294019714794802E-008
+ FORCE           2 -3.294019745671779E-008
+ FORCE           2 -3.470921278384918E-009
+ FORCE           3 -3.294020851737057E-008
+ FORCE           3 -3.294020833437757E-008
+ FORCE           3 -3.294008634266217E-008
+ FORCE           4 -3.294023598742239E-008
+ FORCE           4 -3.294023628242449E-008
+ FORCE           4  1.676961276485665E-007
+ FORCE           5 -3.294015935072312E-008
+ FORCE           5 -3.294015936736562E-008
+ FORCE           5  1.676964045442375E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   1.63776555675529     
+ ETB0 as 2 Tr[rho H_{TB}] =   1.63776555675529     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   1.63776555675515     
+ ETB  as 2 Tr[pi S] =   1.63776555675515     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   1.63776555675529     
+ ETB  as 2 Tr[rho H] =   1.63776555675529     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          7
+@@ elses_md_output_main: step_count =          7
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       8          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   1.63776555675529     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       8       7          1.637766          1.637766          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=              8            8.1184000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           9
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   14.4653421599185     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=           9
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   6649.70529602076        7699.30221462282     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   5449.30221462382     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.3495000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.4170000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0008000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.4646000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -3.342834052063670E-008
+ FORCE           1 -3.342834079596985E-008
+ FORCE           1 -3.342834065739991E-008
+ FORCE           2 -3.342834974373198E-008
+ FORCE           2 -3.342835036812232E-008
+ FORCE           2 -4.255622033187876E-009
+ FORCE           3 -3.342835880007103E-008
+ FORCE           3 -3.342835975238594E-008
+ FORCE           3 -3.342824709634835E-008
+ FORCE           4 -3.342838315880906E-008
+ FORCE           4 -3.342838286253895E-008
+ FORCE           4  1.638068963108040E-007
+ FORCE           5 -3.342831630162016E-008
+ FORCE           5 -3.342831660666044E-008
+ FORCE           5  1.638071488208828E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  0.900407850441278     
+ ETB0 as 2 Tr[rho H_{TB}] =  0.900407850441278     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  0.900407850441230     
+ ETB  as 2 Tr[pi S] =  0.900407850441230     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  0.900407850441278     
+ ETB  as 2 Tr[rho H] =  0.900407850441278     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          8
+@@ elses_md_output_main: step_count =          8
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       9          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=  0.900407850441278     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       9       8          0.900408          0.900408          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=              9            8.0677000000
+TIME:mpi_check(fin)=         0.0000009537
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          10
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   14.6129476921626     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          10
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0427000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   6416.47780890273        7413.72525233734     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   5163.72525234385     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.2116000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.2822000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0047000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5203000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -3.353037855192715E-008
+ FORCE           1 -3.353037765062988E-008
+ FORCE           1 -3.353037769857195E-008
+ FORCE           2 -3.353038688448587E-008
+ FORCE           2 -3.353038678127914E-008
+ FORCE           2 -4.848354787378328E-009
+ FORCE           3 -3.353039491388556E-008
+ FORCE           3 -3.353039542425679E-008
+ FORCE           3 -3.353029236641116E-008
+ FORCE           4 -3.353041643076791E-008
+ FORCE           4 -3.353041568927696E-008
+ FORCE           4  1.606041110903225E-007
+ FORCE           5 -3.353035738781285E-008
+ FORCE           5 -3.353035736222568E-008
+ FORCE           5  1.606043435599489E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  0.473170302074161     
+ ETB0 as 2 Tr[rho H_{TB}] =  0.473170302074161     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  0.473170302074117     
+ ETB  as 2 Tr[pi S] =  0.473170302074117     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  0.473170302074161     
+ ETB  as 2 Tr[rho H] =  0.473170302074161     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          9
+@@ elses_md_output_main: step_count =          9
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      10          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=  0.473170302074161     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      10       9          0.473170          0.473170          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             10            8.0286000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          11
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   14.7605532244067     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          11
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   6194.18009100772        7143.07157854720     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   4893.07157854481     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.3172000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.3846000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.4914000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -3.329332414685020E-008
+ FORCE           1 -3.329332341598951E-008
+ FORCE           1 -3.329332381631084E-008
+ FORCE           2 -3.329333116936658E-008
+ FORCE           2 -3.329333094562452E-008
+ FORCE           2 -5.284391854818449E-009
+ FORCE           3 -3.329333889445360E-008
+ FORCE           3 -3.329333923722157E-008
+ FORCE           3 -3.329324496430955E-008
+ FORCE           4 -3.329335625460222E-008
+ FORCE           4 -3.329335608055728E-008
+ FORCE           4  1.578009196262988E-007
+ FORCE           5 -3.329330662077629E-008
+ FORCE           5 -3.329330636110987E-008
+ FORCE           5  1.578011357394860E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  0.327627758582452     
+ ETB0 as 2 Tr[rho H_{TB}] =  0.327627758582452     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  0.327627758582471     
+ ETB  as 2 Tr[pi S] =  0.327627758582471     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  0.327627758582452     
+ ETB  as 2 Tr[rho H] =  0.327627758582452     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         10
+@@ elses_md_output_main: step_count =         10
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      11          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=  0.327627758582452     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      11      10          0.327628          0.327628          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             11            8.1087000000
+TIME:mpi_check(fin)=         0.0000009537
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          12
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   14.9081587566507     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          12
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   5994.38233486911        6886.60155232288     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   4636.60155232342     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.2938000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.3613000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5226000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -3.276273880385466E-008
+ FORCE           1 -3.276273890102628E-008
+ FORCE           1 -3.276273865798204E-008
+ FORCE           2 -3.276274626730464E-008
+ FORCE           2 -3.276274586423342E-008
+ FORCE           2 -5.581131434853852E-009
+ FORCE           3 -3.276275324548097E-008
+ FORCE           3 -3.276275332253852E-008
+ FORCE           3 -3.276266626150937E-008
+ FORCE           4 -3.276276737646513E-008
+ FORCE           4 -3.276276761140793E-008
+ FORCE           4  1.551820262060234E-007
+ FORCE           5 -3.276272444020876E-008
+ FORCE           5 -3.276272410448556E-008
+ FORCE           5  1.551822296413577E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  0.439057571224028     
+ ETB0 as 2 Tr[rho H_{TB}] =  0.439057571224028     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  0.439057571224135     
+ ETB  as 2 Tr[pi S] =  0.439057571224135     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  0.439057571224028     
+ ETB  as 2 Tr[rho H] =  0.439057571224028     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         11
+@@ elses_md_output_main: step_count =         11
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      12          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=  0.439057571224028     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      12      11          0.439058          0.439058          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             12            8.3358000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          13
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   15.0557642888948     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          13
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0427000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   5801.65381884180        6643.60451873045     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   4393.60451873288     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.2868000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.3542000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5144000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -3.198762592846773E-008
+ FORCE           1 -3.198762609646485E-008
+ FORCE           1 -3.198762622901534E-008
+ FORCE           2 -3.198763192001033E-008
+ FORCE           2 -3.198763210670190E-008
+ FORCE           2 -5.748605299619089E-009
+ FORCE           3 -3.198763829363426E-008
+ FORCE           3 -3.198763887278965E-008
+ FORCE           3 -3.198755776337652E-008
+ FORCE           4 -3.198765099163307E-008
+ FORCE           4 -3.198765082727099E-008
+ FORCE           4  1.525873302506108E-007
+ FORCE           5 -3.198761358460915E-008
+ FORCE           5 -3.198761363198879E-008
+ FORCE           5  1.525875250497035E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  0.785904451595930     
+ ETB0 as 2 Tr[rho H_{TB}] =  0.785904451595930     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  0.785904451595867     
+ ETB  as 2 Tr[pi S] =  0.785904451595867     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  0.785904451595930     
+ ETB  as 2 Tr[rho H] =  0.785904451595930     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         12
+@@ elses_md_output_main: step_count =         12
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      13          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=  0.785904451595930     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      13      12          0.785904          0.785904          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             13            8.0354000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          14
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   15.2033698211389     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          14
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   5615.70858624827        6413.40848180548     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   4163.40848180626     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.2141000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.2816000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5002000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -3.101986217833564E-008
+ FORCE           1 -3.101986240195234E-008
+ FORCE           1 -3.101986266130027E-008
+ FORCE           2 -3.101986842223901E-008
+ FORCE           2 -3.101986854321056E-008
+ FORCE           2 -5.797494293899284E-009
+ FORCE           3 -3.101987423376933E-008
+ FORCE           3 -3.101987413351409E-008
+ FORCE           3 -3.101979941614404E-008
+ FORCE           4 -3.101988388462853E-008
+ FORCE           4 -3.101988468685131E-008
+ FORCE           4  1.498966283397344E-007
+ FORCE           5 -3.101985213073595E-008
+ FORCE           5 -3.101985185795068E-008
+ FORCE           5  1.498968177922035E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   1.34932790763012     
+ ETB0 as 2 Tr[rho H_{TB}] =   1.34932790763012     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   1.34932790763034     
+ ETB  as 2 Tr[pi S] =   1.34932790763034     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   1.34932790763012     
+ ETB  as 2 Tr[rho H] =   1.34932790763012     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         13
+@@ elses_md_output_main: step_count =         13
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      14          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   1.34932790763012     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      14      13          1.349328          1.349328          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             14            7.9614000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          15
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   15.3509753533829     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          15
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   5436.69314871397        6203.82772557806     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   3953.82772557708     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.2582000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.3257000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5004000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -2.991056176595750E-008
+ FORCE           1 -2.991056272249487E-008
+ FORCE           1 -2.991056245712961E-008
+ FORCE           2 -2.991056817302271E-008
+ FORCE           2 -2.991056802004348E-008
+ FORCE           2 -5.742248461866472E-009
+ FORCE           3 -2.991057314379236E-008
+ FORCE           3 -2.991057290389061E-008
+ FORCE           3 -2.991050382272395E-008
+ FORCE           4 -2.991058203577865E-008
+ FORCE           4 -2.991058158616678E-008
+ FORCE           4  1.470195667041246E-007
+ FORCE           5 -2.991055475843360E-008
+ FORCE           5 -2.991055424313941E-008
+ FORCE           5  1.470197531440028E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   2.11279338826000     
+ ETB0 as 2 Tr[rho H_{TB}] =   2.11279338826000     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   2.11279338825958     
+ ETB  as 2 Tr[pi S] =   2.11279338825958     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   2.11279338826000     
+ ETB  as 2 Tr[rho H] =   2.11279338826000     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         14
+@@ elses_md_output_main: step_count =         14
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      15          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   2.11279338826000     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      15      14          2.112793          2.112793          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             15            8.0140000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          16
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   15.4985808856270     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          16
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0427000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   5264.41640291960        6020.57767225069     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   3770.57767225009     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.2269000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.2944000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0006000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5266000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -2.870658528616489E-008
+ FORCE           1 -2.870658562774278E-008
+ FORCE           1 -2.870658559650421E-008
+ FORCE           2 -2.870659031404870E-008
+ FORCE           2 -2.870659076399049E-008
+ FORCE           2 -5.600670530520550E-009
+ FORCE           3 -2.870659527011217E-008
+ FORCE           3 -2.870659487415518E-008
+ FORCE           3 -2.870653052401186E-008
+ FORCE           4 -2.870660257565445E-008
+ FORCE           4 -2.870660219308482E-008
+ FORCE           4  1.438899718691830E-007
+ FORCE           5 -2.870657852472778E-008
+ FORCE           5 -2.870657860522979E-008
+ FORCE           5  1.438901575586820E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   3.06169820817027     
+ ETB0 as 2 Tr[rho H_{TB}] =   3.06169820817027     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   3.06169820816900     
+ ETB  as 2 Tr[pi S] =   3.06169820816900     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   3.06169820817027     
+ ETB  as 2 Tr[rho H] =   3.06169820817027     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         15
+@@ elses_md_output_main: step_count =         15
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      16          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   3.06169820817027     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      16      15          3.061698          3.061698          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             16            8.0055000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          17
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   15.6461864178711     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          17
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   5098.53132379475        5845.32421707314     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   3595.32421707685     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.4135000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.4806000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0008000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5306000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -2.744878528840983E-008
+ FORCE           1 -2.744878489210683E-008
+ FORCE           1 -2.744878524258874E-008
+ FORCE           2 -2.744878922417510E-008
+ FORCE           2 -2.744878945054593E-008
+ FORCE           2 -5.392056940823176E-009
+ FORCE           3 -2.744879327234059E-008
+ FORCE           3 -2.744879311826487E-008
+ FORCE           3 -2.744873353653355E-008
+ FORCE           4 -2.744879904660802E-008
+ FORCE           4 -2.744879937420394E-008
+ FORCE           4  1.404624786028827E-007
+ FORCE           5 -2.744877899597147E-008
+ FORCE           5 -2.744877849585612E-008
+ FORCE           5  1.404626661320724E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   4.18303771369433     
+ ETB0 as 2 Tr[rho H_{TB}] =   4.18303771369433     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   4.18303771369253     
+ ETB  as 2 Tr[pi S] =   4.18303771369253     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   4.18303771369433     
+ ETB  as 2 Tr[rho H] =   4.18303771369433     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         16
+@@ elses_md_output_main: step_count =         16
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      17          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   4.18303771369433     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      17      16          4.183038          4.183038          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             17            8.4852000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          18
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   15.7937919501151     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          18
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0427000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   4939.04535367356        5677.85650776339     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   3427.85650776414     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.4327000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.4998000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5096000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -2.617190829470395E-008
+ FORCE           1 -2.617190773549958E-008
+ FORCE           1 -2.617190817651236E-008
+ FORCE           2 -2.617191254081363E-008
+ FORCE           2 -2.617191197990100E-008
+ FORCE           2 -5.135254648780169E-009
+ FORCE           3 -2.617191605877799E-008
+ FORCE           3 -2.617191586551472E-008
+ FORCE           3 -2.617185997495265E-008
+ FORCE           4 -2.617192060779130E-008
+ FORCE           4 -2.617192030167656E-008
+ FORCE           4  1.367100356392915E-007
+ FORCE           5 -2.617190378298635E-008
+ FORCE           5 -2.617190364751529E-008
+ FORCE           5  1.367102258794506E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   5.46511440917438     
+ ETB0 as 2 Tr[rho H_{TB}] =   5.46511440917438     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   5.46511440917291     
+ ETB  as 2 Tr[pi S] =   5.46511440917291     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   5.46511440917438     
+ ETB  as 2 Tr[rho H] =   5.46511440917438     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         17
+@@ elses_md_output_main: step_count =         17
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      18          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   5.46511440917438     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      18      17          5.465114          5.465114          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000011921
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             18            8.2010000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          19
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   15.9413974823592     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          19
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   4785.95333452949        5517.95890737965     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   3267.95890737922     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.3289000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.3960000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0008000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5090000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -2.490520414983525E-008
+ FORCE           1 -2.490520426270070E-008
+ FORCE           1 -2.490520416131424E-008
+ FORCE           2 -2.490520782568698E-008
+ FORCE           2 -2.490520752334831E-008
+ FORCE           2 -4.847200998543902E-009
+ FORCE           3 -2.490521147777584E-008
+ FORCE           3 -2.490521138703066E-008
+ FORCE           3 -2.490515952332569E-008
+ FORCE           4 -2.490521474165679E-008
+ FORCE           4 -2.490521480627905E-008
+ FORCE           4  1.326216617860533E-007
+ FORCE           5 -2.490520081900355E-008
+ FORCE           5 -2.490520094463548E-008
+ FORCE           5  1.326218555056994E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   6.89728652235434     
+ ETB0 as 2 Tr[rho H_{TB}] =   6.89728652235434     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   6.89728652235515     
+ ETB  as 2 Tr[pi S] =   6.89728652235515     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   6.89728652235434     
+ ETB  as 2 Tr[rho H] =   6.89728652235434     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         18
+@@ elses_md_output_main: step_count =         18
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      19          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   6.89728652235434     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      19      18          6.897287          6.897287          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000009537
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             19            8.2746000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          20
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   16.0890030146033     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          20
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   4639.19976518398        5365.40350985098     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   3115.40350984738     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.3208000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.3879000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5088000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -2.367276028218538E-008
+ FORCE           1 -2.367276020536966E-008
+ FORCE           1 -2.367276039540997E-008
+ FORCE           2 -2.367276330992138E-008
+ FORCE           2 -2.367276364542880E-008
+ FORCE           2 -4.542075189946473E-009
+ FORCE           3 -2.367276664255515E-008
+ FORCE           3 -2.367276664175703E-008
+ FORCE           3 -2.367271872973965E-008
+ FORCE           4 -2.367276976993081E-008
+ FORCE           4 -2.367276948684604E-008
+ FORCE           4  1.282002237553443E-007
+ FORCE           5 -2.367275740661017E-008
+ FORCE           5 -2.367275791522296E-008
+ FORCE           5  1.282004209579563E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   8.46975089283593     
+ ETB0 as 2 Tr[rho H_{TB}] =   8.46975089283593     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   8.46975089283287     
+ ETB  as 2 Tr[pi S] =   8.46975089283287     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   8.46975089283593     
+ ETB  as 2 Tr[rho H] =   8.46975089283593     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         19
+@@ elses_md_output_main: step_count =         19
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      20          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   8.46975089283593     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      20      19          8.469751          8.469751          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             20            8.1340000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          21
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   16.2366085468473     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          21
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   4498.65420913417        5219.94552968063     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   2969.94552968122     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.4225000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.4931000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0062000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5579000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -2.249319127114178E-008
+ FORCE           1 -2.249319047320964E-008
+ FORCE           1 -2.249319036291917E-008
+ FORCE           2 -2.249319266976438E-008
+ FORCE           2 -2.249319339722370E-008
+ FORCE           2 -4.230974407334986E-009
+ FORCE           3 -2.249319608562316E-008
+ FORCE           3 -2.249319635858376E-008
+ FORCE           3 -2.249315161922749E-008
+ FORCE           4 -2.249319862721942E-008
+ FORCE           4 -2.249319803662030E-008
+ FORCE           4  1.234601705083408E-007
+ FORCE           5 -2.249318836718757E-008
+ FORCE           5 -2.249318853387011E-008
+ FORCE           5  1.234603719529875E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   10.1733582543318     
+ ETB0 as 2 Tr[rho H_{TB}] =   10.1733582543318     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   10.1733582543266     
+ ETB  as 2 Tr[pi S] =   10.1733582543266     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   10.1733582543318     
+ ETB  as 2 Tr[rho H] =   10.1733582543318     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         20
+@@ elses_md_output_main: step_count =         20
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      21          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   10.1733582543318     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      21      20         10.173358         10.173358          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             21            8.5622000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          22
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   16.3842140790914     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          22
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   4364.10432630715        5081.32258914374     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   2831.32258914329     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.3615000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.4286000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5376000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -2.137906618309760E-008
+ FORCE           1 -2.137906600321491E-008
+ FORCE           1 -2.137906584106570E-008
+ FORCE           2 -2.137906836601003E-008
+ FORCE           2 -2.137906882401854E-008
+ FORCE           2 -3.921996358734586E-009
+ FORCE           3 -2.137907123979981E-008
+ FORCE           3 -2.137907154244563E-008
+ FORCE           3 -2.137903020634832E-008
+ FORCE           4 -2.137907269154789E-008
+ FORCE           4 -2.137907265004095E-008
+ FORCE           4  1.184252509560043E-007
+ FORCE           5 -2.137906436349465E-008
+ FORCE           5 -2.137906484543607E-008
+ FORCE           5  1.184254571072360E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   11.9994626985416     
+ ETB0 as 2 Tr[rho H_{TB}] =   11.9994626985416     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   11.9994626985350     
+ ETB  as 2 Tr[pi S] =   11.9994626985350     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   11.9994626985416     
+ ETB  as 2 Tr[rho H] =   11.9994626985416     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         21
+@@ elses_md_output_main: step_count =         21
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      22          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   11.9994626985416     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      22      21         11.999463         11.999463          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             22            8.4844000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          23
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   16.5318196113355     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          23
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0427000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   4235.26580839381        4949.25778262152     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   2699.25778262214     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.3249000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.3920000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5145000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -2.033681568472097E-008
+ FORCE           1 -2.033681582604672E-008
+ FORCE           1 -2.033681571200221E-008
+ FORCE           2 -2.033681853540485E-008
+ FORCE           2 -2.033681838956208E-008
+ FORCE           2 -3.620613358950198E-009
+ FORCE           3 -2.033682112638758E-008
+ FORCE           3 -2.033682076510283E-008
+ FORCE           3 -2.033678248217452E-008
+ FORCE           4 -2.033682205784747E-008
+ FORCE           4 -2.033682159959291E-008
+ FORCE           4  1.131262961816818E-007
+ FORCE           5 -2.033681478140438E-008
+ FORCE           5 -2.033681555307172E-008
+ FORCE           5  1.131265063604617E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   13.9398076017644     
+ ETB0 as 2 Tr[rho H_{TB}] =   13.9398076017644     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   13.9398076017656     
+ ETB  as 2 Tr[pi S] =   13.9398076017656     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   13.9398076017644     
+ ETB  as 2 Tr[rho H] =   13.9398076017644     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         22
+@@ elses_md_output_main: step_count =         22
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      23          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   13.9398076017644     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      23      22         13.939808         13.939808          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             23            8.3518000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          24
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   16.6794251435795     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          24
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   4111.80419532577        4823.46539677314     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   2573.46539677367     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.3836000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.4507000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5099000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -1.936749586976870E-008
+ FORCE           1 -1.936749587517616E-008
+ FORCE           1 -1.936749589445802E-008
+ FORCE           2 -1.936749849034613E-008
+ FORCE           2 -1.936749826706538E-008
+ FORCE           2 -3.330210513972536E-009
+ FORCE           3 -1.936750106141246E-008
+ FORCE           3 -1.936750065406394E-008
+ FORCE           3 -1.936746496220741E-008
+ FORCE           4 -1.936750126860869E-008
+ FORCE           4 -1.936750073870064E-008
+ FORCE           4  1.075991738194212E-007
+ FORCE           5 -1.936749577333569E-008
+ FORCE           5 -1.936749581336986E-008
+ FORCE           5  1.075993887802007E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   15.9864465468291     
+ ETB0 as 2 Tr[rho H_{TB}] =   15.9864465468291     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   15.9864465468299     
+ ETB  as 2 Tr[pi S] =   15.9864465468299     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   15.9864465468291     
+ ETB  as 2 Tr[rho H] =   15.9864465468291     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         23
+@@ elses_md_output_main: step_count =         23
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      24          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   15.9864465468291     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      24      23         15.986447         15.986447          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000009537
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             24            8.3948000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          25
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   16.8270306758236     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          25
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0431000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   3993.36159543150        4703.65766875056     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   2453.65766875078     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.4159000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.4851000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0008000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5497000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -1.846823671747109E-008
+ FORCE           1 -1.846823678559965E-008
+ FORCE           1 -1.846823676189628E-008
+ FORCE           2 -1.846823830013580E-008
+ FORCE           2 -1.846823848658649E-008
+ FORCE           2 -3.052684207528273E-009
+ FORCE           3 -1.846824053892916E-008
+ FORCE           3 -1.846824097216714E-008
+ FORCE           3 -1.846820817488085E-008
+ FORCE           4 -1.846823993574779E-008
+ FORCE           4 -1.846824045164273E-008
+ FORCE           4  1.018830140084228E-007
+ FORCE           5 -1.846823666342361E-008
+ FORCE           5 -1.846823677770530E-008
+ FORCE           5  1.018832318254096E-007
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   18.1316922729996     
+ ETB0 as 2 Tr[rho H_{TB}] =   18.1316922729996     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   18.1316922729764     
+ ETB  as 2 Tr[pi S] =   18.1316922729764     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   18.1316922729996     
+ ETB  as 2 Tr[rho H] =   18.1316922729996     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         24
+@@ elses_md_output_main: step_count =         24
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      25          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   18.1316922729996     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      25      24         18.131692         18.131692          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             25            8.1867000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          26
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   16.9746362080677     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          26
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   3879.58106291984        4589.55105061121     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   2339.55105061224     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.3991000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.4661000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0008000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5551000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -1.763381444191286E-008
+ FORCE           1 -1.763381476416147E-008
+ FORCE           1 -1.763381474375136E-008
+ FORCE           2 -1.763381659441649E-008
+ FORCE           2 -1.763381671195952E-008
+ FORCE           2 -2.788997535374270E-009
+ FORCE           3 -1.763381816008215E-008
+ FORCE           3 -1.763381841990061E-008
+ FORCE           3 -1.763378795507169E-008
+ FORCE           4 -1.763381766462404E-008
+ FORCE           4 -1.763381780211549E-008
+ FORCE           4  9.601869999678686E-008
+ FORCE           5 -1.763381543999211E-008
+ FORCE           5 -1.763381534870229E-008
+ FORCE           5  9.601892089792992E-008
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   20.3680830025517     
+ ETB0 as 2 Tr[rho H_{TB}] =   20.3680830025517     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   20.3680830025707     
+ ETB  as 2 Tr[pi S] =   20.3680830025707     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   20.3680830025517     
+ ETB  as 2 Tr[rho H] =   20.3680830025517     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         25
+@@ elses_md_output_main: step_count =         25
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      26          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   20.3680830025517     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      26      25         20.368083         20.368083          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             26            8.4266000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          27
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   17.1222417403117     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          27
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   3770.12496291097        4480.87095256841     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   2230.87095256842     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.3350000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.4021000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5357000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -1.685789263303932E-008
+ FORCE           1 -1.685789252777684E-008
+ FORCE           1 -1.685789287672054E-008
+ FORCE           2 -1.685789429885704E-008
+ FORCE           2 -1.685789403227576E-008
+ FORCE           2 -2.539634791911819E-009
+ FORCE           3 -1.685789586108294E-008
+ FORCE           3 -1.685789612702376E-008
+ FORCE           3 -1.685786813417759E-008
+ FORCE           4 -1.685789493125840E-008
+ FORCE           4 -1.685789528449771E-008
+ FORCE           4  9.004758466720310E-008
+ FORCE           5 -1.685789267642435E-008
+ FORCE           5 -1.685789342030562E-008
+ FORCE           5  9.004780839715827E-008
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   22.6883558014517     
+ ETB0 as 2 Tr[rho H_{TB}] =   22.6883558014517     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   22.6883558014517     
+ ETB  as 2 Tr[pi S] =   22.6883558014517     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   22.6883558014517     
+ ETB  as 2 Tr[rho H] =   22.6883558014517     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         26
+@@ elses_md_output_main: step_count =         26
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      27          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   22.6883558014517     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      27      26         22.688356         22.688356          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             27            8.3830000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          28
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   17.2698472725558     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          28
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0431000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   3664.68602523929        4377.35457731720     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   2127.35457731690     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.4121000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.4793000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5350000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -1.613378254669844E-008
+ FORCE           1 -1.613378236150062E-008
+ FORCE           1 -1.613378241513983E-008
+ FORCE           2 -1.613378365934869E-008
+ FORCE           2 -1.613378364817384E-008
+ FORCE           2 -2.304913212923538E-009
+ FORCE           3 -1.613378553381974E-008
+ FORCE           3 -1.613378517572550E-008
+ FORCE           3 -1.613375938619414E-008
+ FORCE           4 -1.613378405600173E-008
+ FORCE           4 -1.613378400769751E-008
+ FORCE           4  8.401034664212658E-008
+ FORCE           5 -1.613378322126363E-008
+ FORCE           5 -1.613378350035844E-008
+ FORCE           5  8.401057274835253E-008
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   25.0854206986284     
+ ETB0 as 2 Tr[rho H_{TB}] =   25.0854206986284     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   25.0854206986305     
+ ETB  as 2 Tr[pi S] =   25.0854206986305     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   25.0854206986284     
+ ETB  as 2 Tr[rho H] =   25.0854206986284     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         27
+@@ elses_md_output_main: step_count =         27
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      28          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   25.0854206986284     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      28      27         25.085421         25.085421          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000011921
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             28            8.1847000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          29
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   17.4174528047999     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          29
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   3562.99017828448        4278.75199456402     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   2028.75199456466     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.1796000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.2467000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5359000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -1.545484732908575E-008
+ FORCE           1 -1.545484754538154E-008
+ FORCE           1 -1.545484758905033E-008
+ FORCE           2 -1.545484891077779E-008
+ FORCE           2 -1.545484894674551E-008
+ FORCE           2 -2.085154515707895E-009
+ FORCE           3 -1.545485026393363E-008
+ FORCE           3 -1.545485009251819E-008
+ FORCE           3 -1.545482591377928E-008
+ FORCE           4 -1.545484885535415E-008
+ FORCE           4 -1.545484885181054E-008
+ FORCE           4  7.794593696375844E-008
+ FORCE           5 -1.545484880445112E-008
+ FORCE           5 -1.545484862810352E-008
+ FORCE           5  7.794616411327720E-008
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   27.5523349669956     
+ ETB0 as 2 Tr[rho H_{TB}] =   27.5523349669956     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   27.5523349670228     
+ ETB  as 2 Tr[pi S] =   27.5523349670228     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   27.5523349669956     
+ ETB  as 2 Tr[rho H] =   27.5523349669956     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         28
+@@ elses_md_output_main: step_count =         28
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      29          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   27.5523349669956     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      29      28         27.552335         27.552335          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             29            7.9745000000
+TIME:mpi_check(fin)=         0.0000000000
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          30
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   17.5650583370439     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          30
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   3464.79468962114        4187.37957637638     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   1937.37957637733     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.2441000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.3114000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0007000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5354000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0000000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -1.481474337355006E-008
+ FORCE           1 -1.481474367635757E-008
+ FORCE           1 -1.481474379333028E-008
+ FORCE           2 -1.481474470073481E-008
+ FORCE           2 -1.481474479940155E-008
+ FORCE           2 -1.880721074957793E-009
+ FORCE           3 -1.481474620538039E-008
+ FORCE           3 -1.481474567609264E-008
+ FORCE           3 -1.481472367360098E-008
+ FORCE           4 -1.481474465137341E-008
+ FORCE           4 -1.481474459919358E-008
+ FORCE           4  7.189062520681276E-008
+ FORCE           5 -1.481474469924641E-008
+ FORCE           5 -1.481474509214264E-008
+ FORCE           5  7.189085354335963E-008
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   30.0822817632121     
+ ETB0 as 2 Tr[rho H_{TB}] =   30.0822817632121     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   30.0822817631995     
+ ETB  as 2 Tr[pi S] =   30.0822817631995     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   30.0822817632121     
+ ETB  as 2 Tr[rho H] =   30.0822817632121     
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         29
+@@ elses_md_output_main: step_count =         29
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      30          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   30.0822817632121     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      30      29         30.082282         30.082282          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+TIME:mpi_check(mov1)=         0.0000000000
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+TIME:mpi_check(mov2)=         0.0000000000
+ cell_change_only mode
+TIME:mpi_check(mov3)=         0.0000000000
+ @@ update_population_guess for the next CSC loop
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000000000
+TIME:mpi_check(mov5)=         0.0000000000
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+TIME:mpi_check(mov6)=         0.0000000000
+elaps-time(lap    MDloop)=             30            8.0832000000
+TIME:mpi_check(fin)=         0.0000009537
+ scheme_mode=eigen                           
+ c_system   =NRL_leg                         
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = T
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          31
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=         250
+ @@@ make_booking_list
+    noav=         250
+ r_cut_book =   17.7126638692880     
+  ...booking is done
+ jsv,njsd=           1         137
+ jsv,njsd=           2         137
+ jsv,njsd=           3         137
+ jsv,njsd=           4         137
+ jsv,njsd=           5         137
+ @@ elses_qm_engine_nrl:itemd=          31
+ @@ LSES_SET_HAMI_NRL_LEG
+    --> c_system=NRL_leg                         
+ .... is ended without error :LSES_SET_HAMI_NRL_LEG
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0428000000
+ @@ elses_eig_mateig:n=        2250
+  Summation |A_{ij}|, |B_{ij}| =   3369.88360767284        4101.90607701894     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   1851.90607701868     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :    76500
+* current WORK size         :   153000
+  TIME for LAPACK (DSYGV) =             5.3832000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        5.4503000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0008000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.5314000000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ @@ LSES_NRL_SET_FORC
+    --> c_system=NRL_leg                         
+ @@ NRL EXTRAt... is ignored
+ FORCE           1 -1.420762542284629E-008
+ FORCE           1 -1.420762589574140E-008
+ FORCE           1 -1.420762582921543E-008
+ FORCE           2 -1.420762632853934E-008
+ FORCE           2 -1.420762655861872E-008
+ FORCE           2 -1.691957182705499E-009
+ FORCE           3 -1.420762706778184E-008
+ FORCE           3 -1.420762766118935E-008
+ FORCE           3 -1.420760662198737E-008
+ FORCE           4 -1.420762632323011E-008
+ FORCE           4 -1.420762629949413E-008
+ FORCE           4  6.587721135178109E-008
+ FORCE           5 -1.420762716872011E-008
+ FORCE           5 -1.420762723920680E-008
+ FORCE           5  6.587743978631221E-008
+ .... is ended without error :LSES_NRL_SET_FORC
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   32.6685591947584     
+ ETB0 as 2 Tr[rho H_{TB}] =   32.6685591947584     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =   32.6685591947463     
+ ETB  as 2 Tr[pi S] =   32.6685591947463     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =   32.6685591947584     
+ ETB  as 2 Tr[rho H] =   32.6685591947584     
+ The file does not exist:
+ input_energy_mesh.txt                                                          
+                      
+ @@ plot_spectrum_from_eigen ... skipped
+ @@ XML_SAVE_TXP:NOA=         250
+ natom=         250
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=W_BCC_250atom-position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         30
+@@ elses_md_output_main: step_count =         30
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      31          -375.0000000000           375.0000000000             0.0000000000
+     ETB2=   32.6685591947584     
+     ECC =  0.000000000000000E+000
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3      31      30         32.668559         32.668559          0.000000          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge.. is skipped
+ No file is generated for atom energy.
+elaps-time(lap    MDloop)=             31            8.4080000000
+TIME:mpi_check(fin)=         0.0000000000
+.....Total MD loops ends; # MD step =                            31
+.....Total Simulation time (sec ) =                     259.07600
+.....Total Simulation time (hour) =                       0.07197
+.....Total Simulation time (day ) =                       0.00300
+..... ELSES ended successfully (with MPI)

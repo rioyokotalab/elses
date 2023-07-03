@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="FeO">
+
+<system>
+  <cluster structure="FeO.xml" />
+  <boundary x="nonperiodic" y="nonperiodic" z="nonperiodic" />
+  <temperature unit="kelvin"> 300.0 </temperature>
+  <element  name="Fe" model="geno" filename="Fe.xml"/> 
+  <element  name="O" model="geno" filename="O.xml"/>
+</system>
+
+<calc mode="optimization">
+<genoOption>
+ <CSC_method> ELSTNER </CSC_method>
+ <CSC_max_loop_count> 10000 </CSC_max_loop_count>
+ <CSC_charge_convergence>  1d-6 </CSC_charge_convergence>
+ <CSC_charge_mixing_ratio> 0.10 </CSC_charge_mixing_ratio>
+</genoOption>
+ <optimization>
+   <sd_ratio> 0.1 </sd_ratio> <max_num_iter> 200 </max_num_iter>
+ </optimization>
+ <dynamics scheme="velocity verlet">
+    <delta unit="fsec"> 1.00 </delta>
+    <total unit="fsec"> 200.00 </total>
+  </dynamics>
+</calc>
+
+<output>
+  <restart  filename="FeO-restart.xml" interval="1" />
+  <position filename="FeO-position.xyz" interval="1" />
+</output>
+
+</config>
+

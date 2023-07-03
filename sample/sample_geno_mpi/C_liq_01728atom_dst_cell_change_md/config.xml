@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="C_liq_1728atom">
+
+<system>
+  <cluster structure="C_liq_1728atom.xml" parser="sax" tag_dump="off" read_mode="default" cutoff_radius="8.0d0" />
+  <temperature unit="kelvin"> 6000.0 </temperature>
+  <split_input_file number_of_files="0" />
+  <element  name="C" model="geno"  filename="C.xml" />
+</system>
+
+<calc mode="dynamics">
+  <distributed mode="on">
+    <micro_cell_booking mode="one_cell"></micro_cell_booking>
+  </distributed>
+  <dynamics scheme="velocity verlet">
+    <delta unit="fsec"> 1.00 </delta>
+    <total unit="fsec"> 7.00 </total>
+  </dynamics>
+  <cell_change scheme="from_file" filename="input_cell_change.txt" />
+  <genoOption>
+   <CSC_method> ELSTNER </CSC_method>
+   <CSC_max_loop_count> 0 </CSC_max_loop_count>
+   <CSC_charge_convergence>  1d-4 </CSC_charge_convergence>
+   <CSC_charge_mixing_ratio> 0.1 </CSC_charge_mixing_ratio>
+  </genoOption>
+  <solver scheme="gKrylov_A">
+    <projection> 200 </projection>
+    <dimension>  30 </dimension>
+    <mode_for_large_memory> 0 </mode_for_large_memory>
+    <mArnoldi_q> 15 </mArnoldi_q>
+    <inner_cg_loop>
+       <max_iteration> 100 </max_iteration>
+       <convergence_eps> -8 </convergence_eps>
+    </inner_cg_loop>
+    <mode_for_suggest_projection> default </mode_for_suggest_projection>
+  </solver>
+  <use_integer_elec_num mode="on" />
+  <calc_check mode="on">
+   <short_atom_pair_distance mode="on"> 
+     <warning_level unit="angstrom">  0.5    </warning_level> 
+     <abort_level   unit="angstrom">  0.1    </abort_level> 
+   </short_atom_pair_distance> 
+  </calc_check>
+</calc>
+
+<output>
+  <restart  filename="restart.xml" interval="1" append_mode="on"/>
+  <position filename="position.xyz" interval="1" cell_info="on" />
+</output>
+
+</config>

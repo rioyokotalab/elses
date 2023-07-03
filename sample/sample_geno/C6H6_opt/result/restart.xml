@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="C6H6" mdstep="                  28">
+ 
+ <unitcell>
+   <vector unit="a.u.">  0.188972687777436E+02  0.000000000000000E+00  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.188972687777436E+02  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.188972687777436E+02</vector>
+ </unitcell>
+ 
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.250000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+ <atom element="C"   motion="free">
+  <position unit="internal">  0.140805621057779E+00  0.927855547692284E-07 -0.717714093957650E-18</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u.">  0.959584094148078E-03 -0.182079112246477E-06 -0.100272743614195E-15   </force>
+  <population>          4.02225239770741893608  </population>
+  <population_guess>          4.02225241549691148180  </population_guess>
+ </atom>
+ 
+ <atom element="C"   motion="free">
+  <position unit="internal">  0.704027972873800E-01  0.121941274821406E+00  0.183472273587553E-17</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u.">  0.479818083653057E-03  0.830990044875610E-03 -0.106677124693981E-15   </force>
+  <population>          4.02225238106601246102  </population>
+  <population_guess>          4.02225239970149139879  </population_guess>
+ </atom>
+ 
+ <atom element="C"   motion="free">
+  <position unit="internal"> -0.704028017943748E-01  0.121941114067682E+00  0.615159512072962E-19</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u."> -0.479841088769238E-03  0.831345885279985E-03  0.594109440885879E-16   </force>
+  <population>          4.02225252095233365424  </population>
+  <population_guess>          4.02225254125186637566  </population_guess>
+ </atom>
+ 
+ <atom element="C"   motion="free">
+  <position unit="internal"> -0.140805621057779E+00 -0.927855547462031E-07 -0.737717389939920E-17</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u."> -0.959584094146825E-03  0.182079111361266E-06 -0.104336523867658E-16   </force>
+  <population>          4.02225239770741538337  </population>
+  <population_guess>          4.02225241549691325815  </population_guess>
+ </atom>
+ 
+ <atom element="C"   motion="free">
+  <position unit="internal"> -0.704027972873800E-01 -0.121941274821406E+00  0.416310852773512E-18</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u."> -0.479818083654026E-03 -0.830990044874975E-03  0.939091092622651E-16   </force>
+  <population>          4.02225238106601334920  </population>
+  <population_guess>          4.02225239970149228697  </population_guess>
+ </atom>
+ 
+ <atom element="C"   motion="free">
+  <position unit="internal">  0.704028017943748E-01 -0.121941114067682E+00 -0.336490816184037E-18</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u.">  0.479841088769178E-03 -0.831345885279874E-03 -0.272543678291166E-16   </force>
+  <population>          4.02225252095233454241  </population>
+  <population_guess>          4.02225254125186282295  </population_guess>
+ </atom>
+ 
+ <atom element="H"   motion="free">
+  <position unit="internal">  0.246843529002715E+00  0.320507591916090E-07 -0.816491586510181E-18</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u.">  0.160908026733719E-02  0.510524642096836E-07 -0.800865036587320E-18   </force>
+  <population>          0.97774755862551820940  </population>
+  <population_guess>          0.97774753955652027315  </population_guess>
+ </atom>
+ 
+ <atom element="H"   motion="free">
+  <position unit="internal">  0.123421771477962E+00  0.213772782159994E+00  0.145916415078457E-17</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u.">  0.804380598362964E-03  0.139362173033783E-02  0.939837787096537E-16   </force>
+  <population>          0.97774754136414032679  </population>
+  <population_guess>          0.97774752116460539320  </population_guess>
+ </atom>
+ 
+ <atom element="H"   motion="free">
+  <position unit="internal"> -0.123421819894584E+00  0.213772558914848E+00  0.143145662938026E-17</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u."> -0.804684570604661E-03  0.139385855803853E-02  0.558708278277707E-16   </force>
+  <population>          0.97774760029406837525  </population>
+  <population_guess>          0.97774758282494245165  </population_guess>
+ </atom>
+ 
+ <atom element="H"   motion="free">
+  <position unit="internal"> -0.246843529002715E+00 -0.320507591941847E-07 -0.127619634530925E-17</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u."> -0.160908026733764E-02 -0.510524642352699E-07 -0.203261928447861E-16   </force>
+  <population>          0.97774755862551654406  </population>
+  <population_guess>          0.97774753955651905191  </population_guess>
+ </atom>
+ 
+ <atom element="H"   motion="free">
+  <position unit="internal"> -0.123421771477962E+00 -0.213772782159994E+00  0.558445902650153E-17</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u."> -0.804380598362645E-03 -0.139362173033775E-02 -0.417529748573749E-16   </force>
+  <population>          0.97774754136414043781  </population>
+  <population_guess>          0.97774752116460461604  </population_guess>
+ </atom>
+ 
+ <atom element="H"   motion="free">
+  <position unit="internal">  0.123421819894584E+00 -0.213772558914848E+00 -0.263562605162380E-18</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u.">  0.804684570604536E-03 -0.139385855803850E-02  0.434326137452940E-17   </force>
+  <population>          0.97774760029406926343  </population>
+  <population_guess>          0.97774758282494278472  </population_guess>
+ </atom>
+ 
+ </structure>

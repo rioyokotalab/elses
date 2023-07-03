@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="sample" mdstep="0">
+ 
+ <unitcell>
+   <vector unit="angstrom">  0      1.7836 1.7836 </vector>
+   <vector unit="angstrom">  1.7836 0      1.7836 </vector>
+   <vector unit="angstrom">  1.7836 1.7836 0      </vector>
+ </unitcell>
+ 
+ <atom element="C" class="" motion="free">
+  <position unit="internal"> 0    0    0   </position>
+ </atom>
+ 
+ <atom element="C" class="" motion="free">
+  <position unit="internal"> 0.25 0.25 0.25 </position>
+ </atom>
+ 
+ </structure>

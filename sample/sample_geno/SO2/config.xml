@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="SO2">
+
+<system>
+  <cluster structure="SO2.xml" />
+  <boundary x="nonperiodic" y="nonperiodic" z="nonperiodic" />
+  <temperature unit="kelvin"> 273.15 </temperature>
+  <element  name="O" model="geno" filename="O.xml" />
+  <element  name="S" model="geno" filename="S.xml" />
+</system>
+
+<calc mode="optimization">
+
+<genoOption>
+ <CSC_method> ELSTNER </CSC_method>
+ <CSC_max_loop_count> 100000 </CSC_max_loop_count>
+ <CSC_charge_convergence>  1d-6 </CSC_charge_convergence>
+ <CSC_charge_mixing_ratio> 0.1 </CSC_charge_mixing_ratio>
+ <HML_small_delta> 0.13 </HML_small_delta>
+ <HML_kappa> 0.75 </HML_kappa>
+</genoOption>
+
+ <optimization>
+   <sd_ratio> 0.1 </sd_ratio> <max_num_iter> 10000 </max_num_iter>
+ </optimization>
+ <dynamics scheme="velocity verlet">
+    <delta unit="fsec"> 1.00 </delta>
+    <total unit="fsec"> 1000.00 </total>
+  </dynamics>
+</calc>
+
+<output>
+  <restart  filename="restart.xml" interval="10" />
+  <position filename="position.xyz" interval="10" />
+  <wavefunction filename="output_wavefunction.txt" />
+</output>
+
+</config>
+

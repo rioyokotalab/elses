@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="C60">
+
+<system>
+  <cluster structure="C60.xml" />
+  <temperature unit="kelvin"> 273.15 </temperature>
+  <element  name="C" model="Xu.1992"  filename="C.xml"> </element>
+</system>
+
+<calc mode="optimization">
+  <solver scheme="eigen"> </solver>
+  <optimization>
+   <sd_ratio> 0.2 </sd_ratio> 
+   <max_num_iter> 0 </max_num_iter>
+   <convergence_criteria mode="energy_per_atom" unit="eV"> 1.0d-5 </convergence_criteria>
+  </optimization>
+  <use_integer_elec_num mode="on" />
+</calc>
+
+<output>
+  <restart  filename="restart.xml" interval="1" />
+  <position filename="position.xyz" interval="1" />
+  <matrix_hamiltonian filename="output_hamiltonian_au.txt" mode="last" format="MatrixMarket_sym" unit="a.u." />
+</output>
+
+
+</config>

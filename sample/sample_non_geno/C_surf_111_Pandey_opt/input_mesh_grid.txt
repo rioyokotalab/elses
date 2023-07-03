@@ -1,0 +1,3 @@
+80  80  80             # number of mesh pointss
+0.0 0.0 0.0 internal   # origin of the mesh grid region (the internal unit)
+1.0 1.0 1.0 internal   # sizes of the mesh grid region  (the internal unit)

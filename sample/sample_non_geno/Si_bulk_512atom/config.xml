@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="Si_bulk_512atom">
+
+<system>
+  <cluster structure="Si_bulk_512atom.xml" />
+
+  <temperature unit="kelvin"> 300 </temperature>
+  <element  name="Si" model="Kwon.1994"  filename="Si.xml"> </element>
+</system>
+
+<calc mode="dynamics">
+  <dynamics scheme="velocity verlet">
+    <delta unit="fsec"> 1.00 </delta>
+    <total unit="fsec"> 20.00 </total>
+  </dynamics>
+  <solver scheme="krylov">  </solver>
+</calc>
+
+<output>
+  <restart  filename="Si_bulk_512atom-restart.xml" interval="5" />
+  <position filename="Si_bulk_512atom-position.xyz" interval="4" />
+</output>
+
+</config>

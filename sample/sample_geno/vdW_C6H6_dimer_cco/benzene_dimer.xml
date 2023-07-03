@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="benzene_dimer" mdstep="0">
+ 
+ <total_number_of_atoms> 24 </total_number_of_atoms>
+ 
+ 
+ <unitcell>
+   <vector unit="a.u.">  0.188972687777436E+02  0.000000000000000E+00  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.188972687777436E+02  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.188972687777436E+02</vector>
+ </unitcell>
+ 
+ 
+ <boundary x="nonperiodic" y="nonperiodic" z="nonperiodic" />
+ 
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.200000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+ <group_id_is_added> 
+   <number_of_groups> 2 </number_of_groups>
+   <max_number_of_group_atoms> 12 </max_number_of_group_atoms>
+ </group_id_is_added> 
+ 
+ <atom element="C" id="1" group_id="1" motion="free">
+  <position unit="internal"> -0.802754360000000E-03 -0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" id="2" group_id="1" motion="free">
+  <position unit="internal">  0.695986213600000E-01  0.121938767320000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" id="3" group_id="1" motion="free">
+  <position unit="internal">  0.695986213600000E-01 -0.121938767320000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" id="4" group_id="1" motion="free">
+  <position unit="internal">  0.210401378640000E+00  0.121938767320000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" id="5" group_id="1" motion="free">
+  <position unit="internal">  0.210401378640000E+00 -0.121938767320000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" id="6" group_id="1" motion="free">
+  <position unit="internal">  0.280802754360000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" id="7" group_id="1" motion="free">
+  <position unit="internal"> -0.106834237290000E+00 -0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" id="8" group_id="1" motion="free">
+  <position unit="internal">  0.165828769900000E-01  0.213764724940000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" id="9" group_id="1" motion="free">
+  <position unit="internal">  0.165828769900000E-01 -0.213764724940000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" id="10" group_id="1" motion="free">
+  <position unit="internal">  0.263417123010000E+00  0.213764724940000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" id="11" group_id="1" motion="free">
+  <position unit="internal">  0.263417123010000E+00 -0.213764724940000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" id="12" group_id="1" motion="free">
+  <position unit="internal">  0.386834237290000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" id="13" group_id="2" motion="free">
+  <position unit="internal"> -0.802754360000000E-03 -0.000000000000000E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" id="14" group_id="2" motion="free">
+  <position unit="internal">  0.695986213600000E-01  0.121938767320000E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" id="15" group_id="2" motion="free">
+  <position unit="internal">  0.695986213600000E-01 -0.121938767320000E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" id="16" group_id="2" motion="free">
+  <position unit="internal">  0.210401378640000E+00  0.121938767320000E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" id="17" group_id="2" motion="free">
+  <position unit="internal">  0.210401378640000E+00 -0.121938767320000E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="C" id="18" group_id="2" motion="free">
+  <position unit="internal">  0.280802754360000E+00  0.000000000000000E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" id="19" group_id="2" motion="free">
+  <position unit="internal"> -0.106834237290000E+00 -0.000000000000000E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" id="20" group_id="2" motion="free">
+  <position unit="internal">  0.165828769900000E-01  0.213764724940000E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" id="21" group_id="2" motion="free">
+  <position unit="internal">  0.165828769900000E-01 -0.213764724940000E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" id="22" group_id="2" motion="free">
+  <position unit="internal">  0.263417123010000E+00  0.213764724940000E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" id="23" group_id="2" motion="free">
+  <position unit="internal">  0.263417123010000E+00 -0.213764724940000E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ <atom element="H" id="24" group_id="2" motion="free">
+  <position unit="internal">  0.386834237290000E+00  0.000000000000000E+00  0.200000000000000E+00</position>
+ </atom>
+ 
+ </structure>

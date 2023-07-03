@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="test">
+<unitcell>
+  <vector unit="ang">  10.00000000  0.00  0.00 </vector>
+  <vector unit="ang">   0.00 10.00000000  0.00 </vector>
+  <vector unit="ang">   0.00  0.00 10.00000000 </vector>
+</unitcell>
+<atom element="H">
+  <position unit="ang">  0.67343901  0.86975853  0.00000000 </position>
+</atom>
+<atom element="H">
+  <position unit="ang">  0.67343901 -0.86975853  0.00000000 </position>
+</atom>
+<atom element="O">
+  <position unit="ang">  0.00000000  0.00000000  0.00000000 </position>
+</atom>
+</structure>

@@ -1,0 +1,13 @@
+
+set title "PDOS of Silicon (Si) by GENO"
+set grid
+set xlabel "energy"
+set ylabel "DOS"
+
+  plot 'DOS.txt' using 2:3 w l t "TDOS"
+replot 'DOS.txt' using 2:4 w l t "PDOS S"
+replot 'DOS.txt' using 2:5 w l t "PDOS P"
+
+set ter pos eps col sol 24
+set out "pdos.eps"
+replot

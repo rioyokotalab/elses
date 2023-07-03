@@ -1,0 +1,100 @@
+@@ Main output : ELSES version 0.03.20
+INFO: config_name = C_liq_1728atom
+INFO-MPI-OMP: P_MPI, P_OMP=         2         8
+Date: 2013 11 22; Time: 00 13 20
+------------------------------------------------------------------
+Output; step_count=         0
+ Output energy
+ Band         Energy : EBD  [au]:          -4671.076070926641478
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:             98.061598033309480
+ Kinetic      Energy : EKE  [au]:             49.250166210724778
+ EBD+ECSC+ECC Energy : ETOT [au]:          -4573.014472893331913
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            0    -4573.01447289    -4523.76430668    -4671.07607093        0.00000000       98.06159803       49.25016621
+ Energy summary (eV/atom):            0      -72.01333370      -71.23776899      -73.55755417        0.00000000        1.54422048        0.77556471
+ Chemical potential [au, eV]=         0       -0.35971274190168767149       -9.78835924753196451320
+------------------------------------------------------------------
+Output; step_count=         1
+ Output energy
+ Band         Energy : EBD  [au]:          -4672.377002353827265
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:             99.072245795228739
+ Kinetic      Energy : EKE  [au]:             49.373225018424115
+ EBD+ECSC+ECC Energy : ETOT [au]:          -4573.304756558598456
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            1    -4573.30475656    -4523.93153154    -4672.37700235        0.00000000       99.07224580       49.37322502
+ Energy summary (eV/atom):            1      -72.01790493      -71.24040235      -73.57804053        0.00000000        1.56013560        0.77750258
+ Chemical potential [au, eV]=         1       -0.35966175583405302074       -9.78697183505391699043
+------------------------------------------------------------------
+Output; step_count=         2
+ Output energy
+ Band         Energy : EBD  [au]:          -4680.479542385133755
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:            109.498585617792202
+ Kinetic      Energy : EKE  [au]:             49.450071852547218
+ EBD+ECSC+ECC Energy : ETOT [au]:          -4570.980956767341922
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            2    -4570.98095677    -4521.53088491    -4680.47954239        0.00000000      109.49858562       49.45007185
+ Energy summary (eV/atom):            2      -71.98131100      -71.20259828      -73.70563490        0.00000000        1.72432391        0.77871272
+ Chemical potential [au, eV]=         2       -0.35231414634178026546       -9.58703162459398861017
+------------------------------------------------------------------
+Output; step_count=         3
+ Output energy
+ Band         Energy : EBD  [au]:          -4687.010347044656555
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:            113.709239237736284
+ Kinetic      Energy : EKE  [au]:             49.243991646710896
+ EBD+ECSC+ECC Energy : ETOT [au]:          -4573.301107806920299
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            3    -4573.30110781    -4524.05711616    -4687.01034704        0.00000000      113.70923924       49.24399165
+ Energy summary (eV/atom):            3      -72.01784747      -71.24237999      -73.80847845        0.00000000        1.79063098        0.77546748
+ Chemical potential [au, eV]=         3       -0.35220589583836997560       -9.58408595519538941687
+------------------------------------------------------------------
+Output; step_count=         4
+ Output energy
+ Band         Energy : EBD  [au]:          -4700.843599792080568
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:            146.754552245314215
+ Kinetic      Energy : EKE  [au]:             49.100232881609635
+ EBD+ECSC+ECC Energy : ETOT [au]:          -4554.089047546766778
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            4    -4554.08904755    -4504.98881467    -4700.84359979        0.00000000      146.75455225       49.10023288
+ Energy summary (eV/atom):            4      -71.71530644      -70.94210279      -74.02631696        0.00000000        2.31101052        0.77320364
+ Chemical potential [au, eV]=         4       -0.33844345409421627835       -9.20958789543017530832
+------------------------------------------------------------------
+Output; step_count=         5
+ Output energy
+ Band         Energy : EBD  [au]:          -4707.955267236291547
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:            150.582070791054775
+ Kinetic      Energy : EKE  [au]:             49.634243097478553
+ EBD+ECSC+ECC Energy : ETOT [au]:          -4557.373196445236317
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            5    -4557.37319645    -4507.73895335    -4707.95526724        0.00000000      150.58207079       49.63424310
+ Energy summary (eV/atom):            5      -71.76702342      -70.98541048      -74.13830761        0.00000000        2.37128419        0.78161295
+ Chemical potential [au, eV]=         5       -0.33786335422855051647       -9.19380244992562545292
+------------------------------------------------------------------
+Output; step_count=         6
+ Output energy
+ Band         Energy : EBD  [au]:          -4713.472951408576591
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:            152.160223039603352
+ Kinetic      Energy : EKE  [au]:             49.446760979811010
+ EBD+ECSC+ECC Energy : ETOT [au]:          -4561.312728368973694
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            6    -4561.31272837    -4511.86596739    -4713.47295141        0.00000000      152.16022304       49.44676098
+ Energy summary (eV/atom):            6      -71.82906102      -71.05040044      -74.22519709        0.00000000        2.39613607        0.77866058
+ Chemical potential [au, eV]=         6       -0.33787183357749805968       -9.19403318657744605957
+------------------------------------------------------------------
+Output; step_count=         7
+ Output energy
+ Band         Energy : EBD  [au]:          -4717.329351185242558
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:            151.962405661911390
+ Kinetic      Energy : EKE  [au]:             48.862052104089230
+ EBD+ECSC+ECC Energy : ETOT [au]:          -4565.366945523331196
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            7    -4565.36694552    -4516.50489342    -4717.32935119        0.00000000      151.96240566       48.86205210
+ Energy summary (eV/atom):            7      -71.89290462      -71.12345171      -74.28592556        0.00000000        2.39302095        0.76945290
+ Chemical potential [au, eV]=         7       -0.33837263348050222733       -9.20766075321803434406

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="H2O" mdstep="0">
+ 
+ 
+ <unitcell>
+   <vector unit="angstrom">  10.0   0.0   0.0 </vector>
+   <vector unit="angstrom">   0.0  10.0   0.0 </vector>
+   <vector unit="angstrom">   0.0   0.0  10.0 </vector>
+ </unitcell>
+ 
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.250000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+ <atom element="O" class="" motion="free">
+ <position unit="angstrom">  0.000000000   0.000000000  0.00000000 </position>
+ </atom>
+
+ <atom element="H" class="" motion="free">
+ <position unit="angstrom">  0.584410971   0.761619206  0.00000000 </position>
+ </atom>
+
+ <atom element="H" class="" motion="free">
+ <position unit="angstrom">  0.584410971  -0.761619206  0.00000000 </position>
+ </atom>
+ 
+ 
+ </structure>

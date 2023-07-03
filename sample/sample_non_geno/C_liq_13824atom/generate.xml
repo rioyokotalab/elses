@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generate name="C_liq_13824">
+  <unitcell>
+    <vector unit="a.u.">  97.61876056656358 0.0 0.0 </vector>
+    <vector unit="a.u."> 0.0  97.61876056656358 0.0 </vector>
+    <vector unit="a.u."> 0.0 0.0  97.61876056656358 </vector>
+  </unitcell>
+
+  <cluster structure="C_liq_13824atom.xyz">
+  </cluster>
+</generate>

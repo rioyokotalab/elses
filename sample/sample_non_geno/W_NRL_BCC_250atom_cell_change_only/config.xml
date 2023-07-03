@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="W_BCC_250atom">
+
+<system>
+  <cluster structure="W_BCC_250atom.xml"  />
+  <boundary x="periodic" >  </boundary>
+  <boundary y="periodic" >  </boundary>
+  <boundary z="periodic" >  </boundary>
+  <element  name="W" model="NRL" filename="W_nrl.xml"> </element>
+</system>
+
+<calc mode="cell_change_only">
+  <cell_change scheme="from_file" filename="input_cell_change.txt" />
+  <solver scheme="eigen">  </solver>
+  <calc_check mode="on">
+   <short_atom_pair_distance mode="on"> 
+     <warning_level unit="angstrom">  0.5    </warning_level> 
+     <abort_level   unit="angstrom">  0.1    </abort_level> 
+   </short_atom_pair_distance> 
+  </calc_check>
+</calc>
+
+<output>
+  <restart  filename="W_BCC_250atom-restart.xml" interval="1" />
+  <position filename="W_BCC_250atom-position.xyz" interval="1" />
+</output>
+
+</config>

@@ -1,0 +1,22 @@
+@@@ get_info_from_command_argument
+ INFO: non-header argument : generate.xml
+ INFO: non-header argument : benzene_dimer.xml
+ INFO:filename of the xyz file     =
+ INFO:filename of the setting file =generate.xml
+ INFO:filename of the output  file =benzene_dimer.xml
+ INFO:filename of the fixed atom list file =
+ INFO: the single (non-split) file will be generated
+@@@ elses-xml-generate
+INFO:XYZ file name=benzene_dimer.xyz
+ INFO:get_basic_info: filename=benzene_dimer.xyz
+INFO:<unitcell> tag was found in the XML file and will be used for the unit cell info.
+ INFO:The value is specified in the XML file : heatbath%massperatom =   20.000000000000000     
+ INFO: <atom_id_is_added> tag is detected
+ INFO: <group_id_is_added> tag is detected: file=input_group_id_setting.txt
+ INFO:number of atoms   =                    24
+ INFO:number of groups  =                     2
+ INFO:maximum number of group atoms  =                    12
+ INFO:set_fixed_atom ... is ignored
+ generate_output:fd, j_split =                    10                    0
+ generate_output:fd, j_split =                    10                    0
+.... elses-xml-generate ends without error

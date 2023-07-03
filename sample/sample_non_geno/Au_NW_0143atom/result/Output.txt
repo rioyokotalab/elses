@@ -1,0 +1,106 @@
+@@ Main output : ELSES version 0.03.16
+INFO: config_name = Au_NW_143
+INFO-MPI-OMP: P_MPI, P_OMP=         1        12
+Date: 2013 04 14; Time: 17 54 20
+------------------------------------------------------------------
+Output; step_count=         0
+ Output energy
+ Band         Energy : EBD  [au]:            -16.675831340151191
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:              0.000000000000000
+ Kinetic      Energy : EKE  [au]:              0.407567926396623
+ EBD+ECSC+ECC Energy : ETOT [au]:            -16.675831340151191
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            0      -16.67583134      -16.26826341      -16.67583134        0.00000000        0.00000000        0.40756793
+ Energy summary (eV/atom):            0       -3.17325911       -3.09570263       -3.17325911        0.00000000        0.00000000        0.07755647
+ Chemical potential [au, eV]=         0        0.12419706223918858257        3.37960077882790432824
+ Output Force Amplitude 
+ Force Amp. Average [au] [eV/A]=              0.000150318315745             0.007729742374911
+ Force Amp. Max     [au] [eV/A]=              0.000405051406186             0.020828752656596
+ The atom that gives the max. force amp. =        136
+ Force_summary(ave[eV/A],max[eV/A],atom for max)=         0        0.00772974237491094902        0.02082875265659612368       136
+------------------------------------------------------------------
+Output; step_count=         1
+ Output energy
+ Band         Energy : EBD  [au]:            -16.675521436778556
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:              0.000000000000000
+ Kinetic      Energy : EKE  [au]:              0.407249863744763
+ EBD+ECSC+ECC Energy : ETOT [au]:            -16.675521436778556
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            1      -16.67552144      -16.26827157      -16.67552144        0.00000000        0.00000000        0.40724986
+ Energy summary (eV/atom):            1       -3.17320013       -3.09570419       -3.17320013        0.00000000        0.00000000        0.07749595
+ Chemical potential [au, eV]=         1        0.12425774057986227472        3.38125193356298048286
+ Output Force Amplitude 
+ Force Amp. Average [au] [eV/A]=              0.000150036132261             0.007715231796977
+ Force Amp. Max     [au] [eV/A]=              0.000395998815258             0.020363245872865
+ The atom that gives the max. force amp. =        136
+ Force_summary(ave[eV/A],max[eV/A],atom for max)=         1        0.00771523179697715562        0.02036324587286521617       136
+------------------------------------------------------------------
+Output; step_count=         2
+ Output energy
+ Band         Energy : EBD  [au]:            -16.674605513038642
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:              0.000000000000000
+ Kinetic      Energy : EKE  [au]:              0.406475095849129
+ EBD+ECSC+ECC Energy : ETOT [au]:            -16.674605513038642
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            2      -16.67460551      -16.26813042      -16.67460551        0.00000000        0.00000000        0.40647510
+ Energy summary (eV/atom):            2       -3.17302584       -3.09567733       -3.17302584        0.00000000        0.00000000        0.07734852
+ Chemical potential [au, eV]=         2        0.12433537047557965960        3.38336436723328359832
+ Output Force Amplitude 
+ Force Amp. Average [au] [eV/A]=              0.000150742338675             0.007751546690603
+ Force Amp. Max     [au] [eV/A]=              0.000385090059277             0.019802290456741
+ The atom that gives the max. force amp. =        136
+ Force_summary(ave[eV/A],max[eV/A],atom for max)=         2        0.00775154669060311788        0.01980229045674102364       136
+------------------------------------------------------------------
+Output; step_count=         3
+ Output energy
+ Band         Energy : EBD  [au]:            -16.673082658236016
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:              0.000000000000000
+ Kinetic      Energy : EKE  [au]:              0.405548357484654
+ EBD+ECSC+ECC Energy : ETOT [au]:            -16.673082658236016
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            3      -16.67308266      -16.26753430      -16.67308266        0.00000000        0.00000000        0.40554836
+ Energy summary (eV/atom):            3       -3.17273606       -3.09556389       -3.17273606        0.00000000        0.00000000        0.07717217
+ Chemical potential [au, eV]=         3        0.12442963212290608643        3.38592937747567113149
+ Output Force Amplitude 
+ Force Amp. Average [au] [eV/A]=              0.000152457683371             0.007839753989349
+ Force Amp. Max     [au] [eV/A]=              0.000392596997938             0.020188315949279
+ The atom that gives the max. force amp. =        139
+ Force_summary(ave[eV/A],max[eV/A],atom for max)=         3        0.00783975398934885076        0.02018831594927937914       139
+------------------------------------------------------------------
+Output; step_count=         4
+ Output energy
+ Band         Energy : EBD  [au]:            -16.670954143746954
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:              0.000000000000000
+ Kinetic      Energy : EKE  [au]:              0.404834847025084
+ EBD+ECSC+ECC Energy : ETOT [au]:            -16.670954143746954
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            4      -16.67095414      -16.26611930      -16.67095414        0.00000000        0.00000000        0.40483485
+ Energy summary (eV/atom):            4       -3.17233102       -3.09529463       -3.17233102        0.00000000        0.00000000        0.07703639
+ Chemical potential [au, eV]=         4        0.12454018527348127698        3.38893770558786311398
+ Output Force Amplitude 
+ Force Amp. Average [au] [eV/A]=              0.000155217636168             0.007981677639729
+ Force Amp. Max     [au] [eV/A]=              0.000403177934478             0.020732414072857
+ The atom that gives the max. force amp. =        132
+ Force_summary(ave[eV/A],max[eV/A],atom for max)=         4        0.00798167763972889785        0.02073241407285745033       132
+------------------------------------------------------------------
+Output; step_count=         5
+ Output energy
+ Band         Energy : EBD  [au]:            -16.668221959692072
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:              0.000000000000000
+ Kinetic      Energy : EKE  [au]:              0.404617157184902
+ EBD+ECSC+ECC Energy : ETOT [au]:            -16.668221959692072
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            5      -16.66822196      -16.26360480      -16.66822196        0.00000000        0.00000000        0.40461716
+ Energy summary (eV/atom):            5       -3.17181111       -3.09481614       -3.17181111        0.00000000        0.00000000        0.07699497
+ Chemical potential [au, eV]=         5        0.12466669813677823397        3.39238032301875458430
+ Output Force Amplitude 
+ Force Amp. Average [au] [eV/A]=              0.000159071872567             0.008179872079741
+ Force Amp. Max     [au] [eV/A]=              0.000453764229630             0.023333687425938
+ The atom that gives the max. force amp. =        132
+ Force_summary(ave[eV/A],max[eV/A],atom for max)=         5        0.00817987207974099455        0.02333368742593759301       132

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="CF4" mdstep="0">
+ 
+ 
+ <unitcell>
+   <vector unit="angstrom">  10.0   0.0   0.0 </vector>
+   <vector unit="angstrom">   0.0  10.0   0.0 </vector>
+   <vector unit="angstrom">   0.0   0.0  10.0 </vector>
+ </unitcell>
+ 
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.250000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+ <atom element="C" class="" motion="free">
+ <position unit="angstrom"> 0.000000    0.000000   -0.000023   </position>
+ </atom>
+
+ <atom element="F" class="" motion="free">
+ <position unit="angstrom"> 0.000000    1.225664   -0.433321 </position>
+ </atom>
+
+ <atom element="F" class="" motion="free">
+ <position unit="angstrom"> 0.000000    0.000000    1.299977 </position>
+ </atom>
+ 
+ <atom element="F" class="" motion="free">
+ <position unit="angstrom"> 1.061456   -0.612832   -0.433321 </position>
+ </atom>
+ 
+ <atom element="F" class="" motion="free">
+ <position unit="angstrom"> -1.061456   -0.612832   -0.433321 </position>
+ </atom>
+
+ </structure>

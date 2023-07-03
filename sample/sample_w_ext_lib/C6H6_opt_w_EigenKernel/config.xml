@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="C6H6_geno_opt_20121218">
+
+<system>
+  <cluster structure="C6H6.xml" />
+  <boundary x="nonperiodic" y="nonperiodic" z="nonperiodic" />
+  <element  name="C" model="geno"  filename="C.xml"> </element>
+  <element  name="H" model="geno"  filename="H.xml"> </element>
+</system>
+
+<calc mode="optimization">
+  <distributed mode="off" />
+  <solver scheme="eigen_mpi">
+    <eigen_mpi>
+      <SEP_solver> EigenExa_sx </SEP_solver>
+      <GS_transformation> ELPA </GS_transformation> 
+      <blocksize>      32  </blocksize> 
+    </eigen_mpi>
+  </solver>
+  <genoOption>
+   <CSC_method> ELSTNER </CSC_method>
+   <CSC_max_loop_count> 0 </CSC_max_loop_count>
+   <CSC_charge_convergence>  1d-5 </CSC_charge_convergence>
+   <CSC_charge_mixing_ratio> 0.1 </CSC_charge_mixing_ratio>
+  </genoOption>
+  <optimization>
+   <sd_ratio> 0.2 </sd_ratio>
+   <max_num_iter> 10 </max_num_iter>
+   <convergence_criteria mode="energy_per_atom" unit="eV"> 1.0d-5 </convergence_criteria>
+  </optimization>
+  <use_integer_elec_num mode="on" />
+</calc>
+
+<output>
+  <restart  filename="restart.xml" interval="1" />
+  <position filename="position.xyz" interval="1" />
+  <wavefunction filename="output_wavefunction.txt" />
+  <eigen_level filename="output_eigen_levels.txt" interval="1" mode="periodic" format="level_only" unit="a.u." />
+</output>
+
+</config>

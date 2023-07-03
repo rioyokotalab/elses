@@ -1,0 +1,799 @@
+ INFO-MPI:NO MPI routine is used.
+ -----------------------
+ |ELSES standard output|
+ -----------------------
+ INFO:The reset period of the system clock (sec) =   214748.364700000     
+ INFO:The largest INTEGER-type number: huge(0)   =  2147483647
+ @@ ini_load_geno
+ @@ elses_xml_load_config.. is done
+   Config file name =config.xml
+   The verbose level =         100
+ ...call config_load
+ ...end config_load
+   nos   =           2
+   noa   =           3
+ c_system=geno                            
+ S_is_I  = F
+ @@ ini_load_common_alloc
+ @@ elses_xml_load_element_geno
+       nos =           2
+  c_system =geno                            
+ @@ LSES_ALLOC_NVAL:nos,imode=           2           0
+ @@ ALLOC_elem_name:NOS_DEF=           2
+ @@ ALLOC_AWT:NOS_DEF=           2
+ @@ ALLOC_VAL_ELEC:NOS_DEF=           2
+ @@ load_structure_alloc
+       noa =           3
+ @@ ALLOC_AMM:NOA_DEF=           3
+ @@ set_unitcell_info
+ Info : The unit cell vectors in the input file are as follows
+  vector a=(       18.8972687777        0.0000000000        0.0000000000)
+  vector b=(        0.0000000000       18.8972687777        0.0000000000)
+  vector c=(        0.0000000000        0.0000000000       18.8972687777)
+ deviation from the orthogonality (i,j)           2           1
+  0.000000000000000E+000
+ deviation from the orthogonality (i,j)           3           1
+  0.000000000000000E+000
+ deviation from the orthogonality (i,j)           1           2
+  0.000000000000000E+000
+ deviation from the orthogonality (i,j)           3           2
+  0.000000000000000E+000
+ deviation from the orthogonality (i,j)           1           3
+  0.000000000000000E+000
+ deviation from the orthogonality (i,j)           2           3
+  0.000000000000000E+000
+  det=   6748.34256323085     
+ Info : The unit cell vectors are redefined as follows
+  vector a=(       18.8972687777        0.0000000000        0.0000000000)
+  vector b=(        0.0000000000       18.8972687777        0.0000000000)
+  vector c=(        0.0000000000        0.0000000000       18.8972687777)
+  ax*ay*ax =   6748.34256323085     
+ ax =   18.8972687777436     
+ ay =   18.8972687777436     
+ az =   18.8972687777436     
+@@ elses_md_motion_ini_set: mode = optimization        
+ Maximum iteration number in optimization mode=           1
+ @@ set_structure_data
+ @@ GENETX:NOA,I_PBC_X=           3           0           0           0
+ @@ set_atm_position_from_tx
+   Set noav=           3
+ solver scheme=eigen           
+ noak_min_tmp =         200
+ nrecl_tmp    =          30
+ @@ load_xml_conditions
+ @@ LSES_LOAD_ELEC_TEMPERATURE
+  temperature for elec (au,eV)=  5.000000000000000E-003  0.136058000000000     
+ ntlimit     =         -10
+ r_mem_limit =  0.000000000000000E+000
+ .. ended : ini_load_common_alloc
+        nos,nvl   =           2           4
+    r_cut_book    =  1.797693134862316E+308
+            nss   =           1
+ elem_name(nss)   =H       
+       awt(nss)   =   1.00790000000000     
+ val_elec_atm(nss)=   1.00000000000000     
+            nss   =           2
+ elem_name(nss)   =O       
+       awt(nss)   =   16.0000000000000     
+ val_elec_atm(nss)=   5.99999999000000     
+  @@ set_tot_elec_num:nos=           2
+ nss,val_elec_atm=           1   1.00000000000000     
+ nss,val_elec_atm=           2   5.99999999000000     
+  total number of elec.: val_elec_tot=   7.99999999000000     
+  Note: tot_elec_eig_leg is also set
+            for compatibility to old code
+ @@ ini_set_compat
+ @@ LSES_SET_MASS2
+ js,amm=           1  5.442804123815054E-004
+ js,amm=           2  5.442804123815054E-004
+ js,amm=           3  3.428626422745746E-005
+ ....ended:LSES_SET_MASS
+ @@ init_compat_geno
+  total number of bases=           6
+ ...ended: ini_misc_set_geno
+ @@ for_conversion_mode
+  ... is ignored
+  @@ chk_input_data
+  ... ended successfully; chk_input_data
+ @@ elses_ini_set_velocity....is skipped
+elaps-time(befor  MDloop)=              0            0.0108000000
+ --------MD loop starts:itemdmx=           1
+ --------MD loop starts:itemdmx=           1
+ --------MD loop starts:itemdmx=           1
+ scheme_mode=eigen                           
+ c_system   =geno                            
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           1
+   kinetic energy [au]=  0.000000000000000E+000
+   Set noav=           3
+ @@ qm_domain_ini_setting
+   solver scheme=eigen
+ @@ qm_domain_ini_compat
+ c_system=geno                            
+ INFO:length of list =           3
+ INFO: NOAO=NOAV (Non-order-N memory for eigen solver)
+ @@ LSES_INIT_ALLOC2:NOA=           3
+    NOAV =           3
+    NOAO =           3
+    NOAS =           3
+    NOAB =           3
+    NOAB0=           3
+    NVL  =           4
+  Alloc: JSV4JSD, NJSD
+ @@ LSES_ALLOC_ATM:allocation of matrices
+ ..is succesfully done
+ @@ LSES_SET_JS4JSV
+  Set JSV4JS and JS4JSV for equivalent
+ @@ LSES_INIT_ALLOC_NRL_LEG:NOA=           3
+    NOAV =           3
+    NOAO =           3
+    NOAS =           3
+    NOAB =           3
+    NOAB0=           3
+    NVL  =           4
+ @@ ALLOC_MAT_DSIJ_DPIJ
+    :matrix allocation :imode=           0
+   noav_def=           3
+   noas_def=           3
+    nvl_def=           4
+ ... DSIJ      : size (GB)=  1.152000000000000E-006
+ ... DPIJ     : size (GB)=  1.152000000000000E-006
+ ... total     : size (GB)=  2.304000000000000E-006
+ Allocation of dsij
+ Allocation of dpij
+ @@ LSES_SET_JS4JSV
+  Set JSV4JS and JS4JSV for equivalent
+ INFO: gamma_csc is NOT allocated
+ @@@ make_booking_list
+    noav=           3
+ r_cut_book =  1.797693134862316E+308
+  ...booking is done
+ jsv,njsd=           1           3
+ jsv,njsd=           2           3
+ jsv,njsd=           3           3
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   1.00000000000000     
+   1.00000000000000     
+  initial guess for charge=           2   1.00000000000000     
+   1.00000000000000     
+  initial guess for charge=           3   5.99999999000000     
+   5.99999999000000     
+ INFO:initial guess charge is set to be a NON default value:n=           0
+ecc [au], ecc[eV]=  4.84262412942431E-02,  1.31775550760243E+00
+Atom=     1 :Force from repulsive part =   4.02949868769304E-02   5.28695583750224E-02   0.00000000000000E+00
+Atom=     2 :Force from repulsive part =   4.02949868769304E-02  -5.28695583750224E-02   0.00000000000000E+00
+Atom=     3 :Force from repulsive part =  -8.05899737538609E-02   0.00000000000000E+00   0.00000000000000E+00
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =  9.900000004563481E-003
+Hamiltonian
+ -4.99786855605698E-01  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+<<<end set_hamiltonian_and_overlap_geno verbose mode>>>
+   ja1,ja2     =           1           1
+         K     =   1.72333015910351     
+       H_ii[eV]=  -13.6000000000000     
+       H_jj[eV]=  -13.6000000000000     
+ (H_ii+H_jj)/2 =  -13.6000000000000     
+       H_ij[eV]=  -3.71027422163595     
+Hamiltonian
+ -1.36348991666640E-01  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+<<<end set_hamiltonian_and_overlap_geno verbose mode>>>
+   ja1,ja2     =           1           1
+         K     =   1.95721655971187     
+       H_ii[eV]=  -31.4616180000000     
+       H_jj[eV]=  -13.6000000000000     
+ (H_ii+H_jj)/2 =  -22.5308090000000     
+       H_ij[eV]=  -5.68321730809455     
+Hamiltonian
+ -1.15618405385938E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00 -4.33067405077246E-01  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00 -4.33067405077246E-01  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00 -4.33067405077246E-01
+<<<end set_hamiltonian_and_overlap_geno verbose mode>>>
+   ja1,ja2     =           1           1
+         K     =   1.95721655971187     
+       H_ii[eV]=  -13.6000000000000     
+       H_jj[eV]=  -31.4616180000000     
+   ja1,ja2     =           2           1
+         K     =   1.95773290047850     
+       H_ii[eV]=  -11.7844570000000     
+       H_jj[eV]=  -13.6000000000000     
+ (H_ii+H_jj)/2 =  -12.6922285000000     
+       H_ij[eV]=  -6.38860910326253     
+   ja1,ja2     =           3           1
+         K     =   1.95773290047850     
+       H_ii[eV]=  -11.7844570000000     
+       H_jj[eV]=  -13.6000000000000     
+ (H_ii+H_jj)/2 =  -12.6922285000000     
+       H_ij[eV]=  -8.25100295630073     
+   ja1,ja2     =           4           1
+         K     =   1.95773290047850     
+       H_ii[eV]=  -11.7844570000000     
+       H_jj[eV]=  -13.6000000000000     
+ (H_ii+H_jj)/2 =  -12.6922285000000     
+       H_ij[eV]=  0.000000000000000E+000
+Hamiltonian
+ -2.08852743245327E-01  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+ -2.34775209956876E-01  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+ -3.03216384053151E-01  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+<<<end set_hamiltonian_and_overlap_geno verbose mode>>>
+ (H_ii+H_jj)/2 =  -22.5308090000000     
+       H_ij[eV]=  -5.68321730809455     
+   ja1,ja2     =           1           2
+         K     =   1.95773290047850     
+       H_ii[eV]=  -13.6000000000000     
+Hamiltonian
+ -4.99786855605698E-01  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+<<<end set_hamiltonian_and_overlap_geno verbose mode>>>
+       H_jj[eV]=  -11.7844570000000     
+ (H_ii+H_jj)/2 =  -12.6922285000000     
+       H_ij[eV]=  -6.38860910326253     
+   ja1,ja2     =           1           3
+         K     =   1.95773290047850     
+       H_ii[eV]=  -13.6000000000000     
+       H_jj[eV]=  -11.7844570000000     
+ (H_ii+H_jj)/2 =  -12.6922285000000     
+       H_ij[eV]=  -8.25100295630073     
+   ja1,ja2     =           1           4
+         K     =   1.95773290047850     
+       H_ii[eV]=  -13.6000000000000     
+       H_jj[eV]=  -11.7844570000000     
+   ja1,ja2     =           1           1
+         K     =   1.72333015910351     
+       H_ii[eV]=  -13.6000000000000     
+       H_jj[eV]=  -13.6000000000000     
+ (H_ii+H_jj)/2 =  -12.6922285000000     
+       H_ij[eV]=  0.000000000000000E+000
+Hamiltonian
+ -2.08852743245327E-01 -2.34775209956876E-01 -3.03216384053151E-01  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+<<<end set_hamiltonian_and_overlap_geno verbose mode>>>
+ (H_ii+H_jj)/2 =  -13.6000000000000     
+       H_ij[eV]=  -3.71027422163595     
+Hamiltonian
+ -1.36348991666640E-01  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+<<<end set_hamiltonian_and_overlap_geno verbose mode>>>
+   ja1,ja2     =           1           1
+   ja1,ja2     =           1           1
+         K     =   1.95721655971187     
+       H_ii[eV]=  -13.6000000000000     
+       H_jj[eV]=  -31.4616180000000     
+ (H_ii+H_jj)/2 =  -22.5308090000000     
+       H_ij[eV]=  -5.68321730809455     
+   ja1,ja2     =           1           2
+         K     =   1.95773290047850     
+       H_ii[eV]=  -13.6000000000000     
+       H_jj[eV]=  -11.7844570000000     
+ (H_ii+H_jj)/2 =  -12.6922285000000     
+       H_ij[eV]=  -6.38860910326253     
+   ja1,ja2     =           1           3
+         K     =   1.95773290047850     
+       H_ii[eV]=  -13.6000000000000     
+       H_jj[eV]=  -11.7844570000000     
+ (H_ii+H_jj)/2 =  -12.6922285000000     
+       H_ij[eV]=   8.25100295630073     
+   ja1,ja2     =           1           4
+         K     =   1.95773290047850     
+       H_ii[eV]=  -13.6000000000000     
+       H_jj[eV]=  -11.7844570000000     
+ (H_ii+H_jj)/2 =  -12.6922285000000     
+       H_ij[eV]=  0.000000000000000E+000
+Hamiltonian
+ -2.08852743245327E-01 -2.34775209956876E-01  3.03216384053151E-01  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+<<<end set_hamiltonian_and_overlap_geno verbose mode>>>
+         K     =   1.95721655971187     
+       H_ii[eV]=  -31.4616180000000     
+       H_jj[eV]=  -13.6000000000000     
+ (H_ii+H_jj)/2 =  -22.5308090000000     
+       H_ij[eV]=  -5.68321730809455     
+   ja1,ja2     =           2           1
+         K     =   1.95773290047850     
+       H_ii[eV]=  -11.7844570000000     
+       H_jj[eV]=  -13.6000000000000     
+ (H_ii+H_jj)/2 =  -12.6922285000000     
+       H_ij[eV]=  -6.38860910326253     
+   ja1,ja2     =           3           1
+         K     =   1.95773290047850     
+       H_ii[eV]=  -11.7844570000000     
+       H_jj[eV]=  -13.6000000000000     
+ (H_ii+H_jj)/2 =  -12.6922285000000     
+       H_ij[eV]=   8.25100295630073     
+   ja1,ja2     =           4           1
+         K     =   1.95773290047850     
+       H_ii[eV]=  -11.7844570000000     
+       H_jj[eV]=  -13.6000000000000     
+ (H_ii+H_jj)/2 =  -12.6922285000000     
+       H_ij[eV]=  0.000000000000000E+000
+Hamiltonian
+ -2.08852743245327E-01  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+ -2.34775209956876E-01  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  3.03216384053151E-01  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00  0.00000000000000E+00
+<<<end set_hamiltonian_and_overlap_geno verbose mode>>>
+browsGreaterElementsOfOverlapMatrix:
+N=      144
+S(j1,j2,jsd1,jsv2)
+Largest 100 overlaps
+S(1,3,  2,       3)= 3.3205913E-01 :jsd1->       1
+S(3,1,  3,       1)= 3.3205913E-01 :jsd1->       3
+S(1,2,  2,       3)= 2.5710765E-01 :jsd1->       1
+S(2,1,  3,       2)= 2.5710765E-01 :jsd1->       3
+S(2,1,  3,       1)= 2.5710765E-01 :jsd1->       3
+S(1,2,  3,       3)= 2.5710765E-01 :jsd1->       2
+S(1,1,  2,       1)= 1.5830645E-01 :jsd1->       2
+S(1,1,  2,       2)= 1.5830645E-01 :jsd1->       1
+S(1,1,  2,       3)= 1.2887794E-01 :jsd1->       1
+S(1,1,  3,       2)= 1.2887794E-01 :jsd1->       3
+S(1,1,  3,       1)= 1.2887794E-01 :jsd1->       3
+S(1,1,  3,       3)= 1.2887794E-01 :jsd1->       2
+S(3,1,  3,       3)= 0.0000000E+00 :jsd1->       2
+S(4,4,  3,       3)= 0.0000000E+00 :jsd1->       2
+S(1,4,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(4,3,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(3,3,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(2,3,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(4,3,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(4,2,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(3,2,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(2,2,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(2,3,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(4,1,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(3,1,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(2,1,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(4,3,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(4,2,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(3,4,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(2,4,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(1,4,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(4,3,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(1,2,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(2,3,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(1,3,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(4,2,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(3,2,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(3,1,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(1,2,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(4,1,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(3,1,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(2,1,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(4,4,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(4,4,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(3,4,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(2,4,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(1,4,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(4,3,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(3,3,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(2,3,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(1,3,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(4,2,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(3,2,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(2,2,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(1,2,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(4,1,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(3,4,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(1,3,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(4,2,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(4,4,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(3,4,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(2,4,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(1,4,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(4,3,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(3,3,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(2,3,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(1,3,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(4,2,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(3,2,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(2,2,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(1,2,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(4,1,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(3,1,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(4,4,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(4,4,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(4,1,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(3,4,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(3,4,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(2,4,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(2,4,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(3,3,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(1,4,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(1,3,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(2,4,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(3,2,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(2,2,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(2,3,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(4,1,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(1,3,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(2,1,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(4,2,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(4,3,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(3,4,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(2,4,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(1,4,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(4,3,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(3,3,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(2,3,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(2,3,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(4,1,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(3,2,  3,       1)= 0.0000000E+00 :jsd1->       3
+Smallest 100 overlaps
+S(3,1,  3,       2)=-3.3205913E-01 :jsd1->       3
+S(1,3,  3,       3)=-3.3205913E-01 :jsd1->       2
+S(4,4,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(4,1,  3,       3)= 0.0000000E+00 :jsd1->       2
+S(4,4,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(2,4,  3,       3)= 0.0000000E+00 :jsd1->       2
+S(2,1,  3,       3)= 0.0000000E+00 :jsd1->       2
+S(1,3,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(2,3,  3,       3)= 0.0000000E+00 :jsd1->       2
+S(3,3,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(3,4,  3,       3)= 0.0000000E+00 :jsd1->       2
+S(1,4,  3,       3)= 0.0000000E+00 :jsd1->       2
+S(3,2,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(4,3,  3,       3)= 0.0000000E+00 :jsd1->       2
+S(2,1,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(2,2,  3,       3)= 0.0000000E+00 :jsd1->       2
+S(2,1,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(3,1,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(1,2,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(1,2,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(2,2,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(3,2,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(2,2,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(3,1,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(1,4,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(3,3,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(3,3,  3,       3)= 0.0000000E+00 :jsd1->       2
+S(2,4,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(1,4,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(3,4,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(3,2,  3,       3)= 0.0000000E+00 :jsd1->       2
+S(4,2,  3,       3)= 0.0000000E+00 :jsd1->       2
+S(4,2,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(2,1,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(4,1,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(1,2,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(2,2,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(3,2,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(4,1,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(2,3,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(2,3,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(3,3,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(4,3,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(1,4,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(2,4,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(3,4,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(4,3,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(4,2,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(2,1,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(1,3,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(4,1,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(2,3,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(2,2,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(3,2,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(2,4,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(1,3,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(1,4,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(3,3,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(2,4,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(2,4,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(3,4,  2,       3)= 0.0000000E+00 :jsd1->       1
+S(3,4,  1,       2)= 0.0000000E+00 :jsd1->       2
+S(4,1,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(4,4,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(4,4,  1,       1)= 0.0000000E+00 :jsd1->       1
+S(3,1,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(4,1,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(1,2,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(2,2,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(3,2,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(4,2,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(1,3,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(2,3,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(3,3,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(4,3,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(1,4,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(2,4,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(3,4,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(4,4,  2,       2)= 0.0000000E+00 :jsd1->       1
+S(4,2,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(1,3,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(3,4,  2,       1)= 0.0000000E+00 :jsd1->       2
+S(4,1,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(1,2,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(2,2,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(3,2,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(4,2,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(1,3,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(2,3,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(3,3,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(4,3,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(1,4,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(2,4,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(3,4,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(4,4,  3,       2)= 0.0000000E+00 :jsd1->       3
+S(4,4,  3,       1)= 0.0000000E+00 :jsd1->       3
+S(2,1,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(3,1,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(4,1,  1,       3)= 0.0000000E+00 :jsd1->       3
+S(1,2,  1,       3)= 0.0000000E+00 :jsd1->       3
+   time(set_hamiltonian_geno:offdiago) =  1.060000000870787E-002
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ qm_solver_eig_geno
+  n_tot_base=           6
+ @@ Allocation for EIG_LEG
+ n_base_eig_leg is set to=           6
+   total matrix size in GB =  1.200000000000000E-006
+ TIME:qm_solver_eig_geno:initial alloc=        0.0000000000
+ @@ copy_to_full_matrices
+ TIME:qm_solver_eig_geno:copy_to_full =        0.0001000000
+ @@ elses_eig_mateig:n=           6
+  Summation |A_{ij}|, |B_{ij}| =   6.71503531265722        9.18879176812063     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =  0.000000000000000E+000  0.000000000000000E+000
+  Non-orthogonalty B =   3.18879176812063     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :       18
+* current WORK size         :      120
+  TIME for LAPACK (DSYGV) =             0.0206000000
+Settle the sign freedom for eigen vectors
+ TIME:qm_solver_eig_geno:set_eigen    =        0.0399000000
+ TIME:qm_solver_eig_geno:set_chem_pot =        0.0621000000
+ calc.of L-matrix and P-matrix
+ TIME:qm_solver_eig_geno:set_dens mat =        0.0001000000
+ @@ plot_eigen_levels
+ Eigen levels (eV) and occupation number
+eigen_level:         0         1      -31.72740        1.00000
+eigen_level:         0         2      -16.19586        1.00000
+eigen_level:         0         3      -15.80247        1.00000
+eigen_level:         0         4      -11.78446        1.00000
+eigen_level:         0         5       -6.20429        0.00000
+eigen_level:         0         6        1.94954        0.00000
+ ETB (as Sum_i E_i f_i) [au]=  -5.54985293704529     
+ ETB (as Sum_i E_i f_i) [eV]=  -151.020378181702     
+ Total elec. number (check): N_elec=   7.99999999000392     
+ Sum of eigen levels (as 2 Sum_i E_i ) [au]=  -5.54985293704529     
+ Sum of eigen levels (as 2 Sum_i E_i ) [eV]=  -151.020378181702     
+ Plot coefficents: i,  A(i,k)
+ Coefficient of            1 -th eigen state
+           1  8.103760082685479E-002
+           2  8.103760082685488E-002
+           3  0.972195290935789     
+           4 -1.437451452536340E-002
+           5  0.000000000000000E+000
+           6  0.000000000000000E+000
+ Coefficient of            2 -th eigen state
+           1  0.442370284459880     
+           2 -0.442370284459880     
+           3  8.315664851428096E-017
+           4  1.960488359771334E-016
+           5  0.576205673685892     
+           6  0.000000000000000E+000
+ Coefficient of            3 -th eigen state
+           1  0.455295795008282     
+           2  0.455295795008282     
+           3 -0.212054231483562     
+           4  0.527060579308812     
+           5  0.000000000000000E+000
+           6  0.000000000000000E+000
+ Coefficient of            4 -th eigen state
+           1  0.000000000000000E+000
+           2  0.000000000000000E+000
+           3  0.000000000000000E+000
+           4  0.000000000000000E+000
+           5  0.000000000000000E+000
+           6   1.00000000000000     
+ Coefficient of            5 -th eigen state
+           1 -0.538260927031474     
+           2 -0.538260927031474     
+           3  0.208150489693734     
+           4  0.924747236730362     
+           5  0.000000000000000E+000
+           6  0.000000000000000E+000
+ Coefficient of            6 -th eigen state
+           1 -0.780541489817254     
+           2  0.780541489817254     
+           3 -5.822145673067270E-017
+           4 -1.333751344251046E-016
+           5   1.01143794522715     
+           6  0.000000000000000E+000
+ TIME:qm_solver_eig_geno:plot eigen   =        0.0001000000
+ mulliken: jsv2,ja2,mulliken charge (Occ. for each orb.)=       1       1 1.11235766234882E+00
+ mulliken: jsv2,ja2,mulliken charge (Occ. for each atom)=       1         1.11235766234882E+00
+ mulliken: jsv2,ja2,mulliken charge (Occ. for each orb.)=       2       1 1.11235766234881E+00
+ mulliken: jsv2,ja2,mulliken charge (Occ. for each atom)=       2         1.11235766234881E+00
+ mulliken: jsv2,ja2,mulliken charge (Occ. for each orb.)=       3       1 1.97110431263635E+00
+ mulliken: jsv2,ja2,mulliken charge (Occ. for each orb.)=       3       2 8.01591878333811E-01
+ mulliken: jsv2,ja2,mulliken charge (Occ. for each orb.)=       3       3 1.00258848491543E+00
+ mulliken: jsv2,ja2,mulliken charge (Occ. for each orb.)=       3       4 1.99999998942070E+00
+ mulliken: jsv2,ja2,mulliken charge (Occ. for each atom)=       3         5.77528466530629E+00
+ mulliken: Total electron number= 7.99999999000392E+00
+set_qm_force_geno:
+atom=       1
+    TB force (:,       1)  5.33301443137848E-02  8.99373439721127E-02  0.00000000000000E+00
+atom=       2
+    TB force (:,       2)  5.33301443137848E-02 -8.99373439721126E-02  0.00000000000000E+00
+atom=       3
+    TB force (:,       3) -1.06660288627569E-01 -7.28583859910259E-17  0.00000000000000E+00
+ Sum of TB force = -6.93889390390723E-17  1.73472347597681E-17  0.00000000000000E+00
+ Sum of    force = -6.93889390390723E-17  1.73472347597681E-17  0.00000000000000E+00
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -5.54985293704529     
+ ETB0 as 2 Tr[rho H_{TB}] =  -5.54985293704529     
+  --> set as ETB (non CSC case)
+ @@ plot_eigen_levels
+ Eigen levels (eV) and occupation number
+eigen_level:         0         1      -31.72740        1.00000
+eigen_level:         0         2      -16.19586        1.00000
+eigen_level:         0         3      -15.80247        1.00000
+eigen_level:         0         4      -11.78446        1.00000
+eigen_level:         0         5       -6.20429        0.00000
+eigen_level:         0         6        1.94954        0.00000
+ ETB (as Sum_i E_i f_i) [au]=  -5.54985293704529     
+ ETB (as Sum_i E_i f_i) [eV]=  -151.020378181702     
+ Total elec. number (check): N_elec=   7.99999999000392     
+ Sum of eigen levels (as 2 Sum_i E_i ) [au]=  -5.54985293704529     
+ Sum of eigen levels (as 2 Sum_i E_i ) [eV]=  -151.020378181702     
+ Plot coefficents: i,  A(i,k)
+ Coefficient of            1 -th eigen state
+           1  8.103760082685479E-002
+           2  8.103760082685488E-002
+           3  0.972195290935789     
+           4 -1.437451452536340E-002
+           5  0.000000000000000E+000
+           6  0.000000000000000E+000
+ Coefficient of            2 -th eigen state
+           1  0.442370284459880     
+           2 -0.442370284459880     
+           3  8.315664851428096E-017
+           4  1.960488359771334E-016
+           5  0.576205673685892     
+           6  0.000000000000000E+000
+ Coefficient of            3 -th eigen state
+           1  0.455295795008282     
+           2  0.455295795008282     
+           3 -0.212054231483562     
+           4  0.527060579308812     
+           5  0.000000000000000E+000
+           6  0.000000000000000E+000
+ Coefficient of            4 -th eigen state
+           1  0.000000000000000E+000
+           2  0.000000000000000E+000
+           3  0.000000000000000E+000
+           4  0.000000000000000E+000
+           5  0.000000000000000E+000
+           6   1.00000000000000     
+ Coefficient of            5 -th eigen state
+           1 -0.538260927031474     
+           2 -0.538260927031474     
+           3  0.208150489693734     
+           4  0.924747236730362     
+           5  0.000000000000000E+000
+           6  0.000000000000000E+000
+ Coefficient of            6 -th eigen state
+           1 -0.780541489817254     
+           2  0.780541489817254     
+           3 -5.822145673067270E-017
+           4 -1.333751344251046E-016
+           5   1.01143794522715     
+           6  0.000000000000000E+000
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -5.54985293704529     
+ ETB  as 2 Tr[pi S] =  -5.54985293704529     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -5.54985293704529     
+ ETB  as 2 Tr[rho H] =  -5.54985293704529     
+ @@ output_eigenstates
+     filename=output_wavefunction.txt
+ Total Number of atomic orbitals =       1
+ Orbital         =     s
+ Principal       =     1
+ Angular         =     0
+ zeta            = 1.300E+00
+ zeta2           = 0.000E+00
+ c1              = 0.000E+00
+ c2              = 0.000E+00
+ Total Number of atomic orbitals =       1
+ Orbital         =     s
+ Principal       =     1
+ Angular         =     0
+ zeta            = 1.300E+00
+ zeta2           = 0.000E+00
+ c1              = 0.000E+00
+ c2              = 0.000E+00
+ Total Number of atomic orbitals =       4
+ Orbital         =     s     p     p     p
+ Principal       =     2     2     2     2
+ Angular         =     0     1     1     1
+ zeta            = 4.976E+00 1.907E+00 1.907E+00 1.907E+00
+ zeta2           = 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ c1              = 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ c2              = 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ @@ calc_participation
+  open file for energy mesh:
+ input_energy_mesh.txt                                                          
+                      
+ @@ copy_to_full_matrices
+ @@ plot_ldos_from_eigen (experimental routine)
+  i_enable=           1
+  imode  =           1
+  number of energy mesh  =        1000
+  energy bottom   [eV]   =  -50.0000000000000     
+  energy top      [eV]   =   150.000000000000     
+  width of peak      [eV] =  5.000000000000000E-002
+  chemical potential [au] = -0.337779834592249     
+  chemical potential [eV] =  -9.19152974699044     
+  number of total bases      =           6
+  Eigen level (lowest)  [eV] =   -31.7273972159777     
+  Eigen level (highest) [eV] =    1.94954249927984     
+ Eigen levels (eV) and occupation number
+eigen_level:         0         1      -31.72740        1.00000
+eigen_level:         0         2      -16.19586        1.00000
+eigen_level:         0         3      -15.80247        1.00000
+eigen_level:         0         4      -11.78446        1.00000
+eigen_level:         0         5       -6.20429        0.00000
+eigen_level:         0         6        1.94954        0.00000
+ ETB (as Sum_i E_i f_i) [au]=  -5.54985293704529     
+ ETB (as Sum_i E_i f_i) [eV]=  -151.020378181702     
+ Sum of eigen levels (as 2 Sum_i E_i ) [au]=  -5.86256894189514     
+ Sum of eigen levels (as 2 Sum_i E_i ) [eV]=  -159.529881019274     
+ Total elec. number (check): N_elec=   7.99999999000392     
+ Save eigen levels into output_eigen_levels.txt
+ Save TDOS into output_tdos.txt
+ TDOS Result : Chem_pot [eV] =  -9.19152974699044     
+ @@ XML_SAVE_TXP:NOA=           3
+ natom=           3
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ ....is skipped, since (interval)=0
+@@ elses_md_output_main: step_count =          0
+@@ elses_md_output_main: step_count =          0
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       1             0.0042773256            -0.0042773256             0.0000000000
+     ETB2=  -5.54985293704529     
+     ECC =  4.842624129424311E-002
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =  0.000000000000000E+000
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       1       0         -5.501427         -5.549853          0.048426          0.000000          0.000000          0.000000          0.000000
+ @@ output_atom_charge
+ ....no file is generated for atom charge.
+ No file is generated for atom energy.
+elaps-time(lap    MDloop)=              1            0.1763000000
+TIME:mpi_check(fin)=         0.0000000000
+.....Total MD loops ends; # MD step =                             1
+.....Total Simulation time (sec ) =                       0.18710
+.....Total Simulation time (hour) =                       0.00005
+.....Total Simulation time (day ) =                       0.00000
+..... ELSES ended successfully (without MPI)

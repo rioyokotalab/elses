@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="C6H6_dimer">
+<system>
+  <cluster structure="benzene_dimer.xml" />
+  <cluster_unused structure="benzene_dimer.xml" parser="sax" tag_dump="off" cutoff_radius="10.0d0"/>
+  <boundary x="nonperiodic" y="nonperiodic" z="nonperiodic" />
+  <element  name="C" model="geno"  filename="C.xml"> </element>
+  <element  name="H" model="geno"  filename="H.xml"> </element>
+  <temperature unit="kelvin"> 500 </temperature>
+  <heatbath_mass mode="on">
+    <mass_per_atom unit="a.u."> 25.0d0 </mass_per_atom>
+  </heatbath_mass>
+</system>
+
+<calc mode="cell_change_only">
+  <cell_change scheme="from_file" filename="input_cell_change.txt">
+    <max_num_iter> 30 </max_num_iter>
+  </cell_change>
+  <use_group_id mode="on" />
+  <genoOption>
+   <CSC_method> ELSTNER </CSC_method>
+   <CSC_max_loop_count> 0 </CSC_max_loop_count>
+   <CSC_charge_convergence>  1d-5 </CSC_charge_convergence>
+   <CSC_charge_mixing_ratio> 0.1 </CSC_charge_mixing_ratio>
+   <van_der_Waals mode="on"> 
+     <vdW_lambda mode="on"> 1.4d-5 </vdW_lambda> 
+   </van_der_Waals> 
+  </genoOption>
+</calc>
+
+<output>
+  <position filename="position.xyz" interval="1" />
+  <restart filename="restart.xml" interval="1" append_mode="on" atom_id_is_added="on" />
+　<eigen_level filename="output_eigen_levels.txt" intarval="1" format="full" unit="eV" />　
+  <bond_list filename="output_bond_list.txt" interval="1" />
+  <wavefunction filename="output_wavefunction.txt" />
+</output>
+</config>

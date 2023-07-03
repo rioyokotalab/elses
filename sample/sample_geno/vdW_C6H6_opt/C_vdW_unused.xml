@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type="Huckel" name="C">
+  <mass>         12.0107d00  </mass>
+  <initial_charge>          0.0d0  </initial_charge>
+  <principal_quantum_number>      2    2    2    2  </principal_quantum_number>
+  <initial_occupation>     2.00000000000000000000   0.66666666666666662966   0.66666666666666662966   0.66666666666666662966 </initial_occupation>  
+  <initial_diagonal_elements>   -21.4d0 -11.4d0 -11.4d0 -11.4d0 </initial_diagonal_elements>  
+  <zeta>     1.710d0   1.625d0   1.625d0   1.625d0  </zeta>
+  <repulsive_rescaling>     1.0d0   1.0d0   1.0d0  1.0d0  </repulsive_rescaling> 
+  <chemical_hardness>    11.4d0 </chemical_hardness>
+  <vdW>
+    <ionization_energy unit="eV"> 11.26030d0 </ionization_energy>
+    <dipole_polarizability unit="cm3">  1.67d-24 </dipole_polarizability>
+    <covalent_radius unit="Angstrom"> 0.75d0 </covalent_radius>
+  </vdW>
+</element>

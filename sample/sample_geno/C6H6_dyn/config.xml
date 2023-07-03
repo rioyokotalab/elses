@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="C6H6_dyn">
+
+<system>
+  <cluster structure="C6H6.xml" />
+  <boundary x="nonperiodic" y="nonperiodic" z="nonperiodic" />
+  <element  name="C" model="geno"  filename="C.xml"> </element>
+  <element  name="H" model="geno"  filename="H.xml"> </element>
+  <temperature unit="kelvin"> 500 </temperature>
+  <heatbath_mass mode="on">
+    <mass_per_atom unit="a.u."> 25.0d0 </mass_per_atom>
+  </heatbath_mass>
+</system>
+
+<calc mode="dynamics">
+  <solver scheme="eigen"> </solver>
+  <limit>
+   <time   unit="min"> 10.0d0 </time>
+   <memory unit="GB">   1.0d0 </memory>
+  </limit>
+  <genoOption>
+   <CSC_method> ELSTNER </CSC_method>
+   <CSC_max_loop_count> 0 </CSC_max_loop_count>
+   <CSC_charge_convergence>  1d-5 </CSC_charge_convergence>
+   <CSC_charge_mixing_ratio> 0.1 </CSC_charge_mixing_ratio>
+  </genoOption>
+  <dynamics scheme="velocity verlet">
+   <delta unit="fsec"> 1.00 </delta>
+   <total unit="fsec"> 50.00 </total>
+  </dynamics>
+  <use_integer_elec_num mode="on" />
+</calc>
+
+<output>
+  <restart  filename="restart.xml" interval="1" />
+  <position filename="position.xyz" interval="1" />
+  <wavefunction filename="output_wavefunction.txt" />
+  <bond_list filename="output_bondlist.txt" interval="1"/>
+</output>
+
+</config>

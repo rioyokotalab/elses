@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="C60s">
+
+<system>
+  <cluster structure="C60s.xml" />
+
+  <temperature unit="kelvin"> 1000.0 </temperature>
+  <element  name="C" model="Xu.1992"  filename="C.xml"> </element>
+</system>
+
+<calc mode="dynamics">
+  <dynamics scheme="velocity verlet">
+    <delta unit="fsec"> 1.00 </delta>
+    <total unit="fsec"> 20.00 </total>
+  </dynamics>
+  <solver scheme="krylov">  </solver>
+</calc>
+
+<output>
+  <restart  filename="C60s-restart.xml" interval="1" />
+  <position filename="C60s-position.xyz" interval="4" />
+</output>
+
+</config>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="Si_bulk_64atom">
+
+<system>
+  <cluster structure="Si_bulk_64atom_new.xml" cutoff_radius="8.0" />
+  <boundary x="periodic" y="periodic" z="periodic" />
+  <temperature unit="kelvin"> 300 </temperature>
+  <element  name="Si" model="geno"  filename="Si.xml"> </element>
+</system>
+
+<calc mode="dynamics">
+  <genoOption>
+   <CSC_method> TB0 </CSC_method> <CSC_max_loop_count> 0 </CSC_max_loop_count>
+   <CSC_charge_convergence>  1d-3 </CSC_charge_convergence>
+   <CSC_charge_mixing_ratio> 3d-1 </CSC_charge_mixing_ratio>
+  </genoOption>
+  <dynamics scheme="velocity verlet">
+    <delta unit="fsec"> 1.00 </delta>
+    <total unit="fsec"> 1.00 </total>
+  </dynamics>
+</calc>
+
+<output>
+  <restart  filename="Si_bulk_64atom-restart.xml" interval="1" />
+  <position filename="Si_bulk_64atom-position.xyz" interval="1" />
+</output>
+
+</config>

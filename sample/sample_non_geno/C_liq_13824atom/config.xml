@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="C_liq_13824atom">
+
+<system>
+  <cluster structure="C_liq_13824atom.xml" />
+
+  <temperature unit="kelvin"> 6000.0 </temperature>
+  <element  name="C" model="Xu.1992"  filename="C.xml"> </element>
+</system>
+
+<calc mode="dynamics">
+  <dynamics scheme="velocity verlet">
+    <delta unit="fsec"> 1.00 </delta>
+    <total unit="fsec"> 20.00 </total>
+  </dynamics>
+  <solver scheme="krylov">  </solver>
+</calc>
+
+<output>
+  <restart  filename="C_liq_13824atom-restart.xml" interval="5" />
+  <position filename="C_liq_13824atom-position.xyz" interval="4" />
+</output>
+
+</config>

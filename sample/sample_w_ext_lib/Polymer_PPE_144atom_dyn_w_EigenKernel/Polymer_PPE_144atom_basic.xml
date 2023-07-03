@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="Polymer_PPE_144atom" mdstep="0">
+ 
+ <total_number_of_atoms> 144 </total_number_of_atoms>
+ 
+ 
+ <unitcell>
+   <vector unit="a.u.">  0.188972687777436E+03  0.000000000000000E+00  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.188972687777436E+03  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.188972687777436E+03</vector>
+ </unitcell>
+ 
+ 
+ <boundary x="nonperiodic" y="nonperiodic" z="nonperiodic" />
+ 
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.250000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+ </structure>

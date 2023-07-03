@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="W BCC" mdstep="0">
+ 
+ 
+ <unitcell>
+   <vector unit="a.u.">  0.296687119810574E+02  0.000000000000000E+00  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.296687119810574E+02  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.296687119810574E+02</vector>
+ </unitcell>
+ 
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.250000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+ </structure>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="H2">
+
+<system>
+  <cluster structure="H2.xml" />
+
+  <temperature unit="kelvin"> 273.15 </temperature>
+  <element  name="H" model="geno"  filename="H.xml"> </element>
+</system>
+
+<calc mode="dynamics">
+  <dynamics scheme="velocity verlet">
+    <delta unit="fsec"> 1.00 </delta>
+    <total unit="fsec"> 10.00 </total>
+  </dynamics>
+</calc>
+
+<output>
+  <restart  filename="restart.xml" interval="4" />
+  <position filename="position.xyz" interval="4" />
+</output>
+
+</config>

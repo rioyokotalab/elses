@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="C_bulk_512atom">
+
+<system>
+  <cluster structure="C_bulk_512.xml" cutoff_radius="13.0" />
+  <boundary x="periodic" y="periodic" z="periodic" />
+  <element  name="C" model="geno"  filename="C_spd_Cerda.xml"> </element>
+</system>
+
+<calc mode="dynamics">
+  <genoOption>
+   <CSC_method> ELSTNER </CSC_method> <CSC_max_loop_count> 0 </CSC_max_loop_count>
+   <CSC_charge_convergence>  1d-3 </CSC_charge_convergence>
+   <CSC_charge_mixing_ratio> 3d-1 </CSC_charge_mixing_ratio>
+   <HML_constant_K> T </HML_constant_K>
+   <HML_K> 2.8d0 </HML_K>
+  </genoOption>
+  <dynamics scheme="velocity verlet">
+    <delta unit="fsec"> 1.00 </delta>
+    <total unit="fsec"> 0.00 </total>
+  </dynamics>
+</calc>
+
+<output>
+  <restart  filename="C_bulk_512atom.xml" interval="0" />
+  <position filename="C_bulk_512atom.xyz" interval="0" />
+</output>
+
+</config>

@@ -1,0 +1,498 @@
+ the reset period of the system clock (sec) =   214748.364700000     
+TIME:open_xml_file=    0.0001000000
+TIME:open_xml_file for str. data =    0.0001000000
+ @@ LSES_ALLOC_NVAL:nos,imode=           1           0
+ @@ ALLOC_elem_name:NOS_DEF=           1
+ @@ ALLOC_AWT:NOS_DEF=           1
+ @@ ALLOC_VAL_ELEC:NOS_DEF=           1
+ @@ LSES_ALLOC_INI_TXP:noa2=       13824
+ @@ ALLOC_TX:NOA_DEF=       13824
+ @@ ALLOC_TXP:NOA_DEF=       13824
+ @@ ALLOC_IFLAG:NOA_DEF=       13824
+ @@ ALLOC_AMM:NOA_DEF=       13824
+ ax =   97.6187605665636     
+ ay =   97.6187605665636     
+ az =   97.6187605665636     
+ ntlimit     =         -10
+ r_mem_limit =  0.000000000000000E+000
+load_element_info: Are boundaries periodic? TTT
+load_element_info: r_cut_book for geno = 8.00000000000000E+00
+ @@ LSES_SET_MASS2
+ js,amm=           1  4.567429272559629E-005
+ js,amm=           2  4.567429272559629E-005
+ js,amm=           3  4.567429272559629E-005
+ js,amm=           4  4.567429272559629E-005
+ js,amm=           5  4.567429272559629E-005
+INFO:result for xml_flag_check:count=    0
+ ....ended:LSES_SET_MASS
+ @@ LSES_ALLOC_NVAL:nos,imode=           1           0
+ @@ ALLOC_elem_name:NOS_DEF=           1
+ @@ ALLOC_AWT:NOS_DEF=           1
+ @@ ALLOC_VAL_ELEC:NOS_DEF=           1
+ @@ LSES_ALLOC_INI_TXP:noa2=       13824
+ @@ ALLOC_TX:NOA_DEF=       13824
+ @@ ALLOC_TXP:NOA_DEF=       13824
+ @@ ALLOC_IFLAG:NOA_DEF=       13824
+ @@ ALLOC_AMM:NOA_DEF=       13824
+ ax =   97.6187605665636     
+ ay =   97.6187605665636     
+ az =   97.6187605665636     
+ ntlimit     =         -10
+ r_mem_limit =  0.000000000000000E+000
+load_element_info: Are boundaries periodic? TTT
+load_element_info: r_cut_book for geno = 8.00000000000000E+00
+ @@ LSES_SET_MASS2
+ js,amm=           1  4.567429272559629E-005
+ js,amm=           2  4.567429272559629E-005
+ js,amm=           3  4.567429272559629E-005
+ js,amm=           4  4.567429272559629E-005
+ js,amm=           5  4.567429272559629E-005
+ ....ended:LSES_SET_MASS
+ @@ LSES_VEL_INI_CHK:checking initial velocity
+  temperature[au]:tempk0=  1.900083572944628E-002
+   INFO: Velocity is not set in the input file
+   INFO: Heatbath parameters are set to be zero
+   ---> Velocity will be generated from the maxwell distribution
+ @@ LSES_VEL_INI:initial velocity
+  temperature[au]:tempk0=  1.900083572944628E-002
+   NOA =       13824
+ i,iw=           1           1
+ i,iw=           2           1
+ i,iw=           3           1
+ i,iw=           4           1
+ i,iw=           5           1
+ i,iw=           6          -1
+ i,iw=           7           1
+ i,iw=           8           1
+ i,iw=           9           1
+ i,iw=          10          -1
+ @@ LSES_VEL_INI_CHK:checking initial velocity
+  temperature[au]:tempk0=  1.900083572944628E-002
+   INFO: Velocity is not set in the input file
+   INFO: Heatbath parameters are set to be zero
+   ---> Velocity will be generated from the maxwell distribution
+ @@ LSES_VEL_INI:initial velocity
+  temperature[au]:tempk0=  1.900083572944628E-002
+   NOA =       13824
+ i,iw=           1           1
+ i,iw=           2           1
+ i,iw=           3           1
+ i,iw=           4           1
+ i,iw=           5           1
+ i,iw=           6          -1
+ i,iw=           7           1
+ i,iw=           8           1
+ i,iw=           9           1
+ i,iw=          10          -1
+ AFTER SCALING
+elaps-time(befor  MDloop)=              0            0.5206000000
+ --------MD loop starts:itemdmx=           6
+ --------MD loop starts:itemdmx=           6
+ --------MD loop starts:itemdmx=           6
+ scheme_mode=gKrylov_A                       
+ c_system   =geno                            
+ INFO:dst_calculation= T
+ INFO:mpi_is_active  = T
+ INFO:Distributed calculation mode
+ AFTER SCALING
+ @@ initial_mcell_booking:myrank,nprocs=           0           2
+ noav=       13824
+ INFO(initial_cell_booking, from XML)one_cell_setting= T
+ INFO(initial_cell_booking):dn_cell_x, n_cell_x=           2           4
+ INFO(initial_cell_booking):dn_cell_y, n_cell_y=           2           4
+ INFO(initial_cell_booking):dn_cell_z, n_cell_z=           2           4
+  INFO-CELL(ONE CELL):n_cell=         1
+ @@ Check_cell_booking (for debugging) ...is skipped (no-verbose mode)
+ INFO:Tentatively, the calc_charge is off in DST, non-CSC workflow
+ @@ set_dst_atm_list
+chem_pot [au,eV]=                  43       -0.35832570407862518458       -9.75061572910591678465
+ WARN-INFO : global dens mat is not allocated
+ WARN-INFO : qm_geno_output is skipped
+ ETB0 (from atm_energy_dstm)=  -37371.6009299175     
+ Erest(from atm_energy_dstm)=   785.197037136768     
+ WARN-INFO : global dens mat is not allocated
+ WARN-INFO : qm_geno_output is skipped
+ @@ XML_SAVE_TXP:NOA=       13824
+ natom=       13824
+TIME:mpi_check(out1)=         0.0000019073
+TIME:mpi_check(out2)=         0.0000009537
+TIME:mpi_check(out3)=         0.0000121593
+TIME:mpi_check(out4)=         0.0000300407
+TIME:mpi_check(out5)=         0.0000309944
+TIME:mpi_check(mov1)=         0.0000009537
+@@ ELSES_MD_MOTION, config%calc%mode = dynamics            
+TIME:mpi_check(mov2)=         0.0000009537
+TIME:mpi_check(mov3)=         0.0000019073
+ ...routine(elses_xml_save_txp) is ended. 
+TIME:mpi_check(out1)=         0.0000019073
+TIME:mpi_check(out2)=         0.0000030994
+TIME:mpi_check(out3)=         0.0000009537
+TIME:mpi_check(out4)=         0.0000011921
+ @@ md_output_compat
+ THB,VHB at t =  0.000000000000000E+000  0.000000000000000E+000
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       1           394.0013296858             0.0000000000             0.0000000000
+     ETB2=  -37371.6009299175     
+     ECC =   785.197037136768     
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =   394.001329685800     
+     EHB =  0.000000000000000E+000
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       1       0     -36586.403893     -37371.600930        785.197037        394.001330          0.000000          0.000000          0.000000
+TIME:mpi_check(out5)=         0.0000009537
+TIME:mpi_check(mov1)=         0.0000009537
+@@ ELSES_MD_MOTION, config%calc%mode = dynamics            
+TIME:mpi_check(mov2)=         0.0000009537
+TIME:mpi_check(mov3)=         0.0000109673
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000059605
+TIME:mpi_check(mov5)=         0.0000009537
+TIME:mpi_check(mov6)=         0.0000019073
+TIME:mpi_check(fin)=         0.0000019073
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000638962
+TIME:mpi_check(mov5)=         0.0000040531
+TIME:mpi_check(mov6)=         0.0000009537
+elaps-time(lap    MDloop)=              1          256.8928000000
+TIME:mpi_check(fin)=         0.0000009537
+ scheme_mode=gKrylov_A                       
+ c_system   =geno                            
+ INFO:dst_calculation= T
+ INFO:mpi_is_active  = T
+ INFO:Distributed calculation mode
+ @@ initial_mcell_booking:myrank,nprocs=           0           2
+ noav=       13824
+ INFO(initial_cell_booking, from XML)one_cell_setting= T
+ INFO(initial_cell_booking):dn_cell_x, n_cell_x=           2           4
+ INFO(initial_cell_booking):dn_cell_y, n_cell_y=           2           4
+ INFO(initial_cell_booking):dn_cell_z, n_cell_z=           2           4
+  INFO-CELL(ONE CELL):n_cell=         1
+ @@ Check_cell_booking (for debugging) ...is skipped (no-verbose mode)
+ INFO:Tentatively, the calc_charge is off in DST, non-CSC workflow
+ @@ set_dst_atm_list
+chem_pot [au,eV]=                  43       -0.35841745729441443213       -9.75311248091268723215
+ ETB0 (from atm_energy_dstm)=  -37382.0269028766     
+ Erest(from atm_energy_dstm)=   791.121039497701     
+ WARN-INFO : global dens mat is not allocated
+ WARN-INFO : qm_geno_output is skipped
+ WARN-INFO : global dens mat is not allocated
+ WARN-INFO : qm_geno_output is skipped
+ @@ XML_SAVE_TXP:NOA=       13824
+ natom=       13824
+TIME:mpi_check(out1)=         0.0000069141
+TIME:mpi_check(out2)=         0.0000009537
+TIME:mpi_check(out3)=         0.0000140667
+TIME:mpi_check(out4)=         0.0000309944
+TIME:mpi_check(out5)=         0.0000350475
+TIME:mpi_check(mov1)=         0.0000021458
+@@ ELSES_MD_MOTION, config%calc%mode = dynamics            
+TIME:mpi_check(mov2)=         0.0000021458
+ ...routine(elses_xml_save_txp) is ended. 
+TIME:mpi_check(out1)=         0.0000019073
+TIME:mpi_check(out2)=         0.0000019073
+TIME:mpi_check(out3)=         0.0000009537
+TIME:mpi_check(out4)=         0.0000009537
+ @@ md_output_compat
+ THB,VHB at t =  1.294051925338874E-014  7.683550967070487E-003
+EHB,1,2=             0.0059645856             0.0059645856             0.0000000000
+PKIN,d_PKIN,VHB=       2           394.0013296858             1.5525596524             0.0076835510
+     ETB2=  -37382.0269028766     
+     ECC =   791.121039497701     
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =   395.553889338211     
+     EHB =  5.964585619579618E-003
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       2       1     -36590.905863     -37382.026903        791.121039        395.553889          0.000000          0.005965          0.000000
+TIME:mpi_check(out5)=         0.0000019073
+TIME:mpi_check(mov1)=         0.0000009537
+@@ ELSES_MD_MOTION, config%calc%mode = dynamics            
+TIME:mpi_check(mov2)=         0.0000009537
+TIME:mpi_check(mov3)=         0.0000720024
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000040531
+TIME:mpi_check(mov5)=         0.0000009537
+TIME:mpi_check(mov6)=         0.0000030994
+TIME:mpi_check(fin)=         0.0000040531
+TIME:mpi_check(mov3)=         0.0000030994
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000879765
+TIME:mpi_check(mov5)=         0.0000030994
+TIME:mpi_check(mov6)=         0.0000021458
+elaps-time(lap    MDloop)=              2          256.9510000000
+TIME:mpi_check(fin)=         0.0000021458
+ scheme_mode=gKrylov_A                       
+ c_system   =geno                            
+ INFO:dst_calculation= T
+ INFO:mpi_is_active  = T
+ INFO:Distributed calculation mode
+ @@ initial_mcell_booking:myrank,nprocs=           0           2
+ noav=       13824
+ INFO(initial_cell_booking, from XML)one_cell_setting= T
+ INFO(initial_cell_booking):dn_cell_x, n_cell_x=           2           4
+ INFO(initial_cell_booking):dn_cell_y, n_cell_y=           2           4
+ INFO(initial_cell_booking):dn_cell_z, n_cell_z=           2           4
+  INFO-CELL(ONE CELL):n_cell=         1
+ @@ Check_cell_booking (for debugging) ...is skipped (no-verbose mode)
+ INFO:Tentatively, the calc_charge is off in DST, non-CSC workflow
+ @@ set_dst_atm_list
+chem_pot [au,eV]=                  43       -0.35885318779513064591       -9.76496940500597787604
+ ETB0 (from atm_energy_dstm)=  -37417.3967245677     
+ Erest(from atm_energy_dstm)=   811.647259511379     
+ WARN-INFO : global dens mat is not allocated
+ WARN-INFO : qm_geno_output is skipped
+ WARN-INFO : global dens mat is not allocated
+ WARN-INFO : qm_geno_output is skipped
+ @@ XML_SAVE_TXP:NOA=       13824
+ natom=       13824
+ ...routine(elses_xml_save_txp) is ended. 
+TIME:mpi_check(out1)=         0.0000009537
+TIME:mpi_check(out2)=         0.0000019073
+TIME:mpi_check(out3)=         0.0000009537
+TIME:mpi_check(out4)=         0.0000021458
+ @@ md_output_compat
+ THB,VHB at t =  1.536710193413718E-002  2.345469516722419E-002
+EHB,1,2=            12.1648968540             0.0555796630            12.1093171909
+PKIN,d_PKIN,VHB=       3           394.0013296858             1.6342015551             0.0234546952
+     ETB2=  -37417.3967245677     
+     ECC =   811.647259511379     
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =   395.635531240870     
+     EHB =   12.1648968539689     
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       3       2     -36605.749465     -37417.396725        811.647260        395.635531          0.000000         12.164897          0.000000
+TIME:mpi_check(out5)=         0.0000019073
+TIME:mpi_check(mov1)=         0.0000009537
+@@ ELSES_MD_MOTION, config%calc%mode = dynamics            
+TIME:mpi_check(mov2)=         0.0000011921
+TIME:mpi_check(out1)=         0.0000050068
+TIME:mpi_check(out2)=         0.0000009537
+TIME:mpi_check(out3)=         0.0000119209
+TIME:mpi_check(out4)=         0.0000309944
+TIME:mpi_check(out5)=         0.0000350475
+TIME:mpi_check(mov1)=         0.0000019073
+@@ ELSES_MD_MOTION, config%calc%mode = dynamics            
+TIME:mpi_check(mov2)=         0.0000011921
+TIME:mpi_check(mov3)=         0.0000021458
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000908375
+TIME:mpi_check(mov5)=         0.0000009537
+TIME:mpi_check(mov6)=         0.0000011921
+elaps-time(lap    MDloop)=              3          257.2863000000
+TIME:mpi_check(fin)=         0.0000021458
+ scheme_mode=gKrylov_A                       
+ c_system   =geno                            
+ INFO:dst_calculation= T
+ INFO:mpi_is_active  = T
+ INFO:Distributed calculation mode
+ @@ initial_mcell_booking:myrank,nprocs=           0           2
+ noav=       13824
+ INFO(initial_cell_booking, from XML)one_cell_setting= T
+ INFO(initial_cell_booking):dn_cell_x, n_cell_x=           2           4
+ INFO(initial_cell_booking):dn_cell_y, n_cell_y=           2           4
+ INFO(initial_cell_booking):dn_cell_z, n_cell_z=           2           4
+  INFO-CELL(ONE CELL):n_cell=         1
+ @@ Check_cell_booking (for debugging) ...is skipped (no-verbose mode)
+TIME:mpi_check(mov3)=         0.0000510216
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000019073
+TIME:mpi_check(mov5)=         0.0000019073
+TIME:mpi_check(mov6)=         0.0000011921
+TIME:mpi_check(fin)=         0.0000030994
+ INFO:Tentatively, the calc_charge is off in DST, non-CSC workflow
+ @@ set_dst_atm_list
+chem_pot [au,eV]=                  43       -0.35960657219325731226       -9.78547019989404098794
+ ETB0 (from atm_energy_dstm)=  -37473.5397760595     
+ Erest(from atm_energy_dstm)=   845.598437991713     
+ WARN-INFO : global dens mat is not allocated
+ WARN-INFO : qm_geno_output is skipped
+ WARN-INFO : global dens mat is not allocated
+ WARN-INFO : qm_geno_output is skipped
+ @@ XML_SAVE_TXP:NOA=       13824
+ natom=       13824
+TIME:mpi_check(out1)=         0.0000050068
+TIME:mpi_check(out2)=         0.0000009537
+TIME:mpi_check(out3)=         0.0000119209
+TIME:mpi_check(out4)=         0.0000309944
+TIME:mpi_check(out5)=         0.0000338554
+TIME:mpi_check(mov1)=         0.0000019073
+@@ ELSES_MD_MOTION, config%calc%mode = dynamics            
+TIME:mpi_check(mov2)=         0.0000019073
+TIME:mpi_check(mov3)=         0.0000591278
+ ...routine(elses_xml_save_txp) is ended. 
+TIME:mpi_check(out1)=         0.0000009537
+TIME:mpi_check(out2)=         0.0000021458
+TIME:mpi_check(out3)=         0.0000009537
+TIME:mpi_check(out4)=         0.0000021458
+ @@ md_output_compat
+ THB,VHB at t =  4.690939033445124E-002  2.817944021223615E-002
+EHB,1,2=            37.0449514243             0.0802270913            36.9647243330
+PKIN,d_PKIN,VHB=       4           394.0013296858            -0.6795064465             0.0281794402
+     ETB2=  -37473.5397760595     
+     ECC =   845.598437991713     
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =   393.321823239311     
+     EHB =   37.0449514243236     
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       4       3     -36627.941338     -37473.539776        845.598438        393.321823          0.000000         37.044951          0.000000
+TIME:mpi_check(out5)=         0.0000009537
+TIME:mpi_check(mov1)=         0.0000009537
+@@ ELSES_MD_MOTION, config%calc%mode = dynamics            
+TIME:mpi_check(mov2)=         0.0000009537
+TIME:mpi_check(mov3)=         0.0000021458
+ .... is skipped (population_guess is not defined)
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000030994
+TIME:mpi_check(mov5)=         0.0000009537
+TIME:mpi_check(mov6)=         0.0000021458
+TIME:mpi_check(fin)=         0.0000040531
+TIME:mpi_check(mov4)=         0.0000720024
+TIME:mpi_check(mov5)=         0.0000019073
+TIME:mpi_check(mov6)=         0.0000019073
+elaps-time(lap    MDloop)=              4          259.1796000000
+TIME:mpi_check(fin)=         0.0000021458
+ scheme_mode=gKrylov_A                       
+ c_system   =geno                            
+ INFO:dst_calculation= T
+ INFO:mpi_is_active  = T
+ INFO:Distributed calculation mode
+ @@ initial_mcell_booking:myrank,nprocs=           0           2
+ noav=       13824
+ INFO(initial_cell_booking, from XML)one_cell_setting= T
+ INFO(initial_cell_booking):dn_cell_x, n_cell_x=           2           4
+ INFO(initial_cell_booking):dn_cell_y, n_cell_y=           2           4
+ INFO(initial_cell_booking):dn_cell_z, n_cell_z=           2           4
+  INFO-CELL(ONE CELL):n_cell=         1
+ @@ Check_cell_booking (for debugging) ...is skipped (no-verbose mode)
+ INFO:Tentatively, the calc_charge is off in DST, non-CSC workflow
+ @@ set_dst_atm_list
+chem_pot [au,eV]=                  44       -0.36065930111534072466       -9.81411663823020674613
+ ETB0 (from atm_energy_dstm)=  -37544.2079809197     
+ Erest(from atm_energy_dstm)=   890.084237646966     
+ WARN-INFO : global dens mat is not allocated
+ WARN-INFO : qm_geno_output is skipped
+ WARN-INFO : global dens mat is not allocated
+ WARN-INFO : qm_geno_output is skipped
+TIME:mpi_check(out1)=         0.0000059605
+TIME:mpi_check(out2)=         0.0000009537
+TIME:mpi_check(out3)=         0.0000131130
+TIME:mpi_check(out4)=         0.0000400543
+TIME:mpi_check(out5)=         0.0000329018
+TIME:mpi_check(mov1)=         0.0000009537
+@@ ELSES_MD_MOTION, config%calc%mode = dynamics            
+TIME:mpi_check(mov2)=         0.0000021458
+ @@ XML_SAVE_TXP:NOA=       13824
+ natom=       13824
+ ...routine(elses_xml_save_txp) is ended. 
+TIME:mpi_check(out1)=         0.0000009537
+TIME:mpi_check(out2)=         0.0000021458
+TIME:mpi_check(out3)=         0.0000009537
+TIME:mpi_check(out4)=         0.0000019073
+ @@ md_output_compat
+ THB,VHB at t =  7.172598235859418E-002  2.502801483167142E-002
+EHB,1,2=            56.5835510609             0.0632862162            56.5202648446
+PKIN,d_PKIN,VHB=       5           394.0013296858             0.0427206798             0.0250280148
+     ETB2=  -37544.2079809197     
+     ECC =   890.084237646966     
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =   394.044050365596     
+     EHB =   56.5835510608613     
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       5       4     -36654.123743     -37544.207981        890.084238        394.044050          0.000000         56.583551          0.000000
+TIME:mpi_check(out5)=         0.0000069141
+TIME:mpi_check(mov1)=         0.0000009537
+@@ ELSES_MD_MOTION, config%calc%mode = dynamics            
+TIME:mpi_check(mov2)=         0.0000011921
+TIME:mpi_check(mov3)=         0.0000729561
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000019073
+TIME:mpi_check(mov5)=         0.0000009537
+TIME:mpi_check(mov6)=         0.0000019073
+TIME:mpi_check(fin)=         0.0000028610
+TIME:mpi_check(mov3)=         0.0000021458
+ .... is skipped (population_guess is not defined)
+TIME:mpi_check(mov4)=         0.0000700951
+TIME:mpi_check(mov5)=         0.0000009537
+TIME:mpi_check(mov6)=         0.0000019073
+elaps-time(lap    MDloop)=              5          260.3538000000
+TIME:mpi_check(fin)=         0.0000009537
+ scheme_mode=gKrylov_A                       
+ c_system   =geno                            
+ INFO:dst_calculation= T
+ INFO:mpi_is_active  = T
+ INFO:Distributed calculation mode
+ @@ initial_mcell_booking:myrank,nprocs=           0           2
+ noav=       13824
+ INFO(initial_cell_booking, from XML)one_cell_setting= T
+ INFO(initial_cell_booking):dn_cell_x, n_cell_x=           2           4
+ INFO(initial_cell_booking):dn_cell_y, n_cell_y=           2           4
+ INFO(initial_cell_booking):dn_cell_z, n_cell_z=           2           4
+  INFO-CELL(ONE CELL):n_cell=         1
+ @@ Check_cell_booking (for debugging) ...is skipped (no-verbose mode)
+ INFO:Tentatively, the calc_charge is off in DST, non-CSC workflow
+ @@ set_dst_atm_list
+chem_pot [au,eV]=                  43       -0.36176205223163049318       -9.84412426050623601270
+ ETB0 (from atm_energy_dstm)=  -37622.4600820442     
+ Erest(from atm_energy_dstm)=   940.633889319595     
+ WARN-INFO : global dens mat is not allocated
+ WARN-INFO : qm_geno_output is skipped
+ WARN-INFO : global dens mat is not allocated
+ WARN-INFO : qm_geno_output is skipped
+ @@ XML_SAVE_TXP:NOA=       13824
+ natom=       13824
+ ...routine(elses_xml_save_txp) is ended. 
+TIME:mpi_check(out1)=         0.0000021458
+TIME:mpi_check(out2)=         0.0000028610
+TIME:mpi_check(out3)=         0.0000019073
+TIME:mpi_check(out4)=         0.0000109673
+ @@ md_output_compat
+ THB,VHB at t =  9.696541999779554E-002  3.184667912729786E-002
+EHB,1,2=            76.5114759685             0.1024671431            76.4090088253
+PKIN,d_PKIN,VHB=       6           394.0013296858             1.3350775692             0.0318466791
+     ETB2=  -37622.4600820442     
+     ECC =   940.633889319595     
+ EPTADD1 =  0.000000000000000E+000
+ EPTADD2 =  0.000000000000000E+000
+     EKI =   395.336407255030     
+     EHB =   76.5114759684710     
+     EADD=  0.000000000000000E+000
+  FB [eV]=  0.000000000000000E+000
+  FB [au]=  0.000000000000000E+000
+    ENTR =  0.000000000000000E+000
+IONMOV3       6       5     -36681.826193     -37622.460082        940.633889        395.336407          0.000000         76.511476          0.000000
+TIME:mpi_check(out5)=         0.0000021458
+elaps-time(lap    MDloop)=              6          262.7685000000
+TIME:mpi_check(fin)=         0.0000009537
+.....Total MD loops ended; # MD step =                             6
+.....Total Simulation time (sec ) =                    1553.95260
+.....Total Simulation time (hour) =                       0.43165
+.....Total Simulation time (day ) =                       0.01799
+ @@ set_dst_final:mpi_is_active= T
+TIME:mpi_check(out1)=         0.0000059605
+TIME:mpi_check(out2)=         0.0000009537
+TIME:mpi_check(out3)=         0.0000119209
+TIME:mpi_check(out4)=         0.0000381470
+TIME:mpi_check(out5)=         0.0000360012
+TIME:mpi_check(fin)=         0.0000028610
+  .... ended (set_mpi_final)
+   ... ELSES is ended successfully.
+   ... ELSES is ended successfully.

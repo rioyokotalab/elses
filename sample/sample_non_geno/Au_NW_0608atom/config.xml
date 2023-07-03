@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="Au_NW_608atom">
+
+<system>
+  <cluster structure="Au_nanowire_608atoms.xml"  />
+  <temperature unit="kelvin"> 600 </temperature>
+  <boundary x="periodic" >  </boundary>
+  <boundary y="periodic" >  </boundary>
+  <boundary z="periodic" >  </boundary>
+  <element  name="Au" model="NRL" filename="au_par_99.xml"> </element>
+  <heatbath_mass mode="on">
+    <mass_per_atom unit="a.u."> 400.0d0 </mass_per_atom>
+  </heatbath_mass>
+</system>
+
+<calc mode="dynamics">
+  <solver scheme="eigen">
+  </solver> 
+  <dynamics scheme="velocity verlet">
+    <delta unit="fsec"> 3.00 </delta>
+    <total unit="fsec"> 15.00 </total>
+  </dynamics>
+</calc>
+
+<output>
+  <restart  filename="restart.xml" interval="1" />
+  <position filename="position.xyz" interval="1" />
+</output>
+
+</config>

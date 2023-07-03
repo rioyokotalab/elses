@@ -1,0 +1,22 @@
+@@ Main output : ELSES version 0.04.04
+INFO: config_name = optimized
+INFO-MPI-OMP: P_MPI, P_OMP=         1        12
+Date: 2015 02 05; Time: 17 34 06
+------------------------------------------------------------------
+Output; step_count=         0
+ Output energy
+ Band         Energy : EBD  [au]:             -5.549852937045289
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:              0.048426241294243
+ Kinetic      Energy : EKE  [au]:              0.000000000000000
+ EBD+ECSC+ECC Energy : ETOT [au]:             -5.501426695751046
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            0       -5.50142670       -5.50142670       -5.54985294        0.00000000        0.04842624        0.00000000
+ Energy summary (eV/atom):            0      -49.90087422      -49.90087422      -50.34012606        0.00000000        0.43925184        0.00000000
+ Chemical potential [au, eV]=         0       -0.33777983459224902862       -9.19152974699044378326
+ SD energy difference per atom [eV]=         0        0.01708676880133561463
+ Output Force Amplitude 
+ Force Amp. Average [au] [eV/A]=              0.001255844478188             0.064578652516400
+ Force Amp. Max     [au] [eV/A]=              0.001543936058475             0.079393039472256
+ The atom that gives the max. force amp. =          1
+ Force_summary(ave[eV/A],max[eV/A],atom for max)=         0        0.06457865251640042270        0.07939303947225616331         1

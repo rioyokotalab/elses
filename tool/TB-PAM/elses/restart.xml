@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="test" mdstep="                   0">
+ 
+ <unitcell>
+   <vector unit="a.u.">  0.188972687777436E+02  0.000000000000000E+00  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.188972687777436E+02  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.188972687777436E+02</vector>
+ </unitcell>
+ 
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.250000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+ <atom element="H"   motion="free">
+  <position unit="internal">  0.673439010000000E-01  0.869758530000000E-01  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u."> -0.130351574368543E-01 -0.370677855970903E-01  0.000000000000000E+00   </force>
+  <population>          1.11235766234881516823  </population>
+  <population_guess>          1.00000000000000000000  </population_guess>
+ </atom>
+ 
+ <atom element="H"   motion="free">
+  <position unit="internal">  0.673439010000000E-01 -0.869758530000000E-01  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u."> -0.130351574368543E-01  0.370677855970902E-01  0.000000000000000E+00   </force>
+  <population>          1.11235766234881494618  </population>
+  <population_guess>          1.00000000000000000000  </population_guess>
+ </atom>
+ 
+ <atom element="O"   motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+  <velocity unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</velocity>
+  <force    unit="a.u.">  0.260703148737086E-01  0.728583859910259E-16  0.000000000000000E+00   </force>
+  <population>          5.77528466530629280840  </population>
+  <population_guess>          5.99999999000000094895  </population_guess>
+ </atom>
+ 
+ </structure>

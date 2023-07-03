@@ -1,0 +1,7 @@
+INFO:XYZ file name=C6H6.xyz
+ INFO:get_basic_info: filename=C6H6.xyz
+INFO:No <unitcell> tag was found in the XML file
+INFO:The data in the XMY file will be used for the unit cell info, if exist.
+ INFO:The value is specified in the XML file : heatbath%massperatom =
+   25.0000000000000     
+ INFO: <atom_id_is_added> tag is detected

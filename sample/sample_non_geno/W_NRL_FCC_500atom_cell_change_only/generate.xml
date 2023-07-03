@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generate name="W FCC">
+  <cluster structure="W_FCC_500atom.xyz" />
+</generate>

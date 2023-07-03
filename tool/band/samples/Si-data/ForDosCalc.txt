@@ -1,0 +1,4 @@
+# range of energy to calculate DOS
+-30.0 +30.0
+# number of points in energy axis
+ 241

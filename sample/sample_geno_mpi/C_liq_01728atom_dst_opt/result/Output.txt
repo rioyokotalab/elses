@@ -1,0 +1,56 @@
+@@ Main output : ELSES version 0.03.15
+INFO: config_name = C_liq_1728atom_opt
+INFO-MPI-OMP: P_MPI, P_OMP=         2         6
+Date: 2013 03 22; Time: 17 07 31
+------------------------------------------------------------------
+Output; step_count=         0
+ Output energy
+ Band         Energy : EBD  [au]:          -4671.076070926630564
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:             98.061598033309480
+ Kinetic      Energy : EKE  [au]:              0.000000000000000
+ EBD+ECSC+ECC Energy : ETOT [au]:          -4573.014472893320999
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            0    -4573.01447289    -4573.01447289    -4671.07607093        0.00000000       98.06159803        0.00000000
+ Energy summary (eV/atom):            0      -72.01333370      -72.01333370      -73.55755417        0.00000000        1.54422048        0.00000000
+ Chemical potential [au, eV]=         0       -0.35971274190169155727       -9.78835924753207109461
+ SD energy difference per atom [eV]=         0        0.13016286850775080075
+------------------------------------------------------------------
+Output; step_count=         1
+ Output energy
+ Band         Energy : EBD  [au]:          -4679.041657987571853
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:             99.016936061019294
+ Kinetic      Energy : EKE  [au]:              0.000000000000000
+ EBD+ECSC+ECC Energy : ETOT [au]:          -4580.024721926552957
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            1    -4580.02472193    -4580.02472193    -4679.04165799        0.00000000       99.01693606        0.00000000
+ Energy summary (eV/atom):            1      -72.12372727      -72.12372727      -73.68299189        0.00000000        1.55926462        0.00000000
+ Chemical potential [au, eV]=         1       -0.35773482902571052122       -9.73453707351602481879
+ SD energy difference per atom [eV]=         1        0.10101258773442478578
+------------------------------------------------------------------
+Output; step_count=         2
+ Output energy
+ Band         Energy : EBD  [au]:          -4687.250666028008709
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:            101.192477437659221
+ Kinetic      Energy : EKE  [au]:              0.000000000000000
+ EBD+ECSC+ECC Energy : ETOT [au]:          -4586.058188590349346
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            2    -4586.05818859    -4586.05818859    -4687.25066603        0.00000000      101.19247744        0.00000000
+ Energy summary (eV/atom):            2      -72.21873901      -72.21873901      -73.81226286        0.00000000        1.59352385        0.00000000
+ Chemical potential [au, eV]=         2       -0.35788574082737140136       -9.73864362509809922130
+ SD energy difference per atom [eV]=         2        0.08456400162190838565
+------------------------------------------------------------------
+Output; step_count=         3
+ Output energy
+ Band         Energy : EBD  [au]:          -4695.040747098670181
+ ECSC         Energy : ECSC [au]:              0.000000000000000
+ Core-core    Energy : ECC  [au]:            103.608055904930907
+ Kinetic      Energy : EKE  [au]:              0.000000000000000
+ EBD+ECSC+ECC Energy : ETOT [au]:          -4591.432691193739629
+ Energy summary (explan.):  step_count        EBD+ECSC+ECC      EBD+ECSC+ECC+EKE  EBD               ECSC              ECC                EKE
+ Energy summary (au     ):            3    -4591.43269119    -4591.43269119    -4695.04074710        0.00000000      103.60805590        0.00000000
+ Energy summary (eV/atom):            3      -72.30337374      -72.30337374      -73.93493680        0.00000000        1.63156306        0.00000000
+ Chemical potential [au, eV]=         3       -0.35875685473983864870       -9.76234802843859306165
+ SD energy difference per atom [eV]=         3        0.07277433714349561267

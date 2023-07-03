@@ -1,0 +1,4 @@
+@@ Main output : ELSES version 0.07.00
+INFO: config_name = C60s
+INFO-MPI-OMP: P_MPI, P_OMP=         1        10
+Date: 2022 10 11; Time: 15 06 46

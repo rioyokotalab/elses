@@ -1,0 +1,26 @@
+------------------------------------------------------------------------------
+ELSES sample test for MPI: the number of nodes = 2
+Mon Jan 13 00:46:06 JST 2014
+------------------------------------------------------------------------------
+  test C_liq_01728atom_dst
+2014/01/13 AM 12:46:06
+.....Total Simulation time (sec )    =                     139.32210
+  test C_liq_01728atom_dst_opt
+2014/01/13 AM 12:48:27
+.....Total Simulation time (sec )    =                      92.44690
+  test C_liq_01728atom_dst_cell_change_only
+2014/01/13 AM 12:50:01
+.....Total Simulation time (sec )    =                     114.70960
+  test C_liq_01728atom_dst_cell_change_md
+2014/01/13 AM 12:51:57
+.....Total Simulation time (sec )    =                     201.46020
+--------------------------------
+Information of the parallelism 
+--------------------------------
+ INFO-MPI:   mpi_is_active or not :  T
+INFO-MPI: True  MPI wrapper
+INFO-MPI-OMP: P_MPI, P_OMP=         2        16
+--------------------------------
+ELSES sample test for mpi .... ended
+See the reference standard outputfile of /sample/shell_scripts/result/result_elses_sample_test_for_mpi.txt
+------------------------------------------------------------------------------

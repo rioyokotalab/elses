@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type="Huckel" name="N">
+
+  <mass> 14.00670d0 </mass>
+
+  <initial_charge> 0 </initial_charge>
+
+  <principal_quantum_number> 2 2 2 2 </principal_quantum_number>
+
+  <initial_occupation> 2.d0 1.0d0 1.0d0 1.0d0 </initial_occupation>
+
+  <initial_diagonal_elements> -28.30d0 -16.337d0 -16.337d0 -16.337d0 </initial_diagonal_elements>
+
+  <zeta> 1.70d0 1.60d0 1.60d0 1.60d0 </zeta>
+
+  <chemical_hardness> 16.337d0 </chemical_hardness>
+
+ <repulsive_rescaling> 2.3 2.3 2.3 2.3 </repulsive_rescaling>
+
+</element>
+

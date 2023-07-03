@@ -1,0 +1,25 @@
+  set term postscript portrait 'Times-Roman' 12
+# set terminal postscript portrait enhanced  'Times-Roman' 12
+ set output 'Silicon-band.ps'
+#set tics out
+  set title 'Silicon (Si) by GENO' font "Times Roman,25"
+  set yrange[ -30.000000:    15.0000]
+  set xrange[   0.000000:     2.9057]
+  set style data lines
+######## set size    0.9481, 0.7584
+# set size 0.50, 0.385
+ set grid
+  set xtics('L' 0.0,'G' 0.53019, 'X' 1.1424,'W' 1.4485,'L' 1.8814,'K' 2.2560,'G' 2.9057)
+ # set xzeroaxis
+  set yzeroaxis
+  set xlabel ' k ' font "Times Roman,20" 
+  set ylabel ' Energy E(k)  eV ' font "Times Roman,25" # 1.0,0.0
+  set nokey
+ plot 'EigenEnergy.txt' using 5:6  w l linestyle 1, \
+      'EigenEnergy.txt' using 5:7  w l linestyle 1, \
+      'EigenEnergy.txt' using 5:8  w l linestyle 1, \
+      'EigenEnergy.txt' using 5:9  w l linestyle 1, \
+      'EigenEnergy.txt' using 5:10 w l linestyle 1, \
+      'EigenEnergy.txt' using 5:11 w l linestyle 1, \
+      'EigenEnergy.txt' using 5:12 w l linestyle 1, \
+      'EigenEnergy.txt' using 5:13 w l linestyle 1

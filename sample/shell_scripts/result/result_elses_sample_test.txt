@@ -1,0 +1,113 @@
+------------------------------------------------------------------------------
+ELSES sample test
+Sun Sep 14 19:56:05 JST 2014
+------------------------------------------------------------------------------
+TEST for C6H6_opt (GENO)
+2014/09/14 PM 07:56:05
+.....Total Simulation time (sec )    =                       0.15330
+------------------------------------
+TEST for C6H6_dyn (GENO)
+2014/09/14 PM 07:56:05
+.....Total Simulation time (sec )    =                       0.13960
+------------------------------------
+TEST for vdW_C6H6_dimer (GENO with vdW)
+    (with generation of the initial structure XML file)
+INFO:XYZ file name=benzene_dimer.xyz
+ INFO:get_basic_info: filename=benzene_dimer.xyz
+INFO:<unitcell> tag was found in the XML file and will be used for the unit cell info.
+ INFO:The value is specified in the XML file : heatbath%massperatom =
+   20.0000000000000     
+ INFO: <atom_id_is_added> tag is detected
+ INFO: <group_id_is_added> tag is detected: file=input_group_id_setting.txt
+ INFO:number of atoms   =           24
+ INFO:number of groups  =            2
+ INFO:maximum number of group atoms  =           12
+2014/09/14 PM 07:56:05
+.....Total Simulation time (sec )    =                       2.53440
+------------------------------------
+TEST for VCNT_100atom (non-geno) 
+    (with generation of the initial structure XML file)
+INFO:XYZ file name=CNT.xyz
+ INFO:get_basic_info: filename=CNT.xyz
+INFO:<unitcell> tag was found in the XML file and will be used for the unit cell info.
+ INFO:No value is specified in the XML file  : heatbath%massperatom 
+ INFO:The default value is set               : heatbath%massperatom =
+   25.0000000000000     
+2014/09/14 PM 07:56:08
+.....Total Simulation time (sec )    =                       5.87400
+.....Checking the resultant eigen levels 
+------------------------------------
+TEST in sample/sample_non_geno/Si_bulk_512atom_cell_change_only
+2014/09/14 PM 07:56:14
+.....Total Simulation time (sec )    =                     114.42100
+------------------------------------
+TEST in sample/sample_non_geno/Si_sc_512atom_cell_change_only
+    (with generation of the initial structure XML file)
+INFO:XYZ file name=Si_sc_512atom.xyz
+ INFO:get_basic_info: filename=Si_sc_512atom.xyz
+INFO:No <unitcell> tag was found in the XML file
+INFO:The data in the XMY file will be used for the unit cell info, if exist.
+ INFO:No value is specified in the XML file  : heatbath%massperatom 
+ INFO:The default value is set               : heatbath%massperatom =
+   25.0000000000000     
+2014/09/14 PM 07:58:09
+.....Total Simulation time (sec )    =                     108.96070
+------------------------------------
+TEST in sample/sample_non_geno/C_surf_111_Pandey_opt
+    (with generation of the initial structure XML file)
+INFO:XYZ file name=C_surf_111_Pandey_ini.xyz
+ INFO:get_basic_info: filename=C_surf_111_Pandey_ini.xyz
+INFO:No <unitcell> tag was found in the XML file
+INFO:The data in the XMY file will be used for the unit cell info, if exist.
+ INFO:No value is specified in the XML file  : heatbath%massperatom 
+ INFO:The default value is set               : heatbath%massperatom =
+   25.0000000000000     
+2014/09/14 PM 07:59:58
+.....Total Simulation time (sec )    =                     223.99600
+ elses-generate-cubefile
+ Read the mesh size from the file (optional)
+ file_ name=input_mesh_grid.txt
+ file_ exist= T
+ mesh grid in the x direction=          80
+ mesh grid in the y direction=          80
+ mesh grid in the z direction=          80
+ Read the options
+ INFO:the lowest  level index =         1200
+ INFO:the highest level index =         1200
+ INFO:sign inversion =  F
+ Read eigenstate file
+  number of atoms         =         600
+  number of bases         =        2400
+  number of eigen vectors =        2400
+  file_format = current
+  i_pbc_x appears in the file
+  i_pbc_y appears in the file
+  i_pbc_z appears in the file
+ FileRead:i_pbc_x, y, z=           1           1           1
+ FileRead:i_pbc=           1
+ FileRead : atom information
+ FileRead : coefficient information
+ file_format =current
+ i_pbc =           1
+ @@ reduction_within_periodic_bc
+   cell(1)=   40.8181005600000     
+   cell(2)=   23.9050450000000     
+   cell(3)=   56.6918063300000     
+ Generate a cube file:level_index=        1200
+grid origin [au] =         0.0000000000        0.0000000000        0.0000000000
+grid size   [au] =        40.8181005600       23.9050450000       56.6918063300
+------------------------------------
+TEST for Au_NW_0143atom (non-geno;NRL) 
+    (with generation of the element file)
+2014/09/14 PM 08:04:39
+.....Total Simulation time (sec )    =                       5.93130
+------------------------------------
+ELSES band calculation test : carbon diamond with Cerda spd orbitals
+ test> ../../../../bin/elses -band -verbose ./config.xml > logfile.txt
+ test> ../../../../bin/band > log-band.txt
+ test> diff EigenEnergy.txt result/EigenEnergy.txt
+---> Test ended successfully, if no numerical data appears above
+------------------------------------
+ELSES sample test .... ended
+See the reference standard outputfile of /sample/shell_scripts/result/result_elses_sample_test.txt
+------------------------------------------------------------------------------

@@ -1,0 +1,38 @@
+ elses-generate-cubefile
+ file format=v0.04.05
+ File format =v0.04.05
+ Read the mesh size from the file (optional)
+ file_ name=input_mesh_grid.txt
+ file_ exist= F
+ mesh grid in the x direction=          80
+ mesh grid in the y direction=          80
+ mesh grid in the z direction=          80
+ Read the options
+ INFO:sign inversion =  F
+ INFO:the lowest  level index =            1
+ INFO:the highest level index =            3
+ Read eigenstate file
+  number of atoms         =          12
+  number of bases         =          30
+  file_format = v0.04.05
+  i_pbc_x appears in the file
+  i_pbc_y appears in the file
+  i_pbc_z appears in the file
+ FileRead:i_pbc_x, y, z=           0           0           0
+ FileRead:i_pbc=           0
+ FileRead : atom information
+ FileRead : coefficient information
+ separator=# LCAO coefficients
+  number of eigen vectors =          30
+ INFO:the lowest  level index for output =            1
+ INFO:the highest level index for output =            3
+ i_pbc =           0
+ Generate a cube file:level_index=           1
+grid origin [au] =        -9.4486343900       -9.4486343900       -9.4486343900
+grid size   [au] =        18.8972687800       18.8972687800       18.8972687800
+ Generate a cube file:level_index=           2
+grid origin [au] =        -9.4486343900       -9.4486343900       -9.4486343900
+grid size   [au] =        18.8972687800       18.8972687800       18.8972687800
+ Generate a cube file:level_index=           3
+grid origin [au] =        -9.4486343900       -9.4486343900       -9.4486343900
+grid size   [au] =        18.8972687800       18.8972687800       18.8972687800

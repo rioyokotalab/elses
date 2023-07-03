@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="Si_sc_512atom">
+
+<system>
+  <cluster structure="Si_sc_512atom.xml" />
+  <element  name="Si" model="Kwon.1994"  filename="Si.xml"> </element>
+</system>
+
+<calc mode="cell_change_only">
+  <cell_change scheme="from_file" filename="input_cell_change.txt" />
+  <solver scheme="eigen">  </solver>
+  <calc_check mode="on">
+   <short_atom_pair_distance mode="on"> 
+     <warning_level unit="angstrom">  0.5    </warning_level> 
+     <abort_level   unit="angstrom">  0.1    </abort_level> 
+   </short_atom_pair_distance> 
+  </calc_check>
+</calc>
+
+<output>
+  <restart  filename="Si_sc_512atom-restart.xml" interval="1" />
+  <position filename="Si_sc_512atom-position.xyz" interval="1" />
+</output>
+
+</config>

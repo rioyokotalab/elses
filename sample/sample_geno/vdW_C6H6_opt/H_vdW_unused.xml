@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type="Huckel" name="H">
+  <mass>          1.0079d00  </mass>
+  <initial_charge>          0.0d0  </initial_charge>
+  <principal_quantum_number>      1  </principal_quantum_number>
+  <initial_occupation>     1.0d0 </initial_occupation>  
+  <initial_diagonal_elements>   -13.6d0 </initial_diagonal_elements>  
+  <zeta>     1.3d0  </zeta>
+  <repulsive_rescaling>     1.0d0  </repulsive_rescaling> 
+  <chemical_hardness>    13.6d0 </chemical_hardness>
+  <vdW>
+   <ionization_energy unit="eV"> 13.598433d0 </ionization_energy>
+   <dipole_polarizability unit="cm3"> 0.666793d-24 </dipole_polarizability>
+   <covalent_radius unit="Angstrom"> 0.32d0 </covalent_radius>
+  </vdW>
+</element>

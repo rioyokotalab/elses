@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generate name="Si_sc_512atom">
+  <cluster structure="Si_sc_512atom.xyz" />
+</generate>

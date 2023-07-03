@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="cu.fcc.crystal">
+
+<system>
+  <cluster structure="Cu256.xml" />
+  <temperature unit="kelvin"> 273.15 </temperature>
+  <boundary x="periodic" >  </boundary>
+  <boundary y="periodic" >  </boundary>
+  <boundary z="periodic" >  </boundary>
+  <element  name="Cu" model="NRL" filename="cu_param.xml"> </element>
+</system>
+
+<calc mode="dynamics">
+  <dynamics scheme="velocity verlet">
+    <delta unit="fsec"> 1.00 </delta>
+    <total unit="fsec"> 1.00 </total>
+  </dynamics>
+</calc>
+
+<output>
+  <restart  filename="cu-restart.xml" interval="1" />
+  <position filename="cu-position.xyz" interval="1" />
+</output>
+
+</config>

@@ -1,0 +1,609 @@
+@@ ELSES version 0.03.15
+INFO-MPI: True  MPI wrapper
+Date: 2013 03 22; Time: 17 07 31
+INFO-MPI-OMP: P_MPI, P_OMP=         2         6
+ INFO-MPI:   mpi_is_active or not :  T
+ INFO-MPI:   myrank, nprocs       =           0           2
+TIME:mpi_check(bef ini_load_geno)=         0.0000000000
+ @@ elses_xml_load_config.. is done
+   Config file name =./config.xml
+   The verbose level =           1
+ ...call config_load
+INFO-XML:config name=C_liq_1728atom_opt
+INFO-XML-SPLIT: Optional attribute detected : number_of_files =         0
+INFO-XML-WARNING : NO tag detected : temperature
+INFO-XML:XML parser= sax
+INFO-XML: Optional attribute detected : read_mode=default                         
+ @@ structure_load_sax:read_mode=redundant                       
+ filename_to_be_read (b) =C_liq_1728atom.xml
+ filename_to_be_read (c) =C_liq_1728atom.xml
+INFO:result for xml_flag_check:count=    0
+ number of counted atoms   =        1728
+ number of counted element =           1
+TIME:XML parse for atom count=    0.0273000000
+  root_node= T
+ INFO-XML-SPLIT:file to be read = :           0 C_liq_1728atom.xml
+ INFO:result for xml_flag_check=           0
+INFO-XML:Optional tag detected : cutoff_radius [au] =   8.00000
+nelement is set to be:nelement=    1
+INFO-XML:optimization%max_num_iter=         3
+INFO-XML:optimization%sd_ratio    =        0.2000000000
+INFO-XML:Optional tag: optimization%convergence_mode=energy_per_atom     
+INFO-XML:Optional tag: optimization%convergence_energy [au] =        0.00000036749033500419
+INFO-XML:genoOption_load: genoOption%HML_small_delta= 1.8521195E-01
+INFO-XML:genoOption_load: genoOption%HML_kappa      = 1.0000000E+00
+INFO-XML:Optional tag detected : solver scheme = gKrylov_A       
+INFO-XML:Optional tag detected : solver projection =        200
+INFO-XML:Optional tag detected : solver dimension =         30
+INFO-XML:Optional tag detected : solver mode_for_large_memory =          0
+INFO-XML:Optional tag detected : solver inner_cg_loop max_iteration   =        100
+INFO-XML:Optional tag detected : solver inner_cg_loop convergence_eps =   -8.00000
+INFO-XML:Optional tag detected : solver mArnoldi_q =         15
+INFO-XML:Optional tag detected : solver mode_for_suggest_projection = default
+INFO-XML:Optional tag detected : distributed mode is ON
+INFO-XML:Optional XML tag detected : micro_cell_booking
+INFO-XML:Optional tag:micro_cell_booking%mode=one_cell        
+ INFO-XML:optional attirbute:cell_info=off
+ .... skipped : file_load_matrices 
+ .... skipped : file_load_matrices 
+ .... skipped : file_load_eigen_level 
+ ...end config_load
+ ...ends: dst_structure_load_from_txt
+   nos   =           1
+   noa   =        1728
+ c_system=geno                            
+ S_is_I  = F
+  i_pbc_x  =           1
+  i_pbc_y  =           1
+  i_pbc_z  =           1
+  thb, vhb =  0.000000000000000E+000  0.000000000000000E+000
+  r_hb_mass_per_atom  =   25.0000000000000     
+ INFO: No meaningful value of dtmd is found
+ INFO: The velocity data in the input file will be ignored, if exist
+SetAtomParametes: UseVOIP    = F
+SetAtomParametes: genoMethod = STANDARD
+INFO-XML:Load_XML_AtomParameter: *** Warning!!! *** Failed to open data file C.xml
+SetAtomParameters:
+ Total Number of atomic orbitals =       4
+ Orbital            =     s     p     p     p
+ Principal          =     2     2     2     2
+ Angular            =     0     1     1     1
+ zeta      = 1.710E+00 1.625E+00 1.625E+00 1.625E+00
+ zeta (Rep)= 1.710E+00 1.625E+00 1.625E+00 1.625E+00
+ initial_occupation = 2.000 0.667 0.667 0.667
+ Highest Occupied orbital = 2p
+ chemical_hardness =  4.18938981904776E-01
+ diag. val. = -7.86429316908965E-01
+ diag. val. = -4.18938981904776E-01
+ diag. val. = -4.18938981904776E-01
+ diag. val. = -4.18938981904776E-01
+ VOIP       =  1.27349586205883E-01 6.45177167090506E-01 7.13522192741331E-01
+ VOIP       =  1.27349586205883E-01 5.38558886651281E-01 3.90933609196078E-01
+ VOIP       =  1.27349586205883E-01 5.38558886651281E-01 3.90933609196078E-01
+ VOIP       =  1.27349586205883E-01 5.38558886651281E-01 3.90933609196078E-01
+@@ create_element_xml_file:filename=output_C.xml
+TIME:mpi_check(aft ini_load_geno)=         0.0055930614
+TIME:ini_load_geno =         0.0749000000
+TIME:mpi_check(aft ini_set_velocity)=         0.0000028610
+TIME: ini_set_velocity=         0.0000000000
+TIME:mpi_check(bef)=         0.0000009537
+elaps-time(befor  MDloop)=              0       0.074900       0.000000       0.005597
+TIME:mpi_check(ini)=         0.0000009537
+TIME:qm_engine_dst:calc_kinetic_energy =        0.0000000000
+TIME:qm_engine_dst:qm_domain_setting_dst:a        0.0000000000
+TIME:qm_engine_dst:qm_domain_setting_dst:b        0.0001000000
+TIME:qm_engine_dst:qm_domain_setting_dst =        0.0001000000
+TIME:qm_engine_dst:set_rest_geno =        0.0000000000
+TIME:qm_solver_gkrylov_dst:init_end    =             0.00000
+INFO-MPI: procs, ini, fin=         0         1       864
+INFO-MPI: len_dst_atm_list(1)=       864
+ @@ suggest_proj_radius: mode=default
+ INFO:suggested projecion radius:      mode =from_density
+ INFO:suggested projecion radius: value(au) =   10.3292126002577     
+TIME:qm_solver_gkrylov_dst:dst_atm_list(main) =             0.01260
+ .... scond booking is skipped
+TIME:qm_solver_gkrylov_dst:dst_atm_list =             0.01320
+TIME:qm_solver_gkrylov_dst:msc1         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc2         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc3         =             0.00070
+TIME:qm_solver_gkrylov_dst:msc4         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc6         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc7         =             0.00010
+  prc_index =            1
+ len_dst_atm_list(1)=         864
+TIME:qm_solver_gkrylov_dst:barrier   =        4.7843341827
+TIME:qm_solver_gkrylov_dst:MAIN loop    =            21.12550   1
+TIME:mpi_allreduce_r1 =              1        0.0000419617
+TIME:qm_solver_gkrylov_dst:MPI comm    =             0.00010
+TIME:mpi_allreduce_minmax_r1 =              1        0.0000019073
+TIME:mpi_allreduce_minmax_r1 =              1        0.0000011921
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000150204
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000011921
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000011921
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:qm_solver_gkrylov_dst:chem pot    =             0.00920
+  prc_index =            2
+ len_dst_atm_list(1)=         864
+TIME:qm_solver_gkrylov_dst:barrier   =        0.0377500057
+TIME:qm_solver_gkrylov_dst:MAIN loop    =            15.64240   2
+TIME:mpi_allreduce_r1 =              1        0.0000061989
+TIME:qm_solver_gkrylov_dst:MPI comm    =             0.00000
+TIME:qm_solver_gkrylov_dst:ENE_OMP     =             0.00000
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:qm_solver_gkrylov_dst:ENE_MPI     =             0.00010
+TIME:qm_solver_gkrylov_dst:FORCE_a     =             0.00000
+TIME:mpi_allreduce_r2 =           5184        0.0001058578
+TIME:qm_solver_gkrylov_dst:FORCE_OMP   =             0.00020
+TIME:qm_solver_gkrylov_dst:deallc          =             0.00000
+TIME:qm_engine_dst:qm_solver_gkrylov_dst =       36.7916000000
+TIME:qm_engine_dst:calc_total_force =        0.0000000000
+TIME:qm_engine_dst:qm_geno_output   =        0.0001000000
+TIME:mpi_check(qme)=         0.0000021458
+ TIME:qm_engine =    36.7918999999965     
+ @@ optimization_check
+force_ave,max=         1        0.02391679807650977027        0.31600423187976206529       514
+  SD energy difference (tot) [au] =         1        8.26564541524178508780
+  SD energy difference ( x ) [au] =         1        2.50013329523354377315
+  SD energy difference ( y ) [au] =         1        2.94613055561138148519
+  SD energy difference ( z ) [au] =         1        2.81938156439685938537
+  SD energy difference per atom (tot) [eV] =         1        0.13016286850775077300
+  SD energy difference per atom (x)   [eV] =         1        0.03937073331977841706
+  SD energy difference per atom (y)   [eV] =         1        0.04639405452955710357
+  SD energy difference per atom (z)   [eV] =         1        0.04439808065841526624
+@@ output_levels_matrices...is skipped in the DST scheme
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction:interval=          -1
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000019073
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ ....is skipped, since (interval)=0
+TIME:mpi_check(svs)=         0.0000028610
+TIME:mpi_check(out1)=         0.0000009537
+TIME:mpi_check(out2)=         0.0000009537
+TIME:mpi_check(out3)=         0.0000009537
+TIME:mpi_check(out4)=         0.0000009537
+TIME:mpi_check(out5)=         0.0000061989
+TIME:mpi_check(out)=         0.0000009537
+TIME:mpi_check(mov1)=         0.0000178814
+TIME:mpi_check(mov2)=         0.0000028610
+TIME:mpi_check(mov3)=         0.0000019073
+TIME:mpi_check(mov4)=         0.0000050068
+TIME:mpi_check(mov5)=         0.0000009537
+TIME:mpi_check(mov6)=         0.0000009537
+TIME:mpi_check(mov)=         0.0000069141
+elaps-time(lap    MDloop)=              1      36.792500       0.000250       4.822260
+TIME:mpi_check(fin)=         0.0000011921
+TIME:mpi_check(ini)=         0.0000009537
+TIME:qm_engine_dst:calc_kinetic_energy =        0.0000000000
+TIME:qm_engine_dst:qm_domain_setting_dst:a        0.0001000000
+TIME:qm_engine_dst:qm_domain_setting_dst:b        0.0000000000
+TIME:qm_engine_dst:qm_domain_setting_dst =        0.0001000000
+TIME:qm_engine_dst:set_rest_geno =        0.0000000000
+TIME:qm_solver_gkrylov_dst:init_end    =             0.00010
+INFO-MPI: procs, ini, fin=         0         1       864
+INFO-MPI: len_dst_atm_list(1)=       864
+ @@ suggest_proj_radius: mode=default
+ INFO:suggested projecion radius:      mode =from_density
+ INFO:suggested projecion radius: value(au) =   10.3292126002577     
+TIME:qm_solver_gkrylov_dst:dst_atm_list(main) =             0.01150
+ .... scond booking is skipped
+TIME:qm_solver_gkrylov_dst:dst_atm_list =             0.01150
+TIME:qm_solver_gkrylov_dst:msc1         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc2         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc3         =             0.00030
+TIME:qm_solver_gkrylov_dst:msc4         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc6         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc7         =             0.00010
+  prc_index =            1
+ len_dst_atm_list(1)=         864
+TIME:qm_solver_gkrylov_dst:barrier   =        0.0000100136
+TIME:qm_solver_gkrylov_dst:MAIN loop    =            15.40320   1
+TIME:mpi_allreduce_r1 =              1        0.0000071526
+TIME:qm_solver_gkrylov_dst:MPI comm    =             0.00010
+TIME:mpi_allreduce_minmax_r1 =              1        0.0000019073
+TIME:mpi_allreduce_minmax_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000011921
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000040531
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000112057
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000011921
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:qm_solver_gkrylov_dst:chem pot    =             0.00880
+  prc_index =            2
+ len_dst_atm_list(1)=         864
+TIME:qm_solver_gkrylov_dst:barrier   =        0.0000269413
+TIME:qm_solver_gkrylov_dst:MAIN loop    =            15.44270   2
+TIME:mpi_allreduce_r1 =              1        0.0000069141
+TIME:qm_solver_gkrylov_dst:MPI comm    =             0.00010
+TIME:qm_solver_gkrylov_dst:ENE_OMP     =             0.00000
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000011921
+TIME:qm_solver_gkrylov_dst:ENE_MPI     =             0.00000
+TIME:qm_solver_gkrylov_dst:FORCE_a     =             0.00010
+TIME:mpi_allreduce_r2 =           5184        0.0000469685
+TIME:qm_solver_gkrylov_dst:FORCE_OMP   =             0.00000
+TIME:qm_solver_gkrylov_dst:deallc          =             0.00000
+TIME:qm_engine_dst:qm_solver_gkrylov_dst =       30.8671000000
+TIME:qm_engine_dst:calc_total_force =        0.0000000000
+TIME:qm_engine_dst:qm_geno_output   =        0.0000000000
+TIME:mpi_check(qme)=         0.0000021458
+ TIME:qm_engine =    30.8672000000079     
+ @@ optimization_check
+force_ave,max=         2        0.01856057485308190355        0.16085387101206788385      1134
+  SD energy difference (tot) [au] =         2        6.41453466922511061910
+  SD energy difference ( x ) [au] =         2        1.96804857176568304133
+  SD energy difference ( y ) [au] =         2        2.21838346328695878995
+  SD energy difference ( z ) [au] =         2        2.22810263417246900985
+  SD energy difference per atom (tot) [eV] =         2        0.10101258773442478578
+  SD energy difference per atom (x)   [eV] =         2        0.03099175377052029029
+  SD energy difference per atom (y)   [eV] =         2        0.03493389088517327018
+  SD energy difference per atom (z)   [eV] =         2        0.03508694307873122531
+@@ output_levels_matrices...is skipped in the DST scheme
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction:interval=          -1
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000019073
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ ....is skipped, since (interval)=0
+TIME:mpi_check(svs)=         0.0000019073
+TIME:mpi_check(out1)=         0.0000009537
+TIME:mpi_check(out2)=         0.0000081062
+TIME:mpi_check(out3)=         0.0000009537
+TIME:mpi_check(out4)=         0.0000009537
+TIME:mpi_check(out5)=         0.0000021458
+TIME:mpi_check(out)=         0.0000009537
+TIME:mpi_check(mov1)=         0.0000011921
+TIME:mpi_check(mov2)=         0.0000009537
+TIME:mpi_check(mov3)=         0.0000019073
+TIME:mpi_check(mov4)=         0.0000050068
+TIME:mpi_check(mov5)=         0.0000009537
+TIME:mpi_check(mov6)=         0.0000009537
+TIME:mpi_check(mov)=         0.0000019073
+elaps-time(lap    MDloop)=              2      30.867700       0.000153       0.000201
+TIME:mpi_check(fin)=         0.0000009537
+TIME:mpi_check(ini)=         0.0000009537
+TIME:qm_engine_dst:calc_kinetic_energy =        0.0000000000
+TIME:qm_engine_dst:qm_domain_setting_dst:a        0.0000000000
+TIME:qm_engine_dst:qm_domain_setting_dst:b        0.0000000000
+TIME:qm_engine_dst:qm_domain_setting_dst =        0.0000000000
+TIME:qm_engine_dst:set_rest_geno =        0.0000000000
+TIME:qm_solver_gkrylov_dst:init_end    =             0.00000
+INFO-MPI: procs, ini, fin=         0         1       864
+INFO-MPI: len_dst_atm_list(1)=       864
+ @@ suggest_proj_radius: mode=default
+ INFO:suggested projecion radius:      mode =from_density
+ INFO:suggested projecion radius: value(au) =   10.3292126002577     
+TIME:qm_solver_gkrylov_dst:dst_atm_list(main) =             0.01150
+ .... scond booking is skipped
+TIME:qm_solver_gkrylov_dst:dst_atm_list =             0.01160
+TIME:qm_solver_gkrylov_dst:msc1         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc2         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc3         =             0.00030
+TIME:qm_solver_gkrylov_dst:msc4         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc6         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc7         =             0.00010
+  prc_index =            1
+ len_dst_atm_list(1)=         864
+TIME:qm_solver_gkrylov_dst:barrier   =        0.0146250725
+TIME:qm_solver_gkrylov_dst:MAIN loop    =            15.45650   1
+TIME:mpi_allreduce_r1 =              1        0.0000069141
+TIME:qm_solver_gkrylov_dst:MPI comm    =             0.00010
+TIME:mpi_allreduce_minmax_r1 =              1        0.0000059605
+TIME:mpi_allreduce_minmax_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000011921
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000169277
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000119209
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000011921
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000011921
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000011921
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:qm_solver_gkrylov_dst:chem pot    =             0.00890
+  prc_index =            2
+ len_dst_atm_list(1)=         864
+TIME:qm_solver_gkrylov_dst:barrier   =        0.0024120808
+TIME:qm_solver_gkrylov_dst:MAIN loop    =            15.50560   2
+TIME:mpi_allreduce_r1 =              1        0.0000059605
+TIME:qm_solver_gkrylov_dst:MPI comm    =             0.00000
+TIME:qm_solver_gkrylov_dst:ENE_OMP     =             0.00000
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:qm_solver_gkrylov_dst:ENE_MPI     =             0.00000
+TIME:qm_solver_gkrylov_dst:FORCE_a     =             0.00000
+TIME:mpi_allreduce_r2 =           5184        0.0000510216
+TIME:qm_solver_gkrylov_dst:FORCE_OMP   =             0.00010
+TIME:qm_solver_gkrylov_dst:deallc          =             0.00000
+TIME:qm_engine_dst:qm_solver_gkrylov_dst =       30.9833000000
+TIME:qm_engine_dst:calc_total_force =        0.0000000000
+TIME:qm_engine_dst:qm_geno_output   =        0.0001000000
+TIME:mpi_check(qme)=         0.0000019073
+ TIME:qm_engine =    30.9835000000021     
+ @@ optimization_check
+force_ave,max=         3        0.01553822664266496512        0.11819331388512993586      1134
+  SD energy difference (tot) [au] =         3        5.37001112770501087823
+  SD energy difference ( x ) [au] =         3        1.64431467851591661677
+  SD energy difference ( y ) [au] =         3        1.83386257057897794631
+  SD energy difference ( z ) [au] =         3        1.89183387861011609310
+  SD energy difference per atom (tot) [eV] =         3        0.08456400162190838565
+  SD energy difference per atom (x)   [eV] =         3        0.02589376927424983862
+  SD energy difference per atom (y)   [eV] =         3        0.02887866592914752409
+  SD energy difference per atom (z)   [eV] =         3        0.02979156641851101600
+@@ output_levels_matrices...is skipped in the DST scheme
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction:interval=          -1
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000019073
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ ....is skipped, since (interval)=0
+TIME:mpi_check(svs)=         0.0000021458
+TIME:mpi_check(out1)=         0.0000009537
+TIME:mpi_check(out2)=         0.0000009537
+TIME:mpi_check(out3)=         0.0000009537
+TIME:mpi_check(out4)=         0.0000009537
+TIME:mpi_check(out5)=         0.0000011921
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000009537
+TIME:mpi_check(mov3)=         0.0000021458
+TIME:mpi_check(mov4)=         0.0000061989
+TIME:mpi_check(mov5)=         0.0000009537
+TIME:mpi_check(mov6)=         0.0000021458
+TIME:mpi_check(mov)=         0.0000009537
+elaps-time(lap    MDloop)=              3      30.983900       0.000171       0.017187
+TIME:mpi_check(fin)=         0.0000009537
+TIME:mpi_check(ini)=         0.0000009537
+TIME:qm_engine_dst:calc_kinetic_energy =        0.0000000000
+TIME:qm_engine_dst:qm_domain_setting_dst:a        0.0000000000
+TIME:qm_engine_dst:qm_domain_setting_dst:b        0.0000000000
+TIME:qm_engine_dst:qm_domain_setting_dst =        0.0001000000
+TIME:qm_engine_dst:set_rest_geno =        0.0000000000
+TIME:qm_solver_gkrylov_dst:init_end    =             0.00000
+INFO-MPI: procs, ini, fin=         0         1       864
+INFO-MPI: len_dst_atm_list(1)=       864
+ @@ suggest_proj_radius: mode=default
+ INFO:suggested projecion radius:      mode =from_density
+ INFO:suggested projecion radius: value(au) =   10.3292126002577     
+TIME:qm_solver_gkrylov_dst:dst_atm_list(main) =             0.01150
+ .... scond booking is skipped
+TIME:qm_solver_gkrylov_dst:dst_atm_list =             0.01150
+TIME:qm_solver_gkrylov_dst:msc1         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc2         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc3         =             0.00040
+TIME:qm_solver_gkrylov_dst:msc4         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc6         =             0.00000
+TIME:qm_solver_gkrylov_dst:msc7         =             0.00010
+  prc_index =            1
+ len_dst_atm_list(1)=         864
+TIME:qm_solver_gkrylov_dst:barrier   =        0.0682690144
+TIME:qm_solver_gkrylov_dst:MAIN loop    =            15.48510   1
+TIME:mpi_allreduce_r1 =              1        0.0000061989
+TIME:qm_solver_gkrylov_dst:MPI comm    =             0.00000
+TIME:mpi_allreduce_minmax_r1 =              1        0.0000019073
+TIME:mpi_allreduce_minmax_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000011921
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000011921
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000028610
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000021458
+TIME:mpi_allreduce_r1 =              1        0.0000009537
+TIME:qm_solver_gkrylov_dst:chem pot    =             0.00890
+  prc_index =            2
+ len_dst_atm_list(1)=         864
+TIME:qm_solver_gkrylov_dst:barrier   =        0.0819790363
+TIME:qm_solver_gkrylov_dst:MAIN loop    =            15.52670   2
+TIME:mpi_allreduce_r1 =              1        0.0000059605
+TIME:qm_solver_gkrylov_dst:MPI comm    =             0.00000
+TIME:qm_solver_gkrylov_dst:ENE_OMP     =             0.00000
+TIME:mpi_allreduce_r1 =              1        0.0000019073
+TIME:mpi_allreduce_r1 =              1        0.0000000000
+TIME:qm_solver_gkrylov_dst:ENE_MPI     =             0.00010
+TIME:qm_solver_gkrylov_dst:FORCE_a     =             0.00000
+TIME:mpi_allreduce_r2 =           5184        0.0000510216
+TIME:qm_solver_gkrylov_dst:FORCE_OMP   =             0.00010
+TIME:qm_solver_gkrylov_dst:deallc          =             0.00000
+TIME:qm_engine_dst:qm_solver_gkrylov_dst =       31.0330000000
+TIME:qm_engine_dst:calc_total_force =        0.0000000000
+TIME:qm_engine_dst:qm_geno_output   =        0.0000000000
+TIME:mpi_check(qme)=         0.0000021458
+ TIME:qm_engine =    31.0331999999908     
+ @@ optimization_check
+force_ave,max=         4        0.01337193276828551117        0.08705821619011600010       279
+  SD energy difference (tot) [au] =         4        4.62133996471947305906
+  SD energy difference ( x ) [au] =         4        1.41009241033933796494
+  SD energy difference ( y ) [au] =         4        1.56216478599296171303
+  SD energy difference ( z ) [au] =         4        1.64908276838717293700
+  SD energy difference per atom (tot) [eV] =         4        0.07277433714349561267
+  SD energy difference per atom (x)   [eV] =         4        0.02220536494976269037
+  SD energy difference per atom (y)   [eV] =         4        0.02460011764498036893
+  SD energy difference per atom (z)   [eV] =         4        0.02596885454875254295
+@@ output_levels_matrices...is skipped in the DST scheme
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction:interval=          -1
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000021458
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ ....is skipped, since (interval)=0
+TIME:mpi_check(svs)=         0.0000030994
+TIME:mpi_check(out1)=         0.0000011921
+TIME:mpi_check(out2)=         0.0000011921
+TIME:mpi_check(out3)=         0.0000009537
+TIME:mpi_check(out4)=         0.0000009537
+TIME:mpi_check(out5)=         0.0000009537
+TIME:mpi_check(out)=         0.0000009537
+TIME:mpi_check(mov)=         0.0000009537
+elaps-time(lap    MDloop)=              4      31.033500       0.000143       0.150382
+TIME:mpi_check(fin)=         0.0000000000
+.....Total MD loops ended; # MD step =                             4
+.....Total Simulation time (sec )    =                     129.75260
+.....Total Simulation time (hour)    =                       0.03604
+.....Total Simulation time (day )    =                       0.00150
+..... ELSES ended successfully (with MPI)

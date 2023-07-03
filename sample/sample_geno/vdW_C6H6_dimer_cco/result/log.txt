@@ -1,0 +1,3195 @@
+ INFO-MPI:NO MPI routine is used.
+ -----------------------
+ |ELSES standard output|
+ -----------------------
+ @@ ini_load_geno
+ @@ LSES_ALLOC_NVAL:nos,imode=           2           0
+ @@ ALLOC_elem_name:NOS_DEF=           2
+ @@ ALLOC_AWT:NOS_DEF=           2
+ @@ ALLOC_VAL_ELEC:NOS_DEF=           2
+ @@ ALLOC_AMM:NOA_DEF=          24
+ @@ set_unitcell_info
+ Info : The unit cell vectors in the input file are as follows
+  vector a=(       18.8972687777        0.0000000000        0.0000000000)
+  vector b=(        0.0000000000       18.8972687777        0.0000000000)
+  vector c=(        0.0000000000        0.0000000000       18.8972687777)
+ deviation from the orthogonality (i,j)           2           1   0.0000000000000000     
+ deviation from the orthogonality (i,j)           3           1   0.0000000000000000     
+ deviation from the orthogonality (i,j)           1           2   0.0000000000000000     
+ deviation from the orthogonality (i,j)           3           2   0.0000000000000000     
+ deviation from the orthogonality (i,j)           1           3   0.0000000000000000     
+ deviation from the orthogonality (i,j)           2           3   0.0000000000000000     
+  det=   6748.3425632309045     
+ Info : The unit cell vectors are redefined as follows
+  vector a=(       18.8972687777        0.0000000000        0.0000000000)
+  vector b=(        0.0000000000       18.8972687777        0.0000000000)
+  vector c=(        0.0000000000        0.0000000000       18.8972687777)
+  ax*ay*ax =   6748.3425632309045     
+ ax =   18.897268777743601     
+ ay =   18.897268777743601     
+ az =   18.897268777743601     
+ @@ set_structure_data
+ @@ set_atm_position_from_tx
+   Set noav=          24
+ @@ load_xml_conditions
+ @@ LSES_LOAD_ELEC_TEMPERATURE
+  temperature for elec (au,eV)=   5.0000000000000001E-003  0.13605800000000001     
+ ntlimit     =         -10
+ r_mem_limit =  -1.0000000000000000     
+        nos,nvl   =           2           4
+    r_cut_book    =   1.7976931348623157E+308
+            nss   =           1
+ elem_name(nss)   =C       
+       awt(nss)   =   12.010700000000000     
+ val_elec_atm(nss)=   3.9999999999999996     
+            nss   =           2
+ elem_name(nss)   =H       
+       awt(nss)   =   1.0079000000000000     
+ val_elec_atm(nss)=   1.0000000000000000     
+  @@ set_tot_elec_num:nos=           2
+ nss,val_elec_atm=           1   3.9999999999999996     
+ nss,val_elec_atm=           2   1.0000000000000000     
+  total number of elec.: val_elec_tot=   59.999999999999993     
+  Note: tot_elec_eig_leg is also set
+            for compatibility to old code
+ @@ ini_set_compat
+ @@ LSES_SET_MASS2
+ js,amm=           1   4.5674292725596289E-005
+ js,amm=           2   4.5674292725596289E-005
+ js,amm=           3   4.5674292725596289E-005
+ js,amm=           4   4.5674292725596289E-005
+ js,amm=           5   4.5674292725596289E-005
+ ....ended:LSES_SET_MASS
+ @@ init_compat_geno
+  total number of bases=          60
+ ...ended: ini_misc_set_geno
+ @@ for_conversion_mode
+  ... is ignored
+elaps-time(befor  MDloop)=              0            0.0080000000
+ --------MD loop starts:itemdmx=          30
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           1
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@ qm_domain_ini_setting
+   solver scheme=eigen
+ @@ qm_domain_ini_compat
+ c_system=geno                            
+ INFO:length of list =          24
+ INFO: NOAO=NOAV (Non-order-N memory for eigen solver)
+ @@ LSES_INIT_ALLOC2:NOA=          24
+    NOAV =          24
+    NOAO =          24
+    NOAS =          24
+    NOAB =          24
+    NOAB0=          24
+    NVL  =           4
+  Alloc: JSV4JSD, NJSD
+ @@ LSES_ALLOC_ATM:allocation of matrices
+ ..is succesfully done
+ @@ LSES_SET_JS4JSV
+  Set JSV4JS and JS4JSV for equivalent
+ @@ LSES_INIT_ALLOC_NRL_LEG:NOA=          24
+    NOAV =          24
+    NOAO =          24
+    NOAS =          24
+    NOAB =          24
+    NOAB0=          24
+    NVL  =           4
+ @@ LSES_SET_JS4JSV
+  Set JSV4JS and JS4JSV for equivalent
+ INFO: gamma_csc is NOT allocated
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   3.9999999999999996        3.9999999999999996     
+  initial guess for charge=           2   3.9999999999999996        3.9999999999999996     
+  initial guess for charge=           3   3.9999999999999996        3.9999999999999996     
+  initial guess for charge=           4   3.9999999999999996        3.9999999999999996     
+  initial guess for charge=           5   3.9999999999999996        3.9999999999999996     
+  initial guess for charge=           6   3.9999999999999996        3.9999999999999996     
+  initial guess for charge=           7   1.0000000000000000        1.0000000000000000     
+  initial guess for charge=           8   1.0000000000000000        1.0000000000000000     
+  initial guess for charge=           9   1.0000000000000000        1.0000000000000000     
+  initial guess for charge=          10   1.0000000000000000        1.0000000000000000     
+ INFO:initial guess charge is set to be a NON default value:n=           0
+ecc [au], ecc[eV]=  1.27057298795391E+00,  3.45743239190065E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   1.9999999785795808E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ Allocation for EIG_LEG
+ n_base_eig_leg is set to=          60
+   total matrix size in GB =   1.1567999999999999E-004
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   192.88852697861262        222.57383050823719     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   2.6974950051439350E-016   2.7061686225238191E-016
+  Non-orthogonalty B =   162.57383050823719     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     1200
+* performance is degraded due to small WORK size
+* WORK size is enlarged   to      4080
+  TIME for LAPACK (DSYGV) =             0.0200000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0200000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force = -2.77555756156289E-16 -6.35342473076506E-16  3.27862736959617E-16
+ Sum of    force = -2.42861286636753E-16 -6.35342473076506E-16  7.28583859910259E-17
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -41.589159037775268     
+ ETB0 as 2 Tr[rho H_{TB}] =  -41.589159037775268     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -41.589159037775069     
+ ETB  as 2 Tr[pi S] =  -41.589159037775069     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -41.589159037775268     
+ ETB  as 2 Tr[rho H] =  -41.589159037775268     
+ @@ qm_output_icohp:imode,step_count=           1           0
+  The output ICOHP file is initialized : output_bond_list.txt
+ CHECK-INFO:sum(dhij)=  -76.847779051182300     
+ CHECK-INFO:sum(dbij)=   22.047297995952256     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -41.5891590378    -1131.7075600723
+ @@ plot_rest_energy_pair
+  The output rest-energy-pair file is initialized : output_rest_energy_pair.txt
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2705729880       34.5743239190
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          0
+@@ elses_md_output_main: step_count =          0
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       1             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -41.589159037775268     
+     ECC =   1.2705729879539069     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3       1       0        -40.318586        -41.589159          1.270573          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=              1            0.0350000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           2
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0198651924941755        4.0198651924941755     
+  initial guess for charge=           2   4.0198652161448214        4.0198652161448214     
+  initial guess for charge=           3   4.0198652161448241        4.0198652161448241     
+  initial guess for charge=           4   4.0198652161448276        4.0198652161448276     
+  initial guess for charge=           5   4.0198652161448241        4.0198652161448241     
+  initial guess for charge=           6   4.0198651924941871        4.0198651924941871     
+  initial guess for charge=           7  0.98013479304336248       0.98013479304336248     
+  initial guess for charge=           8  0.98013479108851642       0.98013479108851642     
+  initial guess for charge=           9  0.98013479108851576       0.98013479108851576     
+  initial guess for charge=          10  0.98013479108851620       0.98013479108851620     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.26421297283304E+00,  3.44012577315435E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   3.0000000260770321E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   186.79737452295461        216.28803710064088     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   3.5041414214731503E-016   3.5735303605122226E-016
+  Non-orthogonalty B =   156.28803710064116     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  1.11022302462516E-16  2.30284541435921E-16 -1.71954464556201E-16
+ Sum of    force =  1.35308431126191E-16  1.99059518868339E-16  1.70002900645727E-16
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -41.758229001161112     
+ ETB0 as 2 Tr[rho H_{TB}] =  -41.758229001161112     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -41.758229001160892     
+ ETB  as 2 Tr[pi S] =  -41.758229001160892     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -41.758229001161112     
+ ETB  as 2 Tr[rho H] =  -41.758229001161112     
+ @@ qm_output_icohp:imode,step_count=           1           1
+ CHECK-INFO:sum(dhij)=  -75.483587487573274     
+ CHECK-INFO:sum(dbij)=   21.603744662269431     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -41.7582290012    -1136.3082242880
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2642129728       34.4012577315
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          1
+@@ elses_md_output_main: step_count =          1
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       2             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -41.758229001161112     
+     ECC =   1.2642129728330374     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3       2       1        -40.494016        -41.758229          1.264213          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=              2            0.0130000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           3
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0207753579229308        4.0207753579229308     
+  initial guess for charge=           2   4.0207753537614686        4.0207753537614686     
+  initial guess for charge=           3   4.0207753537614686        4.0207753537614686     
+  initial guess for charge=           4   4.0207753537614641        4.0207753537614641     
+  initial guess for charge=           5   4.0207753537614650        4.0207753537614650     
+  initial guess for charge=           6   4.0207753579229273        4.0207753579229273     
+  initial guess for charge=           7  0.97922464615200400       0.97922464615200400     
+  initial guess for charge=           8  0.97922464419723076       0.97922464419723076     
+  initial guess for charge=           9  0.97922464419723099       0.97922464419723099     
+  initial guess for charge=          10  0.97922464419723054       0.97922464419723054     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.26048363242920E+00,  3.42997764122105E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   2.0000000367872417E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   181.44343253736895        210.66246398244340     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   4.3715031594615539E-016   4.4322184811207421E-016
+  Non-orthogonalty B =   150.66246398244363     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  6.10622663543836E-16 -1.85181731060524E-16 -1.35742111995185E-16
+ Sum of    force =  6.22765727875674E-16 -1.85832252364015E-16  8.23993651088983E-18
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -41.872279981726599     
+ ETB0 as 2 Tr[rho H_{TB}] =  -41.872279981726599     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -41.872279981726649     
+ ETB  as 2 Tr[pi S] =  -41.872279981726649     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -41.872279981726599     
+ ETB  as 2 Tr[rho H] =  -41.872279981726599     
+ @@ qm_output_icohp:imode,step_count=           1           2
+ CHECK-INFO:sum(dhij)=  -74.366493198062201     
+ CHECK-INFO:sum(dbij)=   21.240017284342379     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -41.8722799817    -1139.4117339508
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2604836324       34.2997764122
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          2
+@@ elses_md_output_main: step_count =          2
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       3             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -41.872279981726599     
+     ECC =   1.2604836324292017     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3       3       2        -40.611796        -41.872280          1.260484          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=              3            0.0110000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           4
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0212687512212586        4.0212687512212586     
+  initial guess for charge=           2   4.0212687458474816        4.0212687458474816     
+  initial guess for charge=           3   4.0212687458474816        4.0212687458474816     
+  initial guess for charge=           4   4.0212687458474825        4.0212687458474825     
+  initial guess for charge=           5   4.0212687458474807        4.0212687458474807     
+  initial guess for charge=           6   4.0212687512212550        4.0212687512212550     
+  initial guess for charge=           7  0.97873125367988023       0.97873125367988023     
+  initial guess for charge=           8  0.97873125169659692       0.97873125169659692     
+  initial guess for charge=           9  0.97873125169659447       0.97873125169659447     
+  initial guess for charge=          10  0.97873125169659558       0.97873125169659558     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25832604299104E+00,  3.42410649514550E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   2.0000000367872417E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   176.77440339389869        205.67003469078992     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   3.3306690738754696E-016   3.3653635433950058E-016
+  Non-orthogonalty B =   145.67003469078992     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  1.94289029309402E-16  4.25440932483312E-16 -1.92987986702420E-16
+ Sum of    force =  3.62557206479153E-16  3.37620556511986E-16 -3.03576608295941E-18
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -41.951607871119080     
+ ETB0 as 2 Tr[rho H_{TB}] =  -41.951607871119080     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -41.951607871118895     
+ ETB  as 2 Tr[pi S] =  -41.951607871118895     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -41.951607871119080     
+ ETB  as 2 Tr[rho H] =  -41.951607871119080     
+ @@ qm_output_icohp:imode,step_count=           1           3
+ CHECK-INFO:sum(dhij)=  -73.456553006140780     
+ CHECK-INFO:sum(dbij)=   20.943904968959377     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -41.9516078711    -1141.5703727457
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2583260430       34.2410649515
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          3
+@@ elses_md_output_main: step_count =          3
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       4             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -41.951607871119080     
+     ECC =   1.2583260429910392     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3       4       3        -40.693282        -41.951608          1.258326          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=              4            0.0100000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           5
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0215931168161321        4.0215931168161321     
+  initial guess for charge=           2   4.0215931113501302        4.0215931113501302     
+  initial guess for charge=           3   4.0215931113501329        4.0215931113501329     
+  initial guess for charge=           4   4.0215931113501311        4.0215931113501311     
+  initial guess for charge=           5   4.0215931113501320        4.0215931113501320     
+  initial guess for charge=           6   4.0215931168161303        4.0215931168161303     
+  initial guess for charge=           7  0.97840688816450549       0.97840688816450549     
+  initial guess for charge=           8  0.97840688616107152       0.97840688616107152     
+  initial guess for charge=           9  0.97840688616107030       0.97840688616107030     
+  initial guess for charge=          10  0.97840688616107085       0.97840688616107085     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25711666623486E+00,  3.42081558749166E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   2.0000000367872417E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   172.73188200463565        201.27350427187710     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   2.3939183968479938E-016   2.3939183968479938E-016
+  Non-orthogonalty B =   141.27350427187667     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force = -2.22044604925031E-16 -2.35055030994857E-16  6.37510877421477E-17
+ Sum of    force = -2.08166817117217E-16 -2.77974190432233E-16  1.64473469566051E-16
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.006898908251131     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.006898908251131     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.006898908250932     
+ ETB  as 2 Tr[pi S] =  -42.006898908250932     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.006898908251131     
+ ETB  as 2 Tr[rho H] =  -42.006898908251131     
+ @@ qm_output_icohp:imode,step_count=           1           4
+ CHECK-INFO:sum(dhij)=  -72.718972764526612     
+ CHECK-INFO:sum(dbij)=   20.703487167415410     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.0068989083    -1143.0749303318
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2571166662       34.2081558749
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          4
+@@ elses_md_output_main: step_count =          4
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       5             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.006898908251131     
+     ECC =   1.2571166662348618     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3       5       4        -40.749782        -42.006899          1.257117          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=              5            0.0120000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           6
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0218117665473452        4.0218117665473452     
+  initial guess for charge=           2   4.0218117610533746        4.0218117610533746     
+  initial guess for charge=           3   4.0218117610533728        4.0218117610533728     
+  initial guess for charge=           4   4.0218117610533755        4.0218117610533755     
+  initial guess for charge=           5   4.0218117610533772        4.0218117610533772     
+  initial guess for charge=           6   4.0218117665473452        4.0218117665473452     
+  initial guess for charge=           7  0.97818823846291747       0.97818823846291747     
+  initial guess for charge=           8  0.97818823644567576       0.97818823644567576     
+  initial guess for charge=           9  0.97818823644567521       0.97818823644567521     
+  initial guess for charge=          10  0.97818823644567598       0.97818823644567598     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25648970793985E+00,  3.41910953365759E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   2.9999999678693712E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   169.25484486655080        197.42903888703015     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   2.9316826744008040E-016   3.0184188481996443E-016
+  Non-orthogonalty B =   137.42903888703054     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  6.93889390390723E-16 -1.51354623278976E-16  2.63461127913978E-17
+ Sum of    force =  8.29197821516914E-16 -2.12666256133032E-16  2.54787510534094E-17
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.045174765961669     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.045174765961669     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.045174765961093     
+ ETB  as 2 Tr[pi S] =  -42.045174765961093     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.045174765961669     
+ ETB  as 2 Tr[rho H] =  -42.045174765961669     
+ @@ qm_output_icohp:imode,step_count=           1           5
+ CHECK-INFO:sum(dhij)=  -72.123818364793735     
+ CHECK-INFO:sum(dbij)=   20.508282763631478     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.0451747660    -1144.1164776614
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2564897079       34.1910953366
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          5
+@@ elses_md_output_main: step_count =          5
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       6             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.045174765961669     
+     ECC =   1.2564897079398465     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3       6       5        -40.788685        -42.045175          1.256490          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=              6            0.0110000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           7
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0219603595376796        4.0219603595376796     
+  initial guess for charge=           2   4.0219603540253672        4.0219603540253672     
+  initial guess for charge=           3   4.0219603540253654        4.0219603540253654     
+  initial guess for charge=           4   4.0219603540253628        4.0219603540253628     
+  initial guess for charge=           5   4.0219603540253663        4.0219603540253663     
+  initial guess for charge=           6   4.0219603595376761        4.0219603595376761     
+  initial guess for charge=           7  0.97803964548625222       0.97803964548625222     
+  initial guess for charge=           8  0.97803964345945638       0.97803964345945638     
+  initial guess for charge=           9  0.97803964345945560       0.97803964345945560     
+  initial guess for charge=          10  0.97803964345945615       0.97803964345945615     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25622915205844E+00,  3.41840051941535E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   1.9999999785795808E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   166.28293864813546        194.09017966010879     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   2.8015784137025435E-016   2.8015784137025435E-016
+  Non-orthogonalty B =   134.09017966010819     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0020000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  2.77555756156289E-16  2.61943244872498E-16 -6.31005664386564E-17
+ Sum of    force =  2.61943244872498E-16  1.92662726050674E-16 -5.25838053655470E-17
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.071446801971227     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.071446801971227     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.071446801971121     
+ ETB  as 2 Tr[pi S] =  -42.071446801971121     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.071446801971227     
+ ETB  as 2 Tr[rho H] =  -42.071446801971227     
+ @@ qm_output_icohp:imode,step_count=           1           6
+ CHECK-INFO:sum(dhij)=  -71.645615116531246     
+ CHECK-INFO:sum(dbij)=   20.349507535634618     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.0714468020    -1144.8313817965
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2562291521       34.1840051942
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          6
+@@ elses_md_output_main: step_count =          6
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       7             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.071446801971227     
+     ECC =   1.2562291520584412     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3       7       6        -40.815218        -42.071447          1.256229          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=              7            0.0110000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           8
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0220614057264985        4.0220614057264985     
+  initial guess for charge=           2   4.0220614001998012        4.0220614001998012     
+  initial guess for charge=           3   4.0220614001998047        4.0220614001998047     
+  initial guess for charge=           4   4.0220614001998030        4.0220614001998030     
+  initial guess for charge=           5   4.0220614001998030        4.0220614001998030     
+  initial guess for charge=           6   4.0220614057264967        4.0220614057264967     
+  initial guess for charge=           7  0.97793859931043658       0.97793859931043658     
+  initial guess for charge=           8  0.97793859727700716       0.97793859727700716     
+  initial guess for charge=           9  0.97793859727700694       0.97793859727700694     
+  initial guess for charge=          10  0.97793859727700727       0.97793859727700727     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25620322526008E+00,  3.41832996844872E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   2.9999999678693712E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   163.75646937342398        191.20697678811860     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   2.2291196666301971E-016   2.2334564753201391E-016
+  Non-orthogonalty B =   131.20697678811871     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  6.38378239159465E-16  2.29850860566927E-17 -4.25549352700560E-17
+ Sum of    force =  6.62664367823140E-16 -2.11419423634673E-17 -4.82469966756049E-17
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.089310811936024     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.089310811936024     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.089310811935917     
+ ETB  as 2 Tr[pi S] =  -42.089310811935917     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.089310811936024     
+ ETB  as 2 Tr[rho H] =  -42.089310811936024     
+ @@ qm_output_icohp:imode,step_count=           1           7
+ CHECK-INFO:sum(dhij)=  -71.262890453917962     
+ CHECK-INFO:sum(dbij)=   20.219985046898682     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.0893108119    -1145.3174900901
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2562032253       34.1832996845
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          7
+@@ elses_md_output_main: step_count =          7
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       8             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.089310811936024     
+     ECC =   1.2562032252600814     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3       8       7        -40.833108        -42.089311          1.256203          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=              8            0.0110000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=           9
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0221297991141789        4.0221297991141789     
+  initial guess for charge=           2   4.0221297935758713        4.0221297935758713     
+  initial guess for charge=           3   4.0221297935758749        4.0221297935758749     
+  initial guess for charge=           4   4.0221297935758713        4.0221297935758713     
+  initial guess for charge=           5   4.0221297935758722        4.0221297935758722     
+  initial guess for charge=           6   4.0221297991141771        4.0221297991141771     
+  initial guess for charge=           7  0.97787020594018104       0.97787020594018104     
+  initial guess for charge=           8  0.97787020390216106       0.97787020390216106     
+  initial guess for charge=           9  0.97787020390216139       0.97787020390216139     
+  initial guess for charge=          10  0.97787020390215973       0.97787020390215973     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25632556152093E+00,  3.41866286498831E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   1.9999999785795808E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   161.61966837249847        188.73089990065932     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   2.0383000842727483E-016   2.1814147710408349E-016
+  Non-orthogonalty B =   128.73089990065944     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force = -8.32667268468867E-17 -3.77302356024956E-17  2.71050543121376E-18
+ Sum of    force = -1.38777878078145E-17 -8.69530142333375E-17 -1.30104260698261E-17
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.101335678285693     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.101335678285693     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.101335678285771     
+ ETB  as 2 Tr[pi S] =  -42.101335678285771     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.101335678285693     
+ ETB  as 2 Tr[rho H] =  -42.101335678285693     
+ @@ qm_output_icohp:imode,step_count=           1           8
+ CHECK-INFO:sum(dhij)=  -70.957699465231002     
+ CHECK-INFO:sum(dbij)=   20.113939546841276     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1013356783    -1145.6447059432
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2563255615       34.1866286499
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          8
+@@ elses_md_output_main: step_count =          8
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=       9             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.101335678285693     
+     ECC =   1.2563255615209341     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3       9       8        -40.845010        -42.101336          1.256326          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=              9            0.0100000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          10
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0221757074988300        4.0221757074988300     
+  initial guess for charge=           2   4.0221757019512117        4.0221757019512117     
+  initial guess for charge=           3   4.0221757019512099        4.0221757019512099     
+  initial guess for charge=           4   4.0221757019512152        4.0221757019512152     
+  initial guess for charge=           5   4.0221757019512117        4.0221757019512117     
+  initial guess for charge=           6   4.0221757074988265        4.0221757074988265     
+  initial guess for charge=           7  0.97782429756428790       0.97782429756428790     
+  initial guess for charge=           8  0.97782429552311745       0.97782429552311745     
+  initial guess for charge=           9  0.97782429552311634       0.97782429552311634     
+  initial guess for charge=          10  0.97782429552311800       0.97782429552311800     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25653415428681E+00,  3.41923047927909E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   2.0000000367872417E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   159.82112244175991        186.61547962852131     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   1.3834419720915037E-016   1.4094628242311558E-016
+  Non-orthogonalty B =   126.61547962852110     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  5.55111512312578E-17 -2.20309881449055E-16  9.40545384631175E-18
+ Sum of    force =  8.67361737988404E-18 -2.77989437025283E-16  1.08420217248550E-19
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.109343968184255     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.109343968184255     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.109343968184263     
+ ETB  as 2 Tr[pi S] =  -42.109343968184263     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.109343968184255     
+ ETB  as 2 Tr[rho H] =  -42.109343968184255     
+ @@ qm_output_icohp:imode,step_count=           1           9
+ CHECK-INFO:sum(dhij)=  -70.715160348247721     
+ CHECK-INFO:sum(dbij)=   20.026765293280150     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1093439682    -1145.8626243246
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2565341543       34.1923047928
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =          9
+@@ elses_md_output_main: step_count =          9
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      10             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.109343968184255     
+     ECC =   1.2565341542868080     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      10       9        -40.852810        -42.109344          1.256534          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             10            0.0090000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          11
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222061947225258        4.0222061947225258     
+  initial guess for charge=           2   4.0222061891675809        4.0222061891675809     
+  initial guess for charge=           3   4.0222061891675800        4.0222061891675800     
+  initial guess for charge=           4   4.0222061891675809        4.0222061891675809     
+  initial guess for charge=           5   4.0222061891675773        4.0222061891675773     
+  initial guess for charge=           6   4.0222061947225276        4.0222061947225276     
+  initial guess for charge=           7  0.97779381034446833       0.97779381034446833     
+  initial guess for charge=           8  0.97779380830115881       0.97779380830115881     
+  initial guess for charge=           9  0.97779380830115903       0.97779380830115903     
+  initial guess for charge=          10  0.97779380830115981       0.97779380830115981     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25678239064499E+00,  3.41990597012753E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   1.9999999785795808E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   158.31405276193706        184.81691428653221     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   1.6696713456276768E-016   1.7390602846667491E-016
+  Non-orthogonalty B =   124.81691428653303     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  6.10622663543836E-16  8.06646416329215E-17 -9.18861341181465E-18
+ Sum of    force =  7.49400541621981E-16  3.53449908230274E-17 -4.22838847269347E-18
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.114617792051583     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.114617792051583     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.114617792051853     
+ ETB  as 2 Tr[pi S] =  -42.114617792051853     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.114617792051583     
+ ETB  as 2 Tr[rho H] =  -42.114617792051583     
+ @@ qm_output_icohp:imode,step_count=           1          10
+ CHECK-INFO:sum(dhij)=  -70.523017266129870     
+ CHECK-INFO:sum(dbij)=   19.954809744655819     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1146177921    -1146.0061335102
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2567823906       34.1990597013
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         10
+@@ elses_md_output_main: step_count =         10
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      11             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.114617792051583     
+     ECC =   1.2567823906449920     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      11      10        -40.857835        -42.114618          1.256782          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             11            0.0090000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          12
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222261961405126        4.0222261961405126     
+  initial guess for charge=           2   4.0222261905799197        4.0222261905799197     
+  initial guess for charge=           3   4.0222261905799233        4.0222261905799233     
+  initial guess for charge=           4   4.0222261905799233        4.0222261905799233     
+  initial guess for charge=           5   4.0222261905799215        4.0222261905799215     
+  initial guess for charge=           6   4.0222261961405135        4.0222261961405135     
+  initial guess for charge=           7  0.97777380892783483       0.97777380892783483     
+  initial guess for charge=           8  0.97777380688309656       0.97777380688309656     
+  initial guess for charge=           9  0.97777380688309667       0.97777380688309667     
+  initial guess for charge=          10  0.97777380688309634       0.97777380688309634     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25703711177721E+00,  3.42059910708366E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   1.9999999785795808E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   157.05648190486926        183.29464535744489     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   1.3617579286417936E-016   1.3660947373317356E-016
+  Non-orthogonalty B =   123.29464535744411     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0020000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force = -2.49800180540660E-16  6.47919218277337E-16 -2.43945488809238E-18
+ Sum of    force = -9.19403442267708E-17  6.14525791364784E-16 -2.38524477946811E-18
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.118050326477324     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.118050326477324     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.118050326477167     
+ ETB  as 2 Tr[pi S] =  -42.118050326477167     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.118050326477324     
+ ETB  as 2 Tr[rho H] =  -42.118050326477324     
+ @@ qm_output_icohp:imode,step_count=           1          11
+ CHECK-INFO:sum(dhij)=  -70.371240825171952     
+ CHECK-INFO:sum(dbij)=   19.895183884800229     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1180503265    -1146.0995382640
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2570371118       34.2059910708
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         11
+@@ elses_md_output_main: step_count =         11
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      12             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.118050326477324     
+     ECC =   1.2570371117772059     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      12      11        -40.861013        -42.118050          1.257037          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             12            0.0100000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          13
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222391492232079        4.0222391492232079     
+  initial guess for charge=           2   4.0222391436583571        4.0222391436583571     
+  initial guess for charge=           3   4.0222391436583562        4.0222391436583562     
+  initial guess for charge=           4   4.0222391436583589        4.0222391436583589     
+  initial guess for charge=           5   4.0222391436583580        4.0222391436583580     
+  initial guess for charge=           6   4.0222391492232079        4.0222391492232079     
+  initial guess for charge=           7  0.97776085584844907       0.97776085584844907     
+  initial guess for charge=           8  0.97776085380277211       0.97776085380277211     
+  initial guess for charge=           9  0.97776085380277122       0.97776085380277122     
+  initial guess for charge=          10  0.97776085380277111       0.97776085380277111     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25727862562176E+00,  3.42125630489690E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   9.9999998928979039E-004
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   156.01118487747149        182.01167140847537     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   1.5525775109992423E-016   1.8388068845354155E-016
+  Non-orthogonalty B =   122.01167140847522     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  2.49800180540660E-16  3.35235311732518E-16  1.31459513413867E-18
+ Sum of    force =  2.37657116208823E-16  3.00107161343988E-16 -1.89735380184963E-18
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.120257181042412     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.120257181042412     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.120257181042511     
+ ETB  as 2 Tr[pi S] =  -42.120257181042511     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.120257181042412     
+ ETB  as 2 Tr[rho H] =  -42.120257181042412     
+ @@ qm_output_icohp:imode,step_count=           1          12
+ CHECK-INFO:sum(dhij)=  -70.251671109127187     
+ CHECK-INFO:sum(dbij)=   19.845602698528701     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1202571810    -1146.1595903077
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2572786256       34.2125630490
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         12
+@@ elses_md_output_main: step_count =         12
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      13             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.120257181042412     
+     ECC =   1.2572786256217567     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      13      12        -40.862979        -42.120257          1.257279          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             13            0.0080000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          14
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222474267303516        4.0222474267303516     
+  initial guess for charge=           2   4.0222474211623567        4.0222474211623567     
+  initial guess for charge=           3   4.0222474211623602        4.0222474211623602     
+  initial guess for charge=           4   4.0222474211623611        4.0222474211623611     
+  initial guess for charge=           5   4.0222474211623567        4.0222474211623567     
+  initial guess for charge=           6   4.0222474267303543        4.0222474267303543     
+  initial guess for charge=           7  0.97775257834851304       0.97775257834851304     
+  initial guess for charge=           8  0.97775257630222800       0.97775257630222800     
+  initial guess for charge=           9  0.97775257630222867       0.97775257630222867     
+  initial guess for charge=          10  0.97775257630222767       0.97775257630222767     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25749901544957E+00,  3.42185602088075E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   1.9999999785795808E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   155.14630700202983        180.93600725102746     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   1.5720931501039814E-016   1.5742615544489524E-016
+  Non-orthogonalty B =   120.93600725102746     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force = -4.99600361081320E-16  2.68882138776405E-17  3.00866102864727E-18
+ Sum of    force = -4.51028103753970E-16 -1.82145964977565E-17  4.55364912443912E-18
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.121657841292006     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.121657841292006     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.121657841291977     
+ ETB  as 2 Tr[pi S] =  -42.121657841291977     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.121657841292006     
+ ETB  as 2 Tr[rho H] =  -42.121657841292006     
+ @@ qm_output_icohp:imode,step_count=           1          13
+ CHECK-INFO:sum(dhij)=  -70.157704495288300     
+ CHECK-INFO:sum(dbij)=   19.804254507935276     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1216578413    -1146.1977045141
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2574990154       34.2185602088
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         13
+@@ elses_md_output_main: step_count =         13
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      14             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.121657841292006     
+     ECC =   1.2574990154495709     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      14      13        -40.864159        -42.121658          1.257499          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             14            0.0090000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          15
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222526460276091        4.0222526460276091     
+  initial guess for charge=           2   4.0222526404573298        4.0222526404573298     
+  initial guess for charge=           3   4.0222526404573289        4.0222526404573289     
+  initial guess for charge=           4   4.0222526404573289        4.0222526404573289     
+  initial guess for charge=           5   4.0222526404573280        4.0222526404573280     
+  initial guess for charge=           6   4.0222526460276065        4.0222526460276065     
+  initial guess for charge=           7  0.97774735904615384       0.97774735904615384     
+  initial guess for charge=           8  0.97774735699948667       0.97774735699948667     
+  initial guess for charge=           9  0.97774735699948645       0.97774735699948645     
+  initial guess for charge=          10  0.97774735699948589       0.97774735699948589     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25769818381748E+00,  3.42239798987677E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   9.9999998928979039E-004
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   154.43233965411312        180.03618006007309     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   1.2056328158038809E-016   1.2836953722228372E-016
+  Non-orthogonalty B =   120.03618006007301     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  1.66533453693773E-16  3.42607886505419E-17  1.34847645202885E-18
+ Sum of    force =  2.11636264069170E-16  1.04083408558608E-17  6.77626357803440E-19
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.122534756311701     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.122534756311701     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.122534756311786     
+ ETB  as 2 Tr[pi S] =  -42.122534756311786     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.122534756311701     
+ ETB  as 2 Tr[rho H] =  -42.122534756311701     
+ @@ qm_output_icohp:imode,step_count=           1          14
+ CHECK-INFO:sum(dhij)=  -70.084022996586867     
+ CHECK-INFO:sum(dbij)=   19.769696125774349     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1225347563    -1146.2215667749
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2576981838       34.2239798988
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         14
+@@ elses_md_output_main: step_count =         14
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      15             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.122534756311701     
+     ECC =   1.2576981838174799     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      15      14        -40.864837        -42.122535          1.257698          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             15            0.0100000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          16
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222558937177402        4.0222558937177402     
+  initial guess for charge=           2   4.0222558881458372        4.0222558881458372     
+  initial guess for charge=           3   4.0222558881458390        4.0222558881458390     
+  initial guess for charge=           4   4.0222558881458372        4.0222558881458372     
+  initial guess for charge=           5   4.0222558881458399        4.0222558881458399     
+  initial guess for charge=           6   4.0222558937177402        4.0222558937177402     
+  initial guess for charge=           7  0.97774411136567851       0.97774411136567851     
+  initial guess for charge=           8  0.97774410931877775       0.97774410931877775     
+  initial guess for charge=           9  0.97774410931877698       0.97774410931877698     
+  initial guess for charge=          10  0.97774410931877731       0.97774410931877731     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25787955206081E+00,  3.42289152188580E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   2.0000000367872417E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   153.84475743485200        179.28595742890926     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   1.0776969594505914E-016   1.1384122811097797E-016
+  Non-orthogonalty B =   119.28595742890977     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  3.05311331771918E-16  3.77302356024956E-16  1.01643953670516E-18
+ Sum of    force =  2.74086309204336E-16  3.61473004306667E-16  9.21571846612679E-19
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123075769648516     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123075769648516     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123075769648381     
+ ETB  as 2 Tr[pi S] =  -42.123075769648381     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123075769648516     
+ ETB  as 2 Tr[rho H] =  -42.123075769648516     
+ @@ qm_output_icohp:imode,step_count=           1          15
+ CHECK-INFO:sum(dhij)=  -70.026363323414941     
+ CHECK-INFO:sum(dbij)=   19.740770170176866     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1230757696    -1146.2362886134
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2578795521       34.2289152189
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         15
+@@ elses_md_output_main: step_count =         15
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      16             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123075769648516     
+     ECC =   1.2578795520608130     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      16      15        -40.865196        -42.123076          1.257880          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             16            0.0080000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          17
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222578885410591        4.0222578885410591     
+  initial guess for charge=           2   4.0222578829680229        4.0222578829680229     
+  initial guess for charge=           3   4.0222578829680202        4.0222578829680202     
+  initial guess for charge=           4   4.0222578829680202        4.0222578829680202     
+  initial guess for charge=           5   4.0222578829680211        4.0222578829680211     
+  initial guess for charge=           6   4.0222578885410600        4.0222578885410600     
+  initial guess for charge=           7  0.97774211653743348       0.97774211653743348     
+  initial guess for charge=           8  0.97774211449038950       0.97774211449038950     
+  initial guess for charge=           9  0.97774211449038861       0.97774211449038861     
+  initial guess for charge=          10  0.97774211449038795       0.97774211449038795     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25804723669810E+00,  3.42334781861339E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   1.9999999785795808E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   153.36265032153173        178.66255244068776     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   9.2482445313013528E-017   9.2807705964759180E-017
+  Non-orthogonalty B =   118.66255244068735     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force = -4.71844785465692E-16  1.28803218091278E-16  7.92822838630025E-19
+ Sum of    force = -4.52762827229947E-16  8.23993651088983E-17  1.00288700954909E-18
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123404231052042     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123404231052042     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123404231052049     
+ ETB  as 2 Tr[pi S] =  -42.123404231052049     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123404231052042     
+ ETB  as 2 Tr[rho H] =  -42.123404231052042     
+ @@ qm_output_icohp:imode,step_count=           1          16
+ CHECK-INFO:sum(dhij)=  -69.981321992349805     
+ CHECK-INFO:sum(dbij)=   19.716540821880105     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1234042311    -1146.2452265737
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2580472367       34.2334781861
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         16
+@@ elses_md_output_main: step_count =         16
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      17             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123404231052042     
+     ECC =   1.2580472366980950     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      17      16        -40.865357        -42.123404          1.258047          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             17            0.0090000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          18
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222590985500180        4.0222590985500180     
+  initial guess for charge=           2   4.0222590929761930        4.0222590929761930     
+  initial guess for charge=           3   4.0222590929761921        4.0222590929761921     
+  initial guess for charge=           4   4.0222590929761903        4.0222590929761903     
+  initial guess for charge=           5   4.0222590929761912        4.0222590929761912     
+  initial guess for charge=           6   4.0222590985500153        4.0222590985500153     
+  initial guess for charge=           7  0.97774090653340529       0.97774090653340529     
+  initial guess for charge=           8  0.97774090448627926       0.97774090448627926     
+  initial guess for charge=           9  0.97774090448627804       0.97774090448627804     
+  initial guess for charge=          10  0.97774090448627693       0.97774090448627693     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25820489089799E+00,  3.42377682091598E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   1.9999999785795808E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   152.96820925355044        178.14615754328335     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   1.0982968007278160E-016   1.1058862159352145E-016
+  Non-orthogonalty B =   118.14615754328368     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  4.71844785465692E-16 -5.29090660172926E-17 -9.28348110190713E-19
+ Sum of    force =  4.42354486374086E-16 -6.31005664386564E-17 -5.96311194867027E-19
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123600090049891     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123600090049891     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123600090049763     
+ ETB  as 2 Tr[pi S] =  -42.123600090049763     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123600090049891     
+ ETB  as 2 Tr[rho H] =  -42.123600090049891     
+ @@ qm_output_icohp:imode,step_count=           1          17
+ CHECK-INFO:sum(dhij)=  -69.946192429119932     
+ CHECK-INFO:sum(dbij)=   19.696244529266956     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1236000900    -1146.2505562104
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2582048909       34.2377682092
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         17
+@@ elses_md_output_main: step_count =         17
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      18             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123600090049891     
+     ECC =   1.2582048908979917     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      18      17        -40.865395        -42.123600          1.258205          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             18            0.0090000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          19
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222598237425462        4.0222598237425462     
+  initial guess for charge=           2   4.0222598181681839        4.0222598181681839     
+  initial guess for charge=           3   4.0222598181681857        4.0222598181681857     
+  initial guess for charge=           4   4.0222598181681830        4.0222598181681830     
+  initial guess for charge=           5   4.0222598181681848        4.0222598181681848     
+  initial guess for charge=           6   4.0222598237425471        4.0222598237425471     
+  initial guess for charge=           7  0.97774018134273866       0.97774018134273866     
+  initial guess for charge=           8  0.97774017929556711       0.97774017929556711     
+  initial guess for charge=           9  0.97774017929556500       0.97774017929556500     
+  initial guess for charge=          10  0.97774017929556645       0.97774017929556645     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25835544178413E+00,  3.42418649396530E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   3.0000000260770321E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   152.64635633102469        177.71967488560847     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   1.3032110113275763E-016   1.3097162243624894E-016
+  Non-orthogonalty B =   117.71967488560902     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0020000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0020000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force = -2.77555756156289E-16 -3.42607886505419E-16  3.84552958053452E-19
+ Sum of    force = -2.25514051876985E-16 -3.73832909073002E-16  5.69206140554890E-19
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123714474497731     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123714474497731     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123714474498072     
+ ETB  as 2 Tr[pi S] =  -42.123714474498072     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123714474497731     
+ ETB  as 2 Tr[rho H] =  -42.123714474497731     
+ @@ qm_output_icohp:imode,step_count=           1          18
+ CHECK-INFO:sum(dhij)=  -69.918829966156508     
+ CHECK-INFO:sum(dbij)=   19.679252544349215     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1237144745    -1146.2536687942
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2583554418       34.2418649397
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         18
+@@ elses_md_output_main: step_count =         18
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      19             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123714474497731     
+     ECC =   1.2583554417841294     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      19      18        -40.865359        -42.123714          1.258355          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             19            0.0110000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          20
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222602534858467        4.0222602534858467     
+  initial guess for charge=           2   4.0222602479111291        4.0222602479111291     
+  initial guess for charge=           3   4.0222602479111265        4.0222602479111265     
+  initial guess for charge=           4   4.0222602479111291        4.0222602479111291     
+  initial guess for charge=           5   4.0222602479111265        4.0222602479111265     
+  initial guess for charge=           6   4.0222602534858467        4.0222602534858467     
+  initial guess for charge=           7  0.97773975159863225       0.97773975159863225     
+  initial guess for charge=           8  0.97773974955143550       0.97773974955143550     
+  initial guess for charge=           9  0.97773974955143539       0.97773974955143539     
+  initial guess for charge=          10  0.97773974955143572       0.97773974955143572     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25850109880536E+00,  3.42458285002518E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   2.0000000367872417E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   152.38439501722240        177.36843878082607     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   1.0321604682062002E-016   1.0885389811754465E-016
+  Non-orthogonalty B =   117.36843878082573     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  9.15933995315754E-16  1.90819582357449E-16  1.76182853028894E-19
+ Sum of    force =  8.08381139805192E-16  1.66967134562768E-16  0.00000000000000E+00
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123779627088396     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123779627088396     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123779627088538     
+ ETB  as 2 Tr[pi S] =  -42.123779627088538     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123779627088396     
+ ETB  as 2 Tr[rho H] =  -42.123779627088396     
+ @@ qm_output_icohp:imode,step_count=           1          19
+ CHECK-INFO:sum(dhij)=  -69.897540804069592     
+ CHECK-INFO:sum(dbij)=   19.665042622375353     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1237796271    -1146.2554417005
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2585010988       34.2458285003
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         19
+@@ elses_md_output_main: step_count =         19
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      20             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123779627088396     
+     ECC =   1.2585010988053558     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      20      19        -40.865279        -42.123780          1.258501          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             20            0.0080000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          21
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222605055273126        4.0222605055273126     
+  initial guess for charge=           2   4.0222604999523499        4.0222604999523499     
+  initial guess for charge=           3   4.0222604999523517        4.0222604999523517     
+  initial guess for charge=           4   4.0222604999523517        4.0222604999523517     
+  initial guess for charge=           5   4.0222604999523517        4.0222604999523517     
+  initial guess for charge=           6   4.0222605055273082        4.0222605055273082     
+  initial guess for charge=           7  0.97773949955773864       0.97773949955773864     
+  initial guess for charge=           8  0.97773949751053124       0.97773949751053124     
+  initial guess for charge=           9  0.97773949751053035       0.97773949751053035     
+  initial guess for charge=          10  0.97773949751053135       0.97773949751053135     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25864340197497E+00,  3.42497007971821E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   1.9999999785795808E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   152.17168694233584        177.07994211829040     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   9.6927674220204096E-017   9.7469775306446849E-017
+  Non-orthogonalty B =   117.07994211829049     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force = -3.88578058618805E-16  1.18394877235417E-16 -3.30342849429177E-20
+ Sum of    force = -3.52148865623292E-16  7.69783542464708E-17  2.16840434497101E-19
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123815583899770     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123815583899770     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123815583899749     
+ ETB  as 2 Tr[pi S] =  -42.123815583899749     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123815583899770     
+ ETB  as 2 Tr[rho H] =  -42.123815583899770     
+ @@ qm_output_icohp:imode,step_count=           1          20
+ CHECK-INFO:sum(dhij)=  -69.880991305046720     
+ CHECK-INFO:sum(dbij)=   19.653177682409357     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1238155839    -1146.2564201428
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2586434020       34.2497007972
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         20
+@@ elses_md_output_main: step_count =         20
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      21             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123815583899770     
+     ECC =   1.2586434019749686     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      21      20        -40.865172        -42.123816          1.258643          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             21            0.0090000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          22
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222606520103668        4.0222606520103668     
+  initial guess for charge=           2   4.0222606464352566        4.0222606464352566     
+  initial guess for charge=           3   4.0222606464352548        4.0222606464352548     
+  initial guess for charge=           4   4.0222606464352566        4.0222606464352566     
+  initial guess for charge=           5   4.0222606464352575        4.0222606464352575     
+  initial guess for charge=           6   4.0222606520103659        4.0222606520103659     
+  initial guess for charge=           7  0.97773935307251392       0.97773935307251392     
+  initial guess for charge=           8  0.97773935102530363       0.97773935102530363     
+  initial guess for charge=           9  0.97773935102530352       0.97773935102530352     
+  initial guess for charge=          10  0.97773935102530218       0.97773935102530218     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25878326833133E+00,  3.42535067845248E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   2.0000000367872417E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   151.99935878676516        176.84357488780859     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   9.7578195523695399E-017   9.8011876392689601E-017
+  Non-orthogonalty B =   116.84357488780857     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  6.10622663543836E-16 -2.86229373536173E-17 -0.00000000000000E+00
+ Sum of    force =  6.59194920871187E-16 -3.90312782094782E-17  5.42101086242752E-20
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123834600733339     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123834600733339     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123834600733225     
+ ETB  as 2 Tr[pi S] =  -42.123834600733225     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123834600733339     
+ ETB  as 2 Tr[rho H] =  -42.123834600733339     
+ @@ qm_output_icohp:imode,step_count=           1          21
+ CHECK-INFO:sum(dhij)=  -69.868134352465631     
+ CHECK-INFO:sum(dbij)=   19.643289667110697     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1238346007    -1146.2569376213
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2587832683       34.2535067845
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         21
+@@ elses_md_output_main: step_count =         21
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      22             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123834600733339     
+     ECC =   1.2587832683313298     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      22      21        -40.865051        -42.123835          1.258783          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             22            0.0080000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          23
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222607365284979        4.0222607365284979     
+  initial guess for charge=           2   4.0222607309532838        4.0222607309532838     
+  initial guess for charge=           3   4.0222607309532856        4.0222607309532856     
+  initial guess for charge=           4   4.0222607309532883        4.0222607309532883     
+  initial guess for charge=           5   4.0222607309532883        4.0222607309532883     
+  initial guess for charge=           6   4.0222607365284988        4.0222607365284988     
+  initial guess for charge=           7  0.97773926855539584       0.97773926855539584     
+  initial guess for charge=           8  0.97773926650818543       0.97773926650818543     
+  initial guess for charge=           9  0.97773926650818521       0.97773926650818521     
+  initial guess for charge=          10  0.97773926650818499       0.97773926650818499     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25892104166893E+00,  3.42572558174782E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   3.0000000260770321E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   151.86004086308824        176.65038087204138     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   9.8770817913429454E-017   9.9963440303163509E-017
+  Non-orthogonalty B =   116.65038087204117     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force = -2.77555756156289E-16 -2.71917904859365E-16 -1.05879118406788E-20
+ Sum of    force = -1.31838984174237E-16 -3.31332183911570E-16  4.06575814682064E-20
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123844045481825     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123844045481825     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123844045481718     
+ ETB  as 2 Tr[pi S] =  -42.123844045481718     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123844045481825     
+ ETB  as 2 Tr[rho H] =  -42.123844045481825     
+ @@ qm_output_icohp:imode,step_count=           1          22
+ CHECK-INFO:sum(dhij)=  -69.858149901934141     
+ CHECK-INFO:sum(dbij)=   19.635067232898496     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1238440455    -1146.2571946280
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2589210417       34.2572558175
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         22
+@@ elses_md_output_main: step_count =         22
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      23             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123844045481825     
+     ECC =   1.2589210416689296     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      23      22        -40.864923        -42.123844          1.258921          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             23            0.0100000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          24
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222607850534100        4.0222607850534100     
+  initial guess for charge=           2   4.0222607794781355        4.0222607794781355     
+  initial guess for charge=           3   4.0222607794781373        4.0222607794781373     
+  initial guess for charge=           4   4.0222607794781311        4.0222607794781311     
+  initial guess for charge=           5   4.0222607794781347        4.0222607794781347     
+  initial guess for charge=           6   4.0222607850534109        4.0222607850534109     
+  initial guess for charge=           7  0.97773922002961833       0.97773922002961833     
+  initial guess for charge=           8  0.97773921798240926       0.97773921798240926     
+  initial guess for charge=           9  0.97773921798240826       0.97773921798240826     
+  initial guess for charge=          10  0.97773921798240870       0.97773921798240870     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25905655766517E+00,  3.42609434245616E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   9.9999998928979039E-004
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   151.74764040029368        176.49284201937141     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   9.7252934871949748E-017   9.9312918999672206E-017
+  Non-orthogonalty B =   116.49284201937074     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0000000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force = -8.32667268468867E-17 -1.99059518868339E-16  6.56450534122083E-21
+ Sum of    force = -8.32667268468867E-17 -2.28983498828939E-16  9.48676900924816E-20
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123848261696672     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123848261696672     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123848261696345     
+ ETB  as 2 Tr[pi S] =  -42.123848261696345     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123848261696672     
+ ETB  as 2 Tr[rho H] =  -42.123848261696672     
+ @@ qm_output_icohp:imode,step_count=           1          23
+ CHECK-INFO:sum(dhij)=  -69.850397235919019     
+ CHECK-INFO:sum(dbij)=   19.628246234832261     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1238482617    -1146.2573093580
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2590565577       34.2609434246
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         23
+@@ elses_md_output_main: step_count =         23
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      24             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123848261696672     
+     ECC =   1.2590565576651707     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      24      23        -40.864792        -42.123848          1.259057          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             24            0.0090000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          25
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222608128648494        4.0222608128648494     
+  initial guess for charge=           2   4.0222608072895358        4.0222608072895358     
+  initial guess for charge=           3   4.0222608072895341        4.0222608072895341     
+  initial guess for charge=           4   4.0222608072895332        4.0222608072895332     
+  initial guess for charge=           5   4.0222608072895332        4.0222608072895332     
+  initial guess for charge=           6   4.0222608128648503        4.0222608128648503     
+  initial guess for charge=           7  0.97773919221403871       0.97773919221403871     
+  initial guess for charge=           8  0.97773919016683120       0.97773919016683120     
+  initial guess for charge=           9  0.97773919016683042       0.97773919016683042     
+  initial guess for charge=          10  0.97773919016682886       0.97773919016682886     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25918923472078E+00,  3.42645537795280E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   2.0000000367872417E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   151.65712243745557        176.36464336986117     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   9.6493993351209895E-017   9.8445557261683803E-017
+  Non-orthogonalty B =   116.36464336986162     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force = -5.55111512312578E-17  2.81892564846231E-17  2.11758236813575E-22
+ Sum of    force =  6.07153216591882E-17  1.10588621593521E-17  4.06575814682064E-20
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123849751959654     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123849751959654     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123849751959646     
+ ETB  as 2 Tr[pi S] =  -42.123849751959646     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123849751959654     
+ ETB  as 2 Tr[rho H] =  -42.123849751959654     
+ @@ qm_output_icohp:imode,step_count=           1          24
+ CHECK-INFO:sum(dhij)=  -69.844376799204099     
+ CHECK-INFO:sum(dbij)=   19.622602241344197     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1238497520    -1146.2573499104
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2591892347       34.2645537795
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         24
+@@ elses_md_output_main: step_count =         24
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      25             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123849751959654     
+     ECC =   1.2591892347207796     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      25      24        -40.864661        -42.123850          1.259189          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             25            0.0090000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          26
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222608288505857        4.0222608288505857     
+  initial guess for charge=           2   4.0222608232752410        4.0222608232752410     
+  initial guess for charge=           3   4.0222608232752401        4.0222608232752401     
+  initial guess for charge=           4   4.0222608232752419        4.0222608232752419     
+  initial guess for charge=           5   4.0222608232752428        4.0222608232752428     
+  initial guess for charge=           6   4.0222608288505857        4.0222608288505857     
+  initial guess for charge=           7  0.97773917622858786       0.97773917622858786     
+  initial guess for charge=           8  0.97773917418138045       0.97773917418138045     
+  initial guess for charge=           9  0.97773917418138090       0.97773917418138090     
+  initial guess for charge=          10  0.97773917418138068       0.97773917418138068     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25931819452985E+00,  3.42680629822686E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   9.9999998928979039E-004
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   151.58435724010488        176.26053388759314     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   9.3702172757059721E-017   9.4271378897614611E-017
+  Non-orthogonalty B =   116.26053388759327     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force = -2.22044604925031E-16 -1.42681005899092E-16 -5.29395592033938E-22
+ Sum of    force = -2.53269627492614E-16 -1.79760720198097E-16 -1.49077798716757E-19
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123849918111922     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123849918111922     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123849918111617     
+ ETB  as 2 Tr[pi S] =  -42.123849918111617     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123849918111922     
+ ETB  as 2 Tr[rho H] =  -42.123849918111922     
+ @@ qm_output_icohp:imode,step_count=           1          25
+ CHECK-INFO:sum(dhij)=  -69.839699825481958     
+ CHECK-INFO:sum(dbij)=   19.617944526125772     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1238499181    -1146.2573544317
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2593181945       34.2680629823
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         25
+@@ elses_md_output_main: step_count =         25
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      26             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123849918111922     
+     ECC =   1.2593181945298533     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      26      25        -40.864532        -42.123850          1.259318          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             26            0.0100000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          27
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222608381130396        4.0222608381130396     
+  initial guess for charge=           2   4.0222608325376790        4.0222608325376790     
+  initial guess for charge=           3   4.0222608325376781        4.0222608325376781     
+  initial guess for charge=           4   4.0222608325376781        4.0222608325376781     
+  initial guess for charge=           5   4.0222608325376790        4.0222608325376790     
+  initial guess for charge=           6   4.0222608381130378        4.0222608381130378     
+  initial guess for charge=           7  0.97773916697015051       0.97773916697015051     
+  initial guess for charge=           8  0.97773916492294788       0.97773916492294788     
+  initial guess for charge=           9  0.97773916492294688       0.97773916492294688     
+  initial guess for charge=          10  0.97773916492294677       0.97773916492294677     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25944240725200E+00,  3.42714430091785E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   9.9999998928979039E-004
+   time(set_hamiltonian_geno:offdiago) =   9.9999998928979039E-004
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   151.52596211742087        176.17615145860424     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   9.3295596942377657E-017   9.3919013191556822E-017
+  Non-orthogonalty B =   116.17615145860398     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force = -4.44089209850063E-16 -1.34441069388203E-17 -0.00000000000000E+00
+ Sum of    force = -3.03576608295941E-16 -6.02816407901940E-17  4.06575814682064E-20
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123849517198927     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123849517198927     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123849517198600     
+ ETB  as 2 Tr[pi S] =  -42.123849517198600     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123849517198927     
+ ETB  as 2 Tr[rho H] =  -42.123849517198927     
+ @@ qm_output_icohp:imode,step_count=           1          26
+ CHECK-INFO:sum(dhij)=  -69.836064261653036     
+ CHECK-INFO:sum(dbij)=   19.614111145316912     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1238495172    -1146.2573435222
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2594424073       34.2714430092
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         26
+@@ elses_md_output_main: step_count =         26
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      27             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123849517198927     
+     ECC =   1.2594424072519983     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      27      26        -40.864407        -42.123850          1.259442          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             27            0.0090000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          28
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222608435506073        4.0222608435506073     
+  initial guess for charge=           2   4.0222608379752378        4.0222608379752378     
+  initial guess for charge=           3   4.0222608379752378        4.0222608379752378     
+  initial guess for charge=           4   4.0222608379752396        4.0222608379752396     
+  initial guess for charge=           5   4.0222608379752378        4.0222608379752378     
+  initial guess for charge=           6   4.0222608435506038        4.0222608435506038     
+  initial guess for charge=           7  0.97773916153416673       0.97773916153416673     
+  initial guess for charge=           8  0.97773915948696555       0.97773915948696555     
+  initial guess for charge=           9  0.97773915948696577       0.97773915948696577     
+  initial guess for charge=          10  0.97773915948696344       0.97773915948696344     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25956084682005E+00,  3.42746659393286E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   1.9999999785795808E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   151.47917433027388        176.10788459942100     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   9.1127192597406648E-017   9.1750608846585813E-017
+  Non-orthogonalty B =   116.10788459942115     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  3.05311331771918E-16  2.29850860566927E-16 -0.00000000000000E+00
+ Sum of    force =  3.05311331771918E-16  1.89301699315969E-16 -4.06575814682064E-20
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123848937633305     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123848937633305     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123848937633525     
+ ETB  as 2 Tr[pi S] =  -42.123848937633525     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123848937633305     
+ ETB  as 2 Tr[rho H] =  -42.123848937633305     
+ @@ qm_output_icohp:imode,step_count=           1          27
+ CHECK-INFO:sum(dhij)=  -69.833235754826774     
+ CHECK-INFO:sum(dbij)=   19.610964826446985     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1238489376    -1146.2573277513
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2595608468       34.2746659393
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         27
+@@ elses_md_output_main: step_count =         27
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      28             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123848937633305     
+     ECC =   1.2595608468200534     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      28      27        -40.864288        -42.123849          1.259561          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             28            0.0100000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          29
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222608468069740        4.0222608468069740     
+  initial guess for charge=           2   4.0222608412315974        4.0222608412315974     
+  initial guess for charge=           3   4.0222608412315983        4.0222608412315983     
+  initial guess for charge=           4   4.0222608412315992        4.0222608412315992     
+  initial guess for charge=           5   4.0222608412315974        4.0222608412315974     
+  initial guess for charge=           6   4.0222608468069705        4.0222608468069705     
+  initial guess for charge=           7  0.97773915827955515       0.97773915827955515     
+  initial guess for charge=           8  0.97773915623235508       0.97773915623235508     
+  initial guess for charge=           9  0.97773915623235497       0.97773915623235497     
+  initial guess for charge=          10  0.97773915623235352       0.97773915623235352     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25967263560316E+00,  3.42777078909789E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   2.0000000367872417E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   151.44174359636077        176.05275270752833     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   9.3051651453568418E-017   9.3810592974308271E-017
+  Non-orthogonalty B =   116.05275270752838     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  4.44089209850063E-16  1.07552855510562E-16 -5.29395592033938E-23
+ Sum of    force =  5.10008701937181E-16  7.52436307704940E-17 -5.42101086242752E-20
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123848363190426     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123848363190426     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123848363190540     
+ ETB  as 2 Tr[pi S] =  -42.123848363190540     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123848363190426     
+ ETB  as 2 Tr[rho H] =  -42.123848363190426     
+ @@ qm_output_icohp:imode,step_count=           1          28
+ CHECK-INFO:sum(dhij)=  -69.831032688828387     
+ CHECK-INFO:sum(dbij)=   19.608389480122604     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1238483632    -1146.2573121198
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2596726356       34.2777078910
+   eigen_level:active= F
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         28
+@@ elses_md_output_main: step_count =         28
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      29             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123848363190426     
+     ECC =   1.2596726356031576     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      29      28        -40.864176        -42.123848          1.259673          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+@@ ELSES_MD_MOTION, config%calc%mode = cell_change_only    
+ @@ update_population_guess for the next CSC loop
+ ... now the converged population will be used as the initial guess in the next CSC loop
+ @@  elses_md_constraint
+ file_exist= F
+ The input file does not exist
+elaps-time(lap    MDloop)=             29            0.0090000000
+ INFO:dst_calculation= F
+ INFO:mpi_is_active  = F
+ INFO:NON-distributed calculation mode
+ @@ elses_qm_engine:itemd=          30
+   kinetic energy [au]=   0.0000000000000000     
+   Set noav=          24
+ @@@ make_booking_list
+    noav=          24
+ r_cut_book =   1.7976931348623157E+308
+  ...booking is done
+ jsv,njsd=           1          24
+ jsv,njsd=           2          24
+ jsv,njsd=           3          24
+ jsv,njsd=           4          24
+ jsv,njsd=           5          24
+ @@ initial_guess_for_charge
+  initial guess for charge=           1   4.0222608487938798        4.0222608487938798     
+  initial guess for charge=           2   4.0222608432184979        4.0222608432184979     
+  initial guess for charge=           3   4.0222608432184970        4.0222608432184970     
+  initial guess for charge=           4   4.0222608432184979        4.0222608432184979     
+  initial guess for charge=           5   4.0222608432184970        4.0222608432184970     
+  initial guess for charge=           6   4.0222608487938780        4.0222608487938780     
+  initial guess for charge=           7  0.97773915628292396       0.97773915628292396     
+  initial guess for charge=           8  0.97773915423572344       0.97773915423572344     
+  initial guess for charge=           9  0.97773915423572189       0.97773915423572189     
+  initial guess for charge=          10  0.97773915423572300       0.97773915423572300     
+ INFO:initial guess charge is set to be a NON default value:n=          24
+ecc [au], ecc[eV]=  1.25977715689974E+00,  3.42805520826928E+01
+ @@ set_hamiltonian_geno
+   time(set_hamiltonian_geno:diagonal) =   0.0000000000000000     
+   time(set_hamiltonian_geno:offdiago) =   3.0000000260770321E-003
+ @@ qm_solver_geno_main
+  solver     =eigen           
+ @@ copy_to_full_matrices
+ @@ elses_eig_mateig:n=          60
+  Summation |A_{ij}|, |B_{ij}| =   151.41184540934034        176.00831013469326     
+  If summation is infinite,
+    please check the array size
+  Non-symmetric A,B =   9.1723503792273675E-017   9.1994554335395051E-017
+  Non-orthogonalty B =   116.00831013469288     
+ Go to LAPACK DSYGV(genelized eigen)
+* WORK size LAPACK suggests :     2040
+* current WORK size         :     4080
+  TIME for LAPACK (DSYGV) =             0.0010000000
+Settle the sign freedom for eigen vectors
+  TIME:qm_solver_eig_geno:set_eigen    =        0.0010000000
+ calc.of L-matrix and P-matrix
+ Sum of TB force =  3.60822483003176E-16 -1.50487261540988E-16 -6.61744490042422E-22
+ Sum of    force =  3.97251675998689E-16 -1.95156391047391E-16 -3.38813178901720E-20
+ @@ generate_foi
+ @@ qm_geno_output
+   CSC_METHOD  =ELSTNER 
+   N_CSC_loop  =           0
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123847868705703     
+ ETB0 as 2 Tr[rho H_{TB}] =  -42.123847868705703     
+  --> set as ETB (non CSC case)
+ @@ qm_calc_etb:imode=           2
+ ETB as 2 Tr[pi S]  =  -42.123847868705674     
+ ETB  as 2 Tr[pi S] =  -42.123847868705674     
+ @@ qm_calc_etb:imode=           1
+ ETB as 2 Tr[rho H] =  -42.123847868705703     
+ ETB  as 2 Tr[rho H] =  -42.123847868705703     
+ @@ qm_output_icohp:imode,step_count=           1          29
+ CHECK-INFO:sum(dhij)=  -69.829314444877255     
+ CHECK-INFO:sum(dbij)=   19.606287204275510     
+    n_count=         576
+INFO:ICOHP total sum (should be ETB) [au,eV] =      -42.1238478687    -1146.2572986641
+ @@ plot_rest_energy_pair
+    n_count=         576
+INFO:Rest energy [au,eV] =        1.2597771569       34.2805520827
+   eigen_level:active= T
+ The file does not exist:input_energy_mesh.txt                                                                               
+ @@ plot_spectrum_from_eigen ... skipped
+ @@ XML_SAVE_TXP:NOA=          24
+ natom=          24
+ ...routine(elses_xml_save_txp) is ended. 
+ @@ save_position_data
+ filename_xyz=position.xyz
+  INFO:Whether cell_sizes are written in xyz= F
+@@ elses_md_output_main: step_count =         29
+@@ elses_md_output_main: step_count =         29
+ @@ md_output_compat
+ THB,VHB at t =   0.0000000000000000        0.0000000000000000     
+EHB,1,2=             0.0000000000             0.0000000000             0.0000000000
+PKIN,d_PKIN,VHB=      30             0.0570025072            -0.0570025072             0.0000000000
+     ETB2=  -42.123847868705703     
+     ECC =   1.2597771568997351     
+ EPTADD1 =   0.0000000000000000     
+ EPTADD2 =   0.0000000000000000     
+     EKI =   0.0000000000000000     
+     EHB =   0.0000000000000000     
+     EADD=   0.0000000000000000     
+  FB [eV]=   0.0000000000000000     
+  FB [au]=   0.0000000000000000     
+    ENTR =   0.0000000000000000     
+IONMOV3      30      29        -40.864071        -42.123848          1.259777          0.000000          0.000000          0.000000          0.000000
+ No file is generated for atom energy.
+elaps-time(lap    MDloop)=             30            0.0160000000
+.....Total MD loops ends; # MD step =                            30
+.....Total Simulation time (sec ) =                       0.33100
+.....Total Simulation time (hour) =                       0.00009
+.....Total Simulation time (day ) =                       0.00000
+..... ELSES ended successfully (without MPI)

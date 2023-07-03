@@ -1,0 +1,2315 @@
+@@ ELSES version 0.04.00
+INFO-MPI: True  MPI wrapper
+Date: 2014 01 21; Time: 00 05 37
+INFO-MPI-OMP: P_MPI, P_OMP=         1        16
+ INFO-MPI:   mpi_is_active or not :  T
+ INFO-MPI:   myrank, nprocs       =           0           1
+TIME:mpi_check(bef ini_load_geno)=         0.0000011921
+@@@ test_convert_unit
+ energy: 1 au = X eV       : X=   27.2116000000000     
+ energy: 1 au = X J        : X=  4.359780863302800E-018
+ length: X au = 1 Angstrom : X=   1.88972687777436     
+ length: 1 au = X m        : X=  5.291770000000000E-011
+ pressure: 1 au = X GPa    : X=   29421.2947661856     
+@@ Quad precision test for pi (= 4.0 * atan(1.0))  
+ Double precision : pi =    3.1415926535897931159979634685441851620000
+ Quad   precision : pi =    3.1415926535897932384626433832795027970000
+ Reference  value : pi =    3.141592653589793238462643383279502884197169399375
+     (eye guide)              123456789012345678901234567890123456789012345678
+INFO:Quad precision test ... OK
+ @@ elses_xml_load_config.. is done
+   Config file name =config.xml
+   The verbose level =           1
+ ...call config_load
+INFO-XML:config name=W_BCC_250atom
+INFO-XML-WARNING : NO tag detected : temperature
+INFO-XML:XML parser= dom
+WARNING:DOM PARSER is used for reading the input XML file.
+WARNING:DOM PARSER may be impractical for large systems, such as 100,000-atom systems.
+INFO-XML:structure name = W BCC
+INFO-XML:allocate structure%vatom(structure%natom) at structure_load
+INFO-XML:Optional tag detected : solver scheme = eigen           
+ INFO-XML:Optional tag:cell_change%set = T
+ INFO-XML:Optional tag:cell_change%scheme =from_file           
+INFO-XML:Optional tag:cell_change%filename =input_cell_change.txt                                           
+INFO-XML:No tag for cell_change%max_num_iter. 
+INFO-XML:Optional tag:calc_check
+INFO-XML:Optional tag:calc_check:short_atom_pair_distance
+INFO-XML:Optional tag:calc_check:short_atom_pair_distance:warning_level [a.u.], [A] =        0.9448634389        0.5000000000
+INFO-XML:Optional tag:calc_check:short_atom_pair_distance:abort_level [a.u.],[A]    =        0.1889726878        0.1000000000
+ .... skipped : file_load_matrices 
+ .... skipped : file_load_matrices 
+ .... skipped : file_load_eigen_level 
+ ...end config_load
+ ...ends: dst_structure_load_from_txt
+   nos   =           1
+   noa   =         250
+ c_system=NRL_leg                         
+ S_is_I  = F
+@@ check_xml_compat in non-DST workflow
+INFO:allocation:jsei
+INFO:allocation:tx
+INFO:allocation:ty
+INFO:allocation:tz
+INFO:allocation:txp
+INFO:allocation:typ
+INFO:allocation:tzp
+INFO:allocation:foi
+INFO:allocation:foiold
+INFO:allocation:iflag
+  i_pbc_x  =           1
+  i_pbc_y  =           1
+  i_pbc_z  =           1
+  thb, vhb =  0.000000000000000E+000  0.000000000000000E+000
+  r_hb_mass_per_atom  =   25.0000000000000     
+ INFO: No meaningful value of dtmd is found
+ INFO: The velocity data in the input file will be ignored, if exist
+@@ set_structure_data_from_vatom
+ @@ load_element_info:nos=           1
+ nss, elem_name=           1 W       
+ @@ check_xml_element_info
+ @@ elses_md_cell_change:step_count=           0
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:Set the maximum number of iteration in cell-change-only mode:        31
+ INFO:Set itemdmx (=config%calc%cell_change%max_num_iter):        31
+ INFO:cell size [scaled]=         0     0.90000000     0.90000000     0.90000000
+ INFO:cell size [au    ]=         0    26.70184078    26.70184078    26.70184078
+ INFO:Modify the cutoff:new,old [au] =    13.28449790    16.50000000
+TIME:mpi_check(aft ini_load_geno)=         0.0000000000
+TIME:ini_load_geno =         0.1490000000
+TIME:mpi_check(aft ini_set_velocity)=         0.0000000000
+TIME: ini_set_velocity=         0.0000000000
+TIME:mpi_check(bef)=         0.0000000000
+elaps-time(befor  MDloop)=              0       0.149100       0.000000       0.000001
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+ @@@ get_length_of_list (non-order-N): cutoff=    13.2844979019660     
+jsv,njsd=         1       137
+jsv,njsd=         2       137
+jsv,njsd=         3       137
+jsv,njsd=         4       137
+jsv,njsd=         5       137
+TIME for LAPACK (DSYGV) =             6.4037000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.218527283339138       -5.94647702331128     
+  eig2(N)[au,eV]=   1.61496486901697        43.9457780297422     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=         1        5.2923081907        5.5462552952        0.2539471045
+ homo-lumo-gap[au]=         1        0.1944872110        0.2038195216        0.0093323107
+ Bisec.           1 -0.218527283339138       0.999330716539223     
+ Bisec.           2  0.698218792838916      -0.993831295563152     
+ Bisec.           3  0.239845754749889      -9.972200703820287E-002
+Bisec. Conv:        43             5.350633255833690          1500.000000000771934
+chem_pot [au,eV]=         1        43             0.196630600767088             5.350633255833690
+ Elec. num=   1500.00000000077        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000009537
+ TIME:qm_engine =    9.44139999998151     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=           1
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=         1     0.91000000     0.91000000     0.91000000
+ INFO:cell size [au    ]=         1    26.99852790    26.99852790    26.99852790
+ INFO:Modify the cutoff:new,old [au] =    13.43210343    13.28449790
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              1       9.447200       0.000000       0.000001
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             6.3978000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.220360959804202       -5.99637429380803     
+  eig2(N)[au,eV]=   1.46707123336171        39.9213555737456     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=         2        5.0432129476        5.3116277615        0.2684148139
+ homo-lumo-gap[au]=         2        0.1853332016        0.1951971865        0.0098639850
+ Bisec.           1 -0.220360959804202       0.999330267984139     
+ Bisec.           2  0.623355136778755      -0.950351384551032     
+ Bisec.           3  0.201497088487277      -3.614596062529078E-002
+Bisec. Conv:        43             5.111516162382075          1500.000000000760565
+chem_pot [au,eV]=         2        43             0.187843278689312             5.111516162382075
+ Elec. num=   1500.00000000076        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000009537
+ TIME:qm_engine =    9.41449999998440     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000009537
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=           2
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=         2     0.92000000     0.92000000     0.92000000
+ INFO:cell size [au    ]=         2    27.29521502    27.29521502    27.29521502
+ INFO:Modify the cutoff:new,old [au] =    13.57970897    13.43210343
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              2       9.420200       0.000000       0.000002
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.5913000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.221925989732262       -6.03896126219841     
+  eig2(N)[au,eV]=   1.46343431490311        39.8223892034175     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=         3        4.8190931140        5.0994256438        0.2803325298
+ homo-lumo-gap[au]=         3        0.1770970143        0.1873989638        0.0103019495
+ Bisec.           1 -0.221925989732262       0.999329729621217     
+ Bisec.           2  0.620754162585425      -0.985938031963219     
+ Bisec.           3  0.199414086426582      -5.138812277778410E-002
+Bisec. Conv:        43             4.892446633570900          1499.999999998998419
+chem_pot [au,eV]=         3        43             0.179792685236109             4.892446633570900
+ Elec. num=   1499.99999999900        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.46530000001076     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000009537
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=           3
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=         3     0.93000000     0.93000000     0.93000000
+ INFO:cell size [au    ]=         3    27.59190214    27.59190214    27.59190214
+ INFO:Modify the cutoff:new,old [au] =    13.72731450    13.57970897
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              3       8.471100       0.000000       0.000001
+TIME:mpi_check(fin)=         0.0000009537
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.4124000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.223221145179337       -6.07420451416206     
+  eig2(N)[au,eV]=   1.45659433883443        39.6362625106269     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=         4        4.6171603850        4.9072528347        0.2900924497
+ homo-lumo-gap[au]=         4        0.1696761817        0.1803367988        0.0106606172
+ Bisec.           1 -0.223221145179337       0.999329084975321     
+ Bisec.           2  0.616686596827545       -1.00109070972358     
+ Bisec.           3  0.196732725824104      -6.518395036538899E-002
+Bisec. Conv:        43             4.690524648818930          1500.000000000195996
+chem_pot [au,eV]=         4        43             0.172372247453988             4.690524648818930
+ Elec. num=   1500.00000000020        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.51500000001397     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=           4
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=         4     0.94000000     0.94000000     0.94000000
+ INFO:cell size [au    ]=         4    27.88858926    27.88858926    27.88858926
+ INFO:Modify the cutoff:new,old [au] =    13.87492003    13.72731450
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              4       8.520700       0.000000       0.000001
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.7495000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.224249035257885       -6.10217504782345     
+  eig2(N)[au,eV]=   1.44662506073293        39.3649825026403     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=         5        4.4349499721        4.7329231862        0.2979732141
+ homo-lumo-gap[au]=         5        0.1629801251        0.1739303527        0.0109502276
+ Bisec.           1 -0.224249035257885       0.999328316408035     
+ Bisec.           2  0.611188012737524       -1.03532148505844     
+ Bisec.           3  0.193469488739820      -7.629001003767628E-002
+Bisec. Conv:        43             4.504016321021208          1500.000000000445198
+chem_pot [au,eV]=         5        43             0.165518246667642             4.504016321021208
+ Elec. num=   1500.00000000045        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    9.05139999999665     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=           5
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=         5     0.95000000     0.95000000     0.95000000
+ INFO:cell size [au    ]=         5    28.18527638    28.18527638    28.18527638
+ INFO:Modify the cutoff:new,old [au] =    14.02252556    13.87492003
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              5       9.057300       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.3457000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.225016321722412       -6.12305414018160     
+  eig2(N)[au,eV]=   1.43367099053731        39.0124815261050     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=         6        4.2702865467        4.5697484376        0.2994618909
+ homo-lumo-gap[au]=         6        0.1569289034        0.1679338384        0.0110049351
+ Bisec.           1 -0.225016321722412       0.999327407163033     
+ Bisec.           2  0.604327334407448       -1.07731154532113     
+ Bisec.           3  0.189655506342518      -8.538321452356391E-002
+Bisec. Conv:        42             4.331878955903409          1499.999999998558906
+chem_pot [au,eV]=         6        42             0.159192364870254             4.331878955903409
+ Elec. num=   1499.99999999856        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.54920000000857     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000011921
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=           6
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=         6     0.96000000     0.96000000     0.96000000
+ INFO:cell size [au    ]=         6    28.48196350    28.48196350    28.48196350
+ INFO:Modify the cutoff:new,old [au] =    14.17013110    14.02252556
+TIME:mpi_check(mov5)=         0.0000009537
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              6       8.555100       0.000000       0.000002
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.1245000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.225532178931017       -6.13709144019927     
+  eig2(N)[au,eV]=   1.41793236864015        38.5842084424882     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=         7        4.1212502116        4.4032123082        0.2819620966
+ homo-lumo-gap[au]=         7        0.1514519621        0.1618137966        0.0103618345
+ Bisec.           1 -0.225532178931017       0.999326343025931     
+ Bisec.           2  0.596200094854565       -1.11584978398005     
+ Bisec.           3  0.185333957961774      -9.283233886948604E-002
+Bisec. Conv:        43             4.173410359030979          1499.999999999604142
+chem_pot [au,eV]=         7        43             0.153368797095025             4.173410359030979
+ Elec. num=   1499.99999999961        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000009537
+ TIME:qm_engine =    8.23939999999129     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=           7
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=         7     0.97000000     0.97000000     0.97000000
+ INFO:cell size [au    ]=         7    28.77865062    28.77865062    28.77865062
+ INFO:Modify the cutoff:new,old [au] =    14.31773663    14.17013110
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              7       8.245100       0.000000       0.000001
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.3146000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.225805222468230       -6.14452139171650     
+  eig2(N)[au,eV]=   1.39964632218356        38.0866158607301     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=         8        3.9861438795        4.2515654617        0.2654215823
+ homo-lumo-gap[au]=         8        0.1464869350        0.1562409216        0.0097539866
+ Bisec.           1 -0.225805222468230       0.999325112556423     
+ Bisec.           2  0.586920549857663       -1.13436145730262     
+ Bisec.           3  0.180557663694716      -9.795347405022949E-002
+Bisec. Conv:        43             4.028013066301836          1500.000000000471118
+chem_pot [au,eV]=         8        43             0.148025587113651             4.028013066301836
+ Elec. num=   1500.00000000047        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.11249999998836     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=           8
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=         8     0.98000000     0.98000000     0.98000000
+ INFO:cell size [au    ]=         8    29.07533774    29.07533774    29.07533774
+ INFO:Modify the cutoff:new,old [au] =    14.46534216    14.31773663
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              8       8.118400       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.3495000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.225839999737169       -6.14546773684796     
+  eig2(N)[au,eV]=   1.37906751412919        37.5266335674780     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=         9        3.8634639251        4.1135331911        0.2500692660
+ homo-lumo-gap[au]=         9        0.1419785652        0.1511683690        0.0091898038
+ Bisec.           1 -0.225839999737169       0.999323704895227     
+ Bisec.           2  0.576613757196013       -1.13907229868896     
+ Bisec.           3  0.175386878729422      -0.100330403843051     
+Bisec. Conv:        43             3.895036895492440          1499.999999998972953
+chem_pot [au,eV]=         9        43             0.143138841357819             3.895036895492440
+ Elec. num=   1499.99999999897        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.06190000000061     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=           9
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=         9     0.99000000     0.99000000     0.99000000
+ INFO:cell size [au    ]=         9    29.37202486    29.37202486    29.37202486
+ INFO:Modify the cutoff:new,old [au] =    14.61294769    14.46534216
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=              9       8.067700       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000009537
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.2116000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.225634646410578       -6.13987974426610     
+  eig2(N)[au,eV]=   1.35645277932604        36.9112504499084     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        10        3.7518757636        3.9879191734        0.2360434098
+ homo-lumo-gap[au]=        10        0.1378778081        0.1465521753        0.0086743672
+ Bisec.           1 -0.225634646410578       0.999322105192643     
+ Bisec.           2  0.565409066457729       -1.14782891665049     
+ Bisec.           3  0.169887210023575      -9.997427299253968E-002
+Bisec. Conv:        43             3.773699738377359          1500.000000000409955
+chem_pot [au,eV]=        10        43             0.138679818106152             3.773699738377359
+ Elec. num=   1500.00000000041        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.02290000001085     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          10
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        10     1.00000000     1.00000000     1.00000000
+ INFO:cell size [au    ]=        10    29.66871198    29.66871198    29.66871198
+ INFO:Modify the cutoff:new,old [au] =    14.76055322    14.61294769
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             10       8.028600       0.000000       0.000001
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.3172000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.225181011983127       -6.12753562568005     
+  eig2(N)[au,eV]=   1.33205284404500        36.2472891710151     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        11        3.6501949234        3.8736026651        0.2234077418
+ homo-lumo-gap[au]=        11        0.1341411355        0.1423511541        0.0082100186
+ Bisec.           1 -0.225181011983127       0.999320289272676     
+ Bisec.           2  0.553435916030939       -1.17044186750665     
+ Bisec.           3  0.164127452023906      -9.711353303123649E-002
+Bisec. Conv:        42             3.663092951728039          1499.999999998854491
+chem_pot [au,eV]=        11        42             0.134615125598202             3.663092951728039
+ Elec. num=   1499.99999999885        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.10280000002240     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          11
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        11     1.01000000     1.01000000     1.01000000
+ INFO:cell size [au    ]=        11    29.96539910    29.96539910    29.96539910
+ INFO:Modify the cutoff:new,old [au] =    14.90815876    14.76055322
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             11       8.108700       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000009537
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.2938000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.224467542760434       -6.10812098657983     
+  eig2(N)[au,eV]=   1.30611144765482        35.5413822690039     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        12        3.5573727743        3.7695364171        0.2121636428
+ homo-lumo-gap[au]=        12        0.1307300113        0.1385268201        0.0077968088
+ Bisec.           1 -0.224467542760434       0.999318220183726     
+ Bisec.           2  0.540821952447192       -1.18286516164900     
+ Bisec.           3  0.158177204843379      -9.211027918146465E-002
+Bisec. Conv:        42             3.562247215944767          1500.000000001138915
+chem_pot [au,eV]=        12        42             0.130909142275528             3.562247215944767
+ Elec. num=   1500.00000000114        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.33000000001630     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000009537
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          12
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        12     1.02000000     1.02000000     1.02000000
+ INFO:cell size [au    ]=        12    30.26208622    30.26208622    30.26208622
+ INFO:Modify the cutoff:new,old [au] =    15.05576429    14.90815876
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             12       8.335800       0.000000       0.000002
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.2868000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.223484067007477       -6.08135903778065     
+  eig2(N)[au,eV]=   1.27886943661236        34.8000835613210     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        13        3.4724851376        3.6747449723        0.2022598348
+ homo-lumo-gap[au]=        13        0.1276104727        0.1350433261        0.0074328534
+ Bisec.           1 -0.223484067007477       0.999315849109400     
+ Bisec.           2  0.527692684802443       -1.19158601103946     
+ Bisec.           3  0.152104308897483      -8.536403560548828E-002
+Bisec. Conv:        43             3.470210747265585          1500.000000001071840
+chem_pot [au,eV]=        13        43             0.127526891004777             3.470210747265585
+ Elec. num=   1500.00000000107        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.02970000001369     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          13
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        13     1.03000000     1.03000000     1.03000000
+ INFO:cell size [au    ]=        13    30.55877334    30.55877334    30.55877334
+ INFO:Modify the cutoff:new,old [au] =    15.20336982    15.05576429
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             13       8.035400       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.2141000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.222226924426733       -6.04715017673050     
+  eig2(N)[au,eV]=   1.25057009446393        34.0300131825146     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        14        3.3947219227        3.5883231774        0.1936012547
+ homo-lumo-gap[au]=        14        0.1247527497        0.1318674087        0.0071146590
+ Bisec.           1 -0.222226924426733       0.999313121991169     
+ Bisec.           2  0.514171585018597       -1.20017779291526     
+ Bisec.           3  0.145972330295932      -7.706487592137122E-002
+Bisec. Conv:        42             3.386103457860535          1499.999999999029797
+chem_pot [au,eV]=        14        42             0.124436029408801             3.386103457860535
+ Elec. num=   1499.99999999903        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    7.95570000002044     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          14
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        14     1.04000000     1.04000000     1.04000000
+ INFO:cell size [au    ]=        14    30.85546046    30.85546046    30.85546046
+ INFO:Modify the cutoff:new,old [au] =    15.35097535    15.20336982
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             14       7.961400       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.2582000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.220702809314554       -6.00567656594392     
+  eig2(N)[au,eV]=   1.22146233118788        33.2379443713522     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        15        3.3233765280        3.5094353486        0.1860588206
+ homo-lumo-gap[au]=        15        0.1221308754        0.1289683572        0.0068374818
+ Bisec.           1 -0.220702809314554       0.999309991786578     
+ Bisec.           2  0.500379760936665       -1.20975564690825     
+ Bisec.           3  0.139838475811055      -6.692435714551857E-002
+Bisec. Conv:        43             3.309139359401287          1500.000000000411319
+chem_pot [au,eV]=        15        43             0.121607673176193             3.309139359401287
+ Elec. num=   1500.00000000041        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000009537
+ TIME:qm_engine =    8.00830000001588     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          15
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        15     1.05000000     1.05000000     1.05000000
+ INFO:cell size [au    ]=        15    31.15214758    31.15214758    31.15214758
+ INFO:Modify the cutoff:new,old [au] =    15.49858089    15.35097535
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             15       8.014000       0.000000       0.000001
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.2269000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.218930129606898       -5.95743911481107     
+  eig2(N)[au,eV]=   1.19179968824790        32.4307763967265     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        16        3.2578345630        3.4373157178        0.1794811548
+ homo-lumo-gap[au]=        16        0.1197222715        0.1263180305        0.0065957590
+ Bisec.           1 -0.218930129606898       0.999306434699651     
+ Bisec.           2  0.486434779320500       -1.21802155378849     
+ Bisec.           3  0.133752324856801      -5.436866752420959E-002
+Bisec. Conv:        42             3.238627247784539          1499.999999998589828
+chem_pot [au,eV]=        16        42             0.119016421224204             3.238627247784539
+ Elec. num=   1499.99999999859        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000009537
+ TIME:qm_engine =    7.99960000001010     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          16
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        16     1.06000000     1.06000000     1.06000000
+ INFO:cell size [au    ]=        16    31.44883470    31.44883470    31.44883470
+ INFO:Modify the cutoff:new,old [au] =    15.64618642    15.49858089
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             16       8.005500       0.000000       0.000001
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000009537
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.4135000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.216937418706517       -5.90321426287425     
+  eig2(N)[au,eV]=   1.16183472241705        31.6153817325239     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        17        3.1975621586        3.3712701962        0.1737080376
+ homo-lumo-gap[au]=        17        0.1175073189        0.1238909214        0.0063836025
+ Bisec.           1 -0.216937418706517       0.999302466730009     
+ Bisec.           2  0.472448651855268       -1.22082078712504     
+ Bisec.           3  0.127755616574376      -3.955280317455996E-002
+Bisec. Conv:        42             3.173961805337892          1500.000000001278067
+chem_pot [au,eV]=        17        42             0.116640028713412             3.173961805337892
+ Elec. num=   1500.00000000128        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.47949999998673     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000009537
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          17
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        17     1.07000000     1.07000000     1.07000000
+ INFO:cell size [au    ]=        17    31.74552182    31.74552182    31.74552182
+ INFO:Modify the cutoff:new,old [au] =    15.79379195    15.64618642
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             17       8.485200       0.000000       0.000002
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.4327000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.214759175805140       -5.84394078833916     
+  eig2(N)[au,eV]=   1.13180978203546        30.7983550648361     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        18        3.1420945327        3.3106785095        0.1685839768
+ homo-lumo-gap[au]=        18        0.1154689372        0.1216642355        0.0061952982
+ Bisec.           1 -0.214759175805140       0.999298154803999     
+ Bisec.           2  0.458525303115158       -1.21955736352058     
+ Bisec.           3  0.121883063655009      -2.417176773913585E-002
+Bisec. Conv:        42             3.114612692704427          1499.999999999001830
+chem_pot [au,eV]=        18        42             0.114459006185025             3.114612692704427
+ Elec. num=   1499.99999999900        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000009537
+ TIME:qm_engine =    8.19519999998738     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000011921
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          18
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        18     1.08000000     1.08000000     1.08000000
+ INFO:cell size [au    ]=        18    32.04220894    32.04220894    32.04220894
+ INFO:Modify the cutoff:new,old [au] =    15.94139748    15.79379195
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             18       8.201000       0.000000       0.000002
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.3289000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.212430229203574       -5.78056642499599     
+  eig2(N)[au,eV]=   1.10194623180810        29.9857200814693     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        19        3.0910255094        3.2549951135        0.1639696041
+ homo-lumo-gap[au]=        19        0.1135922000        0.1196179245        0.0060257245
+ Bisec.           1 -0.212430229203574       0.999293616053639     
+ Bisec.           2  0.444758001302263       -1.21482688655448     
+ Bisec.           3  0.116163886049344      -1.052487873558781E-002
+Bisec. Conv:        43             3.060114802436124          1500.000000000974751
+chem_pot [au,eV]=        19        43             0.112456261389853             3.060114802436124
+ Elec. num=   1500.00000000098        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.26879999999073     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          19
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        19     1.09000000     1.09000000     1.09000000
+ INFO:cell size [au    ]=        19    32.33889606    32.33889606    32.33889606
+ INFO:Modify the cutoff:new,old [au] =    16.08900301    15.94139748
+TIME:mpi_check(mov5)=         0.0000009537
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             19       8.274600       0.000000       0.000001
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.3208000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.209980091972168       -5.71389427070985     
+  eig2(N)[au,eV]=   1.07243462423775        29.1826620209080     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        20        3.0439984222        3.2037474548        0.1597490326
+ homo-lumo-gap[au]=        20        0.1118640000        0.1177346225        0.0058706225
+ Bisec.           1 -0.209980091972168       0.999289001375137     
+ Bisec.           2  0.431227266132792       -1.20557447570425     
+ Bisec.           3  0.110623587080312      -1.618126083637132E-005
+Bisec. Conv:        42             3.010060348677085          1499.999999998830162
+chem_pot [au,eV]=        20        42             0.110616808591817             3.010060348677085
+ Elec. num=   1499.99999999883        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.12799999999697     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          20
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        20     1.10000000     1.10000000     1.10000000
+ INFO:cell size [au    ]=        20    32.63558318    32.63558318    32.63558318
+ INFO:Modify the cutoff:new,old [au] =    16.23660855    16.08900301
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             20       8.134000       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.4225000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.207428693526033       -5.64446663675299     
+  eig2(N)[au,eV]=   1.04342805073650        28.3933467454214     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        21        3.0006984885        3.1565310070        0.1558325184
+ homo-lumo-gap[au]=        21        0.1102727693        0.1159994637        0.0057266944
+ Bisec.           1 -0.207428693526033       0.999284465479906     
+ Bisec.           2  0.417999678605234       -1.19222453735467     
+ Bisec.           3  0.105285492539601       7.167034205815829E-003
+Bisec. Conv:        42             2.964092435918558          1500.000000000776708
+chem_pot [au,eV]=        21        42             0.108927532225909             2.964092435918558
+ Elec. num=   1500.00000000078        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.55629999999655     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000009537
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          21
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        21     1.11000000     1.11000000     1.11000000
+ INFO:cell size [au    ]=        21    32.93227030    32.93227030    32.93227030
+ INFO:Modify the cutoff:new,old [au] =    16.38421408    16.23660855
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             21       8.562200       0.000000       0.000001
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.3615000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.204784379757646       -5.57251062821316     
+  eig2(N)[au,eV]=   1.01503999879921        27.6208624313245     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        22        2.9608465329        3.1130015277        0.1521549948
+ homo-lumo-gap[au]=        22        0.1088082484        0.1143997974        0.0055915490
+ Bisec.           1 -0.204784379757646       0.999280132420794     
+ Bisec.           2  0.405127809520781       -1.17969160808767     
+ Bisec.           3  0.100171714881568       1.175390920092165E-002
+Bisec. Conv:        43             2.921899526635440          1500.000000000610271
+chem_pot [au,eV]=        22        43             0.107376983589184             2.921899526635440
+ Elec. num=   1500.00000000061        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.47860000000219     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          22
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        22     1.12000000     1.12000000     1.12000000
+ INFO:cell size [au    ]=        22    33.22895742    33.22895742    33.22895742
+ INFO:Modify the cutoff:new,old [au] =    16.53181961    16.38421408
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             22       8.484400       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.3249000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.202044371066117       -5.49795060770276     
+  eig2(N)[au,eV]=  0.987346779378118        26.8672856217256     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        23        2.9241939013        3.0728656765        0.1486717753
+ homo-lumo-gap[au]=        23        0.1074612996        0.1129248437        0.0054635440
+ Bisec.           1 -0.202044371066117       0.999276068493525     
+ Bisec.           2  0.392651204156000       -1.16998375532634     
+ Bisec.           3  9.530341654494150E-002  1.498882196994009E-002
+Bisec. Conv:        43             2.883210373476130          1499.999999999086867
+chem_pot [au,eV]=        23        43             0.105955194603630             2.883210373476130
+ Elec. num=   1499.99999999909        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.34589999998570     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          23
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        23     1.13000000     1.13000000     1.13000000
+ INFO:cell size [au    ]=        23    33.52564454    33.52564454    33.52564454
+ INFO:Modify the cutoff:new,old [au] =    16.67942514    16.53181961
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             23       8.351800       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000009537
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.3836000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.199197198506778       -5.42047448688705     
+  eig2(N)[au,eV]=  0.960393420648949        26.1338416053310     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        24        2.8905184261        3.0358713094        0.1453528833
+ homo-lumo-gap[au]=        24        0.1062237585        0.1115653365        0.0053415780
+ Bisec.           1 -0.199197198506778       0.999272271039407     
+ Bisec.           2  0.380598111071086       -1.16001893521330     
+ Bisec.           3  9.070045628215359E-002  1.825319326667416E-002
+Bisec. Conv:        42             2.847789176529862          1500.000000000485898
+chem_pot [au,eV]=        24        42             0.104653499850426             2.847789176529862
+ Elec. num=   1500.00000000049        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.38899999999558     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000009537
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          24
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        24     1.14000000     1.14000000     1.14000000
+ INFO:cell size [au    ]=        24    33.82233166    33.82233166    33.82233166
+ INFO:Modify the cutoff:new,old [au] =    16.82703068    16.67942514
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             24       8.394800       0.000000       0.000002
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.4159000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.196226214430919       -5.33962925660839     
+  eig2(N)[au,eV]=  0.934201269070103        25.4211112534280     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        25        2.8596212579        3.0017985436        0.1421772857
+ homo-lumo-gap[au]=        25        0.1050883174        0.1103131952        0.0052248778
+ Bisec.           1 -0.196226214430919       0.999268674157891     
+ Bisec.           2  0.368987527319592       -1.14806832460591     
+ Bisec.           3  8.638065644433665E-002  2.275961921783270E-002
+Bisec. Conv:        42             2.815430813558640          1499.999999998525709
+chem_pot [au,eV]=        25        42             0.103464361285578             2.815430813558640
+ Elec. num=   1499.99999999853        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.18090000000666     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          25
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        25     1.15000000     1.15000000     1.15000000
+ INFO:cell size [au    ]=        25    34.11901878    34.11901878    34.11901878
+ INFO:Modify the cutoff:new,old [au] =    16.97463621    16.82703068
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             25       8.186700       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.3991000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.193113191423462       -5.25491891973868     
+  eig2(N)[au,eV]=  0.908775554376819        24.7292368754803     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        26        2.8313242828        2.9704522594        0.1391279766
+ homo-lumo-gap[au]=        26        0.1040484309        0.1091612496        0.0051128187
+ Bisec.           1 -0.193113191423462       0.999265165571799     
+ Bisec.           2  0.357831181476678       -1.13601051540649     
+ Bisec.           3  8.235899502660811E-002  2.915228197625932E-002
+Bisec. Conv:        43             2.785955986481423          1500.000000000724185
+chem_pot [au,eV]=        26        43             0.102381189877898             2.785955986481423
+ Elec. num=   1500.00000000072        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.42079999999260     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          26
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        26     1.16000000     1.16000000     1.16000000
+ INFO:cell size [au    ]=        26    34.41570590    34.41570590    34.41570590
+ INFO:Modify the cutoff:new,old [au] =    17.12224174    16.97463621
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             26       8.426600       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.3350000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.189841234363124       -5.16588373299558     
+  eig2(N)[au,eV]=  0.884111696195146        24.0580938321838     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        27        2.8054677870        2.9416562652        0.1361884782
+ homo-lumo-gap[au]=        27        0.1030982297        0.1081030246        0.0050047949
+ Bisec.           1 -0.189841234363124       0.999261606335950     
+ Bisec.           2  0.347135230916011       -1.12475729839821     
+ Bisec.           3  7.864699827644370E-002  3.767136512104374E-002
+Bisec. Conv:        42             2.759206148545629          1500.000000001262833
+chem_pot [au,eV]=        27        42             0.101398159187465             2.759206148545629
+ Elec. num=   1500.00000000126        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.37720000001718     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          27
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        27     1.17000000     1.17000000     1.17000000
+ INFO:cell size [au    ]=        27    34.71239302    34.71239302    34.71239302
+ INFO:Modify the cutoff:new,old [au] =    17.26984727    17.12224174
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             27       8.383000       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.4121000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.186396594109229       -5.07214956026270     
+  eig2(N)[au,eV]=  0.860199820860705        23.4074134453332     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        28        2.7819080872        2.9152490247        0.1333409374
+ homo-lumo-gap[au]=        28        0.1022324335        0.1071325841        0.0049001506
+ Bisec.           1 -0.186396594109229       0.999257846674207     
+ Bisec.           2  0.336901613375738       -1.11191281758182     
+ Bisec.           3  7.525250963325429E-002  4.885025323980365E-002
+Bisec. Conv:        43             2.735038217326921          1500.000000000894943
+chem_pot [au,eV]=        28        43             0.100510011073473             2.735038217326921
+ Elec. num=   1500.00000000089        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.17889999999898     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          28
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        28     1.18000000     1.18000000     1.18000000
+ INFO:cell size [au    ]=        28    35.00908014    35.00908014    35.00908014
+ INFO:Modify the cutoff:new,old [au] =    17.41745280    17.26984727
+TIME:mpi_check(mov5)=         0.0000011921
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             28       8.184700       0.000000       0.000001
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.1796000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.182769340595996       -4.97344618856199     
+  eig2(N)[au,eV]=  0.837027530709456        22.7768583546534     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        29        2.7605150117        2.8910806686        0.1305656569
+ homo-lumo-gap[au]=        29        0.1014462586        0.1062444203        0.0047981617
+ Bisec.           1 -0.182769340595996       0.999253734671387     
+ Bisec.           2  0.327129095056730       -1.09562212809172     
+ Bisec.           3  7.217987723036731E-002  6.323652846264895E-002
+Bisec. Conv:        43             2.713319321633955          1499.999999999203283
+chem_pot [au,eV]=        29        43             0.099711862648060             2.713319321633955
+ Elec. num=   1499.99999999920        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    7.96869999999763     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          29
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        29     1.19000000     1.19000000     1.19000000
+ INFO:cell size [au    ]=        29    35.30576726    35.30576726    35.30576726
+ INFO:Modify the cutoff:new,old [au] =    17.56505834    17.41745280
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             29       7.974500       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000000000
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.2441000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.178953130275203       -4.86960099979672     
+  eig2(N)[au,eV]=  0.814581298324921        22.1660604574984     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        30        2.7411693247        2.8690109836        0.1278416589
+ homo-lumo-gap[au]=        30        0.1007353233        0.1054333807        0.0046980574
+ Bisec.           1 -0.178953130275203       0.999249117644659     
+ Bisec.           2  0.317814084024859       -1.07760645963238     
+ Bisec.           3  6.943047687482770E-002  8.058109451003520E-002
+Bisec. Conv:        42             2.693922070788449          1500.000000000734417
+chem_pot [au,eV]=        30        42             0.098999032426923             2.693922070788449
+ Elec. num=   1500.00000000073        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.07639999999083     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov1)=         0.0000000000
+TIME:mpi_check(mov2)=         0.0000000000
+TIME:mpi_check(mov3)=         0.0000000000
+TIME:mpi_check(mov4)=         0.0000000000
+ @@ elses_md_cell_change:step_count=          30
+ file_exist= T
+ The file of input_cell_change.txt EXITS
+   cell_size_ref x (au)=   29.6687119810574     
+   cell_size_ref y (au)=   29.6687119810574     
+   cell_size_ref z (au)=   29.6687119810574     
+ INFO:cell size [scaled]=        30     1.20000000     1.20000000     1.20000000
+ INFO:cell size [au    ]=        30    35.60245438    35.60245438    35.60245438
+ INFO:Modify the cutoff:new,old [au] =    17.71266387    17.56505834
+TIME:mpi_check(mov5)=         0.0000000000
+TIME:mpi_check(mov6)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             30       8.083200       0.000000       0.000000
+TIME:mpi_check(fin)=         0.0000009537
+TIME:mpi_check(ini)=         0.0000000000
+ @@ calc_kinetic_energy...is skipped
+TIME for LAPACK (DSYGV) =             5.3832000000
+Settle the sign freedom for eigen vectors
+ @@LSES_EIG_CHEM_POT:N=        2250
+    rNelec =   1500.00000000000     
+    err_cri=  1.000000000000000E-012
+  Temp [au,eV] =  5.000000000000000E-003  0.136058000000000     
+    type(-1:FermiDi, 0:ErrorFn) =          -1
+  eig2(1)[au,eV]= -0.174944445552185       -4.76051827458783     
+  eig2(N)[au,eV]=  0.792846959504890        21.5746343232633     
+  homo and lumo levels =         750         751
+ homo-lumo-gap[eV]=        31        2.7237603371        2.8489081088        0.1251477717
+ homo-lumo-gap[au]=        31        0.1000955599        0.1046946195        0.0045990597
+ Bisec.           1 -0.174944445552185       0.999243837810451     
+ Bisec.           2  0.308951256976353       -1.06258643082181     
+ Bisec.           3  6.700340571208394E-002  9.988697323051429E-002
+Bisec. Conv:        43             2.676720926438334          1499.999999999427018
+chem_pot [au,eV]=        31        43             0.098366906996955             2.676720926438334
+ Elec. num=   1499.99999999943        1500.00000000000     
+@@ output_levels_matrices
+TIME:mpi_check(qme)=         0.0000000000
+ TIME:qm_engine =    8.40229999998701     
+ @@ optimization_check
+     ..is skipped
+@@ output_levels_matrices
+ @@@ output_for_eigen_solver
+  @@ init_for_plot_wavefunction..is skipped :c_system=NRL_leg
+   filename_wfn=
+                                                                                
+                      
+ @@ md_motion_verlet ... is skipped
+TIME:mpi_check(vel)=         0.0000000000
+ @@ elses_md_save_struct
+ @@ save_restart_xml
+ myrank=           0
+ flag_for_save= T
+ flag_for_split_save= F
+ max_stg_index=           0
+    save_restart_xml:append_mode=off     
+ Write name tag in file
+ Write unitcell tag in file
+ Write heatbath tag in file
+ Write atom tag in file
+ Write atom tag in file
+ atom id=           1
+ atom id=           2
+ atom id=           3
+ atom id=           4
+ Write atom tag in file...ends
+TIME:mpi_check(svs)=         0.0000000000
+@@ plot_virial_pressure (TEST)..is skipped 
+------------------------------------------------------------------
+TIME:mpi_check(out)=         0.0000000000
+TIME:mpi_check(mov)=         0.0000000000
+elaps-time(lap    MDloop)=             31       8.408000       0.000000       0.000001
+TIME:mpi_check(fin)=         0.0000000000
+.....Total MD loops ended; # MD step =                            31
+.....Total Simulation time (sec )    =                     259.07600
+.....Total Simulation time (hour)    =                       0.07197
+.....Total Simulation time (day )    =                       0.00300
+..... ELSES ended successfully (with MPI)

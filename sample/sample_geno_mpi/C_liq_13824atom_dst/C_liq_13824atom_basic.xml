@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="C_liq_13824" mdstep="0">
+ 
+ 
+ <unitcell>
+   <vector unit="a.u.">  0.976187605665636E+02  0.000000000000000E+00  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.976187605665636E+02  0.000000000000000E+00</vector>
+   <vector unit="a.u.">  0.000000000000000E+00  0.000000000000000E+00  0.976187605665636E+02</vector>
+ </unitcell>
+ 
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.250000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+
+ </structure>

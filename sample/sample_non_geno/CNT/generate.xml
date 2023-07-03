@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generate name="CNT">
+  <unitcell>
+    <vector unit="angstrom"> 10.0  0.0  0.0 </vector>
+    <vector unit="angstrom"> 0.0  10.0  0.0 </vector>
+    <vector unit="angstrom"> 0.0   0.0 12.29 </vector>
+  </unitcell>
+
+  <cluster structure="CNT.xyz">
+  </cluster>
+</generate>

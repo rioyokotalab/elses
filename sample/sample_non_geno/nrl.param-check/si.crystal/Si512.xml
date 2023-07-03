@@ -1,0 +1,2065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structure name="Si.diamind.structure" mdstep="0">
+ 
+ 
+ <unitcell>
+   <vector unit="angstrom"> 22.00  0.00  0.00 </vector>
+   <vector unit="angstrom">  0.00 22.00  0.00 </vector>
+   <vector unit="angstrom">  0.00  0.00 22.00 </vector>
+ </unitcell>
+ 
+ <heatbath>
+  <massperatom unit="a.u.">  0.250000000000000E+02</massperatom>
+  <position unit="a.u.">  0.000000000000000E+00   </position>
+  <velocity unit="a.u.">  0.000000000000000E+00   </velocity>
+ </heatbath>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.625000000000000E-01  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.125000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.187500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.000000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.125000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.125000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.187500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.625000000000000E-01  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.125000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.187500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.000000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.125000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.125000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.187500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.625000000000000E-01  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.125000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.187500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.000000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.125000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.125000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.187500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.000000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.625000000000000E-01  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.125000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.187500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.000000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.125000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.125000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.187500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.250000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.312500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.375000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.437500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.250000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.375000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.375000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.437500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.312500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.375000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.437500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.250000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.375000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.375000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.437500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.250000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.312500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.375000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.437500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.250000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.375000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.375000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.437500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.250000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.312500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.375000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.437500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.250000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.375000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.375000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.437500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.500000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.562500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.625000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.687500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.500000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.625000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.625000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.687500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.500000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.562500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.625000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.687500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.500000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.625000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.625000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.687500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.500000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.562500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.625000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.687500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.500000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.625000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.625000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.687500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.500000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.562500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.625000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.687500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.500000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.625000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.625000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.687500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.750000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.812500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.875000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.937500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.750000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.875000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.875000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.937500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.750000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.812500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.875000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.937500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.750000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.875000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.875000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.937500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.750000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.812500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.875000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.937500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.750000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.875000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.875000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.937500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.750000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.812500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.875000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.937500000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.750000000000000E+00  0.125000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.875000000000000E+00  0.187500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.875000000000000E+00  0.000000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.937500000000000E+00  0.625000000000000E-01</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.000000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.625000000000000E-01  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.125000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.187500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.000000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.125000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.125000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.187500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.000000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.625000000000000E-01  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.125000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.187500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.000000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.125000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.125000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.187500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.000000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.625000000000000E-01  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.125000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.187500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.000000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.125000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.125000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.187500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.000000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.625000000000000E-01  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.125000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.187500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.000000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.125000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.125000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.187500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.250000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.312500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.375000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.437500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.250000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.375000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.375000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.437500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.312500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.375000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.437500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.250000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.375000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.375000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.437500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.250000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.312500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.375000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.437500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.250000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.375000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.375000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.437500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.250000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.312500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.375000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.437500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.250000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.375000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.375000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.437500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.500000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.562500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.625000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.687500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.500000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.625000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.625000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.687500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.500000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.562500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.625000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.687500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.500000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.625000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.625000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.687500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.500000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.562500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.625000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.687500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.500000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.625000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.625000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.687500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.500000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.562500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.625000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.687500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.500000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.625000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.625000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.687500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.750000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.812500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.875000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.937500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.750000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.875000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.875000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.937500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.750000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.812500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.875000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.937500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.750000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.875000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.875000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.937500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.750000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.812500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.875000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.937500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.750000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.875000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.875000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.937500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.750000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.812500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.875000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.937500000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.750000000000000E+00  0.375000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.875000000000000E+00  0.437500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.875000000000000E+00  0.250000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.937500000000000E+00  0.312500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.000000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.625000000000000E-01  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.125000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.187500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.000000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.125000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.125000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.187500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.000000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.625000000000000E-01  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.125000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.187500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.000000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.125000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.125000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.187500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.000000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.625000000000000E-01  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.125000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.187500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.000000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.125000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.125000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.187500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.000000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.625000000000000E-01  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.125000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.187500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.000000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.125000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.125000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.187500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.250000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.312500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.375000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.437500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.250000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.375000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.375000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.437500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.312500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.375000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.437500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.250000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.375000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.375000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.437500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.250000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.312500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.375000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.437500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.250000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.375000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.375000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.437500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.250000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.312500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.375000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.437500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.250000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.375000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.375000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.437500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.500000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.562500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.625000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.687500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.500000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.625000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.625000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.687500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.500000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.562500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.625000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.687500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.500000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.625000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.625000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.687500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.500000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.562500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.625000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.687500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.500000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.625000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.625000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.687500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.500000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.562500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.625000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.687500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.500000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.625000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.625000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.687500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.750000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.812500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.875000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.937500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.750000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.875000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.875000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.937500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.750000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.812500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.875000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.937500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.750000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.875000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.875000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.937500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.750000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.812500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.875000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.937500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.750000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.875000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.875000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.937500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.750000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.812500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.875000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.937500000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.750000000000000E+00  0.625000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.875000000000000E+00  0.687500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.875000000000000E+00  0.500000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.937500000000000E+00  0.562500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.000000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.625000000000000E-01  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.125000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.187500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.000000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.125000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.125000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.187500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.000000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.625000000000000E-01  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.125000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.187500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.000000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.125000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.125000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.187500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.000000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.625000000000000E-01  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.125000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.187500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.000000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.125000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.125000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.187500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.000000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.625000000000000E-01  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.125000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.187500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.000000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.125000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.125000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.187500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.250000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.312500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.375000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.437500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.250000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.375000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.375000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.437500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.250000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.312500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.375000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.437500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.250000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.375000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.375000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.437500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.250000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.312500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.375000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.437500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.250000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.375000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.375000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.437500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.250000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.312500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.375000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.437500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.250000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.375000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.375000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.437500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.500000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.562500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.625000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.687500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.500000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.625000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.625000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.687500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.500000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.562500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.625000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.687500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.500000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.625000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.625000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.687500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.500000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.562500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.625000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.687500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.500000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.625000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.625000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.687500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.500000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.562500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.625000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.687500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.500000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.625000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.625000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.687500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.750000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.812500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.000000000000000E+00  0.875000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E-01  0.937500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.750000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.875000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.125000000000000E+00  0.875000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.187500000000000E+00  0.937500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.750000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.812500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.250000000000000E+00  0.875000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.312500000000000E+00  0.937500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.750000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.875000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.375000000000000E+00  0.875000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.437500000000000E+00  0.937500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.750000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.812500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.500000000000000E+00  0.875000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.562500000000000E+00  0.937500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.750000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.875000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.625000000000000E+00  0.875000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.687500000000000E+00  0.937500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.750000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.812500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.750000000000000E+00  0.875000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.812500000000000E+00  0.937500000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.750000000000000E+00  0.875000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.875000000000000E+00  0.937500000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.875000000000000E+00  0.875000000000000E+00  0.750000000000000E+00</position>
+ </atom>
+ 
+ <atom element="Si" class="" motion="free">
+  <position unit="internal">  0.937500000000000E+00  0.937500000000000E+00  0.812500000000000E+00</position>
+ </atom>
+ 
+ </structure>

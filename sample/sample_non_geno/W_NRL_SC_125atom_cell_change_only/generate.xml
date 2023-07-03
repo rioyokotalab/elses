@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generate name="W simple cubic">
+  <cluster structure="W_sc_125atom.xyz" />
+</generate>

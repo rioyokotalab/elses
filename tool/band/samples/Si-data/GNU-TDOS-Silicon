@@ -1,0 +1,14 @@
+set title "TDOS of Silicon (Si) by GENO"
+set grid
+set xlabel "energy"
+set ylabel "DOS"
+set nokey
+
+#plot 'DOS.txt' using 2:3  w l 1 t "TDOS"
+
+plot 'DOS.txt' using 2:3  w l t "tetrahedron"
+
+set ter pos eps col sol 24
+set out "tdos.eps"
+replot
+

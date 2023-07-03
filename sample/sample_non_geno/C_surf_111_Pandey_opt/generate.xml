@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generate name="C_surf_111_Pandey_opt">
+  <cluster structure="C_surf_111_Pandey_ini.xyz" >
+  </cluster>
+</generate>
