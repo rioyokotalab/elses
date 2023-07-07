@@ -15,7 +15,7 @@ module M_md_output
    integer :: step_count
 !
    integer, allocatable :: unit_num_for_output(:)
-!        ---> Unit number for the output file 
+!        ---> Unit number for the output file
 !
    character(len=*), parameter :: filename_for_output="Output.txt"
 !        ---> File name of the output file
@@ -70,8 +70,8 @@ module M_md_output
        if (output_unit <= 0) then
          write(*,*)'ERROR(elses_md_output_main):output_unit=',output_unit
          stop
-       endif   
-     endif   
+       endif
+     endif
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
@@ -80,17 +80,17 @@ module M_md_output
 !      if ( ierr .ne. 0) then
 !        write(*,*)'Alloc. error(elses_md_output_main):ierr=',ierr
 !        stop
-!      endif  
+!      endif
 !      unit_num_for_output(1)=vacant_unit()
 !      flag_for_init = .true.
 !    else
 !      flag_for_init = .false.
-!    endif  
+!    endif
 !
 !    unit_num=output_unit
 !
      step_count=config%system%structure%mdstep
-!     
+!
      if (mpi_time_check) then
        call mpi_wrapper_barrier_time(time_check)
        write(*,'(a,f20.10)')'TIME:mpi_check(out1)= ',time_check
@@ -100,13 +100,13 @@ module M_md_output
 !    if (log_file_is_set) then
 !      unit_num=log_unit
 !    else
-!      unit_num=vacant_unit()       
+!      unit_num=vacant_unit()
 !    endif
 !
      if (i_verbose >= 1) then
        write(*,'("@@ elses_md_output_main: step_count = ",I10)') step_count
        if (log_unit > 0) write(*,'("@@ elses_md_output_main: step_count = ",I10)') step_count
-     endif  
+     endif
 !
      if (mpi_time_check) then
        call mpi_wrapper_barrier_time(time_check)
@@ -115,11 +115,11 @@ module M_md_output
      endif
 !
 !
-     if (output_unit > 0) then 
+     if (output_unit > 0) then
        write(output_unit,'("------------------------------------------------------------------")')
        write(output_unit,'("Output; step_count=",I10)') step_count
      endif
-!  
+!
      if (mpi_time_check) then
        call mpi_wrapper_barrier_time(time_check)
        write(*,'(a,f20.10)')'TIME:mpi_check(out3)= ',time_check
@@ -146,8 +146,8 @@ module M_md_output
 !
      call output_csc_convergence
 !
-     if (small_output) then 
-       if (log_unit > 0) write(log_unit,'(a,i10)') & 
+     if (small_output) then
+       if (log_unit > 0) write(log_unit,'(a,i10)') &
 &              'INFO:small_output;num_atom for small_output=', num_atom_for_small_output
        return
      endif
@@ -186,14 +186,14 @@ module M_md_output
        if (log_unit > 0) write(log_unit,'(a,f20.10)') 'TIME:mpi_check(out7)= ',time_check
      endif
 !
-!    if (plot_hamiltonian) then 
+!    if (plot_hamiltonian) then
 !      mode_for_plot_matrices='H'
 !      call qm_output_matrices(mode_for_plot_matrices)
 !      call qm_output_matrices
 !    endif
 !        --> output for Hamiltonian and overlap matrices, if defined
 !
-!    if (plot_levels) then 
+!    if (plot_levels) then
 !      call qm_output_levels
 !    endif
 !        --> output for eigen levels
@@ -210,11 +210,11 @@ module M_md_output
 !    else
 !      write(*,*)'INFO-WARN:No global matrices are defined'
 !      write(*,*)'INFO-WARN:SKIPPED  output_atom_energy'
-     endif  
+     endif
 !
      if (log_unit > 0) then
        write(log_unit,'("------------------------------------------------------------------")')
-     endif  
+     endif
 !
      if (i_verbose >= 1) then
        call plot_detailed_kin_energy
@@ -242,14 +242,15 @@ module M_md_output
      character(len=8)  :: chara_date
      character(len=10) :: chara_time
 !
-     if (.not. config%calc%distributed%root_node) return 
-!   
-     output_unit=vacant_unit() 
-     output_filename=trim(config%output%main%filename)
+     if (.not. config%calc%distributed%root_node) return
+!
+     output_unit=vacant_unit()
+     ! output_filename=trim(config%output%main%filename)
+     output_filename="output_file.txt"
      if (trim(output_filename) == "") then
        write(*,*)'ERROR(elses_md_output_main):empty output_filename'
        stop
-     endif   
+     endif
      open (output_unit, file=output_filename, status='unknown')
      write(output_unit,'(a,a)') '@@ Main output : ', trim(version_info)
      write(output_unit,'(a,a)') 'INFO: config_name = ', trim(config%name)
@@ -261,17 +262,17 @@ module M_md_output
 !$  ipe=omp_get_thread_num()+1
 !$  npe=omp_get_num_threads()
 !
-    if (npe == -1) then 
+    if (npe == -1) then
       write(output_unit,'(a,2i10,a)')'INFO-MPI-OMP: P_MPI, P_OMP=', nprocs, npe+2, ' (NO-OMP or OMP-STUB)'
-    else  
+    else
       if (ipe == 1) write(output_unit,'(a,2i10)')  'INFO-MPI-OMP: P_MPI, P_OMP=', nprocs, npe
-    endif  
+    endif
 !
 !$omp end parallel
 !
     call date_and_time(chara_date, chara_time)
     write(output_unit,'(13a)')'Date: ', chara_date(1:4), ' ', chara_date(5:6), ' ', chara_date(7:8), '; ', &
-&                             'Time: ', chara_time(1:2), ' ', chara_time(3:4), ' ', chara_time(5:6) 
+&                             'Time: ', chara_time(1:2), ' ', chara_time(3:4), ' ', chara_time(5:6)
 !
    end subroutine setting_for_main_output
 !
@@ -285,7 +286,7 @@ module M_md_output
      use elses_mod_sim_cell,   only : noa
      use elses_mod_phys_const, only : ev4au
      use M_md_motion,          only : sd_energy_diff !(unchanged)
-     use M_qm_domain,          only : chemical_potential !(unchanged) 
+     use M_qm_domain,          only : chemical_potential !(unchanged)
      implicit none
      integer :: unit_num
      real(8) :: con_unit
@@ -295,10 +296,10 @@ module M_md_output
 !
      if (output_unit > 0) then
        unit_num=output_unit
-     else   
-       return 
+     else
+       return
      endif
-!   
+!
      write(unit_num,*)'Output energy'
 !
      write(unit_num,'(" Band         Energy : EBD  [au]: ",F30.15)') etb
@@ -311,26 +312,26 @@ module M_md_output
 &              ECSC              ECC                EKE")')
 
      if (abs(etb)+abs(ecsc)+abs(ecc)+abs(e_kin) > 1.0d7) then
-       write(unit_num,'(" Energy summary (au     ): ",I12,6F23.8)') step_count, & 
+       write(unit_num,'(" Energy summary (au     ): ",I12,6F23.8)') step_count, &
 &         etb+ecsc+ecc, etb+ecsc+ecc+e_kin, etb, ecsc, ecc, e_kin
      else
-       write(unit_num,'(" Energy summary (au     ): ",I12,6F18.8)') step_count, & 
+       write(unit_num,'(" Energy summary (au     ): ",I12,6F18.8)') step_count, &
 &         etb+ecsc+ecc, etb+ecsc+ecc+e_kin, etb, ecsc, ecc, e_kin
-     endif   
-     write(unit_num,'(" Energy summary (eV/atom): ",I12,6F18.8)') step_count, & 
+     endif
+     write(unit_num,'(" Energy summary (eV/atom): ",I12,6F18.8)') step_count, &
 &         (etb+ecsc+ecc)*con_unit, (etb+ecsc+ecc+e_kin)*con_unit,  &
 &         etb*con_unit, ecsc*con_unit, ecc*con_unit, e_kin*con_unit
      if (log_unit > 0) then
-       write(log_unit,'(" Energy summary (eV/atom): ",I12,6F18.8)') step_count, & 
+       write(log_unit,'(" Energy summary (eV/atom): ",I12,6F18.8)') step_count, &
 &         (etb+ecsc+ecc)*con_unit, (etb+ecsc+ecc+e_kin)*con_unit,  &
 &         etb*con_unit, ecsc*con_unit, ecc*con_unit, e_kin*con_unit
      endif
 !
-     write(unit_num,'(a,i10,2f30.20)') ' Chemical potential [au, eV]=', & 
+     write(unit_num,'(a,i10,2f30.20)') ' Chemical potential [au, eV]=', &
 &                                        step_count, chemical_potential, chemical_potential*ev4au
      if (allocated(sd_energy_diff)) then
         write(unit_num,'(a,i10,f30.20)') ' SD energy difference per atom [eV]=', step_count, sd_energy_diff(1)*con_unit
-     endif   
+     endif
 !
    end subroutine output_energy
 !
@@ -345,8 +346,8 @@ module M_md_output
 !
      if (output_unit > 0) then
        unit_num=output_unit
-     else   
-       return 
+     else
+       return
      endif
 !
      if (.not. allocated(foi)) return
@@ -365,7 +366,7 @@ module M_md_output
       if (ddd > ddmax) then
         ddmax=ddd
         js_max=js
-      endif   
+      endif
      enddo
      ddave=dabs(ddave/dble(noa))
      ddmax=dabs(ddmax)
@@ -421,7 +422,7 @@ module M_md_output
 !
      if (i_verbose >=0) then
        write(*,*)'@@ md_output_compat'
-     endif 
+     endif
 !
      itemd4=itemd
      if (itemdorg .ne. 0) itemd4=itemd+itemdorg-2
@@ -446,14 +447,14 @@ module M_md_output
        PKIN2=3.0D0/2.0D0*DBLE(NOA)*TEMPK0
        if (i_verbose >=0) then
          write(*,'(a,i8,3f25.10)') 'PKIN,d_PKIN,VHB=',ITEMD,PKIN2,EKI-PKIN2,VHB
-       endif  
+       endif
 !
 !         PKIN2: given kinetic-energy (temperature)
 !         EKI  : kinetic-energy of particles
 !         VHB  : (damping coeficient) x dt
 !         When ( EKI > PKIN2 ), VHB must be positive
 !         When ( EKI < PKIN2 ), VHB must be negative
-!        
+!
      endif
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -474,7 +475,7 @@ module M_md_output
         WRITE(6,*)'   ENTR =',ENTR
         WRITE(*,'(a,2i8,7f18.6)')'IONMOV3',ITEMD,step_count,ETB2+ECC+EPTADD1+EPTADD2, &
 &          ETB2,ECC,EKI,EPTADD1+EPTADD2,EHB,EADD
-      endif  
+      endif
 !
 !
    end subroutine md_output_compat
@@ -490,8 +491,8 @@ module M_md_output
 !
      if (output_unit > 0) then
        unit_num=output_unit
-     else   
-       return 
+     else
+       return
      endif
 !
      if (config%calc%genoOption%CSC_max_loop_count == 0) return
@@ -526,4 +527,3 @@ module M_md_output
    end subroutine plot_detailed_kin_energy
 !
 end module M_md_output
-

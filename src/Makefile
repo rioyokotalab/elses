@@ -92,8 +92,7 @@ OBJS-ELSES = \
 	elses-qm-vdW-parameters.o elses-ini-dst.o \
 	elses-qm-geno-Huckel-atom-parameters.o elses-xml-check-element-info.o \
 	elses-qm-geno-Huckel.o elses-qm-geno-csc-basic.o elses-qm-geno-csc.o  elses-qm-solver-eig-geno.o \
-	elses-md-main.o elses-md-init.o elses-md-velocity-routines.o elses-md-velocity-dst.o \
-	elses-matgen.o elses-00-main.o \
+	elses-md-main.o elses-md-init.o elses-md-velocity-routines.o elses-md-velocity-dst.o elses-band-calc.o \
 	elses-qm-main.o elses-kr-main.o \
 	elses-kr-sub.o elses-kr-setkry.o  elses-hami-01.o \
 	elses-lib-random-num.o elses-lib-omp.o \
@@ -109,7 +108,7 @@ OBJS-ELSES = \
 	elses-la-matvec-io.o elses-la-gscocg-cg-s-mat.o \
 	elses-la-gscocg-main.o elses-la-gscocg-tru-res.o \
 	elses-la-gkrylov-hist.o elses-qm-solver-krgl.o elses-la-krgl-main.o elses-la-gkrylov-output.o \
-	elses-band-calc.o elses-qm-output-eigenstates.o elses-qm-output-atom-charge.o elses-qm-output-basis-info.o \
+	elses-qm-output-eigenstates.o elses-qm-output-atom-charge.o elses-qm-output-basis-info.o \
 	elses-qm-output-icohp.o elses-qm-output-wfn-charge.o \
 	elses-la-gkrylov-main.o elses-qm-solver-gkrylov.o elses-md-dst.o \
 	elses-qm-solver-gkrylov-dst.o elses-qm-engine-dst.o elses-qm-dst-global-weight.o \
@@ -119,6 +118,7 @@ OBJS-ELSES = \
 	elses-qm-dst-micro-mat.o elses-md-get-distance.o elses-qm-charge-from-weight-dst.o \
 	elses-la-matvec-routines-dstm.o elses-qm-partial-trace-dstm.o  elses-la-gkrylov-main-dstm.o \
 	elses-qm-output-matrices.o elses-qm-output-levels.o elses-la-eigen-solver.o \
+	elses-matgen.o elses-00-main.o \
 	$(OBJ-WAVEKERNEL-MAIN) \
 	elses-md-make-bk-list-w-cell.o elses-md-dst-get-atom-range.o elses-qm-geno-rest-dstm.o \
 	elses-md-dst-update-cell-booking.o elses-qm-dstm-ini-setting.o \
@@ -142,6 +142,7 @@ OBJS-ELSES = \
 
 elses: $(OBJS-XML) $(OBJS-NRL) $(OBJS-ELSES) $(LIBS-EXT-PATHS)
 	$(F90) $(LDFLAGS) $(OBJS-XML) $(OBJS-NRL) $(OBJS-ELSES) $(LIBS-XML) $(LIBS-EXT) $(LIBS) -o $@
+	ar -rv src.a $(OBJS-XML) $(OBJS-NRL) $(OBJS-ELSES)
 	mkdir -p $(BINDIR)
 	cp $@ $(BINDIR)
 

@@ -28,6 +28,7 @@ xml:
 
 elses: ext-lib xml
 	@$(MAKE) -C src all
+	ar -rv elses_main.a src/src.a xmlf90-1.2g-elses/macros/lib/libflib.a
 
 # Type "make relase" to make a release package.
 #

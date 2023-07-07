@@ -8,34 +8,20 @@ module M_matgen
   use M_lib_omp,   only : show_mpi_omp_info !(routines)
   use M_io_dst_write_log, only : set_dst_write_log_file !(routine)
   use M_la_mat_calc, only: mat_calc !(routine)
+  use iso_c_binding
+
   implicit none
 
-  contains
+contains
 
-  subroutine init_state
-    real :: begin_time, end_time
-
-    call cpu_time(begin_time)
-    call elses_process_options
-    call cpu_time(end_time)
-
-    print '("PROCESS OPTIONS=",f6.3)', end_time-begin_time
-    !
-    !  call elses_00_version_info
-    !     ----> Display the version infomation (non-essential)
-    !
-    call cpu_time(begin_time)
+  subroutine set_state_variables
     call set_dst_initial
     call set_dst_write_log_file
-    call cpu_time(end_time)
-
-    print '("DST WRITE LOG FILE=",f6.3)', end_time-begin_time
     !     ----> Set logfile in DST calculation
     !
     call show_mpi_omp_info
     !     ----> show MPI and OpenMP information
     !
-    call cpu_time(begin_time)
     select case(config%option%functionality)
     case("band":"band@") ! '@' is the previous character of 'A' in ascii code table.
        call elses_band_calculation
@@ -44,8 +30,15 @@ module M_matgen
        !     ----> Main routine for MD
        !
     end select
-    call cpu_time(end_time)
+  end subroutine set_state_variables
 
-    print '("MD ROUTINE=",f6.3)', end_time-begin_time
+  subroutine init_state
+    call elses_process_options
+    call set_state_variables
   end subroutine init_state
+
+  subroutine init_elses_state() bind(C)
+    call option_default( config%option )
+    call set_state_variables
+  end subroutine init_elses_state
 end module M_matgen

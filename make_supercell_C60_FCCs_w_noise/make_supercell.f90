@@ -1,7 +1,21 @@
+!! re-implimentation of get_command_argument function.
+!! comment out this function if unnecessary
+subroutine get_command_argument(index,argv)
+  implicit none
+  integer :: index
+  character(len=*) :: argv
+
+  call getarg(index,argv)
+
+  return
+end subroutine get_command_argument
+
 program make_supercell
   implicit none
   integer :: noa       ! number of atoms
   real(8) :: ax, ay, az
+  character(len=256) :: argv
+  character(len=1024) :: xyz_file_name
   character(len=1024) :: chr_wrk
   real(8), allocatable :: atm_position(:,:)
   integer :: nx, ny, nz
@@ -17,15 +31,23 @@ program make_supercell
 ! Input parameters for the cell sizes in the x, y, z directions
 ! ---> The size of the generated matrix is n= 7680 x (nx) x (ny) x (nz)
 !
-  nx=1
-  ny=1
-  nz=1
+  call get_command_argument(1, argv)
+  read( argv, '(I10.0)' )  nx
+
+  call get_command_argument(2, argv)
+  read( argv, '(I10.0)' )  ny
+
+  call get_command_argument(3, argv)
+  read( argv, '(I10.0)' )  nz
+
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
   rnd_num_amp=0.1d0
+
+  call get_command_argument(4, xyz_file_name)
 !
-  open(31, file='C60_fcc2x2x2_20220727.xyz', status='unknown')
+  open(31, file=xyz_file_name, status='unknown')
   open(32, file='C60_fcc.xyz', status='unknown')
 !
   read(31,*) noa, ax, ay, az
