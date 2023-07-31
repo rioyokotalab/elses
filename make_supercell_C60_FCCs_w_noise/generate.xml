@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generate name="C60_fcc">
+  <cluster structure="C60_fcc.xyz">
+  </cluster>
+</generate>
