@@ -20,13 +20,13 @@ program elses_main
   real :: begin_time, end_time
 
   call init_state
-!
-   call mat_calc ! matrix calculation (experimental routine)
-!
-   call set_dst_final
-!
-!  write(6,*)'  ... ELSES ended successfully.'
-!
+  !
+  call mat_calc ! matrix calculation (experimental routine)
+  !
+  call set_dst_final
+  !
+  !  write(6,*)'  ... ELSES ended successfully.'
+  !
  end program elses_main
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

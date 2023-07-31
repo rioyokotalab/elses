@@ -126,19 +126,19 @@ module M_la_mat_calc
     real(8) :: atm_position_j(3)        ! atom position in Angstrom unit
     real(8) :: dist
 
-    number_of_atoms = -1 ! (dummy value)
-    matrix_size     = -1 ! (dummy value)
-    call get_hami01_info(number_of_atoms, matrix_size)
+    ! number_of_atoms = -1 ! (dummy value)
+    ! matrix_size     = -1 ! (dummy value)
+    ! call get_hami01_info(number_of_atoms, matrix_size)
 
-    atm_index_i= - 1    ! (dummy value)
-    call get_atm_info(i,atm_index_i,atm_position_i)
+    ! atm_index_i= - 1    ! (dummy value)
+    ! call get_atm_info(i,atm_index_i,atm_position_i)
 
-    atm_index_j= - 1  ! (dummy value)
-    call get_atm_info(j,atm_index_j,atm_position_j)
+    ! atm_index_j= - 1  ! (dummy value)
+    ! call get_atm_info(j,atm_index_j,atm_position_j)
 
-    dist = sqrt((atm_position_i(1)-atm_position_j(1))**2  &
-         &                 +(atm_position_i(2)-atm_position_j(2))**2  &
-         &                 +(atm_position_i(3)-atm_position_j(3))**2)
+    ! dist = sqrt((atm_position_i(1)-atm_position_j(1))**2  &
+    !      &                 +(atm_position_i(2)-atm_position_j(2))**2  &
+    !      &                 +(atm_position_i(3)-atm_position_j(3))**2)
 
     mat_value= - 10000000.d0 ! (dummy value)
     call get_hami01_select(i,j,mat_value)

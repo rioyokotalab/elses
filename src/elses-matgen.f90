@@ -39,6 +39,11 @@ contains
 
   subroutine init_elses_state() bind(C)
     call option_default( config%option )
+    config%option%directory  ='' ! default setting
+    config%option%input_dir  ='' ! default setting
+    config%option%output_dir ='' ! default setting
+    config%option%test_mode  ='' ! default setting
+
     call set_state_variables
   end subroutine init_elses_state
 end module M_matgen

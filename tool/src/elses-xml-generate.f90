@@ -35,7 +35,7 @@ program elses_xml_generate
      integer              :: n_group               ! set in read_group_file
      integer              :: max_num_group_atoms   ! set in read_group_file
      logical              :: boundary_condition_set ! set in generate_load
-     character(len=64)    :: boundary_condition(3)  ! set in generate_load 
+     character(len=64)    :: boundary_condition(3)  ! set in generate_load
 !
   end type generate_type
 !
@@ -61,16 +61,16 @@ contains
   subroutine main
     implicit none
     type(generate_type) :: generate
-    character(64) :: filename_in
-    character(64) :: filename_out
-    character(64) :: filename_xyz
-    character(64) :: filename_fixed_atom_list
-    integer       :: iargc  
-    character(64) :: argv3
+    character(1024) :: filename_in
+    character(1024) :: filename_out
+    character(1024) :: filename_xyz
+    character(1024) :: filename_fixed_atom_list
+    integer       :: iargc
+    character(1024) :: argv3
     integer       :: ierr
     integer       :: n_split
-!    
-    call get_info_from_command_argument(filename_xyz, filename_in, filename_out, & 
+!
+    call get_info_from_command_argument(filename_xyz, filename_in, filename_out, &
 &            filename_fixed_atom_list, n_split, ierr)
 !
     if ( ierr /= 0 ) then
@@ -78,14 +78,14 @@ contains
       write(*,'(a)') "#   elses-xml-generate input_generate.xml output_structures.xml"
       write(*,'(a)') "# Usage of this utility program (2) for splitted output file"
       write(*,'(a)') "#   elses-xml-generate input_generate.xml output_structures.xml -split=XX"
-      write(*,'(a)') "#   where XX is the number of the splitted files" 
+      write(*,'(a)') "#   where XX is the number of the splitted files"
       write(*,'(a)') "# Usage of this utility program (3) "
       write(*,'(a)') "#   elses-xml-generate -xyz_file=input_xyz.xyz -setting_file=input_generate.xml "
       write(*,'(a)') "#                        -output_file=output_structures.xml -split=XX"
-      write(*,'(a)') "#   where XX is the number of the splitted files" 
+      write(*,'(a)') "#   where XX is the number of the splitted files"
       stop
     end if
-!    
+!
     write(*,'(a)')'@@@ elses-xml-generate'
 !
     call generate_load( generate, filename_in, filename_xyz )
@@ -151,7 +151,7 @@ contains
     generate_node => getFirstElementByTagName(document_node,"generate")
     if( .not. associated(generate_node) ) then
       write(*,*)"ERROR:<generate> not found"
-      stop 
+      stop
     endif
 
     ! get name attribute
@@ -162,7 +162,7 @@ contains
     endif
     generate%name = value
 !
-    if ( len_trim(filename_xyz) /= 0) then 
+    if ( len_trim(filename_xyz) /= 0) then
        name_of_xyz_file = trim(filename_xyz)
        write(*,'(a,a)')'INFO:XYZ file name=',trim(name_of_xyz_file)
     endif
@@ -175,12 +175,12 @@ contains
       write(*,*)"INFO:<cluster> not found in the setting XML file"
     endif
     if ( generate%ncluster > 1  ) then
-      write(*,*)'ERROR:ncluster =', generate%ncluster 
-    endif   
+      write(*,*)'ERROR:ncluster =', generate%ncluster
+    endif
 !
     ! get <cluster> nodes for single tag
     cluster_node => getFirstElementByTagName(generate_node,"cluster")
-    if ( len_trim(filename_xyz) == 0) then 
+    if ( len_trim(filename_xyz) == 0) then
       if ( associated(cluster_node) ) then
        name_of_xyz_file = getAttribute(cluster_node,"structure")
        write(*,'(a,a)')'INFO:XYZ file name=',trim(name_of_xyz_file)
@@ -201,13 +201,13 @@ contains
     unitcell_node => getFirstElementByTagName(generate_node,"unitcell")
     if ( associated(unitcell_node) ) then
       call unitcell_load( generate%unitcell, unitcell_node )
-      write(*,'(a)')'INFO:<unitcell> tag was found in the XML file and will be used for the unit cell info.' 
+      write(*,'(a)')'INFO:<unitcell> tag was found in the XML file and will be used for the unit cell info.'
       structure_info%cell_size_angst(1)=generate%unitcell%vectorA(1)*angst
       structure_info%cell_size_angst(2)=generate%unitcell%vectorB(2)*angst
       structure_info%cell_size_angst(3)=generate%unitcell%vectorC(3)*angst
-    else  
-      write(*,'(a)')'INFO:No <unitcell> tag was found in the XML file' 
-      write(*,'(a)')'INFO:The data in the XYZ file will be used for the unit cell info, if exist.' 
+    else
+      write(*,'(a)')'INFO:No <unitcell> tag was found in the XML file'
+      write(*,'(a)')'INFO:The data in the XYZ file will be used for the unit cell info, if exist.'
     endif
 !
     ! get <boundary> node
@@ -218,7 +218,7 @@ contains
       generate%boundary_condition_set = .true.
       value=getAttribute(boundary_node,"mode")
       if (trim(value) == 'off') then
-        generate%boundary_condition_set = .false. 
+        generate%boundary_condition_set = .false.
       else
         do j=1,3
           if (j==1) chara_wrk=getAttribute(boundary_node,"x")
@@ -233,10 +233,10 @@ contains
             case default
               write(*,*)'ERROR:<boundary> tag'
               stop
-          end select   
+          end select
         enddo
-      endif  
-    endif   
+      endif
+    endif
 !
     ! get <heatbath> node
     heatbath_node => getFirstElementByTagName(generate_node,"heatbath")
@@ -253,7 +253,7 @@ contains
 !
 !   allocate( generate%vcluster(generate%ncluster) )
 !   do i=1, generate%ncluster
-!     if (cell_info_in_xyz_file) then 
+!     if (cell_info_in_xyz_file) then
 !       call cluster_load( generate%vcluster(i), item(vcluster_node,i-1), cell_info )
 !       write(*,*)'INFO:cell info in XYZ file =',cell_info(1:3)
 !       ierr=0
@@ -267,13 +267,13 @@ contains
 !         write(*,'(a,f20.10)')'INFO:unitcell info is obtained from the XYZ file: AX [au] =',cell_info(1)
 !         write(*,'(a,f20.10)')'INFO:unitcell info is obtained from the XYZ file: AY [au] =',cell_info(2)
 !         write(*,'(a,f20.10)')'INFO:unitcell info is obtained from the XYZ file: AZ [au] =',cell_info(3)
-!       endif   
+!       endif
 !       generate%unitcell%vectorA(1)=cell_info(1)
 !       generate%unitcell%vectorB(2)=cell_info(2)
 !       generate%unitcell%vectorC(3)=cell_info(3)
 !     else
 !       call cluster_load( generate%vcluster(i), item(vcluster_node,i-1) )
-!     endif   
+!     endif
 !   end do
 !
     ! get <atom_id_is_added> node
@@ -283,11 +283,11 @@ contains
       value        =''
       value        = getAttribute(atom_id_node,"mode")
 !     write(*,*)'info:',trim(value)
-      if (trim(value) /= "off") then 
+      if (trim(value) /= "off") then
         generate%atom_id_is_added_flag = .true.
         write(*,*)'INFO: <atom_id_is_added> tag is detected'
-      endif  
-    endif   
+      endif
+    endif
 
     ! get <group_id> node
     generate%n_group=-1  ! dummy setting
@@ -300,8 +300,8 @@ contains
         filename_wrk = getAttribute(group_node,"file")
         write(*,*)'INFO: <group_id_is_added> tag is detected: file=',trim(filename_wrk)
         call read_group_file(trim(filename_wrk),generate)
-      endif  
-    endif   
+      endif
+    endif
 
 
     call destroyNode(document_node)
@@ -340,12 +340,12 @@ contains
     else if( index( value, ".xml" )+3 == len(trim(value)) ) then
        call structure_load( cluster%structure, value )
     else if( index( value, ".xyz" )+3 == len(trim(value)) ) then
-       if ( present(cell_info) ) then 
+       if ( present(cell_info) ) then
          call structure_loadXYZ( cluster%structure, value, cell_info )
 !        write(*,*)'after structure_loadXYZ : cell_info=',cell_info(1:3)
        else
          call structure_loadXYZ( cluster%structure, value )
-       endif   
+       endif
     end if
 
     return
@@ -369,7 +369,7 @@ contains
     logical, parameter              :: atom_id_is_added     = .true.
     logical, parameter              :: atom_id_is_not_added = .false.
     integer                         :: j_split
-    integer                         :: atom_ini, atom_fin, atom_num 
+    integer                         :: atom_ini, atom_fin, atom_num
     character(len=64)               :: chara_wrk
     integer                         :: jpe, npe, fd
     integer                         :: omp_get_num_threads, omp_get_thread_num
@@ -388,15 +388,15 @@ contains
 !   noa=generate%vcluster(i_cluster)%structure%natom
     j_split=0 ! dummy value
 !
-    if (n_split == 0) then 
+    if (n_split == 0) then
       call generate_output(generate, filename, 1, noa, atom_id_is_not_added, j_split, n_split, fd)
       return
-    endif  
+    endif
 !
-    if (n_split == 1) then 
+    if (n_split == 1) then
       call generate_output(generate, filename, 1, noa, atom_id_is_added, j_split, n_split, fd)
       return
-    endif  
+    endif
 !
 ! NOTE: atom_id_is_added is parameter (not variable)
 !
@@ -407,7 +407,7 @@ contains
     jpe=0
     npe=1
 !$  jpe=omp_get_thread_num()     ! OMP thread ID (jpe=0,1,2,...)
-!$  npe=omp_get_num_threads()    ! Number of OMP threads 
+!$  npe=omp_get_num_threads()    ! Number of OMP threads
     fd=jpe+10
     write(*,*) 'jpe, npe,fd =', jpe, npe, fd
 !$omp  do schedule(static)
@@ -424,7 +424,7 @@ contains
     enddo
 !$omp end do
 !$omp end parallel
-!   
+!
   end subroutine generate_output_split
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -481,9 +481,9 @@ contains
     if (generate%atom_id_is_added_flag) atom_id_is_added_wrk = .true.
 !
     if (allocated(generate%group_id_booking)) then
-      group_id_is_added_wrk = .true. 
+      group_id_is_added_wrk = .true.
     else
-      group_id_is_added_wrk = .false. 
+      group_id_is_added_wrk = .false.
     endif
 !
     noa=structure_info%total_number_of_atoms
@@ -492,7 +492,7 @@ contains
     noga=generate%max_num_group_atoms
 !
     if (group_id_is_added_wrk) then
-      ierr=0 
+      ierr=0
       if (nog < 1)   ierr=1
       if (nog > noa) ierr=1
       if (noga < 1)   ierr=1
@@ -501,7 +501,7 @@ contains
         write(*,*)'ERROR:n_group=',nog
         write(*,*)'ERROR:noga   =',noga
         stop
-      endif   
+      endif
       if (.not. allocated(generate%group_id_booking)) then
         write(*,*)'ERROR:group_id_booking is not allocated'
         stop
@@ -517,7 +517,7 @@ contains
     if (n_split >= 2 ) then
       write(*,*)          'generate_output:filename=',trim(filename)
       write(*,'(a,3i10)')'generate_output :atom_ini, atom_fin, atom_num =',atom_ini, atom_fin, atom_num
-    endif  
+    endif
 !
     open(fd,file=filename)
 !
@@ -567,7 +567,7 @@ contains
       chara_wrk2=trim(generate%boundary_condition(2))
       chara_wrk3=trim(generate%boundary_condition(3))
       write(fd,*) ""
-      chara_wrk_long = ' <boundary x="'//trim(chara_wrk1)//'" y="'//trim(chara_wrk2) & 
+      chara_wrk_long = ' <boundary x="'//trim(chara_wrk1)//'" y="'//trim(chara_wrk2) &
 &                         //'" z="'//trim(chara_wrk3)//'" />'
       write(fd,'(a)') trim(chara_wrk_long)
       write(fd,*) ""
@@ -600,18 +600,18 @@ contains
       chara_wrk4=adjustl(chara_wrk4)
       write(chara_wrk5, *) atom_num
       chara_wrk5=adjustl(chara_wrk5)
-      chara_wrk_long = ' <split file_index="'//trim(chara_wrk1)//'" number_of_files="'//trim(chara_wrk2) & 
+      chara_wrk_long = ' <split file_index="'//trim(chara_wrk1)//'" number_of_files="'//trim(chara_wrk2) &
 &                         //'" atoms_in_this_file="'//trim(chara_wrk5) &
 &                         //'" atom_initial="'//trim(chara_wrk3)//'" atom_final="'//trim(chara_wrk4)//'" />'
       write(fd,'(a)') trim(chara_wrk_long)
       write(fd,*) ""
-    endif   
+    endif
 !
     do j=atom_ini, atom_fin
       pos(1:3) = structure_info%atom_info(j)%position_angst(1:3) / structure_info%cell_size_angst(1:3)
       group_id = -1
       if (allocated(generate%group_id_booking)) then
-        group_id =  generate%group_id_booking(j) 
+        group_id =  generate%group_id_booking(j)
       endif
       class = ''
 
@@ -629,11 +629,11 @@ contains
           write(fd,*) '<atom element="', trim(structure_info%atom_info(j)%element_name), '" ', &
            'id="', trim(chara_wrk1), '" ', 'class="', trim(class), '" ', &
            'motion="', trim(structure_info%atom_info(j)%motion), '">'
-        endif   
+        endif
       else
         write(fd,*) '<atom element="', trim(structure_info%atom_info(j)%element_name), '" ', &
            'motion="', trim(structure_info%atom_info(j)%motion), '">'
-      endif   
+      endif
 !
       write(fd,'(a28,3e23.15,a11)') '  <position unit="internal">', pos(1:3), '</position>'
 
@@ -663,14 +663,14 @@ contains
 !
     if( argv3(1:7) /= "-split=" ) then
       write(*,*) 'ERROR:argv3=',trim(argv3)
-      stop 
-    endif   
+      stop
+    endif
 !
     read(unit=argv3(8:), fmt=*, iostat=ierr) n
     if (ierr /= 0) then
       write(*,*) 'ERROR:argv3(8:)=',trim(argv3(8:))
       stop
-    endif   
+    endif
 !
   end subroutine set_split
 !
@@ -678,7 +678,7 @@ contains
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   subroutine a_x_b_divided_by_c_i8(a, b, c, d)
-!      integer(8) calculation of d = a*b/c 
+!      integer(8) calculation of d = a*b/c
 !
    implicit none
    integer,           intent(in)  :: a, b, c
@@ -718,18 +718,18 @@ contains
    n_max_comment_lines = 1000   ! possible maximum number of comment lines
 !
    do j=1, n_max_comment_lines
-     read(fd, '(a)', iostat=ierr) chara_wrk 
+     read(fd, '(a)', iostat=ierr) chara_wrk
      if (ierr /=0) exit
      if (index(chara_wrk,"#") /= 1) exit  ! ignore the comment line
      if (verbose_mode) write(*,*)'INFO:comment line:', trim(chara_wrk)
-   enddo   
+   enddo
 !
    read(chara_wrk, * , iostat=ierr) noa, nog, noga
 !
    if (ierr /= 0) then
-     write(*,*)'ERROR:read_group_file' 
+     write(*,*)'ERROR:read_group_file'
      stop
-   endif   
+   endif
 !
    ierr=0
    if (noa  < 1) ierr =1
@@ -751,10 +751,10 @@ contains
    if (ierr /= 0) then
      write(*,*)'Alloc. error: group_id_booking'
      stop
-   endif   
+   endif
 !
    do j=1, noa+n_max_comment_lines
-     read(fd, '(a)', iostat=ierr) chara_wrk 
+     read(fd, '(a)', iostat=ierr) chara_wrk
      if (ierr /= 0) exit
      if (index(chara_wrk,"#") == 1) cycle  ! ignore the comment line
 !    write(*,*)'j,line   = ',j, trim(chara_wrk)
@@ -767,8 +767,8 @@ contains
      if (group_id > nog) ierr=1
      if (ierr /=0) then
        write(*,*)'ERROR:read_group_file:atom_id, group_id=',atom_id, group_id
-       stop 
-     endif   
+       stop
+     endif
      generate%group_id_booking(atom_id)=group_id
      if (verbose_mode) write(*,*)'INFO:atom ID, group ID = ',atom_id, group_id
    enddo
@@ -808,19 +808,19 @@ contains
 !  write(*,*)'INFO:chara_wrk        =', trim(chara_wrk)
    read(chara_wrk, *, iostat=ierr) noa, ax, ay, az
    if (ierr == 0) then
-     cell_info_in_xyz_file = .true. 
+     cell_info_in_xyz_file = .true.
 !    write(*,*)'INFO:number of atoms        =', noa
 !    write(*,*)'INFO:cell sizes [Angstrom]  =', ax, ay, az
      structure_info%total_number_of_atoms = noa
      structure_info%cell_size_angst(1)    = ax
      structure_info%cell_size_angst(2)    = ay
      structure_info%cell_size_angst(3)    = az
-   else   
+   else
      read(chara_wrk, *, iostat=ierr) noa
-     cell_info_in_xyz_file = .false. 
+     cell_info_in_xyz_file = .false.
      structure_info%total_number_of_atoms = noa
 !    write(*,*)'INFO:number of atoms        =', noa
-   endif   
+   endif
 !
    allocate(structure_info%atom_info(noa), stat=ierr)
    if (ierr /= 0) then
@@ -828,7 +828,7 @@ contains
      stop
    endif
 !
-   read(fd, '(a)') chara_wrk   ! read the second (comment) line 
+   read(fd, '(a)') chara_wrk   ! read the second (comment) line
 !
    do j=1,noa
      read(fd, *) elem_name_wrk, data_wrk(1:3)
@@ -854,7 +854,7 @@ contains
 !
     n_list_max=structure_info%total_number_of_atoms+1
 !
-   if (len_trim(filename) == 0) then 
+   if (len_trim(filename) == 0) then
      write(*,*)'INFO:set_fixed_atom ... is ignored'
      return
    else
@@ -868,12 +868,12 @@ contains
        write(*,*)'ERROR(set_fixed_atom);Too many list ?:j=',j
      endif
      read(fd, *, iostat=ierr) j_atom
-     if (ierr /= 0) then 
+     if (ierr /= 0) then
        n_list=j-1
        exit
      endif
      write(*,*)'j=',j
-     structure_info%atom_info(j_atom)%motion = 'fixed'  
+     structure_info%atom_info(j_atom)%motion = 'fixed'
    enddo
 !
    write(*,*)'INFO:set_fixed_atom: number of fixed atoms =',n_list
@@ -885,18 +885,18 @@ contains
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
-  subroutine get_info_from_command_argument(filename_xyz, filename_setting, & 
+  subroutine get_info_from_command_argument(filename_xyz, filename_setting, &
 &               filename_output, filename_fixed_atom_list, n_split, ierr_result)
    implicit none
     character(len=*), intent(out) :: filename_xyz, filename_setting, filename_output, filename_fixed_atom_list
     integer,          intent(out) :: n_split
     integer,          intent(out) :: ierr_result
-    integer             :: iargc  
+    integer             :: iargc
     character(len=1024) :: arg, chara_header, chara_wrk
     integer             :: i, len_arg, len_header, ierr
     logical             :: debug=.false.
 
-!    
+!
     n_split=0             ! default (non-split) setting
     filename_xyz     =''  ! dummy value
     filename_setting =''  ! dummy value
@@ -911,7 +911,7 @@ contains
     if ( iargc() == 3 ) ierr=0
     if ( iargc() == 4 ) ierr=0
 !
-    if (ierr /=0) then 
+    if (ierr /=0) then
      ierr_result=ierr
      return
     endif
@@ -972,12 +972,12 @@ contains
 !
       write(*,*)'INFO: non-header argument : ', trim(arg)
 !
-      if (len_trim(filename_setting) == 0) then 
+      if (len_trim(filename_setting) == 0) then
         filename_setting=trim(arg)
         cycle
       endif
 !
-      if (len_trim(filename_output)  == 0) then 
+      if (len_trim(filename_output)  == 0) then
         filename_output=trim(arg)
         cycle
       endif
@@ -993,7 +993,7 @@ contains
     else
       write(*,*)'INFO: the single (non-split) file will be generated'
     endif
-!    
+!
   end subroutine get_info_from_command_argument
 !
 
