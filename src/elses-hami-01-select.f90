@@ -18,7 +18,7 @@ module M_qm_ham01_select
     use elses_mod_noav,      only : noav
     use elses_mod_orb2,      only : n_tot_base
     implicit none
-    integer, intent(out) :: number_of_atoms 
+    integer, intent(out) :: number_of_atoms
     integer, intent(out) :: number_of_bases
     number_of_atoms = noav
     number_of_bases = n_tot_base
@@ -27,6 +27,7 @@ module M_qm_ham01_select
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
   subroutine get_atm_info(j, atm_index, atm_position_wrk)
+    use iso_c_binding
     use elses_mod_noav,      only : noav
     use elses_mod_orb2,      only : n_tot_base
     use elses_mod_orb2,      only : j2js
@@ -34,7 +35,7 @@ module M_qm_ham01_select
     use elses_mod_sim_cell,  only : ax, ay, az
     use M_lib_phys_const,    only : angst
     implicit none
-    integer, intent(in)  :: j
+    integer(c_long), intent(in)  :: j
     integer, intent(out) :: atm_index
     real(8), intent(out) :: atm_position_wrk(3)
     integer :: ierr
@@ -46,7 +47,7 @@ module M_qm_ham01_select
       write(*,*)'ERROR(get_atm_index):j,n_tot_base=',j,n_tot_base
       stop
     endif
-!    
+!
     atm_index = j2js(j)
 !
     ierr=0
@@ -134,7 +135,7 @@ module M_qm_ham01_select
     integer :: js1, js2, jsd, ja1, ja2, nss1, nss2, nval1, nval2, njsd2
     integer :: ierr, noa_max
     integer :: k
-    integer, intent(out) :: nnz 
+    integer, intent(out) :: nnz
 !
     noa_max=100000000
     ierr=0
@@ -179,7 +180,7 @@ module M_qm_ham01_select
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   subroutine get_hami01_select_old(ig, jg, mat_val)
-!
+    !
     use elses_mod_ctrl,    only : i_verbose
     use elses_mod_sel_sys, only : c_system
     use elses_mod_phys_const,only : ev4au,angst
@@ -199,9 +200,9 @@ module M_qm_ham01_select
     integer, intent(in)  :: ig, jg
     real(8), intent(out) :: mat_val
     integer              :: jsd, js1, js2, ja1, ja2, nss1, nss2, nval1, nval2
-!    
+!
     if (.not. allocated(jsd4jsjs)) call get_hami01_prep2
-!    
+!
 !   write(*,*)'ig, jg=', ig, jg
 !
     js1 = j2js(ig)
@@ -210,7 +211,7 @@ module M_qm_ham01_select
     ja1 = j2ja(ig)
     ja2 = j2ja(jg)
 !   write(*,*)'js1, js2=', ja1, ja2
-!    
+!
     nss1=jsei(js1)
     nval1=nval(nss1)
     nss2=jsei(js2)
@@ -226,7 +227,8 @@ module M_qm_ham01_select
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   subroutine get_hami01_select(ig, jg, mat_val)
-!
+    !
+    use iso_c_binding
     use elses_mod_ctrl,    only : i_verbose
     use elses_mod_sel_sys, only : c_system
     use elses_mod_phys_const,only : ev4au,angst
@@ -243,8 +245,8 @@ module M_qm_ham01_select
     use elses_arr_dhij_cohp, only : dhij_cohp
 !
     implicit none
-    integer, intent(in)  :: ig, jg
-    real(8), intent(out) :: mat_val
+    integer(c_long), intent(in)  :: ig, jg
+    real(c_double), intent(out) :: mat_val
     integer              :: jsd, js1, js2, ja1, ja2, nss1, nss2, nval1, nval2
     integer              :: n_orb
     integer              :: ierr, imode
@@ -254,13 +256,13 @@ module M_qm_ham01_select
     real(8)              :: dhal(4), dnal(4), rcal(4)
     real(8)              :: dkwondd(4,2)
 !                          ----> work array for TB parameters
-!    
+!
     real(8)              :: ahij4d
     real(8)              :: dxc, dyc, dzc, drr, rnn
     integer              :: isym
     real(8)              :: dha, dna, rca, rat1, rat2, rat3, rat4
     real(8)              :: fac1, fac2, fac3, fac4, dargexp, dexpon
-    real(8)              :: dddx, potij, dphidr 
+    real(8)              :: dddx, potij, dphidr
     real(8)              :: dbx1, dby1, dbz1, dbx2, dby2, dbz2
     real(8)              :: dvss0, dvsp0, dvpp0, dvpp1
     real(8)              :: ad1, ad2
@@ -270,7 +272,7 @@ module M_qm_ham01_select
 !   write(*,*)'get_hami01_select: Carbon only'
 !
 !   if (.not. allocated(jsd4jsjs)) call get_hami01_prep2
-!    
+!
 !   write(*,*)'ig, jg=', ig, jg
 !
     if (i_pbc_x == 1) then
@@ -289,13 +291,13 @@ module M_qm_ham01_select
     endif
 !
     n_orb=4 ! # of orbital in carbon
-!    
+!
     js1 = (ig-1)/n_orb+1
     ja1 = mod((ig-1), n_orb)+1
 !
     js2 = (jg-1)/n_orb+1
     ja2 = mod((jg-1), n_orb)+1
-!    
+!
 !   if ((ig < 10) .and. (jg < 10)) then
 !     write(*,*) 'ig, js1, ja1=',ig, js1,ja1
 !   endif
@@ -314,7 +316,7 @@ module M_qm_ham01_select
 !         https://doi.org/10.1016/j.physe.2005.06.009
 !
     imode=3
-    if (imode .eq. 3) then 
+    if (imode .eq. 3) then
 !
       ierr=0
       DNAL0=2.38573234d0
@@ -357,7 +359,7 @@ module M_qm_ham01_select
 !          ---> c_0, c_1, c_2, c_3
       r_cut_tail = RCC*angst*1.1d0  ! tail distance in A
 !          ---> r_1
-    endif  
+    endif
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
@@ -418,7 +420,7 @@ module M_qm_ham01_select
           dphidr=qc1+2.0d0*qc2*dddx+3.0d0*qc3*dddx*dddx
           dkwondd(isym,1)=dha*potij
           dkwondd(isym,2)=dha*dphidr
-        endif   
+        endif
       enddo
 !
       dvss0=dkwondd(1,1)/ev4au
@@ -426,7 +428,7 @@ module M_qm_ham01_select
       dvpp0=dkwondd(3,1)/ev4au
       dvpp1=dkwondd(4,1)/ev4au
 !         ---> Slator-Koster parameters in au
-!      
+!
       dbx1=dbx(ig)
       dby1=dby(ig)
       dbz1=dbz(ig)
@@ -450,11 +452,11 @@ module M_qm_ham01_select
       dbx2b=dbx2-ad2*dxc
       dby2b=dby2-ad2*dyc
       dbz2b=dbz2-ad2*dzc
-!      
-!!! < p_1 | p_2 > parts 
+!
+!!! < p_1 | p_2 > parts
 !
       app0=ad1*ad2
-!       double inner product : ( a_1 | d ) ( a_2 | d ) 
+!       double inner product : ( a_1 | d ) ( a_2 | d )
       app1=dbx1b*dbx2b+dby1b*dby2b+dbz1b*dbz2b
 !       inner product : ( a'_1 | a'_2 )
 !
